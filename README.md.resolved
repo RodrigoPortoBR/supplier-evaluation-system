@@ -15,7 +15,7 @@ A standardized, high-stakes supplier evaluation framework designed for massive-s
 1.  **Open an AI Chat** (ChatGPT, Gemini, Claude) or use this Agent.
 2.  **Provide context**: Paste meeting notes, technical proposals, or transcripts.
 3.  **Give the Command**:
-    > "Act as a Senior Technical PMO. Use the `supplier_evaluation_template.md` structure to evaluate this supplier based on the text provided. references the `system_rules_and_outputs.md` for risk classification."
+    > "Act as a Senior Technical PMO. Use the [supplier_evaluation_template.md](file:///C:/Users/rodri/.gemini/antigravity/brain/c02acd62-85f8-4299-96d2-99cdc92c6808/supplier_evaluation_template.md) structure to evaluate this supplier based on the text provided. references the [system_rules_and_outputs.md](file:///C:/Users/rodri/.gemini/antigravity/brain/c02acd62-85f8-4299-96d2-99cdc92c6808/system_rules_and_outputs.md) for risk classification."
 4.  **Receive Output**: The Agent will generate a filled Markdown file with specific tags for **Evidence**, **Promises**, and **Risks**.
 
 ## ⚠️ Critical Risk Detection
