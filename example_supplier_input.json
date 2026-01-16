@@ -1,0 +1,72 @@
+{
+    "supplier_info": {
+        "name": "RiskyBet Inc.",
+        "website": "https://risky.bet",
+        "contact_person": "John Doe",
+        "evaluation_date": "2026-06-01"
+    },
+    "evaluation_blocks": {
+        "robustness_scale": {
+            "highest_participants_in_single_game": 50000,
+            "peak_traffic_strategy_10m_users": "We hope for the best",
+            "platforms_supported": {
+                "web_desktop": true,
+                "web_mobile": true,
+                "app_ios": false,
+                "app_android": true
+            },
+            "uptime_sla_percent": 99.5,
+            "support_sla_24_7": true,
+            "support_in_brazil": false,
+            "has_auto_scaling": true,
+            "recent_load_test_evidence": false,
+            "block_rating": 2
+        },
+        "security_governance": {
+            "lgpd_compliant": true,
+            "data_residency_country": "USA",
+            "has_penetration_test_report": false,
+            "block_rating": 3
+        },
+        "core_features": {
+            "block_rating": 4,
+            "real_time_data_api": {
+                "live_data_display": true
+            }
+        },
+        "customization_ux": {
+            "mobile_responsive_score": 8,
+            "block_rating": 4
+        },
+        "roadmap_evolution": {
+            "dedicated_roadmap_possibility": false,
+            "conflict_risk_at_peak": "High",
+            "block_rating": 2
+        },
+        "integrations": {
+            "apis_documented": {
+                "partners": false
+            },
+            "block_rating": 3
+        },
+        "channels_notifications": {
+            "block_rating": 4
+        },
+        "social_virality": {
+            "block_rating": 3
+        },
+        "commercial_contractual": {
+            "pricing_model": "Revenue Share",
+            "block_rating": 3
+        },
+        "team_references": {
+            "previous_world_cup_cases": 0,
+            "block_rating": 2
+        }
+    },
+    "pmo_assessment": {
+        "overall_risk_level": "High",
+        "recommendation": "DISCARD",
+        "final_notes": "For illustration"
+    }
+}

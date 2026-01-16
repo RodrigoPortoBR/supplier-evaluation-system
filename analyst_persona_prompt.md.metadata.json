@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "A comprehensive system prompt (Persona) for an LLM to act as a Senior Technical Analyst. It takes unstructured text as input and extracts a structured supplier evaluation report.",
+  "updatedAt": "2026-01-16T17:13:15.394541800Z"
+}

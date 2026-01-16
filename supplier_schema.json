@@ -1,0 +1,502 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Supplier Evaluation Model",
+  "description": "Standardized data model for evaluating white-label suppliers for a massive scale World Cup project.",
+  "type": "object",
+  "required": [
+    "supplier_info",
+    "evaluation_blocks",
+    "pmo_assessment"
+  ],
+  "properties": {
+    "supplier_info": {
+      "type": "object",
+      "required": [
+        "name",
+        "website",
+        "contact_person",
+        "evaluation_date"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "contact_person": {
+          "type": "string"
+        },
+        "evaluation_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "evaluation_blocks": {
+      "type": "object",
+      "required": [
+        "robustness_scale",
+        "security_governance",
+        "core_features",
+        "customization_ux",
+        "roadmap_evolution",
+        "integrations",
+        "channels_notifications",
+        "social_virality",
+        "commercial_contractual",
+        "team_references"
+      ],
+      "properties": {
+        "robustness_scale": {
+          "type": "object",
+          "description": "Infrastructure scalability and reliability capability",
+          "properties": {
+            "highest_participants_in_single_game": {
+              "type": "integer",
+              "description": "Historical record of participants in one prediction game"
+            },
+            "peak_traffic_strategy_10m_users": {
+              "type": "string",
+              "description": "Strategy for 10M users 5 mins before game"
+            },
+            "platforms_supported": {
+              "type": "object",
+              "properties": {
+                "web_desktop": {
+                  "type": "boolean"
+                },
+                "web_mobile": {
+                  "type": "boolean"
+                },
+                "app_ios": {
+                  "type": "boolean"
+                },
+                "app_android": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "uptime_sla_percent": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "support_sla_24_7": {
+              "type": "boolean"
+            },
+            "support_in_brazil": {
+              "type": "boolean",
+              "description": "Local support availability"
+            },
+            "has_auto_scaling": {
+              "type": "boolean"
+            },
+            "recent_load_test_evidence": {
+              "type": "boolean"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "security_governance": {
+          "type": "object",
+          "description": "Compliance, data protection and security standards",
+          "properties": {
+            "lgpd_compliant": {
+              "type": "boolean"
+            },
+            "data_residency_country": {
+              "type": "string"
+            },
+            "certifications": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "has_penetration_test_report": {
+              "type": "boolean"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "core_features": {
+          "type": "object",
+          "description": "Essential product functionalities for World Cup betting",
+          "properties": {
+            "prediction_types": {
+              "type": "object",
+              "properties": {
+                "match_result": {
+                  "type": "boolean"
+                },
+                "exact_score": {
+                  "type": "boolean"
+                },
+                "special_predictions": {
+                  "type": "boolean"
+                },
+                "live_predictions": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "rankings_supported": {
+              "type": "object",
+              "properties": {
+                "global": {
+                  "type": "boolean"
+                },
+                "public_leagues": {
+                  "type": "boolean"
+                },
+                "private_leagues": {
+                  "type": "boolean"
+                },
+                "by_period": {
+                  "type": "boolean",
+                  "description": "Day/Round/Tournament"
+                }
+              }
+            },
+            "private_leagues_features": {
+              "type": "object",
+              "properties": {
+                "free_creation": {
+                  "type": "boolean"
+                },
+                "invite_link": {
+                  "type": "boolean"
+                },
+                "participant_limit_config": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "scoring_system": {
+              "type": "object",
+              "properties": {
+                "configurable": {
+                  "type": "boolean"
+                },
+                "multiple_rules_simultaneous": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "gamification": {
+              "type": "object",
+              "properties": {
+                "missions_challenges": {
+                  "type": "boolean"
+                },
+                "badges_achievements": {
+                  "type": "boolean"
+                },
+                "prizes_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "Ranking",
+                      "Raffles",
+                      "Tiers"
+                    ]
+                  }
+                }
+              }
+            },
+            "real_time_data_api": {
+              "type": "object",
+              "properties": {
+                "live_data_display": {
+                  "type": "boolean"
+                },
+                "realtime_prediction_counts": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "multi_language_support": {
+              "type": "boolean"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "customization_ux": {
+          "type": "object",
+          "description": "Whitelabel capabilities and user experience",
+          "properties": {
+            "full_css_customization": {
+              "type": "boolean"
+            },
+            "custom_domain_support": {
+              "type": "boolean"
+            },
+            "mobile_responsive_score": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10,
+              "description": "1-10 assessment of mobile UX"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "roadmap_evolution": {
+          "type": "object",
+          "description": "Future proofing and feature velocity",
+          "properties": {
+            "dedicated_roadmap_possibility": {
+              "type": "boolean"
+            },
+            "openness_to_custom_features": {
+              "type": "boolean"
+            },
+            "conflict_risk_at_peak": {
+              "type": "string",
+              "description": "Risk assessment of shared resources"
+            },
+            "timelines": {
+              "type": "object",
+              "properties": {
+                "setup_technical_days": {
+                  "type": "integer"
+                },
+                "customization_days": {
+                  "type": "integer"
+                },
+                "go_live_days": {
+                  "type": "integer"
+                }
+              }
+            },
+            "update_frequency_weeks": {
+              "type": "integer"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "integrations": {
+          "type": "object",
+          "description": "Connectivity with other systems",
+          "properties": {
+            "apis_documented": {
+              "type": "object",
+              "properties": {
+                "sso": {
+                  "type": "boolean"
+                },
+                "partners": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "partner_features": {
+              "type": "object",
+              "properties": {
+                "partner_benefits_integration": {
+                  "type": "boolean"
+                },
+                "subscription_status_integration": {
+                  "type": "boolean"
+                },
+                "external_rewards": {
+                  "type": "boolean"
+                },
+                "co_branding_support": {
+                  "type": "boolean"
+                },
+                "exclusive_partner_areas": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "experience_with_media_sponsors": {
+              "type": "boolean"
+            },
+            "analytics_integration": {
+              "type": "boolean"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "channels_notifications": {
+          "type": "object",
+          "description": "Communication channels with users",
+          "properties": {
+            "whatsapp_official_api": {
+              "type": "boolean"
+            },
+            "email_transactional_customization": {
+              "type": "boolean"
+            },
+            "web_push_notifications": {
+              "type": "boolean"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "social_virality": {
+          "type": "object",
+          "description": "Growth and sharing features",
+          "properties": {
+            "dynamic_image_generation_ranking": {
+              "type": "boolean"
+            },
+            "referral_system": {
+              "type": "boolean"
+            },
+            "deep_linking_support": {
+              "type": "boolean"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "commercial_contractual": {
+          "type": "object",
+          "description": "Business model and costs",
+          "properties": {
+            "setup_fee_range": {
+              "type": "string"
+            },
+            "pricing_model": {
+              "type": "string",
+              "enum": [
+                "Flat Fee",
+                "User Tier",
+                "Revenue Share",
+                "Hybrid"
+              ]
+            },
+            "contract_min_duration_months": {
+              "type": "integer"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        },
+        "team_references": {
+          "type": "object",
+          "description": "Company maturity and track record",
+          "properties": {
+            "years_in_market": {
+              "type": "integer"
+            },
+            "previous_world_cup_cases": {
+              "type": "integer"
+            },
+            "reference_contacts_provided": {
+              "type": "boolean"
+            },
+            "observations": {
+              "type": "string"
+            },
+            "block_rating": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        }
+      }
+    },
+    "pmo_assessment": {
+      "type": "object",
+      "required": [
+        "overall_risk_level",
+        "recommendation"
+      ],
+      "properties": {
+        "overall_risk_level": {
+          "type": "string",
+          "enum": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ]
+        },
+        "identified_risks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recommendation": {
+          "type": "string",
+          "enum": [
+            "PROCEED",
+            "PROCEED_WITH_CAUTION",
+            "DISCARD"
+          ]
+        },
+        "final_notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
