@@ -2,41 +2,22 @@
 
 This document demonstrates how to use the newly created Supplier Evaluation System.
 
-## System Components
+## Agent Workflow
 
-1.  **[Evaluation Template (Markdown)](file:///C:/Users/rodri/.gemini/antigravity/brain/c02acd62-85f8-4299-96d2-99cdc92c6808/supplier_evaluation_template.md)**: The "Form" for structuring data.
-2.  **[Rules & Output Logic](file:///C:/Users/rodri/.gemini/antigravity/brain/c02acd62-85f8-4299-96d2-99cdc92c6808/system_rules_and_outputs.md)**: The "Brain" for analyzing risks.
+This system is designed for **Zero-Config Interaction**.
 
----
+### 1. You Provide
+*   **Supplier Name**
+*   **Raw Context** (Paste notes, attach transcripts)
 
-## Workflow: Unstructured Ingestion (Agent-Led)
+### 2. I Provide (Antigravity)
+*   I automatically load `supplier_evaluation_template.md`.
+*   I map your raw text to the rigorous checklist.
+*   I verify `system_rules_and_outputs.md` to flag risks.
+*   I generate the final report in `evaluations/[name].md`.
 
-If you have raw notes, transcripts, or emails:
-
-1.  **Send Content**: Paste the text (or attach transcript files) into this chat.
-    *   *Note: For audio files, please provide the transcript.*
-2.  **Instruction**: Tell me "Use this to evaluate [Supplier Name]".
-3.  **Process**: I will analyze the text, extract evidence, and generate a filled **[Supplier Evaluation Template](supplier_evaluation_template.md)** for you.
-4.  **Review**: You simply verify the filled markdown file I generate.
-
----
-
-## Conclusion
-
-The system successfully:
-1.  Captures structured data ensuring no blocks were missed.
-2.  Identifies specific fatal flaws (Scale) matching the Rules.
-3.  Generates a clear, defensible "Status" based on the evidence provided.
-
-## Workflow B: Unstructured Ingestion (Agent-Led)
-
-If you have raw notes, transcripts, or emails:
-
-1.  **Send Content**: Paste the text (or attach transcript files) into this chat.
-    *   *Note: For audio files, please provide the transcript.*
-2.  **Instruction**: Tell me "Use this to evaluate [Supplier Name]".
-3.  **Process**: I will analyze the text, extract evidence, and generate a filled **[Supplier Evaluation Template](supplier_evaluation_template.md)** for you.
-4.  **Review**: You simply verify the filled markdown file I generate.
+### 3. Result
+A standardized folder of apples-to-apples comparisons for your final decision.
 
 ---
 
