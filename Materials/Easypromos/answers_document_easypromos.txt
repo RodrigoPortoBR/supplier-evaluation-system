@@ -1,0 +1,205 @@
+1. ROBUSTNESS, SCALE, AND RELIABILITY
+ 
+Scalability track record
+ 
+Highest concurrent peak supported
+We have supported multiple campaigns with cumulative audiences in the millions of participants across the full campaign lifecycle. For instance, one one our main clients is Real Madrid, so everytime they launch an interactive campaign they target their 170M followers across all their channels.
+ 
+Type of events
+These peaks typically occur in:
+Large sports-related prediction games
+TV and live broadcast activations
+Short time-window promotional mechanics (draws, instant wins, voting)
+Peaks usually concentrate in very short time frames (minutes) around live moments.
+ 
+Case studies above 1M / 5M / 10M users
+We have documented projects above 1M total users. For instance Real Madrid or retail campaigns for beer companies.
+For volumes beyond that (5M–10M+), we typically operate under custom enterprise setups, where:
+Infrastructure is specifically sized
+Traffic patterns are clearly defined
+Load testing and contingency plans are agreed in advance
+
+ 
+
+10M users submitting predictions 5 minutes before a match
+In that scenario, we would not rely on a standard shared environment.
+Our approach would be:
+Dedicated infrastructure
+Predefined rate-limiting and queueing strategies
+Pre-match submission windows
+
+ 
+
+ 
+Technical architecture
+Infrastructure
+Easypromos runs on Google Cloud Platform. 
+Please have a look to our Security Work Paper where we explain in detail our technical platform.
+(See attached doc: Easypromos Security Work Paper.pdf)
+ 
+Dedicated environment
+No, it's not possible. Easypromos is a SAAS Platform, we do not create dedicated environments because we manage the platform as a whole.
+ 
+Layer separation
+Yes, we're based on an MVC architecture. There is a clear separation between:
+Product / business logic layer
+Data layer
+Front-end layer
+This allows us to scale, secure, and customize each layer independently.
+Platform availability
+Web (desktop & mobile):  YES
+Native iOS / Android apps: No, we can integrate in any mobile app via webview.
+ 
+Performance and testing
+Stress testing
+Yes, we perform stress and load testing regularly.
+ 
+Dedicated load tests
+For large events, we can run custom load tests, including:
+Concentrated pre-match spikes
+Millions of actions in short windows
+These tests are typically aligned with the agreed traffic model for the event.
+ 
+SLA and operations
+Support model
+Business-hours support is standard
+24/7 support and on-call coverage can be provided for live events as part of an enterprise agreement
+
+ 
+
+Brazil support
+Support is centralized, but we are experienced working with Brazilian clients and LGPD requirements
+Time-zone–aligned on-call coverage can be arranged
+ 
+Dedicated SRE during events
+Yes, for large live events we provide dedicated technical monitoring and escalation protocols
+ 
+2. SECURITY, LGPD, AND DATA GOVERNANCE
+The platform is LGPD-compliant
+User consent is handled explicitly through configurable opt-ins
+Data is stored on secure cloud infrastructure.
+
+ 
+
+Roles
+Data controller: typically the client
+Data processor: Easypromos
+
+ 
+
+Data capabilities
+Full data export: Yes. You will be able to export all user data via CSV, direct integrations with common CRMs or via API/Webhook.
+Require anonymization / pseudonymization?: it's something we could do as part of a custom request.
+ 
+ 
+3. CORE PLATFORM FEATURES (PRODUCT)
+ 
+Types of predictions
+Match result --> Yes
+Exact score --> Yes
+Special predictions (first goal, winner, qualifiers, etc.) --> Yes
+Live predictions: No, we do support live predictions.
+
+ 
+
+Rankings
+Global rankings --> Yes
+Public leagues --> No.
+Private leagues --> No.
+Period-based rankings (daily, matchday, tournament) --> Yes.
+
+ 
+
+Private leagues
+We do not support priavte leagues but it could be discussed if this is a request from your client.
+
+ 
+
+Scoring system
+Fully configurable --> Yes
+Multiple scoring rules can coexist in the same competition --> Yes
+
+ 
+
+Gamification
+Missions / challenges
+Badges / achievements
+ 
+Regarding gamification, the platform currently includes a virtual currency–based system that allows us to effectively simulate and manage missions, challenges, badges, and achievements in a flexible and scalable way.
+ 
+In parallel, we are actively developing a next-generation challenge system that will significantly expand these capabilities. While this new system is not yet ready to be presented or documented, it is already part of our internal roadmap, and we would be happy to discuss its vision, principles, and potential use cases during our meeting.
+ 
+Prizes
+Ranking-based prizes
+Draws / raffles
+Tiered prizes (daily / weekly / overall)
+ 
+Regarding prizes, this is actually one of the strongest and most mature areas of our platform.
+Prize assignment rules are fully configurable and can be combined. To give you a more concrete and detailed view, I’m sharing a couple of links below:
+Tutorial: Managing Prizes and Winners
+Prize Management Systems: How to distribute prizes on online promotions
+ 
+ 
+Content & narrative APIs
+Please have a look to our API and Webhooks:
+Getting started with the Easypromos REST API
+Webhooks Integration
+ 
+ 
+4. CUSTOMIZATION, UX, AND FRONT-END
+ 
+Branding & white-label
+Fully white-label front-end aligned with client brand guidelines
+
+Please have a look to:
+
+Easypromos design guide
+
+Designing Interactive Promotions with Easypromos
+
+ 
+Front-end delivery
+We have multiple real-world delivered front-end projects
+See :
+Easypromos Success Cases
+All the examples
+Easypromos catalog: every product has full operational demos and examples
+ 
+UX/UI & front-end services
+Easypromos is not a development or design agency. We do not offer custom development because our development team is focused on building a robust, fully self-service platform.
+That said, for large clients we can consider tailor-made projects built on top of the standard product to adapt to specific functionality they may need.
+However, we do not undertake fully custom projects from scratch.
+ 
+5. ROADMAP AND EVOLUTION CAPACITY
+In line with the previous point, the message is the same. We do not offer custom development. However, if based on the standard product shown to the client there are certain functionalities they would like to have that are not currently available, we can review this together.
+We can agree on a list of required features and assess which ones could potentially be incorporated into the product. We can discuss this during the video call and see how close our current product is to what the client is actually looking for.
+ 
+ 
+6. PARTNER INTEGRATION AND ECOSYSTEM
+ 
+APIs & integrations
+SSO / external login: supported
+Partner integrations: supported via APIs
+We can integrate:
+Partner benefits
+Subscription or entitlement status
+External reward systems
+
+ 
+
+Multi-player ecosystem
+Yes, we have operated projects involving:
+Sponsors
+Media
+Strategic partners simultaneously
+Supported features include:
+Co-branding
+Exclusive areas or mechanics per partner
+ 
+More info about integrations: Connect Easypromos with your tech stack.
+ 
+7. WHATSAPP AND NOTIFICATIONS
+We don't have a native Whatsapp integration. 
+ 
+8. SOCIAL SHARING & VIRALITY
+Easypromos provides a virality system that is 100% configurable, enabling you to display different messages depending on the promotion type. See more info: Tutorial: promotion virality system.

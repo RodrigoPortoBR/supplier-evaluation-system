@@ -1,0 +1,181 @@
+Aqui está a transcrição completa do áudio baseada nos trechos fornecidos, com a identificação dos falantes: **Miquel** (Easypromos) e **Rodrigo** (Consultoria/Cliente).
+
+**Transcrição do Áudio**
+
+**Miquel:** Thank you very much. Okay, so just a quick recap so you have that on the recording. The French Federation of Football approached us because they wanted to connect with the younger generation and they wanted also to uh teach more about the French uh French team. So um they created using easy promos by themselves they created a fan zone and in the fan zone there were like several dynamics. Some of them were like games based on knowledge. Some other games were based on predictions and some other games were based on skills. So what they did is they they connect well they keep engaged uh with their community during all the championship and they had a lot uh a huge participation because uh and they were covering all the targets because okay with the knowledge games they were giving more visibility to the French team. With the prediction game they they they were having they were having all the people uh very focused on on the application and the skilled games were like some auxiliarial games to give more entertainment and on top of that they add a dimension of virtual coins. So the more that you were playing and the more good results that you were having you were getting getting more virtual coins and then you could redeem these virtual coins into um rewards from the sponsors uh jersey uh a ball. So when when when we talk about predictions, we say that we we have a a pure a pure prediction game, but you can combine predictions with some other type of games that just to keep people um more and more engaged with with your proposal. Yeah. For example, you can um um upload like a quiz inside your prediction game that would happen in a specific date and time and you can um communicate with all your public that's playing your prediction game saying that you can have a huge prize if you um if you go until the end of the quiz with all your right answers for example. I don't know.
+
+**Rodrigo:** Yeah. Yeah. Yeah. That would be one approach or imagine that you say okay you have you have if you do I don't know the predictions for the uh for all the groups then you can unlock you can unlock a uh a wheel. So whenever you unlock the wheel you will be able to spin the wheel and and win prizes or double the number of virtual coins. You can you can do this kind of combinations. Okay. So uh our virtual virtual coins um the currency that you use in all of your applications, right?
+
+**Miquel:** Um no, that that no that's something that's something totally optional. I mean
+
+**Rodrigo:** Oh, that's optional. Okay. Yeah.
+
+**Miquel:** So for instance, um what we are using is a points system. So the more in the case of the predictions, the more in good predictions that you have, the more points that you get in a global ranking and there is a leaderboard and all but on on an extra liger we you can use also virtual coins and virtual coins are a nice way to uh com they are very useful when you want to combine um dynamics that has points and other dynamics that they have not points because maybe you want to show you you want to show your users just a message from a sponsor and you say okay if you uh take a look to this video then you get this virtual coin uh tell digital coins and yeah so depending on how do you design the the game it makes sense or it does not make sense okay.
+
+**Rodrigo:** it's really gified everything right so yeah makes sense I think this vual coins is something that it may be interesting for us yeah.
+
+**Miquel:** so let's let's one thing uh first of all I will I will explain you how we have designed the prediction game for the world cup but Once we have seen the basics of the bridge on game, then we are going to create a multi game from a scratch. So you can see exactly how it works.
+
+**Rodrigo:** Okay. Does it make sense?
+
+**Miquel:** Yeah. Yeah. Okay. So let me share my screen. One moment.
+
+**Rodrigo:** I tested the demo. It's really cool already.
+
+**Miquel:** Yeah. Thank you. Okay. Perfect. So the starting point is our website and as you are in this exploratory phase let let me give you two recommendations. The first recommendation is that you can create an account for free on easy promos and once the account is created you will be able to um you will be able to create customize and test anything that you want in easy promos. You don't need to pay in advance. Okay. payment is only required when you want to publish the promotion for everyone.
+
+**Rodrigo:** Okay.
+
+**Miquel:** And my my second recommendation is that if you want to have a better understanding of everything that is promos can do, you can go to applications and under applications you will be able to test uh all the products. For instance, you you have a demo, you have examples and any one of these examples are totally functional. You can er participate as if you were a user. Okay.
+
+**Rodrigo:** Okay.
+
+**Miquel:** So let's let's imagine let's imagine that we have uh already an account on easy promos. So I log in and this is the admin area. Okay. So as I told you let's first start with the prediction game that we have. So we have a template. If you go to uh applications, let me disappear from here. So okay, we have the this multi-un score predictor.
+
+**Rodrigo:** That's what I tested.
+
+**Miquel:** We have perfect. So here it says I want this template. So I will I will use this template. Okay. and I say continue copy template and then this template is copied or installed on my let's say I will create an organizing brand that this is like a folder so I will say um let me let me l LTV 5
+
+**Rodrigo:** yeah LTV 55
+
+**Miquel:** yeah LTV 55 uh okay so I will create this folder and now I can edit the promotion so as you have already test the the the prediction game I will show you the the back end so let's go to the editor so everything that you see here can be totally customized so for instance I So get rid of this. Copy break and win. Okay. So we have the landing and even this this landing is optional because maybe you say I don't need an extra landing because the access to the promotion will be in a banner from my website. So I you can publish this this landing login and registration. In this case we have done a very simple email registration but you can you could have done Facebook uh linkin or even phone number. Okay. Very well. Then registration. Registration we have done a very uh simple registration but I will add a new element for instance here uh and you say something like I accept to receive commercial info from the sponsor. So in this in this way you have the consent from user. Okay. And you can add as many elements as as you need to. For instance, instead of username, I I would prefer nickname here. Perfect. And now here under participation stages. Okay, we say that this is a multi-stage promotion. Why? Because the user registers one well well login and register once and then the user will be able to play in in many of the predictions. So for instance, we have created this uh let's say match day one and for each one of the match days you can create the you can create the the the teams and the matches that that you want. Okay.
+
+**Rodrigo:** Yeah.
+
+**Miquel:** So um everything that you see here on the screen can be can be changed. For instance, let's go to the the power of easy promos is on the details. So imagine this is the banner for the at day one on Thursday 11. So you can say okay this is the uh image if you have not enter this is the image
+
+**Rodrigo:** when the stage is complete
+
+**Miquel:** or this is well we have used the same uh image if the stage is closed because you cannot participate again or because uh it's out of date
+
+**Rodrigo:** or
+
+**Miquel:** okay so it means that you you will have a lot of control uh about many many other things about many details. So for instance, let's say um what else? Well, here all the stages are the same. Okay, we have also a ranking and the ranking will be populated once you have entered the result for each team for each match. Okay. And for the for the World Cup on top on top of this uh prediction game, we are we are going to offer also a um extra service. So you don't have to uh update the results of each of each match. So it will be populated automatically by easy promos.
+
+**Rodrigo:** Oh, that's great. Okay.
+
+**Miquel:** Yeah, that's great because then once you have set up your pion game you can uh let's say no not no forget but there will be a lot of um management that will be done by us no not by you you don't you will not need to be I don't know the pending of uh updating the I don't know the the match between uh it and Scotland Austral Switzerland everything will be done by by our automatic system.
+
+**Rodrigo:** Okay. You have like someone that that um um updates the the scores and everything or is it connected automatically?
+
+**Miquel:** Uh we will have some um to be totally transparent. We will have someone that will be updating the results on on real time and there is a process that replicates the results on all the prediction games that are open in easy promotion.
+
+**Rodrigo:** Okay. Okay. That would be the the way it work.
+
+**Miquel:** Okay. So, and now now that you have
+
+**Rodrigo:** when when when he updates so the the ranking updates automatically when or is like once once every day for example you have to finish all the results in the in the day and in the end of the the final game of the day it updates all the all the ranking.
+
+**Miquel:** Honestly, we don't know yet if we're going to do that uh for each match. or at the end of the stage. But what what is true is the something that you have already seen that it's it's a two-step process. First you update the results and then you uh there is a batch process to update the score of all the players.
+
+**Rodrigo:** Okay. Okay. So now uh that you have a good understanding on how the the prediction game works more or less let's do one thing. Let's create something from a scratch. Okay. So, just let let me ask you something. Um,
+
+**Miquel:** sure. Sure.
+
+**Rodrigo:** All that um operational work um it has to be done on our client side, right? For example, all the um the the designing and the updates of of how the what the matches would will be um p would be predicting. Um that's all done on our side, right?
+
+**Miquel:** Let's say yes and not. Uh let me let me explain you why. Uh just one moment. Okay. So in the case of the world cup, we will give you all the basic configuration. So it's it means that all the matches from all the all the group uh phase will be done.
+
+**Rodrigo:** Yeah. Okay. M
+
+**Miquel:** but then but then you have the option to purchase what we call the well this full management uh package and in the full management package we're going also to h set up the playoffs and and all the final rounds. Okay, but let's say that you want to you just want to start with the basic uh package then you will have all the matches from the group face.
+
+**Rodrigo:** Okay. So, we just need to update the visuals, right? The front end, the designing, everything.
+
+**Miquel:** Exactly. Exactly. For instance, I don't know. Then you can go here to appearance and you will be able to change the typographies, the text blocks, container, everything. And for each page, for instance, here this welcome, you don't want this welcome, you can create your your own login and registration. And you say, "No, no, I don't want this. So, I will get rid of that or or I don't know imagine that you don't like the way that uh let me say okay here you can design exactly sorry you can create a sponsors image a background image background color you will you will have a lot of gr granularity to change the look and feel okay right what what else you will have to do For instance, you will have to also create all the emails and notifications. Emails, we have a uh email platform integrated in easy promos. So it means that you can create mails based on what the user is done is doing. So for instance, after registration or after entering a prediction or imagine that um just for entering a prediction you are giving away a 10% discount uh of your sponsor. So after w after winning this discount the system will send an email with the I don't know the unique code or with the voucher things like that and also you can create mails on a schedule date and for instance every every day before uh the start of the first match you can send a reminder saying okay um Remember that you have to uh complete your predictions uh before the game starts. Things like that.
+
+**Rodrigo:** Yeah. Okay.
+
+**Miquel:** Okay.
+
+**Rodrigo:** Though those email costs they are already in in the
+
+**Miquel:** Yeah. This email are integrated uh in the license. Uh each license has a um an amount of mails um by default. And if If you need more males then you will have to pay an extra extra cost.
+
+**Rodrigo:** Okay.
+
+**Miquel:** Okay.
+
+**Rodrigo:** Yeah.
+
+**Miquel:** Then so now let's imagine that okay you say uh yeah the prediction game is nice but I don't know I have talked with my client and I don't want uh predictions for all the games because just for your information I think that in this uh well this world cup we'll have the maximum amount of matches of the history. I think there are 104 matches. So it's it's a a lot of work for the users. So some brands are saying okay yeah I like the idea of prediction but I don't want a prediction for all the games. I want prediction for my my team. I don't know for Brazil or for Spain or for whatever. Okay. So let let's let's say that you you want to create your own game. So you can create. Let's go to uh again to the main screen of our dashboard and you can click on new or create new promotion. It's the same. So I will create a new promotion and I will say that this is a multi-stage. You can use multi-game or allin-one. I mean I will be using allin one. So I click all in one. The organ organizing brand is your brand LTB 553. Okay. Uh 55 continue and now you we are creating a multi game from a scratch. Okay. So, so I click on editor and let's make it something very simple. Okay. So, instead of multi-stages I I don't know LTB 55 wall app bal play and win nice prizes. Very well. So, login and registration. Let's make it let's make it very simple. Email and I get rid of this option that says users must validate the met to participate. Perfect.
+
+**Rodrigo:** Yeah, registr registration for me it's okay, but I will add a new uh new field nickname because I want uh to be displayed in a in a leaderboard and I don't want to show my name my real name I just want to show a nickname
+
+**Miquel:** the nickname very well then participation stages before before creating the stages let me change the dates of the promotion because I want this promotion to be already open okay so let's go to participation stages and What? First of all, I instead of doing a prediction, I will do a quiz uh a quiz with timer. Okay? And I will say, are you an expert? Are you um an expert? Uh h what's what's the the name of the aha? No. The name of the the fans of the Brazilian selection. It's Torsa or
+
+**Rodrigo:** if you're a supporter if you're a supporter
+
+**Miquel:** supporter from Brazil.
+
+**Rodrigo:** Yes. I think there's a specific name. Maybe there is to Brazil. I don't know.
+
+**Miquel:** Uh well, let's say are you a a real Brazilian fan? I don't know.
+
+**Rodrigo:** Okay. Brazilian f. Okay.
+
+**Miquel:** So then uh let me explain the the concept of segments. Segments it is the marketing concept of segmentation. So it means that depending on the type of user that is using easy promos, you can show them different actions or different games because imagine Let's uh I don't know imagine that you are working with a um a bank for from Brazil and they want to use these games inside their web application or the mobile application and they have like gold customers, silver customers and bronze customers. So based on the type of customer for instance gold then you can show a different game or different prices or different virtual coins. Okay. So this is the concept of segment. Okay.
+
+**Rodrigo:** Okay. Okay.
+
+**Miquel:** Then we have requirements. This is also very powerful because requirements are conditions to participate. So imagine that one of your clients is Coca-Cola Coca-Cola and you say okay you can only participate if you enter the code that was printed inside the tab of the bottle. Okay, that would be one way one way to do that. Or maybe you say, okay, to participate, you have to enter, you have to upload a purchase receipt where there is at least one Coca-Cola. We can do this kind of things. Although it seems very uh impossible with the interaction of AI on the receipt validation, we can do these kind of things. Okay. Or or maybe something much more simple, you have to watch a video of our sponsor or of our latest launch whatever. Okay. So, okay.
+
+**Rodrigo:** Here I will for for the sake of this demo I will not use any requirement. Okay. Okay. Let me ask you something about the requirement. Um yes came to my mind. If some if for example we have a sponsor uh let's say a retail sponsor, okay? Um that has I don't know millions of clients in their database and there are some clients that um participate in a loyalty program. Is it possible that we can identify that if that user is part of that loyalty program then he is um like he he will be the one available to participate in something special or as a requirement or not.
+
+**Miquel:** Yes. Yes. Yes. We can do do we can do that in several ways. For instance, a very simple way, imagine that uh you send a unique code to the the users of the loyalty program. That would be very simple. No integration, nothing. The other way would be to identify those users in the uh registration in the in the registration. And the other one which is um a little bit more technical is that we could be integrated in the user system of your client because we have what we call uh an auto login API a single sign on API so the user will be using the the credentials from the client but we we will be able to identify the user via API so yeah that that can be done.
+
+**Rodrigo:** okay okay so in this case I will not using any requirement sorry here on options It says how many times a user can participate. I would say I don't know five every day or in total. It's up is up to you. Okay.
+
+**Miquel:** So here everything that they have explained it up to now it's totally generic. It can be applied to any of the games. Okay. But now we have to set up the quiz with timer. So here I will create a new question. We can do that one by one or in bulk if you have the questions and answer in Excel but here I will be using AI. So topic of the question Brazilian nationality does the platform um has to be in English or can we do it in Portuguese?
+
+**Rodrigo:** It can be in Portuguese. It's totally multi- language. We we support any language. And well not not any I mean we have more than 30 uh languages and we support all the alphabets and we are using also AI to help you in the translation because maybe you have done all the setup in Portuguese and then uh your client wants also the uh I don't know to have English so everything can be translated.
+
+**Miquel:** Okay. Okay. So here game play settings I will say show question. randomly show answer randomly and then only uh three. Perfect. So we have this the first game then we can have another game. Okay, we can use a prediction game here. So or I don't know um prediction or score predictor. Okay, we can use that. But for this demo I will use a scratch and win because I want to show you another feature of V promo. Okay. Scratch and win.
+
+**Rodrigo:** Okay.
+
+**Miquel:** And and here I will say something like, okay, you can only participate in this scratch and win if you have completed the previous stage. Okay. Are you a Brazilian fan? Or even I can say you need a minimum score. But here I I said only to participate and and that's all. Okay. And for the scratch and win, I need at least list I need at least one uh price. So I will go to the price inventory and I will create a first price just uh by probability and I will say I don't know 10% this or no prehoke uh corola and we can say Okay, this will be for the our scratch and win. We have 10,000 units of code that we can give. And then we go to participation stages scratch and win. And I just as I want to show you the how to how I get the price. I will put here um all the probability for the price. Uh let me change the surface. of scratching. And now if I enable the test mode, I will be able to test my uh World Cup portal as if I were a final user. So I enter I have to uh log with my email. I'm not using any mail validation because this is just a demo. Yeah. As as this is my first time I have to register Mickey. I have red. I have read. And now I have these two games. I have Are you a real Brazilian fan? And the sketch and win. Okay, so let's go. Instructions. Which Brazilian player scored the fastest streak in World Cup history? Uh Ro,
+
+**Rodrigo:** A probably
+
+**Miquel:** perfect. Uh perfect. Finalize. I can enter again because I and and now if I go to the games, the system checks that I have already participated. This is unlocked. And now I can play my sketch and win and I will win a free app.
+
+**Rodrigo:** Cool.
+
+**Miquel:** And I have this coupon as you see uh this is just a very very basic erh workflow because or user flow and it can be totally uh it can be much more complicated. For instance, imagine that instead of giving a free code you you give a unique code or you give uh I don't know a boat that can be redeemed in any of the locations of the of Coca-Cola or things like that. Okay. So, yeah.
+
+**Rodrigo:** Or maybe it can redirect automatically to to a sponsor app for example orite and when something Yeah.
+
+**Miquel:** Exactly. Exactly. And the important thing also is that if we exit the editor then you will have here the list of all users. and the the all the things that they have done. So in other words, you have zero party data and you have first party data and all this information can be download in a CSV file or it can you many we have many integrations with popular CRM like HubSpot, Cladio uh what else don't know marketing automation tool like like our mailing things like that or um you can use Zapier or make and finally we have an uh API and web hooks where you can extract that information programmatically.
+
+**Rodrigo:** Okay, cool. Okay. And all all that data belongs to our client.
+
+**Miquel:** Sure. Sure. Sure. We are we are just the data processors. So it means that we are only using this data to make the promotion available for everyone. But the owner of the data is your client.
+
+**Rodrigo:** Yeah. Okay.
+
+**Miquel:** Okay. And that would be uh a general introduction about easy promo. So I wanted to show you how easy is to create uh um any action from scratch. You have uh lots of um let's say customizable options. And and the good thing is that imagine that you want to show something your to client uh instead of creating a PowerPoint, you can show them directly a demo. You don't need to pay for the license. You just do all your things, create a basic um look and feel and then you can show them the the demo.
+
+**Rodrigo:** Perfect. Yeah, I think I I can use that to try to show an example, right, of what we can do at Easy Pros. Um and let me ask you um another thing about the rankings. and and leagues that you you showed um in the mail you said that it wasn't possible right to go with um private leagues or have more than one league in each um tournament for example right?
+
+**Miquel:** no we are we are close we are close to that but we don't we don't have that and why I said we are close uh we have our rankings And in our ranking we have a search search bar and in that search bar you can find your friends and you can say okay Rodrigo is playing. So I create I look for Rodrigo and I add Rodrigo to a temporary ranking and I will have the list of my uh I don't know four or five friends and I will be able to see all the ranking in that temporary view but I'm not able to save that temporary view into a private league or something like that. So, uh we have tools as I told you to help users group their friends for a temporary view, but we don't have a private leaks.
+
+**Rodrigo:** The temporary league that you're calling it may be temporar temporarily for
+
+**Miquel:** for the session for the session just as as long as you are watching at the at the rankings. But there is not there is not any way leave the p the page and then you come back that's not there anymore. Okay. But but for instance imagine that um for us it would be quite hard to create a very complete uh private private leak system. But something that we could do is okay create your own ranking. So once I have created the ranking with my friends we could add the option to save that ranking and and you it's not a full parable leak um functionality but you will have the list of at the end is the same is okay I want to see uh the ranking of my friends that's that's um when when I was trying what what what I was trying to explain in that email is that we don't do do custom development but we are able to do this quite or what we call quick wins something that if your client say no no this isn't a stop And maybe you can say okay but we can offer that. How do you see the the the problem is not is not that we are not able to develop very quick but as we have to make sure that this is robust uh antihacker and all that all the yeah it takes it takes a lot of time.
+
+**Rodrigo:** Yeah. Yeah. I I I can imagine um Yeah. Because one of the the possible um um opportunities that we studied in the last weeks is that um the the power of sharing and the relability on social media that's really really strong on our client side. Um just for you to to understand at 2022 um this client did something um similar um as a prediction game but he didn't have rights um of of from the World Cup on to show I mean he had rights but only a few matches and he sponsored with he he developed with the sponsor and they reached like 8 million different um um unique users playing the the prediction game and this this this um this year now they have 100% of the game they're going to to showcase everything and it's expected at least 20 million um different users throughout all the from pre pre-World Cup until to the end. And we one of the the the things that we we bet a lot that would we want to to maybe try to understand further What we can achieve with that is to actually have that um not on not not a private league. A private league it's like it's it's an option but um to I'm trying to think of a a good example um let's go back to the retailer sponsor that has um a database that has some of those those clients that are part of the loyalty program. So let's say that if you are part of the loyalty program You can create your own um public league um and then you can put people inside your public league, but that's like totally um up to you and you can put prizes in that. It it it it's like a system that everyone can um create their own league without um the without having real connection to the the the official one. They can create one and for example uh store can create its own league and all the the loyalty programs u users can register and participate in that league and and win prizes from that store for example. So so we have a a uh like a play a a retailer that has um loyal um users there that will be very much interested in winning the prizes from the store that they are loyal to and not exactly they they won't they will be happy um competing for other things from the official league that has much more people and much harder to to win something. So that's kind of something that we were betting on a lot but as I said we're still exploring everything.
+
+**Miquel:** Yeah. Yeah. I I see I see your vision that that's something uh that at this at this point I feel very very challenging but I don't know everything goes so fast that maybe uh there's someone that has created something like that but in the in this case what from my point of view I would say okay there is a national league okay this is then there are this group of chain of of stores that want to create their own league okay uh can create that using easy promos because it's just $399 and you have everything. Um, but I say that from a business point of view, maybe it's worthy for for you to go for the big big client with the uh full proposal and then go to the retail stores, chains and all that with this more focused proposal. But yeah. Okay.
+
+**Rodrigo:** And just an ask you another thing. So I see that that maybe it's a little challenging, but if we had um one mo one multi- prediction game um that has the the public ranking with everyone, but with just just one other public ranking, let's say it's a sponsor ranking with for for the law um persons just only one. Is it possible that we can create um in one um prediction game uh a ranking with everyone that has like I I'm totally guessing here like $100,000 in prize and another one that is dedicated to the loyalty program users that has like $1 million prizes. I don't know.
+
+**Miquel:** Yeah, it can be done. It can be done. Uh uh using our uh segment tool. So it means that at some point of the process we should we should know if one person is it comes from the loyalty program or not and as I told you there are many ways to do that even we can imagine that when you register we can uh we have an API service that uh we have an API that allows in the moment of registration There should be a web service from your loyalty program that says okay if I'm sending you this this email account can you tell me if that email account is part of the loyal program or not and at that moment we assign the segment and then we could we could use a ranking for the general public and a ranking for the uh users that are with that particular segment. And at this moment at this moment if you if you go to our ranking documentation you will not see anything about segments because that's that's something that it's not there but putting a a ranking based on segment is something quite straightforward it could be done in a couple of days for us so this is the kind of developments that we could include in the final proposal.
+
+**Rodrigo:** right okay that's clear okay um so I think that for for our first talk that's it right
+
+**Miquel:** Mhm. Yeah, we have talked about many things. Uh let's do one thing. I will be sending you an email with a summary of what what we have talked with some links, examples and some other um football related uh promotions and I as I know that you are exploring other options or if you have any question or if you want to do another call with me, I'm totally open and super happy to uh give you all the information that you need from core site.
+
+**Rodrigo:** That's great. Thank you so much for your time.
+
+**Miquel:** Thank you.
