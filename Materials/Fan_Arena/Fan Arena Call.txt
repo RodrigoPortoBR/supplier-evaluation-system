@@ -1,0 +1,201 @@
+Fan Arena Call
+
+Aqui está a transcrição do áudio, organizada por interlocutor com base no fluxo da conversa e no contexto fornecido nas fontes. O diálogo original em inglês foi mantido para preservar a precisão da transcrição solicitada.
+
+**Participantes:**
+*   **Octavian:** Representante da Fan Arena (Fornecedor).
+*   **Rodrigo / Patricia:** Representantes da Consultoria (Cliente).
+
+---
+
+### Transcrição da Chamada Introdutória Fan Arena
+
+**Rodrigo / Patricia:** But in Brazil have a a a really big uh fantasy game for the Brazilian soccer uh year event. So we do know the difference between the fantasy and
+
+**Octavian:** good good because sometimes it's not clear. Um so we started with fantasy and in the last few years we did prediction games as well. Um fantasy games are a bit more complex than prediction games. So The benefit of a prediction game is that you engage more people. Um, not always people that are very knowledgeable about uh the sport, but uh that's that's want to play. And for World Cups, definitely it's um um it's one of the most interesting uh fan engagement tools for media companies because they can int uh introduce that in the broadcast like say, "Hey, what's your prediction?" They can talk about it in uh in podcasts and so on. Um so it's very simple and I think al that's also um the most important part of the product is to to keep it um yeah scalable both both in terms of of game play usability uh so I have it um very yeah accessible that's the word um and also in terms of scale and performance if you mentioned 10 million um that's that's really a lot Um um but that's not a problem in terms of of of scaling and operations and stuff like that. Uh because we are used to work we used to work on smaller projects as well. Um starting from around 10,000 people uh 100,000 people. Um it's a big difference in terms of pricing and scale um because um we can't provide what we're going to provide to you or a customer that has 100,000 users or more. We can't provide them somebody with 1,000 users with the same solution because it would be too uh it would be overengineered. It'd be be too expensive for smaller games. So or um or game engine as as I call it um is is based on cloud infrastructure. Uh so we use uh yeah scalable cloud infrastru structure on AWS. Um we also use um parts are hosted on digital ocean. It goes from um different types of databases from uh SQL uh databases to NoSQL databases from um evalu uh it's it's it's quite complex when you try to to to scale the game for Yeah. millions of users. Um, and then yeah, on the front end it's it's it's a bit more more simple. There we have our own uh components library. Uh, so actually I can I can show you one of our prediction games, the actually the ones that we just launched in Belgium, but that's a very small game. Um, but in terms of UI, it's uh I think it's close. What's um what's possible that we can right
+
+**Octavian (continuando a demo):** um so here it's just a landing page where you have a small explanation with the prizes that you can win so actually here you can win a trip to the United States to watch the Belgian Red Devil play um and then um yeah that's then the the application um and here there um it's a it's a simple prediction game where you have each day one different football match to predict on from from different leagues. So um yeah, now we are Tuesday evening it's Champions League, tomorrow it's Champions League as well and then you will have Europa League games and in the weekend you might have the Bundesliga or Premier League. Um so it's it's it's very easy. You see you can you can pick uh can just pick the outcome. It's just clicking a button and then we also have per week the user can uh play one booster in this case as So I played uh my booster in here but uh unfortunately my prediction was uh wasn't correct. So I didn't get any points. But here for example I predict Manchester United against Man City and I scored uh 96 points. Then I can see my total score. Um I can play in a in a mini competition. We call it private friendly league. Um and then yeah you have lead boards, everything is calculated um real time after a football match is finished. Um yeah, but um
+
+**Rodrigo / Patricia:** I believe those scores page rules everything. Excuse me. I believe those scores um they they follow a rule and
+
+**Octavian:** yeah. So um when yeah here Um, depending on the on the match.
+
+**Rodrigo / Patricia:** This is Dutch, right?
+
+**Octavian:** Excuse me.
+
+**Rodrigo / Patricia:** This is Dutch.
+
+**Octavian:** Yeah, it's Dutch.
+
+**Rodrigo / Patricia:** I'm trying to read anything. You can put it in French. English. And it's okay. Yeah. Yeah, English can help.
+
+**Octavian:** I'll put it in English. Um, for example, um the the way you score points is based on how difficult your prediction is. So for example, if I say tomorrow Galatas will win, I will win 88 points. If I pick Atletico, it will only be 53 points. So uh if you predict the underdog, you get more points. It's just Yeah. Some the risk and the obvious.
+
+**Rodrigo / Patricia:** Yeah. Because people uh always pick the most obvious uh one um like here.
+
+**Octavian:** Yeah. I predicted a draw, but actually it was the most obvious score. Um, it can be interesting. Now, this is for an audience that's a bit more knowledgeable because this is for a batting company. So, a batting company is here the customer and to use this as an engagement tool for their own co customers. So, to attract and keep their customers engaged. It's not something that's very publicly uh promoted or um because uh the legislation in Belgium and in Europe uh it's that's changed very much and um betting companies are not allowed to do direct promotion. So that's why they try to do fan engagement instead. Um but this is just a simple prediction game. Um and the game itself it's completely the interface is completely customizable and created from scratch. So it's not a white labelled solution. So for example, we do the official fantasy game for the Belgium Pro League which looks like this. You see it's completely different. Okay, but we reuse the same architecture and same components depending it's a prediction game or it's a fantasy game because we also do the official fantasy game for the Latian um Premier League for example and then again it's it's completely different but here the season is finished. So So I don't think I can access it. I I can access it but you see it's it's completely different
+
+**Rodrigo / Patricia:** and our client would be the responsible for um developing that front end and the design
+
+**Octavian:** we we deliver turnkey from A to Z the whole game. So uh the client doesn't need to do anything besides communication and marketing of the game.
+
+**Rodrigo / Patricia:** Yeah. Uh the game can be uh integrated in mobile application with a responsive
+
+**Octavian:** it's a responsive web view that can be put in a in a web view um or via iframes. Uh actually I can show you something that's in development. That's also uh very nice one. Um
+
+**Rodrigo / Patricia:** but it's always a web solution, right? It's not an app.
+
+**Octavian:** Yeah, it's um it can be an app. Um a native app, but then it's a web solution that's inside the native shell because it doesn't make sense to create um native applications because you have twice the cost and then you don't have anything from web. So um by far the best and I mean in 10 years it's it's not even happen not even once that a customer wanted specifically native for this.
+
+**Rodrigo / Patricia:** Okay. Um with the other tips like you you you also um talked about um GDPR and all those yesations. Are you familiar with um working in any client from Brazil from our LGPD? It's the same thing as a GDPR but from Brazil.
+
+**Octavian:** Yeah, I'll get back to that just to to show you how flexible it is because that's this is really differentiator between a company's company and the um the all basically all other providers. All other providers that they try to sell you their white label because that's the cheapest for them and they have big margin and they they change colors. Uh they can change and add features but it's always we you will always get constraints. You will always they will always tell you uh oh yeah we need to check and Usually they they they try to force you in some kind of so here it is um integrated. You don't even see it's integrated via web frame. Um so if you leave the fantasy app is the same experience but when you go to fantasy it's actually our game and it's loaded through our infrastructure. Um in terms of GDPR uh and the Brazil Brazilian uh GDPR. Um I don't know the Brazilian GDPR. We don't have customers in uh in Brazil. Um but we have a lot of customers in Europe. Um and GDPR rules in Europe are very strict. Uh unless the ones in Brazil are even more strict, uh then I don't think it's a problem in terms of uh GDPR. Yeah. Uh obviously, yeah, um we are uh based in Europe. We don't have offices in uh in Brazil. So um if you're looking for a company that is in Brazil, that speaks Portuguese, that's that's obviously not uh not possible. Um yeah, that's a that's for you to decide.
+
+**Rodrigo / Patricia:** Yeah, actually it's really difficult to find a a company that can can deliver what we are looking for. for so we are trying to expand to other companies. So that's why we
+
+**Octavian:** yeah um like I said the difference with with us we are really we only do fantasy sports and prediction games we don't do uh AI we don't do um the the data we don't do uh CRM uh like you have the big ones like Genius Sports and so on. and a fantasy or a gaming hub is just one of their five or 10 verticals. Okay. Um and there you pay not only for the game, you pay for the corporation, you pay for people that write contracts, you pay for people that manage the whole solutions, you pay for for people that uh you know I mean I've been in consulting as well and I know um I I know how uh how projects sometimes get bloated a bit by uh by the different parties. Um and I think the uh the most interesting way um for you and for your customer is to have short communication lines and not have people manage other people that actually then do the the work. So the the work here it's it's straight done by uh my team. and you don't have like uh we don't outsource in India or whatever. It's uh it's straight communication and I can I can provide you with um yeah with um testimonials and stuff like that from other agencies that work with us in the same way you do. So large communication firms or agencies that are contracted by one big media company or or one brand that say okay we want to do digital transformation and fan engagement or a game just one of the many things that you want to do please find us someone that's reliable and that can do that that's basically uh I wouldn't say half of the business but uh but a very very big chunk um
+
+**Rodrigo / Patricia:** and usually the the the communication and the support team what's the the communication channel or
+
+**Octavian:** yeah this is this is a special case because um you have a time difference and a l language difference so obviously we won't be able to provide end user support in in English doesn't make any sense so we would need to have somebody trained within uh Brazil maybe even two persons we can train them uh that would answer uh any questions uh to the user base, do the communication and so on. But that's something that we can easily provide in a training or training sessions. Uh once we we start building the product and uh and it's finished and we onboard people, I think that's the most um even even other companies would would do the same thing. I mean it's it's um it's also yeah it's not that huge of a project. Um so you can't really afford to have um yeah full-time people working on support and stuff like that. So it would make sense to just train someone that's during the window of the World Cup which is one month on a day-to-day basis. Uh usually we provide that from from in-house because we have a team that speaks yeah English, French, Dutch uh um but for Portuguese it's it's a bit a little harder. Yeah, it's a little bit harder. We could
+
+**Rodrigo / Patricia:** It's not a simple language.
+
+**Octavian:** No, no, but we could have somebody in Portugal, but still it's not the same. It's not the same because the time zone is different. And
+
+**Rodrigo / Patricia:** yes,
+
+**Octavian:** like I'm saying, I think that's the best solution is that we train somebody.
+
+**Rodrigo / Patricia:** Um, yeah. And also just to make clear like the when you you say about the the fantasy game and and prediction game. Our main objective is to have um a lot of people participation. So it's not a complex ecosystem or software that that we need to to to start from the zero. So you have a lot of things that you show us. So I think it's the we are in the right path to to have a a simple
+
+**Octavian:** Yeah. So the the the rules are open and we don't say you need it needs to be like that or like that. We listen to the way it was last World Cup. Maybe you want to change or they want to tweak a a few game rules, but we start from there. We propose a design or a mockup. So like a prototype that they can run through and give validation. It's really so we we create the design based on the brand brand guidelines. We create the design, we get the And then we start putting it together from on from our game engine. Uh and that can be very quickly I would say from the go of the design it can be like two or four weeks and creating the design it's like two weeks. So within two months you have the product ready for UAT and testing and so on.
+
+**Rodrigo / Patricia:** Um because we are quite we are like in one month it will be kind of you know um closed getting closed.
+
+**Octavian:** Yeah. So so such a game you you don't want to launch it in uh in in June. It needs to be ready in May.
+
+**Rodrigo / Patricia:** Uh it needs to be ready in May. So it needs two two months of development. So I would say March and April.
+
+**Octavian:** Um
+
+**Rodrigo / Patricia:** and have the the capacity to to support the 10 million users or 20
+
+**Octavian:** capacity it's just it's cloud infrastructure and it's um yeah uh yes it's um it's cloud functions so it's not it's not a single server these are cloud functions that are um so that's why I'm saying it's a different architecture than um smaller customers it's it's maybe a bit more setup work and more comp complexity but then you you you have scale by design. So the way it works if you have more example 1 million people concurrent um then there will be much more instances of the functions being triggered um of course your your your costs will uh will increase but yeah
+
+**Rodrigo / Patricia:** okay and since we're we're designing from scratch I believe that um Custom rules can also be manageable.
+
+**Octavian:** Yeah.
+
+**Rodrigo / Patricia:** Yeah. So if we want to, for example, let's say we have a a sponsor the project that wants to participate with us at at the the game. So um usually
+
+**Octavian:** create a public league general public league and we can create a public from the sponsor or if the for example we have
+
+**Rodrigo / Patricia:** a retailer sponsor that has a loyalty program and we have the information that um I don't know 1 million um users are part of this loyalty program and being that part of that loyalty program they have um more chances of winning prizes and whatever so they can participate in a special league and all of that. So that's totally possible.
+
+**Octavian:** Yeah. So usually we start once uh once we've been selected or have an engagement with with customer or an agreement we start with an ideation plan where we um lay out the KPIs. The we we discuss why do they want to make a fantasy game? What's important for them? Uh is it direct revenue? Is it indirect revenue? Is it having repeated visits on their application? Is it session time? Really like those kinds of business KPIs. And then we try to link those business KPIs to in-game features. For example, the batting game that I just showed earlier. um they want to have repeat visits to the platform. So repeat visits multiple times a week. If you would do a prediction game where you have the calendar and you can enter the predictions, you do this once a week and you're done, you know. So we changed that to okay, you can see two days. You can see today and tomorrow and then you see the next day revealed soon. and then 24 hours later you have an additional match. Just brings more people three or four times in a week. No. So that's why I'm saying we're different than than maybe other competitors because they would say, "Oh yeah, we have a prediction game. It's here. It's that much." And you know, um we tried to start with the KPIs because you can't have twice the same game. Even I mean in Belgium we have the two largest media corporations that are both both cost customer here. Um, and yet they have different games because yeah, you couldn't make Yeah. Depends on the rules that each and the business what they want. Yeah. And then in terms of sponsorship integration that's also an interesting one um because there we we we also can discuss more technical things like um single sign on do you have data? Do you know data? Can you enhance data and user profiles? Um, for example, in the Netherlands for for DPG media in the Netherlands, they had last summer uh it was women's euro um and they had a collaboration with um uh yeah the the national um football team. So um they shared the data of the users with with the national football team and they had the after the login a few questions to enhance profiles. So all those things are possible. Um also single sign on we do out um and open ID connect implementations usually. U so we that's also important for GDPR that we don't store any user data. Um we just um authenticate the user via your server the customer single sylon uh and then we store only yeah prediction data or fantasy data.
+
+**Rodrigo / Patricia:** Okay. And and based on on what I said earlier prizes how does it work? Um for example if we want to um give every day uh small prizes depending on the the users that had the most prediction. right? Or we want to give a big prize to the winner of the public league at the end of the World Cup. Is that somehow implied in the the system?
+
+**Octavian:** Yeah. So, um the the design is always custom made. So, if we say okay, it's a it's a price we need to integrate it in the landing page. We can integrate it in the pages and other pages. So, the people really can see what they can Okay. Now, um we also need to think about prices because if you say you want to give a price every day and you have 10 million people, out of the 10 million people, you may have 100 people that make the same prediction, which is correct. So there again, it's it's it's it's a bit of collaboration and and really talking and discussing also with customer what they really want. Do they want to Because how are you going if you have one price per day, how are you going to to divide the price? Uh sometimes it makes more sense definitely if you already have those large numbers to give one very big prize for the very big winner, you know.
+
+**Rodrigo / Patricia:** Yeah. I mean, we're probably working with different uh prize tires, for example. We will have big prizes, but we will have smaller prizes as well also to to for the what you said for the engagement, right? The daily um engagement to log in and and participate in something or having um customizable missions during the day. Uh different missions u for example um I don't know we can have a a special prediction in a in a specific game or someone in the media company wants to um can influence something that was is going to happen in the game in the next week. I don't know. We still we're working a lot in the idea ideas, but the the what I mean uh is since we have different pri prizes um different tires that how can we actually communicate and show us show um the winners and how how is that calculated? Um How is um how can we
+
+**Octavian:** every time the Yeah. Every time a football match finishes, we have workers on the background that will calculate the leaderboards. Yeah. Um you have maybe a general leaderboard, but you also have a league leader leaderboard or a brand leaderboard or a monthly leaderboard. Those are all leaderboards that are calculated um rankings that are calculated after every new result comes in. Um, so we know, okay, here's the leaderboard and we can then display based on the ranking the price next to the name of the of the winner. So, for example, Octavian was first, he wins a PlayStation, but Leo was second, he wins uh, I don't know, an iPhone and so on.
+
+**Rodrigo / Patricia:** Okay. But we we can have uh different rankings. at the same time, right?
+
+**Octavian:** Yeah. Yeah. That's that's the whole purpose. Yeah. And if you say, "Okay, we want to open them up. People can make their own rankings with friends or people can make their own rankings for for the company or you can say, "Oh, no, we don't allow this." Or we we create rankings for different brands that are sponsors. And then you can join those leagues being a user specifically for that brand. And that brand can communicate directly their own league. and say, "Oh, join our league because in or league you can win this price and it also creates uh advertisement opportunities for the customer."
+
+**Rodrigo / Patricia:** What you're saying is that you have the capability and you are open to customize a lot of features uh inside the the web application, right?
+
+**Octavian:** Yes. I wouldn't even call it customization because a lot of of those things are already in our game engine. So, for example, just to give an Example in those type of leagues for example you have a broadcaster um right holders for the world cup and they say create your fantasy team no prediction but fantasy this time uh and uh join the game and in the game you can play against VIP players like football players TV presenters and so on and you see their name with their team and their points and you see yourself you it's a special leaderboard with only VIPs and yourself. Okay, so without any clutter or only but yeah that next to that you also have the general. Why? Because when you have 1 million players and you're 300,000 and so on, it doesn't tell you anything. It's like, okay, why should I play?
+
+**Rodrigo / Patricia:** But if you are playing and you're like third in the in the VIP league, you try, you know, with your co-workers. Yeah.
+
+**Octavian:** Exactly. Maybe you have a chance.
+
+**Rodrigo / Patricia:** Yeah. And if if it just let me dig a little bit deeper here. If we going back to the to the loyalty u program example, right? Um let's say that um if you are a participant of this loyalty program, you have um some benefits that people that are not from the loyalty don't have. Uh so it's kind of a segment, right? You're inside a segment of of players which which is like active in the loyalty program and that means that you can create your own publicly for example. Is that possible?
+
+**Octavian:** Yeah, that's possible because means that you can have different millions of different publicly.
+
+**Rodrigo / Patricia:** Yeah.
+
+**Octavian:** So, but that's more in fantasy usually. Uh those types of feature are more in fantasy but it can be included in prediction game as well. So, for example, we have the premium package um some time ago for a customer where you would pay I don't know 10 or 20 euros and then for a whole season so it was a football league and then um you could create your own leagues with friends and you would get more statistics so you would see more statistics to help you pick the best players um you could upload custom badges you could create your own logo or your uh fantasy team. So all those things are also possible. Um
+
+**Rodrigo / Patricia:** do you have by any chance uh a list of of all these examples and features that you already have inside or
+
+**Octavian:** uh yes and no. Um um like I said it's not the way we work like okay here is the list you pick and oh you pick this oh it's it's €5,000 oh you pick this it's it's that much like we we we start what makes sense what does the customer need if if it makes sense yeah then we need to do it because then it will be successful uh and we it's it's it's not like I bought the car and when you go to the dealership and you want yeah some option. Oh, they they ask you you need to pay additional. Um it doesn't make sense. We want to create the best game for the customer and to to so he he can be happy because either way um for us it will be beneficial uh because we have our game engine and the features unluded. Obviously if the customer says I want everything then we can do it but we will lose and the customer will lose because just putting Everything as a feature will be will be we call this a Frankenstein product. It will be like Frankenstein.
+
+**Rodrigo / Patricia:** Yes, we called it Frankenstein too. But but u so you you going to build uh together with us the the idea and the features for this product, right?
+
+**Octavian:** Yeah. So uh I think yeah I think the way forward is within your project. Once you selected the collaborator to uh include your collaborator with talks with the customer and have him yeah make the the prototype. I think working with the prototype definitely when you you talk you you're with m multiple parties it makes more sense to create a prototype that they can sign off and see then create contracts and put lists and and tables and excels.
+
+**Rodrigo / Patricia:** Yeah. Because they will they will understand some else. Everybody will but if you see it then there is no um there's no discussion and we do that okay it takes more time and effort from us in the beginning but yeah we've been in business for 10 years and we've been working like that for almost 10 years because we see if we don't do that we will lose more time later because then they will change oh yeah but we actually meant this and it's not that and no if you have a prototype it's clear they saw it and um yeah.
+
+**Rodrigo / Patricia:** Yeah, it makes sense. If you understand the the objectives, it's easier to define the product and then just make what it has to to do. Basically, I think that the best way here for for us to work is that we we must define internally with our client what we understand the the ideal business. the ideal um game that we want to develop and then we share it with you.
+
+**Octavian:** Exactly. And if you have everything
+
+**Rodrigo / Patricia:** Yeah. And if you have questions or doubts, then we can jump in a call and discuss them and validate and see.
+
+**Octavian:** Okay. Because like for example, we did the the boxing game um last month. Uh like yesterday we had like a a final call with the with the legal team and the legal team was was writing the rules, you know, and are really trying to have the exact wording in the that but it was much more easier because we already had the prototype, we already had the game working. So, we could go back in the game and think, okay, um this feature works like this. So, for example, if you have uh two people scoring the same amount of points, who will get the price? And then we could say, okay, we can do this or we can do that. And then the legal team decided and and it was clear.
+
+**Rodrigo / Patricia:** So if we deliver um for you the the ideas with the rules, a document and also maybe a prototype um to that yes that you can rely on and understand the timing and prices and everything else we can um
+
+**Octavian:** Yeah. So but the prototype only happens once we Yeah. went We discussed the budget and we get a formal approval. So
+
+**Rodrigo / Patricia:** yeah. Yeah. No, I mean even so first we decide on the scope
+
+**Octavian:** on the scope. The scope is usually for us is mostly how many users and what type of game will it be? We don't need to know every feature. If you want to have two features or 20 features, doesn't matter. We'll build 20 features. It's okay because what matters or pricing I mean uh I can even give you a ballpark estimate it be will be around €100,000 for 10 million users because we also include um the the server infrastructure and setup in AWS we uh we do the design we do the support uh we it can always be discussed in terms of of the support because there we will need to hire somebody and and Brazil probably to do the support, but um that leaves plenty of room for um for doing a quality project. We can't do this for 10,000.
+
+**Rodrigo / Patricia:** Um that's the pricing that we do when we have like 10,000 users or 20,000 users, but when we're speaking of millions, that's that's the price range.
+
+**Octavian:** Um so yeah. That is the price range. million million, but it's also not less than uh
+
+**Rodrigo / Patricia:** Yeah. Yeah. Perfect. And and and also besides the this capex, do you have a a subscription fee or an opex that we have to keep continue paying or it's all in the
+
+**Octavian:** Yes. So, so usually we have a setup cost, but the setup cost here is marginal since um since it's a larger project in terms of users. Um and then yeah this um so um it's a license price. So um if you say after that we want to do next world cup you would still pay more or less the same but that's in four years. So but again it's it's also um a business discussion and a financial discussion. If you want to continue and do other games, then obviously the the pricing will change. We won't double the pricing. We can always give discounts if it's more or less the same game. Uh it it can be done almost at cost. We don't need to take margins and so on. So because you have customers that been uh customers for for eight years, uh sometimes they say, "Okay, we discuss the pricing for three years and then you have the license for three years. We give a discount on on every sub. subsequent year. Um, so that's also possible. But here I understood it was for the World Cup. So we can always start with the World Cup. If you say, "Okay, we want we want actually to be sure um for a long-term project." Then obviously you can discuss a long-term project. It will be around the same figure. It will be around uh unless you say, "Okay, this game is only 100,000 people that will play it."
+
+**Rodrigo / Patricia:** Yeah. I mean, I mean it the the the fir the first our first um prize is for the World Cup. That that's right. But as as Patricia said, we have our client has um the the rights also for the National League that it starts January and ends on December. So of course we won't have this this National League until the the beginning to the end.
+
+**Octavian:** Yeah. Maybe After the World Cup, we would be interested in going or maybe or maybe um interact further with you guys to start next year. That's something like that.
+
+**Rodrigo / Patricia:** Yeah. But that's also a prediction game or is it a fantasy game?
+
+**Octavian:** A prediction game.
+
+**Rodrigo / Patricia:** Prediction. And also for the female world cup in next year.
+
+**Octavian:** Female World Cup. It's it's something that will be much smaller.
+
+**Rodrigo / Patricia:** Yeah. will be so you can't have the same pricing there will be much cheaper
+
+**Octavian:** yeah but the the products uh they will be ready so yeah I don't know how how so that's that's why I'm say in those cases we can work at cost we can say okay um it's that many days support from our site uh that that many days of setup and you just pay that if it's a larger game and you also want some change requests and and new features and so on, we can it can be discussed.
+
+**Rodrigo / Patricia:** Okay. And so have have you already made a prediction um game for the the World Cup for any company or
+
+**Octavian:** Yeah. So last year we did the the female world cup uh no not world cup euros it's yeah. Yeah. No. World Cup he didn't but now we actually um will do a World Cup game for a for a prediction game in Belgium um but I think it will be a bit a bit different than uh what you are looking for it won't be the same game never is but it will also be smaller because it's a it's a newspaper publisher it's not a large um
+
+**Rodrigo / Patricia:** okay yeah but none none of the prediction games that you you did until now they had like million users.
+
+**Octavian:** No. Yeah. No, that's true. That's true. I mean I'm not here to uh to to bluff or anything but yeah the the thing is that we are active and much um yeah much more um fragmented market.
+
+**Rodrigo / Patricia:** Yeah we see also in the geopolitics now the fragmentation in Europe.
+
+**Octavian:** We are a bit on the Unfortunately. Yeah. Yeah. From the big uh we also big. We're big but we are we are all on our you know on our smaller markets and yeah that's that has um yeah as inconvenient. No the largest database that we have is maybe 300,000 players. Um so but we also did fantasy and fantasy is also like the largest fantasy game in in the world I think. has 13 million users. It's a Premier League. Um
+
+**Rodrigo / Patricia:** but yeah, the Brazilian market and football and a prediction game. Yeah, it's uh it's logical that it's that big.
+
+**Octavian:** Yeah. Yeah. The Brazilian population is 200 million. So
+
+**Rodrigo / Patricia:** yeah. So it's almost the whole European population and there is no company that's in whole Europe. There's no one. We all have different languages. Even in Belgium, we have three languages. We speak three languages and and and there is only 10 million people.
+
+**Rodrigo / Patricia:** Yeah. My sister lives in the Netherlands. So it's right next to you.
+
+**Octavian:** Yeah. So so actually our biggest com customers is also in the Lenderlands. It's a DPG media which is a large newspaper publisher. Um so yeah good.
+
+**Rodrigo / Patricia:** Okay. Okay. I think from from my side I don't have further questions. You know if you No, for me it's okay.
+
+**Octavian:** Yeah, I'll try to share the recording with you. So, I'm going to stop it now. Uh, yes. Okay.
