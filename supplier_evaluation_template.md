@@ -15,17 +15,6 @@
 - [ ] **Strategy for 10M Concurrent Users (5 mins before game):**
   > `[DESCRIBE STRATEGY]`
 - [ ] **Maximum Simultaneous Users Tested:** `[ENTER NUMBER]`
-- [ ] **Maximum Predictions per Minute Handled:** `[ENTER NUMBER]`
-- [ ] **Stress Tests Performed for Last-Minute Prediction Windows?** (Yes/No): `[ ]`
-
-**Load Testing Methodology:**
-- [ ] **How Is Load Testing Performed?**
-  > `[DESCRIBE METHODOLOGY]`
-- [ ] **Tools & Simulation Models Used:** `[LIST TOOLS]`
-- [ ] **Recent Load Test Evidence Provided?** (Yes/No): `[ ]`
-- [ ] **Can Provide Load Test Reports?** (Yes/No): `[ ]`
-- [ ] **Can Provide Performance Benchmarks?** (Yes/No): `[ ]`
-- [ ] **Can Provide Real Event Case Studies?** (Yes/No): `[ ]`
 
 **Infrastructure & Platforms:**
 - [ ] **Auto-scaling Infrastructure?** (Yes/No): `[ ]`
@@ -92,7 +81,7 @@
 - [ ] **LGPD/GDPR Compliant?** (Yes/No): `[ ]`
 - [ ] **Data Residency Country:** `[ENTER COUNTRY]`
 - [ ] **Certifications (ISO, SOC, etc.):** `[LIST]`
-- [ ] **Penetration Test Report Available?** (Yes/No): `[ ]`
+
 
 **Age Verification & Youth Safety (13+ Users):**
 - [ ] **Age Verification Flow:**
@@ -175,7 +164,6 @@
 
 **Real-time API:**
 - [ ] API for Live Data Display? (Yes/No)
-- [ ] Real-time Prediction Counts? (Yes/No)
 
 - **Observations:**
   > `[ENTER QUALITATIVE NOTES]`
@@ -275,8 +263,6 @@
 - [ ] Exclusive Partner Areas? (Yes/No)
 - [ ] Track Record with Media/Sponsors? (Yes/No)
 
-**Analytics:**
-- [ ] **Analytics (GA4/GTM) Integration:** (Yes/No): `[ ]`
 
 - **Observations:**
   > `[ENTER QUALITATIVE NOTES]`
@@ -288,8 +274,6 @@
 *Focus on user re-engagement and communication ownership.*
 
 **Notification Channels:**
-- [ ] **Official WhatsApp API Integration:** (Yes/No): `[ ]`
-- [ ] **Customizable Transactional Emails:** (Yes/No): `[ ]`
 - [ ] **Web Push Notifications:** (Yes/No): `[ ]`
 - [ ] **Email Automation:** (Yes/No): `[ ]`
 
@@ -306,12 +290,8 @@
 ## 12. Social Sharing & Virality
 *Focus on organic growth and viral content generation.*
 
-- [ ] **Dynamic Ranking Image Generation:** (Yes/No): `[ ]`
-- [ ] **Referral System (Invite Links):** (Yes/No): `[ ]`
-- [ ] **Deep Linking Support:** (Yes/No): `[ ]`
 - [ ] **Native Sharing Features?** (Yes/No): `[ ]`
-- [ ] **Social League Dynamics?** (Yes/No): `[ ]`
-- [ ] **Viral Content Generation Tools?** (Yes/No): `[ ]`
+- [ ] **Social Platforms Supported for Sharing User Answers / Status:** `[LIST PLATFORMS]`
 
 - **Observations:**
   > `[ENTER QUALITATIVE NOTES]`
@@ -319,33 +299,11 @@
 
 ---
 
-## 13. AI Feature Capabilities
-*Focus on leveraging AI as a differentiator.*
-
-**Potential AI Use Cases:**
-- [ ] Automated Score Predictions? (Yes/No): `[ ]`
-- [ ] Reminder Intelligence? (Yes/No): `[ ]`
-- [ ] Behavioral Personalization? (Yes/No): `[ ]`
-- [ ] Fraud Detection? (Yes/No): `[ ]`
-- [ ] Dynamic Engagement Prompts? (Yes/No): `[ ]`
-
-**AI Assessment:**
-- [ ] **Vendor Already Supports AI Features?** (Yes/No): `[ ]`
-- [ ] **AI Is Proprietary or Third-Party?** `[ENTER TYPE]`
-- [ ] **Can Custom AI Use Cases Be Developed?** (Yes/No): `[ ]`
-
-- **Observations:**
-  > `[ENTER QUALITATIVE NOTES]`
-- **Block Rating (1-5):** `[ ]`
-
----
-
-## 14. Geo-Restriction Capabilities
+## 13. Geo-Restriction Capabilities
 *Focus on control over geographic participation.*
 
 - [ ] **Registration Restricted to Brazilian Users Only?** (Yes/No): `[ ]`
 - [ ] **Restriction by Specific IP Ranges?** (Yes/No): `[ ]`
-- [ ] **Phone Number Validation for Geo-Restriction?** (Yes/No): `[ ]`
 
 - **Observations:**
   > `[ENTER QUALITATIVE NOTES]`
@@ -353,7 +311,7 @@
 
 ---
 
-## 15. Roadmap & Evolution Capacity
+## 14. Roadmap & Evolution Capacity
 *Focus on agility and future updates.*
 
 - [ ] **Can Close Dedicated Roadmap for Cup?** (Yes/No): `[ ]`
@@ -363,7 +321,6 @@
     - Setup Technical: `[ ]`
     - Customization: `[ ]`
     - Go-Live: `[ ]`
-- **Update Frequency (Weeks):** `[ENTER NUMBER]`
 
 - **Observations:**
   > `[ENTER QUALITATIVE NOTES]`
@@ -371,7 +328,7 @@
 
 ---
 
-## 16. Commercial, Contractual & Financial Risk
+## 15. Commercial, Contractual & Financial Risk
 *Focus on cost structure, lock-in risks, and financial predictability.*
 
 **Cost Structure:**
@@ -399,7 +356,7 @@
 
 ---
 
-## 17. Team, Experience & References
+## 16. Team, Experience & References
 *Focus on supplier maturity.*
 
 - [ ] **Years in Market:** `[ENTER NUMBER]`
