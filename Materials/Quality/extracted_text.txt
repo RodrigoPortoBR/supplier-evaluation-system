@@ -1,0 +1,1519 @@
+--- PAGE 1 ---
+ 
+ 
+Omni55 – Cazé TV 
+Desenvolvimento Aplicação Wen - Bolão Digital  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 2 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+2  
+SUMÁRIO  
+ 
+ 
+Sumário 
+OBJETIVO DA PROPOSTA ................................................................................................................. 4 
+SOBRE NÓS .................................................................................................................................................. 5 
+NOSSOS CLIENTES  ................................................................................................................................ 9 
+DIGITAL BUSINESS | IT OPTIMIZATION | AUTOMATION .......................................... 9 
+DIGITAL COMMERCE ........................................................................................................................ 9 
+ESCOPO ........................................................................................................................................................ 10 
+CORE BOLÃO (CADASTRAR LIGA + PALPITES) ............................................................. 11 
+REGRAS DE PONTUAÇÃO ........................................................................................................... 13 
+ENCERRAMENTO DE RODADAS E REPROCESSAMENTO ................................... 13 
+INTEGRAÇÃO COM DADOS OFICIAIS OPTA / FONTE OFICIAL)........................ 13 
+ESCOPO TÉCNICO DA INTEGRAÇÃO MVP ...................................................................... 13 
+INTEGRAÇÃO COM OPTA (MEDIANTE CONTRATAÇÃO/LICENCIAMENTO 
+E DOCUMENTAÇÃO OFICIAL). ................................................................................................. 14 
+VISUALIZAÇÃO DE BENEFÍCIOS POR LIGA ................................................................... 14 
+MISSÕES BÁSICAS - QUIZ DIÁRIO ......................................................................................... 15 
+ARQUITETURA .......................................................................................................................................... 16 
+STACK E ARQUITETURA (MVP - ALTA ESCALABILIDADE) ................................... 16 
+CMS STRAPI .......................................................................................................................................... 20 
+OBSERVABILIDADE MVP ............................................................................................................. 21 
+CRONOGRAMA DE ALTO NÍVEL.............................................................................................. 21 
+PLANEJAMENTO DE CAPACIDADE ...................................................................................... 21 
+PREMISSAS E BACKLOG INICIAL ................................................................................................ 22 
+PLANEJAMENTO DE CAPACIDADE .................................................................................... 24 
+INFRAESTRUTURA EM NUVEM E CUSTOS ASSOCIADOS.................................... 25 
+FORA DO ESCOPO ........................................................................................................................... 25 
+RESPONSABILIDADES ................................................................................................................. 26 
+
+--- PAGE 3 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+3  
+RISCO DE ALTA VOLUMETRIA DE ACESSOS ................................................................ 28 
+RISCO DE INTEGRAÇÕES CRÍTICAS OPTA E SPONSORS) .................................. 29 
+RISCO DE ESCALABILIDADE DE INFRAESTRUTURA ............................................. 29 
+RISCO REPUTACIONAL ................................................................................................................ 30 
+INVESTIMENTO ......................................................................................................................................... 31 
+INFORMAÇÕES IMPORTANTES SOBRE A OPERAÇÃO .............................................. 32 
+CONSIDERAÇÕES FINAIS ................................................................................................................ 35 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 4 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+4  
+ 
+OBJETIVO DA PROPOSTA  
+Desenvolver uma plataforma digital proprietária da CazéTV, voltada à 
+criação do maior bolão digital da Copa do Mundo 2026, combinando 
+futebol, gamificação, conteúdo, comunidade e benefícios patrocinados.  
+O objetivo é construir um ativo digital próprio, escalável e reutilizável pós-
+Copa, que permita:  
+ 
+● Engajamento recorrente da audiência  
+● Conversão de usuários base para usuários premium patrocinados  
+● Monetização via sponsors  
+● Construção de uma base de dados estratégica e proprietária  
+ 
+O produto não será uma ação promocional nem white-label, mas sim um 
+software proprietário desenvolvido sob medida para a CazéTV. 
+ 
+O QUE É 
+ 
+O Bolão CazéTV é uma plataforma digital onde o usuário: 
+ 
+● Cria sua conta ou realiza login 
+● Escolhe participar da Liga CazéTV (base) ou da Liga Premium (ex: 
+Clube iFood) 
+● Dá palpites nos jogos da Copa 
+● Acompanha ranking em tempo real 
+● Visualiza resultados oficiais (via integração com OPTA 
+● Participa de missões e concorre a premiações 
+ 
+O produto combina: 
+ 
+● Motor de regras e pontuação 
+● Sistema de ligas públicas e privadas 
+● Ranking global e por liga 
+● Benefícios patrocinados 
+● Camada evolutiva de inteligência artificial (fase 02) 
+
+--- PAGE 5 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+5  
+Trata-se de um produto digital proprietário, vivo e contínuo, com potencial 
+de expansão para outros eventos esportivos e ativações futuras. 
+ 
+TIPO DE PROJETO 
+ 
+Estimativa de Investimento 
+ 
+Trata-se de um projeto de desenvolvimento de software proprietário, cuja 
+estimativa de investimento está baseada nas informações consolidadas até 
+o momento. 
+Ressaltamos que esta iniciativa ainda possui pontos técnicos e funcionais 
+que necessitam de validação conjunta com o cliente, sendo fundamental a 
+realização de alinhamentos adicionais para: 
+ 
+● Consolidação definitiva do escopo funcional 
+● Validação da arquitetura e stack tecnológica 
+● Definição detalhada das integrações com parceiros Opta, Sponsors, 
+etc.) 
+● Confirmação de premissas técnicas, volumetria e critérios de 
+performance 
+● Alinhamento de requisitos de segurança, governança e compliance 
+ 
+A estimativa apresentada considera o cenário macro atualmente discutido, 
+podendo sofrer ajustes após a formalização e validação comercial dos 
+requisitos finais. 
+Lançamento para COPA - Go live deve acontecer em 04 de Maio. 
+SOBRE NÓS 
+Fundada em 1989 na matriz do RJ, com filiais em SP, PR, México, NYC e 
+Barcelona, listada na B3 - BOVESPA MAIS, a Quality Software S.A. - QUSW3 
+- acelera os negócios digitais de seus clientes com Outsourcing Operações 
+de TI, desenvolvimento e integração de software, com plataformas de 
+produtividade, e-commerce, GRC e equipes de profissionais experientes, 
+criativos e certificados. 
+ 
+RELAÇÃO COM INVESTIDORES - QUALITY S/A 
+
+--- PAGE 6 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+6  
+A prestação de contas, a equidade e a transparência são pilares 
+fundamentais que orientam nossos valores corporativos e práticas 
+empresariais. Nosso compromisso com a governança responsável se reflete 
+em uma estrutura sólida de governança corporativa, respaldada por 
+acionistas estratégicos e instituições de renome, como o BNDES 
+Participações e o fundo de investimentos Invest Tech. Para mais 
+informações, acesse nossa página de Relações com Investidores: 
+https://ri.quality.com.br 
+ 
+JORNADA DE CRESCIMENTO 
+Como parte de sua estratégia contínua de expansão e consolidação no 
+mercado de tecnologia, a Quality Digital vem avançando de forma 
+consistente por meio de aquisições estratégicas e do fortalecimento de suas 
+competências digitais. Um marco importante dessa trajetória foi a 
+conclusão, no início de 2022, da aquisição da ACCT Global — operação 
+aprovada pelo CADE —, referência em desenvolvimento front-end, UX/UI e 
+reconhecida como líder no quadrante da plataforma de e-commerce VTEX, 
+além de certificada como Great Place to Work. 
+A integração da ACCT Global ao ecossistema da Quality Digital 
+potencializou ainda mais a capacidade de entrega da companhia, 
+unificando talentos especializados em engenharia de software, arquitetura 
+de soluções e desenvolvimento full stack. Essa sinergia resultou na 
+consolidação de um verdadeiro one-stop shop digital, capaz de oferecer 
+soluções ponta a ponta para transformação digital. O portfólio ampliado 
+contempla experiências digitais escaláveis, multicanal, omnichannel, 
+headless e híbridas, com alto grau de personalização e integração, 
+atendendo às demandas crescentes de negócios hiperconectados e 
+orientados por dados. 
+Adicionalmente, a Quality Digital vem expandindo sua atuação em 
+Inteligência Artificial, com o desenvolvimento e implementação de soluções 
+baseadas em IA generativa, machine learning e automação inteligente de 
+processos (IPA – Intelligent Process Automation). Esses serviços estão sendo 
+aplicados em diversas frentes, como personalização de jornadas digitais, 
+análise preditiva de dados, assistentes virtuais, detecção de fraudes e 
+otimização de operações. A empresa tem trabalhado ativamente com 
+clientes de diferentes setores para acelerar a adoção responsável e 
+estratégica de IA, sempre com foco em geração de valor, eficiência 
+operacional e vantagem competitiva sustentável. 
+
+--- PAGE 7 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+7  
+ 
+INTELLIGENCE DRIVEN INNOVATION 
+Aceleramos negócios por meio de tecnologia de fronteira, inovação e 
+soluções digitais de alto impacto 
+Na Quality Digital, promovemos a aceleração digital com tecnologias 
+emergentes e arquiteturas de alta performance, desenvolvendo soluções 
+end-to-end que conectam estratégia, design de experiência e impacto 
+direto nos resultados de negócio. Nossa abordagem combina inovação, 
+inteligência de mercado e excelência técnica para impulsionar a jornada 
+digital de nossos clientes. 
+Com um portfólio completo e modular, identificamos com precisão os 
+pontos de aceleração do seu desafio. Planejamos e entregamos soluções 
+sob medida, com agilidade, escalabilidade e aderência ao budget e ao time-
+to-market, sempre focados em gerar valor real e sustentável. Atuamos 
+como um parceiro estratégico na construção de jornadas digitais bem-
+sucedidas, 
+transformando 
+desafios 
+complexos 
+em 
+cases 
+de 
+alto 
+desempenho. 
+Inovação com foco em pessoas e produtividade inteligente 
+Acreditamos que o sucesso sustentável está diretamente ligado à nossa 
+capacidade de engajar pessoas e criar ambientes que impulsionam a 
+inovação. Para isso, desenvolvemos plataformas que aumentam a 
+produtividade por meio da automação inteligente de processos, reduzindo 
+tarefas repetitivas e liberando o potencial humano para iniciativas de maior 
+valor estratégico. 
+
+--- PAGE 8 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+8  
+Essa visão nos permite acelerar o desenvolvimento de produtos digitais 
+integrados, centrados na experiência do usuário, potencializando os 
+resultados de negócios e tornando a transformação digital uma realidade 
+prática e escalável. Nosso compromisso é entregar tecnologia que gera 
+impacto, empodera equipes e move empresas para o futuro. 
+ 
+ 
+
+--- PAGE 9 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+9  
+NOSSOS CLIENTES  
+DIGITAL BUSINESS | IT OPTIMIZATION | AUTOMATION 
+ 
+DIGITAL COMMERCE 
+ 
+ 
+ 
+ 
+
+--- PAGE 10 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+10  
+ESCOPO 
+ 
+O MVP deverá garantir funcionamento completo da jornada principal do 
+usuário:  
+ 
+Autenticação e Perfil  
+ 
+Permitir que o usuário crie uma conta CazéTV de forma rápida e segura para 
+acessar o Bolão, habilitando o cadastro/login e a classificação automática de 
+liga pública Base ou Premium), quando aplicável.  
+ 
+Inclui:  
+ 
+● Cadastro (campos, validações e criação de conta)  
+● Login (e-mail + senha)  
+● Recuperação de senha (“Esqueci minha senha”)  
+● Proteções de segurança (rate limit e bloqueio por tentativas)  
+● Consentimentos LGPD Aceite Termos, Opt-in marketing opcional, 
+Consentimento sponsor)  
+● Nome de exibição (apelido) para ranking público (recomendado)  
+● Fluxo de validação de premium sponsor (quando existir integração) 
+Cadastro para entrada na Liga CazéTV 
+ 
+Consentimentos e LGPD Checkboxes) 
+ 
+● Implementar registro básico de consentimentos no momento do 
+cadastro, com persistência em banco de dados para fins de auditoria. 
+● Registrar todos os consentimentos com: 
+✓ user_id 
+✓ timestamp 
+✓ versão do termo 
+✓ IP 
+● Aceito os Termos de Uso do Bolão e a Política de Privacidade; 
+● Autorizo receber comunicações da CazéTV sobre o Bolão; 
+● Autorizo o compartilhamento de dados estritamente necessários 
+com sponsors premium, quando aplicável - opcional. 
+ 
+Liga Premium  
+
+--- PAGE 11 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+11  
+A plataforma será concebida desde o MVP com arquitetura e modelo de 
+dados preparados para operação em modelo sponsor, contemplando:  
+ 
+● Estrutura de classificação de usuário Base vs Premium)  
+● Parametrização de ligas públicas distintas por sponsor  
+● Regras de elegibilidade e vinculação de usuário a sponsor_id  
+● Suporte a múltiplos sponsors futuros (modelo escalável)  
+ 
+Entretanto, a integração com iFood ou qualquer outro sponsor ficará 
+condicionada à formalização da parceria e à disponibilização de 
+documentação técnica adequada, incluindo:  
+ 
+● API de validação de status do usuário  
+● Modelo de autenticação  
+● Payloads e critérios de elegibilidade  
+● Ambiente de testes (sandbox)  
+● SLA mínimo de disponibilidade 
+ 
+Na ausência desses requisitos até o Go Live, o produto permanecerá 
+plenamente operacional com usuários direcionados à Liga CazéTV Base, 
+mantendo-se preparado para ativação posterior da Liga Premium. 
+ 
+Observações Técnicas Importantes  
+ 
+● A validação deve ser assíncrona e resiliente, evitando bloqueio de 
+login em caso de indisponibilidade do sponsor.  
+● Implementar timeout e retry policy para chamadas externas. 
+●  Registrar logs de integração para auditoria.  
+● Revalidação é recomendada para evitar manutenção indevida de 
+status premium após cancelamento do sponsor.  
+ 
+CORE BOLÃO (CADASTRAR LIGA + PALPITES)  
+ 
+➢ Ligas Privadas Core Social do Produto)  
+ 
+A plataforma deverá permitir que usuários criem e participem de ligas 
+privadas, possibilitando competição entre amigos, grupos de trabalho ou 
+comunidades específicas.  
+ 
+ 
+
+--- PAGE 12 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+12  
+Criação de Liga Privada  
+ 
+● Usuário (preferencialmente Premium, conforme regra de negócio) 
+poderá:  
+✓ Criar nova liga privada  
+✓ Definir nome da liga  
+● Entrada na liga via:  
+✓ Link direto  
+✓ Inserção manual de código  
+ 
+Gestão da Liga (MVP simplificado)  
+ 
+● Criador poderá:  
+✓ Visualizar ranking da própria liga  
+ 
+● Não haverá:  
+✓ Gestão de premiação interna  
+✓ Gestão e aprovação de usuários (aprovação manual)  
+✓ Cobrança financeira  
+ 
+Convite e Compartilhamento  
+ 
+● Geração automática de:  
+✓ Link único da liga  
+✓ Código de convite  
+ 
+➢ Palpites (predição de placar)  
+ 
+A plataforma deverá permitir que o usuário realize palpites de placar para 
+todos os jogos da competição Copa, com foco em experiência simples e 
+rápida (web responsiva). 
+ 
+O fluxo contempla: 
+ 
+● Listagem de jogos por fase/grupo e acesso rápido aos jogos do dia.  
+● Registro de palpite por partida (placar A x B, com confirmação e 
+persistência. 
+● Janela 
+de 
+envio/edição 
+de 
+palpite 
+até 
+um 
+horário 
+limite 
+parametrizável (ex.: X minutos antes do início da partida), garantindo 
+integridade do jogo.  
+
+--- PAGE 13 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+13  
+● Persistência de palpites com histórico por usuário e por partida. 
+● Indicador de progresso (ex.: “X% dos jogos já palpitados”) para 
+estimular completude e recorrência. 
+ 
+REGRAS DE PONTUAÇÃO 
+ 
+A plataforma deverá implementar um motor de regras de pontuação 
+(server-side) capaz de calcular pontos por partida e consolidar o total do 
+usuário por: 
+ 
+● Acerto exato do placar (ex.: 2x1) 
+● Acerto do vencedor/resultado (vitória/empate/derrota, conforme 
+regra definida) 
+● Empate (quando aplicável) 
+ 
+ENCERRAMENTO DE RODADAS E REPROCESSAMENTO 
+ 
+Para garantir integridade, o sistema deve: 
+ 
+● Encerrar automaticamente a possibilidade de palpitar/editar após o 
+horário limite da partida. 
+● Após ingestão do resultado oficial, executar o reprocessamento 
+automático da pontuação daquela partida (e demais dependências) 
+e refletir: 
+✓ pontuação individual do usuário 
+✓ ranking das ligas Base/Premium, quando aplicável) 
+ 
+INTEGRAÇÃO COM DADOS OFICIAIS OPTA / FONTE OFICIAL) 
+ 
+A plataforma deverá integrar com uma fonte oficial de resultados OPTA ou 
+equivalente) para garantir: 
+● Atualização automática dos placares 
+● Disponibilidade de resultados confiáveis para cálculo de pontuação 
+● Atualização do ranking em tempo adequado após o fim dos jogos 
+ 
+ESCOPO TÉCNICO DA INTEGRAÇÃO MVP 
+ 
+● Serviço de ingestão de dados (polling e/ou webhook, conforme o 
+provedor oferecer) 
+● Normalização e persistência de: 
+
+--- PAGE 14 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+14  
+✓ partidas, status (scheduled/live/finished), placar final 
+● Gatilho de reprocessamento de pontuação após resultado final 
+confirmado 
+● Atualização do ranking 
+ 
+INTEGRAÇÃO COM OPTA (MEDIANTE CONTRATAÇÃO/LICENCIAMENTO 
+E DOCUMENTAÇÃO OFICIAL). 
+ 
+Ranking 
+ 
+● Ranking geral por liga pública 
+● Ranking de ligas privadas 
+● Atualização baseada em resultados oficiais (integração OPTA - 
+mediante contratação/licenciamento e documentação oficial. 
+ 
+CMS Collection - Página de Benefícios 
+ 
+A Página de Benefícios será gerida via CMS headless Strapi ou equivalente), 
+permitindo autonomia editorial, escalabilidade e atualização dinâmica de 
+conteúdo sem necessidade de deploy técnico. 
+ 
+A página de benefícios terá como finalidade: 
+ 
+● Explicar de forma clara como funciona o Bolão 
+● Destacar as diferenças entre experiência Base e Premium 
+● Incentivar recorrência de acesso 
+● Estimular conversão para sponsor (quando existir integração ativa) 
+ 
+Essa página será um elemento estratégico de retenção e crescimento 
+orgânico do produto. 
+ 
+VISUALIZAÇÃO DE BENEFÍCIOS POR LIGA 
+ 
+A plataforma deverá disponibilizar uma área dedicada à apresentação dos 
+benefícios do bolão, organizados por tipo de usuário: 
+ 
+ 
+ 
+
+--- PAGE 15 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+15  
+Liga CazéTV (Base) 
+ 
+Exibição clara de: 
+ 
+● Participação gratuita 
+● Palpites em todos os jogos 
+● Acesso ao ranking geral 
+● Criação/participação em ligas privadas (conforme regra de negócio 
+definida) 
+ 
+Liga Premium Sponsor-Driven) 
+ 
+Quando houver sponsor ativo (ex.: Clube iFood), a página deverá destacar: 
+ 
+● Participação na Liga Premium exclusiva 
+● Diferenciação de visibilidade no ranking 
+● Possíveis benefícios adicionais (ex.: mais ligas privadas, estatísticas 
+adicionais, etc.) 
+● Comunicação clara de que o status premium depende de validação 
+com o sponsor 
+ 
+A seção Premium será apresentada como “Em breve” ou “Benefícios 
+exclusivos para membros parceiros”, sem ativação funcional. 
+ 
+MISSÕES BÁSICAS - QUIZ DIÁRIO 
+ 
+Somente UI placeholder (ex.: card “Quiz diário — em breve”) + CMS 
+gerenciando texto 
+Qualquer vínculo com premiação oficial ficará condicionado à Fase 02 
+(regulamentação e operação). 
+ 
+ 
+ 
+
+--- PAGE 16 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+16  
+ARQUITETURA 
+ 
+ 
+ 
+STACK E ARQUITETURA (MVP - ALTA ESCALABILIDADE) 
+ 
+Frontend (Web Responsiva) 
+ 
+A solução será implementada como aplicação web responsiva (mobile-first) 
+em Next.js React, priorizando performance e alta capacidade de entrega via 
+CDN. 
+Hospedagem sugerida: Vercel (com distribuição global e cache no edge). 
+ 
+Backend (API Core do Bolão) 
+ 
+
+--- PAGE 17 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+17  
+O backend será desenvolvido em NestJS Node.js/TypeScript), executando 
+em containers com auto scaling em AWS ECS Fargate, garantindo 
+elasticidade frente a picos de acesso. 
+ 
+Responsabilidades do backend: 
+ 
+● Autenticação e perfil 
+● Ligas (pública e privadas) e membership 
+● Palpites (criação/edição até o lock time) 
+● Leitura de jogos e resultados 
+● Leitura de ranking (via cache - Redis) 
+● Registro básico de consentimentos LGPD) no cadastro 
+ 
+Banco de Dados (Transacional) 
+ 
+Persistência em Aurora PostgreSQL AWS, com arquitetura MultiAZ para alta 
+disponibilidade. 
+O banco será a fonte de verdade para usuários, ligas, palpites, jogos e 
+resultados normalizados. 
+ 
+Integrações Externas 
+ 
+Para garantir consistência tecnológica e reduzir complexidade operacional 
+no MVP, as integrações externas serão implementadas com serviços 
+containerizados em AWS ECS Fargate, separando claramente dois tipos de 
+integração: 
+➢ OPTA = dados de jogo 
+➢ Sponsor = identidade/eligibilidade 
+ 
+➢ Integridade e Atualização de Resultados - OPTA = dados de jogo 
+ 
+A plataforma terá como premissa a utilização de resultados oficiais como 
+fonte única de verdade para cálculo de pontuação e consolidação de 
+ranking, 
+garantindo 
+integridade, 
+transparência 
+e 
+consistência 
+da 
+competição. 
+A atualização dos resultados será automatizada e desacoplada do fluxo de 
+usuário, assegurando que: 
+ 
+● Palpites não possam ser alterados após o encerramento oficial da 
+partida; 
+
+--- PAGE 18 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+18  
+● A pontuação seja recalculada de forma automática e idempotente; 
+● O ranking das ligas (pública e privadas) reflita exclusivamente dados 
+oficiais; 
+● O sistema mantenha rastreabilidade técnica dos eventos de 
+atualização. 
+ 
+Integração de Resultados Oficiais OPTA — Data Ingestion Fargate) 
+ 
+A plataforma contará com um serviço de integração dedicado (container 
+em Fargate) responsável por coletar resultados e eventos de partidas junto 
+ao provedor oficial. 
+ 
+Comportamento no MVP: 
+ 
+● Execução por polling controlado, acionado por agendamento ou 
+rotina de job do próprio serviço. 
+● O polling será acionado por EventBridge Scheduler (ex.: a cada X 
+minutos, com intensificação próximo do horário dos jogos) 
+● O serviço consulta a OPTA, normaliza os payloads e persiste os dados 
+no modelo interno PostgreSQL. 
+● Após persistir o resultado final de uma partida, o serviço dispara o 
+processamento assíncrono (via fila SQS) para: 
+o reprocessar pontuação daquela partida 
+o atualizar ranking por liga Redis 
+ 
+➢ Integração Sponsor (iFood Clube) — Eligibility Check Fargate) 
+ 
+A arquitetura do MVP será sponsor-ready, contemplando desde o início: 
+● classificação de usuário (Base/Premium) 
+● vinculação por sponsor_id 
+● suporte a múltiplos sponsors futuros 
+ 
+Entretanto, a ativação da integração com sponsor (ex.: iFood Clube) ficará 
+condicionada à formalização da parceria e à disponibilização de insumos 
+técnicos, incluindo: 
+● API de validação de status (premium true/false) 
+● autenticação e credenciais 
+● payloads/atributos necessários (e-mail/telefone; CPF somente se 
+exigido e juridicamente validado) 
+● ambiente de testes (sandbox) e SLA mínimo 
+
+--- PAGE 19 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+19  
+ 
+Comportamento (sem bloquear login): 
+ 
+● Após cadastro/login, o backend Fargate) executa uma chamada de 
+elegibilidade ao sponsor apenas quando a integração estiver ativa 
+(feature flag). 
+● A chamada terá timeout curto e política de fallback: 
+o sucesso premium=true → usuário é classificado como Premium e 
+direcionado à Liga Premium do sponsor 
+o premium=false ou erro/timeout → usuário segue como Base Liga 
+CazéTV, sem bloqueio de acesso 
+ 
+Mensageria e Processamento Assíncrono 
+ 
+Será adotado AWS SQS com DLQ como camada de desacoplamento do 
+pipeline OPTA → pontuação → ranking, garantindo resiliência a picos e 
+evitando acoplamento entre ingestão de dados oficiais e a experiência do 
+usuário. 
+O SQS será utilizado para enfileirar eventos críticos do domínio, incluindo: 
+ 
+● Atualização de resultado oficial de partida OPTA ou fonte equivalente) 
+● Reprocessamento de pontuação por partida (idempotente) 
+● Atualização de ranking por liga (materialização em Redis) 
+ 
+Worker de Pontuação Fargate) 
+ 
+Serviço assíncrono dedicado, executando em ECS Fargate, responsável por 
+consumir eventos do SQS referentes a atualização de resultados oficiais e, a 
+partir disso: 
+● calcular/recalcular pontuação por partida de forma idempotente 
+● persistir pontuação no Aurora PostgreSQL 
+● atualizar o ranking materializado no Redis Sorted Sets) por liga 
+ 
+Cache e Ranking (Alta Leitura) 
+ 
+Para suportar alto volume de leituras e ranking em escala, será utilizado 
+Redis AWS ElastiCache) para: 
+● Cache de fixtures/jogos TTL 
+● Cache de dados frequentes (perfil, ligas) 
+
+--- PAGE 20 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+20  
+● Ranking por liga usando Sorted Sets, reduzindo carga no banco 
+relacional 
+ 
+CMS STRAPI 
+ 
+Para permitir gestão ágil e independente de conteúdo institucional e 
+estratégico do produto (ex.: Página de Benefícios, explicação de regras, 
+diferenciação Base vs Premium, banners, destaques e comunicações), será 
+adotado Strapi (Headless CMS). 
+ 
+Papel do CMS no MVP 
+O Strapi será responsável por: 
+● Gestão da Página de Benefícios 
+● Conteúdo explicativo de: 
+o Como funciona o Bolão 
+o Regras de pontuação 
+o Diferença entre Liga Base e Liga Premium 
+● Banners promocionais (ex.: sponsor ativo) 
+● Textos institucionais e comunicados 
+● Flags de comunicação (ex.: “Premium em breve”) 
+ 
+O CMS não será responsável por regras de negócio,ranking, palpites ou 
+pontuação. 
+ 
+Integração com CMS 
+ 
+● Strapi rodando como serviço containerizado em AWS ECS Fargate 
+● Banco próprio do Strapi PostgreSQL dedicado ou schema isolado no 
+Aurora) 
+● API REST (ou GraphQL) consumida pelo frontend Next.js 
+ 
+Fluxo 
+ 
+➢ Conteúdo é gerenciado via painel administrativo do Strapi 
+➢ Frontend consome conteúdo via API 
+➢ Conteúdo pode ser cacheado no edge Vercel para alta performance 
+ 
+Segurança e Conformidade 
+ 
+
+--- PAGE 21 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+21  
+Garantir que a plataforma do Bolão opere de forma segura,resiliente e 
+aderente às boas práticas de proteção de dados, reduzindo riscos de 
+indisponibilidade em picos de acesso, prevenindo abusos (bots/ataques) e 
+assegurando confidencialidade e rastreabilidade mínima para conhecido 
+compliance (incluindo LGPD) 
+● WAF + rate limit nas rotas críticas (login, palpite) 
+● TLS end-to-end 
+● Secrets Manager para credenciais e tokens OPTA/sponsor) 
+● Criptografia at-rest Aurora/Redis) 
+● Logs sem dados sensíveis (masking - ex.: CPF, e-mail completo, 
+telefone) 
+ 
+OBSERVABILIDADE MVP 
+ 
+Monitoramento mínimo essencial via CloudWatch Logs e CloudWatch 
+Metrics, com: 
+● Logs estruturados JSON) e correlation-id 
+● Dashboards e alertas para: 
+o RPS por rota (/predict, /ranking) 
+o p95/p99 latency 
+o taxa de erro 4xx/5xx 
+o backlog SQS (depth) 
+o tempo de processamento de pontuação 
+o saúde do Aurora (conexões/slow queries) 
+o cache hit ratio Redis 
+ 
+CRONOGRAMA DE ALTO NÍVEL 
+ 
+ 
+ 
+PLANEJAMENTO DE CAPACIDADE  
+ 
+A definição de arquitetura, dimensionamento e custos de infraestrutura 
+dependerá da validação conjunta com o Cliente quanto à estimativa de:  
+● Base total de usuários Percentual esperado de usuários ativos 
+simultaneamente  
+● Crescimento projetado durante o evento  
+● Estratégia de comunicação e campanhas previstas  
+
+--- PAGE 22 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+22  
+ 
+A ausência dessas informações pode comprometer a precisão do 
+dimensionamento técnico e financeiro. 
+PREMISSAS E BACKLOG INICIAL 
+ 
+➢ Escopo MVP (entrega mínima funcional) 
+ 
+● Será implementado um MVP com foco em viabilizar a jornada 
+principal do usuário ponta a ponta: cadastro/login, participação em 
+ligas, registro de palpites, ingestão de resultados oficiais, cálculo de 
+pontuação e ranking. 
+● Funcionalidades fora do caminho crítico e/ou que aumentem risco de 
+prazo serão tratadas como Fase 2. 
+ 
+➢ Canal de entrega 
+ 
+● A solução será desenvolvida como aplicação web responsiva (mobile-
+first), acessível via navegador. 
+● Não haverá desenvolvimento de aplicativo nativo (iOS/Android) no 
+MVP. 
+ 
+➢ Funcionalidades explicitamente fora do MVP 
+ 
+Não haverá: 
+ 
+● Busca (search) na plataforma. 
+● Estatísticas avançadas (ex.: insights por usuário, análises detalhadas, 
+comparativos complexos). 
+● Recursos de IA/LLM (ex.: “oráculo”, recomendações automáticas, 
+semantic search, assistente de palpites). 
+● Premiações e mecânicas reguladas (sorteios, números da sorte, 
+distribuição de prêmios), salvo conteúdo informativo na Página de 
+Benefícios. 
+● Missões/quiz funcionais (no máximo, placeholder visual e textos via 
+CMS, se mantido como conteúdo). 
+ 
+
+--- PAGE 23 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+23  
+➢ Integrações externas e dependências 
+ 
+● OPTA (ou fonte oficial equivalente) é premissa para automação de 
+resultados e atualização de ranking. Caso não esteja disponível no 
+prazo, 
+será 
+necessário 
+fallback 
+operacional 
+(carga 
+manual 
+administrativa do resultado final) para manter o MVP funcional. 
+ 
+● Sponsor (ex.: iFood Clube): o MVP será sponsor-ready (modelo 
+Base/Premium e sponsor_id), porém a ativação da integração 
+depende de: 
+o disponibilização de API/documentação, credenciais e ambiente 
+de testes, 
+o alinhamento técnico e comercial com o parceiro, 
+o e validações jurídicas (ex.: uso de CPF somente se exigido e 
+aprovado). 
+o Na indisponibilidade da integração sponsor, o sistema opera com 
+fallback Base, sem bloquear login. 
+ 
+➢ CMS e conteúdo 
+ 
+● A Página de Benefícios e conteúdos institucionais serão geridos via 
+CMS headless Strapi ou equivalente). 
+● O CMS não executa regras de negócio (pontuação, ranking, 
+elegibilidade, palpites); apenas conteúdo. 
+ 
+ 
+➢ Arquitetura e elasticidade 
+ 
+● A arquitetura do MVP será construída para suportar picos de acesso 
+com: 
+o serviços em containers AWS ECS Fargate), 
+o banco gerenciado Aurora PostgreSQL, 
+o cache/ranking Redis, 
+o mensageria 
+SQS) 
+para 
+desacoplamento 
+do 
+pipeline 
+de 
+resultados → pontuação → ranking. 
+● O detalhamento fino de sizing (capacidade, limites e thresholds) será 
+validado após discovery técnico e levantamento de volumetria. 
+ 
+➢ Segurança e LGPD MVP essencial) 
+ 
+
+--- PAGE 24 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+24  
+● Serão implementados controles mínimos necessários: 
+o consentimentos LGPD básicos no cadastro (com auditoria 
+mínima: user_id, timestamp, IP, versão), 
+o rate limit/WAF nas rotas críticas, 
+o criptografia at-rest, secrets management e logs sem dados 
+sensíveis. 
+● Políticas avançadas (ex.: jornada completa de exclusão automatizada, 
+portal de privacidade completo, trilhas extensas) podem ser evoluídas 
+após o MVP, conforme exigência final. 
+ 
+➢ Estimativas para desenvolvimento 
+ 
+A presente proposta representa uma visão estimada de investimento para 
+implementação do MVP, considerando o escopo funcional e técnico 
+atualmente definido. 
+Por se tratar de um projeto com dependências externas (ex.: integrações 
+com OPTA e sponsor), além de pontos ainda sujeitos a aprofundamento em 
+discovery (regras finais, volumetria, integrações e requisitos não funcionais), 
+os valores e estimativas poderão sofrer ajustes conforme: 
+● Evolução e detalhamento do escopo; 
+● Validação técnica das integrações externas; 
+● Confirmação de requisitos jurídicos e regulatórios; 
+● Alterações de prioridade ou inclusão/exclusão de funcionalidades; 
+● Necessidade de adequações arquiteturais decorrentes de volumetria 
+ou performance. 
+Qualquer mudança relevante de escopo será formalmente analisada e 
+refletida em revisão de estimativa, cronograma e investimento, mediante 
+alinhamento entre as partes. 
+ 
+PLANEJAMENTO DE CAPACIDADE 
+ 
+A definição de arquitetura, dimensionamento e custos de infraestrutura 
+dependerá da validação conjunta com o Cliente quanto à estimativa de: 
+● Base total de usuários 
+● Percentual esperado de usuários ativos simultaneamente 
+● Crescimento projetado durante o evento 
+● Estratégia de comunicação e campanhas previstas 
+A ausência dessas informações pode comprometer a precisão do 
+dimensionamento técnico e financeiro. 
+ 
+
+--- PAGE 25 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+25  
+INFRAESTRUTURA EM NUVEM E CUSTOS ASSOCIADOS 
+ 
+A contratação da infraestrutura em nuvem Cloud necessária para suportar 
+a solução proposta, incluindo todos os seus respectivos serviços (compute, 
+storage, banco de dados, mensageria, CDN, segurança, monitoramento, 
+licenciamento 
+e 
+demais 
+componentes 
+técnicos), 
+será 
+de 
+inteira 
+responsabilidade do Cliente. 
+ 
+Caberá ao Cliente: 
+● Realizar a contratação direta do provedor de nuvem escolhido; 
+● Gerenciar os contratos e faturamentos junto ao provedor; 
+● Arcar integralmente com todos os custos recorrentes e variáveis 
+decorrentes da utilização dos serviços; 
+● Garantir 
+disponibilidade 
+financeira 
+para 
+provisionamento, 
+escalabilidade e operação do ambiente; 
+● Disponibilizar os acessos necessários à equipe da Quality para 
+implementação técnica da solução. 
+● Data de Go Live 
+o Premissa de lançamento do MVP: até 04 de maio, condicionada 
+à 
+disponibilidade 
+dos 
+insumos 
+críticos 
+(especialmente 
+integração de resultados e acessos/ambientes). 
+ 
+FORA DO ESCOPO 
+ 
+➢ Produto e Funcionalidades 
+● Desenvolvimento de aplicativo nativo (iOS/Android). 
+● Funcionalidade de busca (search) na plataforma. 
+● Estatísticas avançadas de desempenho por usuário, comparativos 
+detalhados ou análises históricas complexas. 
+● Recursos de IA/LLM, incluindo: 
+o Oráculo ou sugestão automática de placares; 
+o Recomendação inteligente baseada em comportamento; 
+o Busca semântica. 
+● Sistema 
+completo 
+de 
+premiações 
+regulamentadas, 
+sorteios, 
+distribuição automática de prêmios ou números da sorte. 
+● Gamificação avançada (insígnias, níveis, badges evolutivos). 
+● Ativações físicas ou integrações offline (ex.: eventos presenciais). 
+● Gestão financeira, cobranças ou split de premiações. 
+● Painel administrativo completo (exceto o mínimo necessário para 
+fallback de resultado, se aplicável). 
+
+--- PAGE 26 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+26  
+ 
+➢ Integrações 
+ 
+● Integrações sponsor além da validação básica de elegibilidade 
+(premium true/false). 
+● Integrações complexas com múltiplos parceiros simultaneamente. 
+● Integração com CRM/CDP corporativo. 
+● Integração com ferramentas de marketing automation. 
+● Integração com gateways de pagamento. 
+ 
+➢ Infraestrutura e Operação 
+ 
+● Ambientes adicionais além de Dev / Staging / Produção padrão. 
+● Estratégia multi-região ou disaster recovery avançado (além de 
+MultiAZ do banco). 
+● Observabilidade avançada com tracing distribuído completo (ex.: 
+OpenTelemetry full stack). 
+● Estratégia avançada de FinOps e otimização contínua de custos. 
+ 
+➢ Evoluções Futuras Fase 2 
+ 
+● Missões completas (quiz funcional com impacto real). 
+● Sistema oficial de números da sorte vinculado a premiações. 
+● Estatísticas avançadas por liga. 
+● IA aplicada à recomendação ou engajamento. 
+● Expansão internacional ou multi-idioma. 
+ 
+RESPONSABILIDADES 
+ 
+Cliente Cazé TV 
+ 
+O cliente será responsável por garantir todas as condições necessárias para 
+viabilização do projeto. 
+ 
+➢ Governança e Decisão 
+ 
+● Indicar um Stakeholder responsável Product Owner ou Sponsor) com 
+autonomia para: 
+o Tomar decisões funcionais 
+o Validar entregas 
+
+--- PAGE 27 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+27  
+o Priorizar backlog 
+o Aprovar mudanças 
+● Garantir disponibilidade do stakeholder ao longo do projeto. 
+ 
+➢ Ambientes e Infraestrutura 
+ 
+● Disponibilizar: 
+o Ambientes necessários 
+o Acessos técnicos 
+o Credenciais 
+o Domínios 
+o Certificados 
+● Aprovar políticas de segurança necessárias. 
+ 
+➢ APIs e Integrações de Terceiros 
+ 
+● Disponibilizar documentação técnica oficial e atualizada das APIs: 
+o Sponsors 
+o Opta 
+o Parceiros comerciais 
+● Garantir que as APIs estejam: 
+o Ativas 
+o Estáveis 
+o Com SLA definido 
+● Viabilizar suporte técnico junto aos parceiros integrados. 
+➢ Contratos com Parceiros 
+ 
+● Formalizar contratos diretamente com: 
+o Sponsors 
+o Opta 
+o Demais parceiros tecnológicos ou comerciais 
+● Garantir que: 
+o A Quality tenha acesso autorizado às APIs 
+o Licenças estejam ativas 
+o Custos de terceiros estejam sob responsabilidade do cliente 
+ 
+Quality 
+ 
+
+--- PAGE 28 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+28  
+A Quality será responsável pelo desenvolvimento da solução proprietária 
+para o cliente Cazé TV, com foco em performance, escalabilidade, 
+governança. 
+ 
+● Definir e documentar a arquitetura da solução (frontend, backend, 
+integrações e infraestrutura). 
+● Desenvolvimento do backend da aplicação. 
+● Desenvolvimento do frontend (web e/ou mobile, conforme escopo). 
+o Desenvolver conectores para integração com: 
+o APIs de patrocinadores 
+o API Opta (dados esportivos, quando aplicável) 
+o Plataformas terceiras definidas no escopo 
+o Condução técnica do projeto. 
+o Planejamento de entregas (roadmap / sprints). 
+o Documentação técnica da solução. 
+● A Quality não será responsável por: 
+o Instabilidades nas APIs de terceiros 
+o Custos de licenciamento de parceiros 
+o Custos de cloud ou serviços em nuvem 
+o Custos de consumo de infraestrutura; 
+o Variações de preço decorrentes de uso, volumetria, picos de 
+acesso ou escalabilidade; 
+o Multas, encargos ou reajustes aplicados pelo provedor de nuvem; 
+o Obrigações contratuais entre o Cliente e o provedor de cloud. 
+Eventuais recomendações técnicas de arquitetura e dimensionamento 
+realizadas pela Quality não configuram responsabilidade sobre custos 
+operacionais ou financeiros da infraestrutura contratada. 
+● Mudanças de escopo deverão seguir processo formal de change 
+request. 
+ 
+➢ Volumetria e Alta Concorrência Período de Copa) 
+ 
+Considerando o contexto de alta visibilidade e concentração de acessos 
+durante o período da Copa, recomenda-se a análise antecipada dos 
+seguintes riscos operacionais e técnicos, visando garantir estabilidade, 
+performance e continuidade da solução. 
+ 
+RISCO DE ALTA VOLUMETRIA DE ACESSOS 
+ 
+
+--- PAGE 29 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+29  
+Durante partidas de maior relevância (ex.: jogos do Brasil, fases 
+eliminatórias, finais), é esperado aumento exponencial de: 
+● Acessos simultâneos à plataforma 
+● Picos de autenticação 
+● Submissões simultâneas de palpites 
+● Atualizações de ranking em tempo real 
+● Acionamentos de benefícios patrocinados 
+Sem dimensionamento adequado, esses picos podem gerar: 
+● Lentidão na aplicação 
+● Timeout em integrações externas 
+● Sobrecarga de banco de dados 
+● Backlog excessivo em filas 
+● Degradação da experiência do usuário 
+ 
+RISCO DE INTEGRAÇÕES CRÍTICAS OPTA E SPONSORS) 
+ 
+Integrações com parceiros externos podem sofrer: 
+● Latência elevada em picos globais 
+● Instabilidade de APIs 
+● Limitações de rate limit 
+● Timeout em requisições síncronas 
+É fundamental avaliar: 
+● SLA formal dos parceiros 
+● Estratégia de retry/backoff 
+● Fallback funcional 
+● Processamento assíncrono quando aplicável 
+ 
+ 
+RISCO DE ESCALABILIDADE DE INFRAESTRUTURA 
+ 
+A volumetria estimada deve considerar: 
+● Usuários simultâneos por minuto 
+● Requisições por segundo RPS 
+● Crescimento orgânico durante o torneio 
+● Possíveis ativações de mídia ou campanhas patrocinadas 
+Recomenda-se: 
+● Definição de cenários de carga (normal, pico moderado, pico 
+extremo) 
+● Testes de stress e carga antes do Go Live 
+● Configuração de auto scaling 
+
+--- PAGE 30 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+30  
+● Monitoramento ativo durante jogos 
+ 
+RISCO REPUTACIONAL 
+ 
+Durante a Copa, a exposição da marca é ampliada. Eventuais falhas técnicas 
+podem impactar: 
+● Percepção da experiência do usuário 
+● Entregas a patrocinadores 
+● Reputação digital 
+● Confiança na plataforma 
+Mitigação recomendada: 
+● Estrutura de plantão dedicada em dias de jogos críticos 
+● War room operacional 
+● Monitoramento em tempo real 
+● Plano de contingência documentado 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- PAGE 31 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+31  
+INVESTIMENTO 
+ 
+➢ Desenvolvimento Aplicação 
+ 
+Prazo de Desenvolvimento 
+2 meses 
+Investimento Total 
+R$ 444.205,98 
+ 
+Custos com CMS Strapi e Infraestrutura não estão contemplados, deverão ser 
+contratados diretamente pela OMNI55. 
+ 
+➢ Sustentação – Copa do Mundo (45 dias) 
+ 
+Prazo de Desenvolvimento 
+45 dias 
+Investimento Total 
+R$ 182.571,52 
+ 
+ 
+Condições de Pagamento 
+ 
+● Entrada: Após a formalização da contratação da presente proposta, a 
+CONTRATADA 
+realizará 
+o 
+primeiro 
+faturamento 
+cujo 
+valor 
+corresponde 
+a 
+15% 
+do 
+valor 
+total 
+do 
+projeto. 
+O valor faturado na primeira emissão será abatido dos valores 
+mensais das últimas faturas da alocação. Ainda, em caso de rescisão 
+antes do abatimento acima definido, os valores não serão devolvidos 
+ao CONTRATANTE. 
+ 
+● Mensalidade: As faturas mensais serão enviadas apresentando o 
+Custo Total do Squad, que se refere a cada um dos recursos alocado 
+no squad dentro do período. Os valores a serem considerados para 
+faturamento mensal ocorrerão de acordo com a senioridade dos 
+profissionais no alocados no mês de competência da prestação do 
+serviço, sempre observando o orçamento acordado entre as partes. 
+ 
+● Vencimento: As faturas mensais terão o pagamento com vencimento  
+no prazo de 30 dias a partir da data de envio. 
+ 
+
+--- PAGE 32 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+32  
+● Reforma tributária: Os preços apresentados nesta proposta foram 
+determinados com base no regime tributário atual. Caso ocorram 
+alterações na legislação que modifiquem os impostos incidentes 
+sobre os valores apresentados, estes poderão ser ajustados, a critério 
+da Quality, para mais ou para menos, com antecedência mínima de 
+60 (sessenta) dias. 
+ 
+INFORMAÇÕES IMPORTANTES SOBRE A OPERAÇÃO 
+ 
+ALOCAÇÃO EM TEMPO INTEGRAL E TEMPO PARCIAL 
+ 
+Alocação 
+em 
+Tempo 
+Integral 
+(FTE): 
+esse 
+recurso 
+foi 
+alocado 
+exclusivamente à empresa e não alocado a nenhum outro projeto ou 
+cliente. Uma alocação em tempo integral sempre será cobrada como custo 
+total de forma independente, mesmo que a empresa tenha utilizado 
+parcialmente o recurso. 
+ 
+Nível de uso excedido em tempo parcial (PTE): se uma das alocações em 
+tempo parcial obtiver um nível de uso por mês superior a 84 horas, o recurso 
+será cobrado como tempo integral no mês determinado. 
+ 
+Nível de uso excedido em tempo parcial (MTE): se uma das alocações em 
+tempo parcial obtiver um nível de uso por mês superior a 42 horas, o recurso 
+será cobrado como tempo parcial no mês determinado. 
+ 
+ 
+GERENCIAMENTO DE ALOCAÇÃO 
+ 
+Início de projeto - Kick-Off: a fase de alocação Quality leva até 30 a 45 dias 
+a partir da assinatura do contrato (MSA) e/ou Carta de Intenções (LOI). O 
+Kick-off é quando o serviço de desenvolvimento ágil começa com os 
+integrantes da equipe trabalhando para a empresa, gerando sua cobrança 
+nas faturas mensais. 
+ 
+Disponibilidade: novas solicitações de recursos serão disponibilizadas ao 
+contratante mediante disponibilidade. Os profissionais necessários serão 
+alocados ao squad mediante disponibilidade e aprovação da Quality.  
+
+--- PAGE 33 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+33  
+ 
+Aviso de 30 dias: Para adicionar ou remover profissionais full-time ou part-
+time em um squad, os contratantes devem notificar a Quality com 30 dias 
+de aviso prévio por escrito. Após a solicitação ser concluída, o gerente de 
+conta responsável pela conta iniciará o processo de definição do escopo e 
+solicitação da nova adição ou liberação de alocação, atualizando a proposta 
+e todos os instrumentos financeiros. 
+ 
+INFORMAÇÕES ADICIONAIS 
+ 
+Investimento em mídia: O investimento em mídia, bem como a 
+implementação de ferramentas adicionais, produção e edição de vídeo, 
+impressão 
+de 
+material 
+gráfico 
+e 
+outras 
+mídias 
+off-line 
+são 
+de 
+responsabilidade do contratante. 
+ 
+Despesas de viagem: As despesas de transporte e acomodação de 
+profissionais, caso solicitadas pela contratada, são de responsabilidade da 
+contratada. 
+ 
+Horas extras: Em casos raros e excepcionais, onde por algum motivo as 
+circunstâncias exigem trabalho após o expediente, esta atribuição só 
+acontecerá se o cliente e os líderes do squad Quality aprovarem. O trabalho 
+após o expediente de qualquer profissional Quality gerará uma cobrança 
+adicional de 100% do valor/hora de cada perfil profissional que realizar horas 
+extras. 
+ 
+FERRAMENTAS DE ATENDIMENTO AO CLIENTE 
+ 
+Controle do Repositório: Gitlab preferencial - a Quality terá o controle do 
+Repositório e o cliente terá acesso para visualizar. Se houver um especialista 
+da Tech lead do cliente, a Tech lead terá acesso total ao repositório. 
+ 
+Código fonte: o cliente terá acesso aos códigos fonte ao longo de todo o 
+processo. Os códigos-fonte serão entregues ao repositório selecionado e de 
+propriedade total da empresa contratante no final de cada entrega e/ou 
+sprint. 
+ 
+Abertura de tickets e controle de tarefas: somos capazes de nos adaptar 
+às preferências do cliente. Criamos para todo cliente um Slack exclusivo 
+(canal privado por cliente) para todas as interações entre as equipes. 
+
+--- PAGE 34 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+34  
+ 
+ 
+RESPONSABILIDADE DOS CLIENTES 
+ 
+● Product Owner: O cliente deve indicar uma pessoa para atuar como 
+Product Owner (PO) responsável pelo projeto, com autonomia para 
+tomar decisões e orientar o projeto. Esta pessoa deve estar sempre 
+disponível para as avaliações necessárias ao projeto, bem como para 
+a própria formação e transferência de cultura para os demais 
+integrantes da empresa. 
+ 
+Meu Product Owner (PO) está pronto? 
+Conforme mencionado na primeira parte, no PO é fundamental estar 
+envolvido com o elenco ágil. Para considerar se o seu PO interno está 
+pronto para integrar o Squad Quality, as principais tarefas desta posição 
+são: 
+● Facilita a dinâmica de descoberta. 
+● Cria e monitora OKR, KPI e indicadores de negócios (ROI e etc). 
+● Responsável por criar e monitorar o roadmap do projeto. 
+● Escreva histórias de usuário usando Template e INVEST. 
+● Priorização e sanitização do Backlog do produto. 
+● Apresentação e compartilhamento de conhecimento de user stories 
+para o plantel. 
+● Pesquisa de informações ausentes nas histórias de usuários após o 
+refinamento. 
+● Verificar se todas as histórias da próxima caixa de equipe estão de 
+acordo com o DoR do time. 
+● Participar de todas as cerimônias de seleção. 
+● Apresenta as entregas contínuas do plantel ao cliente, cruzando o 
+roadmap com os sprints. 
+● Apresenta e negocia mudanças no Sprint Backlog e na estrutura do 
+Squad  com a ajuda do Agilist. 
+● Alinhamento entre PO e gerente de programa. 
+ 
+ 
+● Acesso a informações e sistemas: para atingir os objetivos e 
+entregas do projeto, o cliente deve fornecer aos profissionais de 
+Quality acesso a todas as plataformas, sistemas e aplicativos 
+considerados relevantes para configuração, desenvolvimento e coleta 
+de dados. 
+
+--- PAGE 35 ---
+Proposta Nº (101876) 
+CLASSIFICAÇÃO DA INFORMAÇÃO: USO INTERNO 
+CONFIDENCIAL 
+ 
+35  
+CONSIDERAÇÕES FINAIS 
+ 
+● Validade da Proposta: essa proposta tem a validade até o final de seu 
+trimestre corrente ou 30 dias, o qual for de maior extensão. No topo 
+superior direito de cada uma das páginas desta proposta tem sua 
+validade explícita. Após esta data deverá ser solicitada nova proposta 
+atualizada, a qual pode sofrer atualizações de preços e termos aqui 
+descritos. 
+ 
+● Contrato(MSA), Aditivos e Anexos: essa proposta não é um 
+instrumento jurídico. Ela tem a função estritamente comercial de 
+apresentação e oferta de nossos serviços a empresas interessadas em 
+contratar nossos serviços. A aprovação desta proposta irá gerar um 
+contrato, que chamamos de MSA (Master Service Agreement), que 
+carregará em seus aditivos e anexos todas as condições, termos e 
+valores aqui apresentados. 
+ 
+● Service Level Agreement (SLAs) e Garantias: na Quality praticamos 
+o padrão mais alto de mercado para desenvolvimentos e entregas 
+consultivas e de software. Estas condições e número são parte de um 
+dos principais aditivos de nosso Contrato (MSA). 
+ 
+ 
+ 
+Gratos pela oportunidade de oferecer nossos serviços. 
+ 
+ 
+ 
+ 
+LOCAL / DATA DE EMISSÃO 
+Rio de Janeiro, 20 de 
+fevereiro de 2026 
+VALIDADE DA PROPOSTA  
+30 dias da emissão 
+Responsável pela proposta 
+Antonio Filgueiras 
+ 
+ 
+
