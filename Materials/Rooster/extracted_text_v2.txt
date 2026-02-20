@@ -1,0 +1,238 @@
+--- PAGE 1 ---
+ROOSTER 
+Copa do Mundo 2026
+18/FEV
+
+--- PAGE 2 ---
+01
+Contexto
+Um Projeto de 
+Missão Crítica
+Seu sucesso depende de:
+Estabilidade absoluta
+Capacidade de escalar massivamente 
+Operação contínua durante todo o evento 
+O Bolão CazéTV será um produto estratégico 
+durante a Copa do Mundo, com expectativa 
+de milhões de usuários simultâneos e 
+impacto direto na experiência da audiência.
+A Rooster propõe assumir integralmente essa 
+responsabilidade. 
+
+--- PAGE 3 ---
+02
+Escopo da Solução
+Plataforma 
+Completa de Bolão 
+A Rooster será responsável pelo desenvolvimento e evolução da plataforma.
+Sistema de palpites e rankings em tempo real
+Estrutura de ligas públicas e privadas 
+Gamificação, missões e benefícios 
+Integrações com parceiros
+IA de sugestões e estatísticas 
+
+--- PAGE 4 ---
+03
+Equipe Dedicada
+Estrutura Full-Time Alocada
+Para garantir estabilidade e resposta imediata, a Rooster alocará uma equipe 
+multidisciplinar exclusiva composta por aproximadamente 7 profissionais full-time.
+Time
+Tecnologia 
+(4 profissionais)
+Desenvolvimento, performance, 
+monitoramento e 
+escalabilidade da plataforma.
+cobertura
+Operação e Produto 
+(3 profissionais)
+Interface direta com a CazéTV, 
+ajustes operacionais contínuos 
+e suporte técnico. 
+plantão
+SUPORTE 
+(CONTÍNUO)
+Durante dias de jogos, haverá 
+regime de plantão técnico 
+contínuo. 
+
+--- PAGE 5 ---
+04
+Infraestrutura
+Arquitetura 
+Enterprise e 
+Escalável 
+Auto-scaling para picos massivos 
+Balanceamento global de carga 
+Sistemas redundantes 
+Monitoramento em tempo real 
+A plataforma será construída sobre 
+infraestrutura cloud altamente resiliente, com: 
+SUPORTE PARA 
+MILHÕES DE ACESSO
+
+--- PAGE 6 ---
+04
+1 - Frentes Essenciais
+Desenvolvimento 
+e Arquitetura do 
+Produto
+Construção completa da plataforma, 
+integrações e preparação para alta escala.
+1
+
+--- PAGE 7 ---
+05
+2 - Frentes Essenciais
+Infraestrutura 
+e Preparação 
+para Escala
+Ambiente cloud resiliente, sistemas 
+redundantes e testes de performance.
+2
+
+--- PAGE 8 ---
+06
+2 - Frentes Essenciais
+Operação Full-Time 
+Durante a Copa
+Equipe dedicada, monitoramento 
+contínuo e suporte técnico imediato. 
+3
+
+--- PAGE 9 ---
+07
+Infra
+Escalabilidade, 
+Infraestrutura & Operação
+Escalabilidade e 
+Performance
+• Arquitetura cloud distribuída com auto-
+scaling horizontal e balanceamento 
+global.
+ • Plataforma projetada para escalar 
+elasticamente e suportar picos massivos 
+de audiência, podendo atingir ordem de 
+dezenas de milhões de usuários 
+simultâneos, conforme dimensionamento 
+de infraestrutura.
+ • Testes de carga contínuos realizados 
+em cenários de alta concorrência. 
+Disponibilidade
+• Target de disponibilidade alinhado a 
+padrões enterprise (~99,9%) durante 
+períodos críticos do evento.
+ • Monitoramento em tempo real e 
+redundância automática de serviços. 
+Plataformas Suportadas 
+• Web Desktop e Web Mobile totalmente 
+responsivos.
+ • Compatível com integração em 
+aplicativos iOS e Android via WebView/SDK.
+ • Aplicativos nativos podem ser avaliados 
+como evolução futura, não fazendo parte 
+do escopo atual. 
+SLA de Resposta 
+• Incidentes críticos: resposta inicial em até 
+15 minutos.
+ • Incidentes de alta prioridade: resposta em 
+até 1 hora.
+ • Escalonamento estruturado em níveis 
+operacional, técnico e infraestrutura. 
+Operação e Suporte 
+• Equipe dedicada com cobertura contínua 
+durante dias de jogos e janelas críticas.
+ • Estrutura de war-room operacional para 
+monitoramento e resposta a incidentes. 
+
+--- PAGE 10 ---
+08
+Segurança
+Segurança, Compliance & 
+Governança de Dados
+Segurança e Proteção de Dados 
+Desenvolvimento, performance, 
+monitoramento e escalabilidade 
+da plataforma.
+Proteção de Usuários 
+• Mecanismos de consentimento 
+aplicáveis a menores de idade.
+ • Controles adicionais de 
+privacidade e governança
+Propriedade e Acesso aos Dados
+• 100% dos dados gerados na 
+plataforma pertencem à CazéTV.
+ • Acesso integral à base de 
+usuários e dados 
+comportamentais.
+ • Exportação completa garantida 
+mediante solicitação.
+ • APIs disponíveis para integração 
+e extração de dados. 
+Cenário de Encerramento
+• Portabilidade integral dos 
+dados e históricos garantida ao 
+término da parceria. 
+
+--- PAGE 11 ---
+09
+Operações
+Produto, 
+Integrações & 
+Condições 
+Operacionais
+Integrações
+APIs para autenticação e SSO.
+Integração com sistemas de parceiros e bases externas mediante definição 
+técnica conjunta.
+Compatibilidade com programas de benefícios e plataformas externas. 
+Cronograma de Implementação
+Kickoff e planejamento técnico: ~2 semanas.
+Desenvolvimento e customizações: ~8–12 semanas.
+Testes de carga e preparação operacional: ~4 semanas.
+Go-live antes do início da Copa. 
+Capacidade Funcional
+Estrutura de investimento fixa, incluindo infraestrutura e operação.
+Custos não variam em função do volume de usuários.
+Níveis de serviço e condições operacionais formalizados em contrato.
+Funcionalidades
+Palpites de resultado, placar exato e 
+previsões especiais.
+Rankings globais e ligas públicas e 
+privadas.
+Gamificação, missões e benefícios.
+Atualizações em tempo próximo ao 
+real. 
+Capacidade Funcional
+Suporte a milhões de usuários 
+registrados.
+Criação ilimitada de ligas e convites via 
+link.
+Gestão administrativa e controles 
+antifraude. 
+
+--- PAGE 12 ---
+10
+Implementação
+Investimento 
+Inclui desenvolvimento da plataforma, preparação 
+de infraestrutura para alta escala e operação 
+dedicada durante toda a Copa.
+Desenvolvimento e Arquitetura do Produto
+Construção completa da plataforma, integrações e preparação para alta escala.
+Infraestrutura e Preparação para Escala
+Ambiente cloud resiliente, sistemas redundantes e testes de performance.
+Operação Full-Time Durante a Copa
+Equipe dedicada, monitoramento contínuo e suporte técnico imediato.
+R$ 1.154.000,00
+/Valor do investimento total
+50% na assinatura
+Mobilização imediata e início do desenvolvimento.
+30% antes do início da Copa
+Preparação final e planejamento operacional.
+20% após encerramento do evento
+Referente à operação completa durante toda a Copa.
+
+--- PAGE 13 ---
+OBRIGADO!
+
