@@ -8,6 +8,7 @@
 **Source Materials:**
 - Meeting Notes Summary (Gemini) – Feb 12, 2026 (4 pages)
 - Full Meeting Transcript – Feb 12, 2026 (21 pages)
+- **Genius Sports – World Cup Predictor Proposal** (Formal Proposal, 3 pages, received Feb 20, 2026)
 - Participants: Rodrigo Porto, Christian Abbonizio (Genius Sports)
 
 ---
@@ -18,21 +19,21 @@
 **Peak Performance & Proven Scale:**
 - [x] **Highest Participants Record (Single Game):** `Millions (FIFA PlayZone – millions of users playing their FIFA games)` `[Promise]`
 - [x] **Strategy for 10M Concurrent Users (5 mins before game):**
-  > `Genius confirmed they can accommodate stress tests for high concurrent user peaks, specifically mentioning 10 million concurrent users before a game starts (00:19:46). Exact infrastructure strategy not detailed in this call.` `[Promise]`
-- [ ] **Maximum Simultaneous Users Tested:** `[Not Informed]`
+  > `Genius confirmed they can accommodate stress tests for high concurrent user peaks, specifically mentioning 10 million concurrent users before a game starts (00:19:46). Proposal confirms "stress-tested infrastructure and dedicated hosting environments" for peak matchday traffic. Targeting up to 15 million registrations.` `[Promise → Proposal Confirmed]`
+- [ ] **Maximum Simultaneous Users Tested:** `[Not Informed – proposal references stress-tested infrastructure but no specific numbers]`
 
 **Infrastructure & Platforms:**
-- [ ] **Auto-scaling Infrastructure?** (Yes/No): `[Not Informed] – Infrastructure details not discussed, but implied by FIFA-scale operations`
-- [ ] **Uptime SLA (%):** `Standard SLAs for uptime confirmed (00:22:24), exact % not specified`
+- [ ] **Auto-scaling Infrastructure?** (Yes/No): `[Not Informed explicitly] – Proposal confirms "dedicated hosting environments" and "stress-tested infrastructure" handling millions of users. Implies auto-scaling but not stated verbatim.`
+- [ ] **Uptime SLA (%):** `Standard SLAs for uptime confirmed (00:22:24), exact % not specified in proposal`
 - [x] **Platforms Supported:**
-    - [x] Web Desktop `(Native web development confirmed)`
-    - [x] Web Mobile `(Mobile web view – recommended approach, used with FIFA and most partners)`
-    - [x] App iOS `(React Native app development available; however, Genius generally advises mobile web view in app instead – 00:08:37)`
-    - [x] App Android `(Same as iOS – React Native available, web view recommended)`
+    - [x] Web Desktop `(Proposal confirms: "responsive web" – primary platform)`
+    - [x] Web Mobile `(Proposal confirms: "responsive web, with the option to embed... into existing mobile applications through web view")`
+    - [x] App iOS `(Web view embed into existing app – confirmed in proposal)`
+    - [x] App Android `(Web view embed into existing app – confirmed in proposal)`
 
 - **Observations:**
-  > `Strong signal: Genius runs FIFA PlayZone at massive scale with millions of users. They explicitly confirmed ability to handle 10M concurrent users. However, specific load test reports or infrastructure architecture details (auto-scaling, cloud provider, etc.) were not discussed in this meeting. The claims are credible given FIFA reference, but concrete evidence (load test results, architecture docs) should be requested. They recommend mobile web view over native React Native builds for lower friction and easier execution.`
-- **Block Rating (1-5):** `4 [Promise – credible due to FIFA, but unverified with hard data]`
+  > `Strong signal reinforced by formal proposal: Genius runs FIFA PlayZone at massive scale with millions of users. Proposal targets "up to 15 million registrations" and confirms "enterprise-scale engagement ecosystem that supports millions of users." Infrastructure described as "stress-tested" with "dedicated hosting environments" for peak matchday traffic. Primary platform is responsive web with web view embed for mobile apps. Still missing: specific load test numbers, cloud provider details, auto-scaling architecture documentation.`
+- **Block Rating (1-5):** `4 [Promise reinforced by proposal – credible due to FIFA + enterprise positioning, but load test evidence still pending]`
 
 ---
 
@@ -139,19 +140,19 @@
 
 **Feature Coverage Assessment:**
 - [x] **Which Core Features Are Ready Out-of-the-Box?**
-  > `Prediction games, bracket challenges, trivia/quiz (always-on), leaderboards, sponsor activations, private leagues – all built before for FIFA PlayZone (00:12:03, 00:42:49)`
+  > `Proposal confirms: Match score predictions (group + knockout), tournament-level predictions (winner, Golden Boot, Brazil progression), bracket challenges, daily trivia/quiz with lucky numbers, weekly prize draws, private leagues (5 free / 100 premium), public + premium leaderboards, sponsor activations, social sharing (double rewards). All built before for FIFA PlayZone.`
 - [x] **Which Core Features Are Customizable?**
-  > `Full custom builds – "we take different code and pieces of inspiration from existing products and use them to create this new one" (00:42:49). Private leagues, daily missions/trivia, lucky numbers/draw, premium vs. free leaderboards all confirmed feasible`
-- [ ] **Which Core Features Are Not Available?**
-  > `Prize fulfillment – handled by client, not Genius (00:06:06)`
+  > `Full custom builds. Proposal: "We will build an enterprise-scale engagement ecosystem." Premium weekly missions tied to live broadcast moments, influencer prompts, or sponsor activations. Experiential rewards for premium users.`
+- [x] **Which Core Features Are Not Available?**
+  > `Prize fulfillment – client responsibility. Proposal: "The client will manage prize fulfillment. We will manage all technical and operational components."`
 
 **Prediction Types:**
-- [x] Match Result (1x2) `(Prediction game confirmed)`
-- [x] Exact Score `(Prototype showed exact score input – 00:32:50)`
-- [x] Special Predictions `(Layered experiences – trivia, quiz, daily missions – 00:13:21)`
-- [ ] Live Predictions `[Not Informed]`
-- [x] **Multiple Prediction Types Supported?** (Yes/No): `Yes`
-- [ ] **Configurable Scoring Logic?** (Yes/No): `[Not Informed – implied by custom builds]`
+- [x] Match Result (1x2) `(Proposal confirmed: "predict match scores across the group stage and knockout rounds")`
+- [x] Exact Score `(Proposal confirmed: "predict match scores" – exact score input)`
+- [x] Special Predictions `(Proposal confirmed: "tournament-level predictions, including overall winner, Golden Boot winner, and Brazil's progression")`
+- [ ] Live Predictions `[Not Informed in proposal]`
+- [x] **Multiple Prediction Types Supported?** (Yes/No): `Yes – match predictions, tournament predictions, daily trivia`
+- [x] **Configurable Scoring Logic?** (Yes/No): `Yes – Proposal: "Both tiers will use identical scoring mechanics to preserve fairness" implies configurable scoring system`
 
 **Rankings:**
 - [x] Global `(Implied by leaderboards)`
@@ -160,11 +161,11 @@
 - [ ] By Period (Day/Round/Tournament) `[Not Informed]`
 
 **Scoring & Engagement:**
-- [ ] Configurable Scoring System? (Yes/No) `[Not Informed – implied]`
+- [x] Configurable Scoring System? (Yes/No) `Yes – Proposal: "identical scoring mechanics" between tiers, premium gets "enhanced rewards"`
 - [ ] Multiple Rules Supported? (Yes/No) `[Not Informed – implied by custom builds]`
-- [x] Missions / Challenges? (Yes/No) `Yes – daily quiz/trivia missions confirmed (00:13:21, 00:30:14)`
+- [x] Missions / Challenges? (Yes/No) `Yes – Proposal confirms: "exclusive weekly missions" for premium users, daily trivia quiz`
 - [x] Badges / Achievements? (Yes/No) `Yes – prototype included badges (00:39:52)`
-- [x] Prizes: `Ranking (premium leaderboard) / Lucky Draw (weekly – 00:39:52) / Tiers (free vs premium)`
+- [x] Prizes: `Proposal confirms: "standard prizing" (free), "enhanced rewards" (premium), weekly lucky number prize draws, experiential rewards for premium missions`
 
 **Real-time API:**
 - [ ] API for Live Data Display? (Yes/No) `[Not Informed]`
@@ -181,10 +182,10 @@
 **Private Leagues:**
 - [x] **Free Creation?** (Yes/No): `Yes – standard feature (00:02:16)`
 - [ ] **Invite via Link?** (Yes/No): `[Not Informed – implied by private league feature]`
-- [ ] **Participant Limit Config?** (Yes/No): `Yes – common user: up to 5 private leagues, premium: up to 100 (00:01:01)`
-- [ ] **How Scalable Is Private League Creation?**
-  > `Standard part of their product builds, used in FIFA PlayZone`
-- [ ] **Maximum Number of Private Leagues Supported:** `[Not Informed]`
+- [x] **Participant Limit Config?** (Yes/No): `Yes – Proposal confirms: Free users join up to 5 private leagues, Premium users create and join up to 100`
+- [x] **How Scalable Is Private League Creation?**
+  > `Proposal: "The private league engine will serve as a core differentiator." Positioned as national hub for friend-based competition. "Brazil's strong culture of social prediction" referenced.`
+- [ ] **Maximum Number of Private Leagues Supported:** `[Not Informed – but designed for national scale with 15M registrations target]`
 
 **Premium League Logic:**
 - [x] **League Access Restricted by Subscription Status?** (Yes/No): `Yes – users with existing paid subscriptions from sponsors can log in as premium users via SSO (00:09:50, 00:27:33)`
@@ -277,28 +278,28 @@
 *Focus on user re-engagement and communication ownership.*
 
 **Notification Channels:**
-- [ ] **Web Push Notifications:** (Yes/No): `[Not Informed]`
-- [ ] **Email Automation:** (Yes/No): `[Not Informed – CRM integration mentioned, implies capability]`
+- [ ] **Web Push Notifications:** (Yes/No): `[Not Informed explicitly – proposal mentions "notification infrastructure" integration]`
+- [x] **Email Automation:** (Yes/No): `Yes – Proposal confirms: "We will integrate CRM systems, analytics tracking, notification infrastructure"`
 
 **Communication Ownership:**
-- [ ] **Who Manages Messaging Templates?** `[Not Informed]`
-- [ ] **Who Manages Campaign Scheduling?** `[Not Informed]`
+- [ ] **Who Manages Messaging Templates?** `[Not Informed – implied shared via CRM integration]`
+- [ ] **Who Manages Campaign Scheduling?** `[Not Informed – implied shared via CRM integration]`
 
 - **Observations:**
-  > `Notification specifics were not discussed. However, Genius mentioned integration with CRM and notification systems (00:07:18), suggesting capability exists. Specific channel support (push, email, WhatsApp) should be clarified in follow-up.`
-- **Block Rating (1-5):** `[Not Assessed – Insufficient Data]`
+  > `Proposal confirms integration with CRM systems, analytics tracking, and notification infrastructure. This means the notification tooling connects to the client's existing stack rather than being a standalone feature. Still unclear if Genius provides native push notifications or if it's fully dependent on client CRM. Daily engagement mechanic (trivia → lucky numbers) naturally drives return visits and reduces dependency on push notifications.`
+- **Block Rating (1-5):** `3 [CRM/notification integration confirmed, but no native notification engine detailed]`
 
 ---
 
 ## 12. Social Sharing & Virality
 *Focus on organic growth and viral content generation.*
 
-- [x] **Native Sharing Features?** (Yes/No): `Yes – prototype included social sharing of lucky numbers to double rewards (00:31:30)`
-- [ ] **Social Platforms Supported for Sharing User Answers / Status:** `[Not Informed – prototype showed social media sharing]`
+- [x] **Native Sharing Features?** (Yes/No): `Yes – Proposal confirms: "Social sharing will increase rewards" as part of the lucky numbers mechanic`
+- [ ] **Social Platforms Supported for Sharing User Answers / Status:** `[Not Informed – specific platforms not listed in proposal]`
 
 - **Observations:**
-  > `Prototype included a viral mechanic: sharing quiz results on social media doubles lucky numbers earned. This incentivized sharing is a strong engagement driver. Specific platform support details not discussed.`
-- **Block Rating (1-5):** `4 [Sharing mechanic exists with incentive structure]`
+  > `Proposal confirms viral mechanic: sharing trivia results on social media increases lucky number rewards. Proposal: "Social sharing will increase rewards." Combined with weekly prize draws, this creates a strong viral loop. Specific social platform support not listed but implied (standard social media integration).`
+- **Block Rating (1-5):** `4 [Sharing mechanic confirmed with incentive structure in proposal]`
 
 ---
 
@@ -321,9 +322,9 @@
 - [x] **Open to Partner-Specific Features?** (Yes/No): `Yes – custom development is their model. "Almost all features in the prototype have been built before" (00:42:49). Also open to live triggers and influencer-driven missions (00:38:00)`
 - [ ] **Risk of Conflict with Other Clients at Peak?** (Low/Med/High): `[Low] – custom builds, not shared platform` `[Promise]`
 - **Timelines (Avg Days):**
-    - Setup Technical: `[Not Informed]`
-    - Customization: `Custom build – leveraging existing technology`
-    - Go-Live: `Mid-May 2026 target. Christian said "if we get sign-off within the next couple weeks, we can probably make it work" (00:42:49). Proposal with mockups promised before Feb 20 meeting.`
+    - Setup Technical: `[Not Informed – part of custom build timeline]`
+    - Customization: `Custom build – leveraging existing technology ("proven tournament-scale architecture")`
+    - Go-Live: `Mid-May 2026. Proposal: "If we confirm scope quickly and align on design decisions, we can achieve a mid-May go-live. Early approval will allow us to deliver the complete feature set without reducing scope."`
 
 - **Observations:**
   > `⚠️ Timeline is the #1 concern expressed by Genius. Mid-May go-live requires signing off within ~2 weeks of the meeting (by end of Feb 2026). Christian explicitly flagged timing as "the biggest concern" – not capability. Custom build nature means dedicated resources with no conflict risk from other clients. The feature scope is highly flexible and can be adjusted to fit budget/timeline.`
@@ -335,27 +336,27 @@
 *Focus on cost structure, lock-in risks, and financial predictability.*
 
 **Cost Structure:**
-- [ ] **Setup Fee Range:** `[Not Informed – explicitly described as "expensive" and "not the cheap provider"] (00:14:29)`
-- [ ] **Pricing Model:** `[Custom/Project-based] – built for large enterprise clients with significant budgets`
+- [x] **Setup Fee Range:** `$150,000 – $225,000 USD (Annual License Fee) [Proposal Confirmed]`
+- [x] **Pricing Model:** `Annual License Fee – fixed range. Proposal: "World Cup Predictor – Annual License Fee – $150,000 - $225,000 USD"`
 
 **Cost Variability & Budget Risk:**
-- [ ] **Can Costs Increase Due to Traffic Spikes?** (Yes/No): `[Not Informed]`
-- [ ] **Can Costs Increase Due to API Usage?** (Yes/No): `[Not Informed]`
-- [x] **Can Costs Increase Due to Extra Features?** (Yes/No): `Yes – scope can be adjusted by removing features if budget is too high (00:15:26)`
+- [ ] **Can Costs Increase Due to Traffic Spikes?** (Yes/No): `[Not Informed – annual license suggests fixed cost regardless of traffic]`
+- [ ] **Can Costs Increase Due to API Usage?** (Yes/No): `[Not Informed – annual license suggests inclusive]`
+- [x] **Can Costs Increase Due to Extra Features?** (Yes/No): `Yes – scope can be adjusted by removing features if budget is too high (00:15:26). Range ($150k-$225k) likely reflects different scope levels.`
 
 **Contract Terms:**
-- [ ] **Minimum Contract Duration (Months):** `[Not Informed – project-based]`
+- [ ] **Minimum Contract Duration (Months):** `Annual license – implies 12 months minimum`
 - [ ] **Early Termination Penalties?** (Yes/No): `[Not Informed]`
-  > `[Not Discussed]`
+  > `[Not Discussed in proposal]`
 
 **Platform Dependency & Exit Risks:**
 - [ ] **Migration Complexity:**
-  > `Custom build – full data export confirmed, but platform code is Genius proprietary`
-- [x] **Data Portability Guarantees?** (Yes/No): `Yes – full data export confirmed at contract end (00:24:55)`
+  > `Custom build – full data export confirmed, but platform code is Genius proprietary. Proposal confirms "post-campaign retention strategies" and CRM-ready exports.`
+- [x] **Data Portability Guarantees?** (Yes/No): `Yes – Proposal confirms: "co-controller data framework that ensures full client access to user data" + "CRM-ready exports" + "post-campaign retention strategies"`
 
 - **Observations:**
-  > `⚠️ HIGH COST: Genius explicitly positioned themselves as the premium, expensive option. "We are not the cheap provider in the space" (00:14:29). Rodrigo acknowledged this would "likely be the most expensive" option. Specific pricing was not shared in the call – awaiting proposal. The scope-flexibility is a mitigating factor (features can be removed to fit budget). Full proposal with pricing expected before Feb 20.`
-- **Block Rating (1-5):** `3 [High cost expected, specific numbers pending proposal]`
+  > `💰 PRICING NOW CONFIRMED: $150,000 – $225,000 USD annual license fee. This is a fixed annual license, NOT a per-user or revenue-share model. The fixed model gives budget predictability – no surprise costs from traffic spikes. The $75k range likely maps to scope flexibility (full feature set vs. reduced). Compared to other suppliers, this is the premium option but includes fully managed end-to-end service (design, development, operations, support). Cost-per-registration could be very low if 15M target is hit (~$0.01-$0.015/user).`
+- **Block Rating (1-5):** `3 [Premium pricing confirmed – $150k-$225k USD annual license. Budget predictability is positive but total cost is highest among evaluated suppliers]`
 
 ---
 
@@ -374,44 +375,82 @@
 
 # Executive Summary & Recommendation
 
+> **Updated: 2026-02-20** – Now includes data from the formal Genius Sports proposal document.
+
 ## Executive Summary
-Genius Sports is a **premium, enterprise-grade gamiﬁcation partner** with the strongest pedigree in this evaluation – they are the official technology partner behind **FIFA's PlayZone**, handling millions of users at World Cup scale. Unlike Fan Arena or Easypromos, Genius offers **fully custom builds** (not white-label), providing complete creative and technical control. They deliver an **end-to-end managed service** covering design, development, operations, and 24/7 Portuguese-speaking support.
+Genius Sports is a **premium, enterprise-grade gamification partner** with the strongest pedigree in this evaluation – they are the official technology partner behind **FIFA's PlayZone**, handling millions of users at World Cup scale. Unlike Fan Arena or Easypromos, Genius offers **fully custom builds** (not white-label), providing complete creative and technical control. They deliver an **end-to-end managed service** covering design, development, operations, and 24/7 Portuguese-speaking support.
 
-The product vision alignment is **near-perfect**: prediction games, private/premium/public leagues, daily missions, trivia, lucky draws, sponsor-gated premium access via SSO, and social sharing incentives are all confirmed as previously built features. Genius also uniquely owns their sports data pipeline, eliminating third-party data dependency.
+The formal proposal confirms a **$150,000 – $225,000 USD annual license fee** for the World Cup Predictor. The proposal targets **up to 15 million registrations** and positions the platform as "Brazil's leading destination for tournament prediction, private leagues, and sponsor activation." The product is described as an "enterprise-scale engagement ecosystem" – not a template product or lightweight promotional game.
 
-The two primary concerns are **cost** (explicitly premium pricing, likely the most expensive option) and **timeline** (mid-May go-live requires fast sign-off and execution).
+The product vision alignment is **near-perfect**: match score predictions, tournament predictions (winner, Golden Boot, Brazil progression), bracket challenges, private leagues (5 free / 100 premium), daily trivia with lucky numbers, weekly prize draws, sponsor-gated premium access via SSO, premium weekly missions (tied to broadcasts/influencers/sponsors), and social sharing incentives are all confirmed.
+
+## Automated Risk Flags
+| Category | Flag Condition | Risk Level | Alert |
+| :--- | :--- | :--- | :--- |
+| **Security** | `lgpd_compliant` == [Not Informed] | **⚠️ CRITICAL** | "LGPD compliance NOT confirmed – MUST be verified before proceeding." |
+| **Security** | `has_penetration_test_report` == [Not Informed] | **HIGH** | "Security posture unverified – no pen test evidence." |
+| **Scale** | `recent_load_test_evidence` == No | **HIGH** | "No recent proof of load capability – stress tests referenced but no report." |
+| **Scale** | `has_auto_scaling` == [Not Informed] | **HIGH** | "Auto-scaling not explicitly confirmed – risk during peaks." |
+| **UX** | `mobile_responsive_score` == [Not Assessed] | **MEDIUM** | "Mobile experience not evaluated." |
+| **Product** | `real_time_updates` == [Not Informed] | **MEDIUM** | "Score update timing not specified." |
 
 ## Key Risks
 | Risk Area | Severity | Description |
 | :--- | :--- | :--- |
-| **Commercial / Cost** | **HIGH** | **Premium Pricing.** Genius explicitly stated they are "not the cheap provider." Custom enterprise builds require "significant budgets." Concrete pricing awaiting proposal. |
-| **Timeline** | **HIGH** | **Mid-May Deadline is Tight.** Christian flagged timing as the #1 concern. Requires contract sign-off within ~2 weeks of meeting to make the deadline work. |
-| **Data Ownership** | **MEDIUM** | **Co-Controller Model.** Data is co-owned by Genius and client. While client has unrestricted access and full export rights, this is NOT sole ownership. Contract must clearly define co-controller boundaries. |
-| **Security / LGPD** | **⚠️ UNKNOWN** | **Not Discussed.** LGPD compliance, data residency, certifications, age verification, and penetration testing were NOT addressed in this call. MUST be clarified. |
-| **Notifications** | **LOW** | **Not Detailed.** Push, email, and campaign channels not explicitly discussed (CRM integration exists). |
+| **Security / LGPD** | **⚠️ CRITICAL** | **Not Addressed.** LGPD compliance, data residency, certifications, age verification, and penetration testing NOT confirmed in either meeting or proposal. MUST be clarified before proceeding. |
+| **Commercial / Cost** | **HIGH** | **Premium Pricing Confirmed.** $150,000 – $225,000 USD annual license. Highest cost option among evaluated suppliers. Fixed license model gives budget predictability. |
+| **Timeline** | **HIGH** | **Mid-May Deadline is Tight.** Proposal: "If we confirm scope quickly and align on design decisions, we can achieve a mid-May go-live." Delay risks scope reduction. |
+| **Data Ownership** | **MEDIUM** | **Co-Controller Model.** Proposal confirms: "co-controller data framework." Client has full access and CRM-ready exports, but NOT sole ownership. Contract must define boundaries. |
+| **Notifications** | **LOW** | **Integration-Based.** CRM, analytics, and notification infrastructure integration confirmed, but no native notification engine described. |
 
 ## Key Strengths
 | Strength Area | Rating | Description |
 | :--- | :--- | :--- |
 | **Experience & References** | ⭐⭐⭐⭐⭐ | FIFA PlayZone, MLB, publicly traded (NYSE: GENI). Unmatched pedigree. |
-| **Product Feature Alignment** | ⭐⭐⭐⭐⭐ | "Almost all features in the prototype have been built before." Near-complete match. |
+| **Product Feature Alignment** | ⭐⭐⭐⭐⭐ | Proposal confirms near-complete match: predictions, leagues, trivia, lucky draws, missions, sponsor activations. |
 | **Data Pipeline** | ⭐⭐⭐⭐⭐ | Genius IS the sports data provider. No third-party dependency. |
-| **Design & Development** | ⭐⭐⭐⭐⭐ | Full end-to-end managed service including design, dev, and operations. |
-| **Integration / SSO** | ⭐⭐⭐⭐⭐ | Multi-sponsor SSO proven with FIFA. Premium gating by subscription status. |
-| **Support** | ⭐⭐⭐⭐ | 24/7, Portuguese speaking, flexible model (fully managed or hybrid). |
+| **Design & Development** | ⭐⭐⭐⭐⭐ | Full end-to-end managed service including design, dev, and operations. "Not a template product." |
+| **Integration / SSO** | ⭐⭐⭐⭐⭐ | Multi-sponsor SSO proven with FIFA. Premium gating by subscription. CRM/analytics integration confirmed. |
+| **Support** | ⭐⭐⭐⭐ | 24/7, Portuguese speaking, full lifecycle management, structured escalation. |
+| **Budget Predictability** | ⭐⭐⭐⭐ | Fixed annual license ($150k-$225k) – no per-user or traffic-based cost surprises. |
+
+## Block Ratings Summary
+| Block | Rating | Status |
+| :--- | :--- | :--- |
+| 1. Robustness, Scale & Reliability | **4/5** | Promise reinforced by proposal |
+| 2. Local Support & Operational Coverage | **4/5** | Strong indicators, SLA details needed |
+| 3. User Support & Incident Management | **4/5** | Promise – credible due to FIFA ops |
+| 4. Security, LGPD, Governance | **N/A** | ⚠️ Insufficient Data – CRITICAL gap |
+| 5. Data Ownership, Access & Portability | **3/5** | Co-controller model, not sole ownership |
+| 6. Core Product Features | **5/5** | Proven feature set, near-complete alignment |
+| 7. League Management & Premium | **5/5** | Excellent alignment with league model |
+| 8. Game Operation & Scoring | **5/5** | Genius IS the data provider |
+| 9. Customization, UX & Front-End | **5/5** | Full creative ownership by Genius |
+| 10. Integration Ecosystem | **5/5** | Proven with FIFA/MLB |
+| 11. Notifications & Communication | **3/5** | CRM integration, no native engine |
+| 12. Social Sharing & Virality | **4/5** | Sharing mechanic with incentive structure |
+| 13. Geo-Restriction | **N/A** | Not assessed |
+| 14. Roadmap & Evolution | **4/5** | Capable but May deadline is tight |
+| 15. Commercial & Financial | **3/5** | Premium pricing ($150k-$225k USD) |
+| 16. Team, Experience & References | **5/5** | FIFA, MLB, NYSE-listed |
+| **Average (assessed blocks)** | **4.2/5** | |
 
 ## Final Recommendation
-**✅ GO – Best-in-Class Option (Contingent on Budget & Timeline)**
+**✅ PROCEED WITH CAUTION – Best-in-Class Option, Pending Security Clarification**
 
-Genius Sports is the **clear technical and operational leader** in this evaluation. They have **proven World Cup-scale delivery** (FIFA PlayZone), the deepest feature set, and a fully managed service model that minimizes client-side resource requirements.
+Per system rules: 0 confirmed CRITICAL risks, but Security/LGPD is UNKNOWN (effectively a potential CRITICAL). >2 HIGH risks exist (cost, timeline, load test, pen test, auto-scaling). Average rating is 4.2 (>4.0). Recommendation: **PROCEED WITH CAUTION** until LGPD compliance is confirmed.
 
-**The decision hinges on two factors:**
-1. **Budget:** Can the project accommodate premium pricing? If the proposal is within range, Genius is the obvious choice.
-2. **Speed:** Contract must be signed rapidly (within ~2 weeks) to hit the mid-May deadline.
+Genius Sports is the **clear technical and operational leader** in this evaluation. They have **proven World Cup-scale delivery** (FIFA PlayZone), the deepest feature set, and a fully managed service model that minimizes client-side resource requirements. The **$150k-$225k USD annual license** is the highest cost but includes everything (design, dev, ops, support).
+
+**The decision hinges on three factors:**
+1. **Security/LGPD:** Must confirm compliance before any contract. This is a blocking issue.
+2. **Budget:** Can the project accommodate $150k-$225k USD? If within range + sponsor revenue potential, the ROI case is strong.
+3. **Speed:** Contract must be signed rapidly to hit mid-May go-live without scope reduction.
 
 **Immediate Next Steps:**
-1. **Review Proposal** (expected before Feb 20, 2026) – evaluate pricing vs. budget.
-2. **Clarify Security & LGPD** – request LGPD/GDPR compliance confirmation, data residency details, certifications, age verification capabilities.
-3. **Clarify Data Ownership Contract Terms** – ensure co-controller model has clear boundaries protecting client interests.
-4. **Request Load Test Documentation** – obtain concrete evidence of FIFA PlayZone scale (concurrent users, architecture).
-5. **Define Timeline Milestones** – get detailed delivery schedule with checkpoints from design → build → UAT → go-live.
+1. ~~**Review Proposal**~~ ✅ Done – Pricing confirmed at $150k-$225k USD annual license.
+2. **Clarify Security & LGPD** – Request LGPD/GDPR compliance confirmation, data residency details, certifications (ISO, SOC), age verification capabilities, pen test reports.
+3. **Clarify Data Ownership Contract Terms** – Ensure co-controller model has clear boundaries protecting client interests.
+4. **Request Load Test Documentation** – Obtain concrete evidence of stress-tested infrastructure (concurrent users, architecture diagrams).
+5. **Define Timeline Milestones** – Get detailed delivery schedule with checkpoints: design → build → UAT → go-live.
+6. **Internal Budget Decision** – Present $150k-$225k USD to leadership and assess feasibility against project budget.

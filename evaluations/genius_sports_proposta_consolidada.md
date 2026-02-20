@@ -1,18 +1,19 @@
 # Genius Sports – Proposta Consolidada
 **Projeto:** World Cup Predictor 2026
-**Documento base:** Meeting Notes + Transcrição (12/02/2026)
+**Documentos base:** Meeting Notes + Transcrição (12/02/2026) + **Proposta Formal (20/02/2026)**
 **Contato:** Christian Abbonizio (Genius Sports)
+**Preço:** 💰 **$150.000 – $225.000 USD (Licença Anual)**
 
 ---
 
 ## 1. Infraestrutura técnica e robustez
 
-- **Cloud:** Não especificado detalhadamente, mas operam infraestrutura proprietária e escalável.
+- **Cloud:** Infraestrutura proprietária e escalável. Proposta: "stress-tested infrastructure and dedicated hosting environments."
 - **Capacidades declaradas:**
   - **Experiência comprovada:** Operam o **FIFA PlayZone**, lidando com milhões de usuários simultâneos.
-  - **Escala:** Confirmaram capacidade para testes de carga de **10 milhões de usuários simultâneos** (5 min antes do jogo).
-  - **Arquitetura:** Solução enterprise customizada.
-- **Load test:** Suportam stress tests para picos massivos.
+  - **Escala:** Testes de carga de **10 milhões de usuários simultâneos**. Meta de **até 15 milhões de cadastros**.
+  - **Arquitetura:** Solução enterprise customizada com "tournament-scale architecture."
+- **Load test:** Suportam stress tests para picos massivos. Relatório específico não fornecido.
 
 > ✅ **Ponto forte:** Único fornecedor com experiência comprovada em operar copa do mundo para a própria FIFA nessa escala.
 
@@ -58,19 +59,22 @@
 ## 6. Features previstas
 
 ### ✅ Disponível (Built-in / Já desenvolvido):
-- **Predictor:** 1x2, Placar Exato.
+- **Predictor:** 1x2, Placar Exato, previsões de torneio (campeão, artilheiro, classificação do Brasil).
 - **Bracket Challenges** (Mata-mata).
-- **Gamificação:** Missões diárias, Trivia/Quiz (always-on).
-- **Ligas:** Públicas, Privadas e Premium.
-- **Sorteios:** "Lucky Numbers" (acumulação de números da sorte para sorteios semanais).
+- **Gamificação:** Missões diárias, Trivia/Quiz com "Lucky Numbers", missões semanais exclusivas para premium.
+- **Ligas:** Públicas, Privadas (5 grátis / 100 premium) e Premium.
+- **Sorteios:** "Lucky Numbers" (acumulação de números da sorte para sorteios semanais patrocinados).
 - **Ativação de Patrocinadores:** Espaços dedicados e integrados ao jogo.
+- **Compartilhamento Social:** Compartilhar nas redes dobra os lucky numbers ganhos.
 
 ### 🔧 Customização:
 - Modelo **100% Custom Build** (não é white-label de prateleira).
-- Reutilizam códigos e módulos de produtos existentes (FIFA PlayZone) para criar um produto novo sob medida.
+- Proposta: "enterprise-scale engagement ecosystem" – não um produto template.
+- Missões premium vinculadas a momentos de transmissão, influenciadores ou patrocinadores.
 
 ### ❓ A definir:
 - Regras específicas de pontuação (customizáveis).
+- Previsões ao vivo (Live Predictions) – não mencionado.
 
 ---
 
@@ -93,8 +97,9 @@
 
 ## 9. Comunicações
 
-- **Canais:** Integração com sistemas de CRM e e-mail marketing do cliente.
-- **Automação:** Genius não detalhou ferramentas próprias de disparo, focando na integração com as do cliente.
+- **Canais:** Proposta confirma: "CRM systems, analytics tracking, notification infrastructure."
+- **Automação:** Integração com stack do cliente (CRM, e-mail marketing, analytics). Não possui engine nativa de push.
+- **Engajamento diário:** Mecânica de trivia diário + lucky numbers reduz dependência de push notifications.
 
 ---
 
@@ -114,17 +119,20 @@
 ## 12. Tempo de implementação
 
 - **Prazo:** **Crítico**. Target de Go-Live para **meados de Maio**.
-- **Risco:** Christian (Genius) alertou que o cronograma é a maior preocupação.
-- **Necessidade:** Assinatura de contrato em **~2 semanas** (fevereiro) é mandatória para viabilizar.
+- **Proposta:** "If we confirm scope quickly and align on design decisions, we can achieve a mid-May go-live."
+- **Risco:** Se houver atraso na aprovação, o escopo pode ser reduzido.
+- **Necessidade:** Assinatura de contrato **o mais rápido possível** para entregar o conjunto completo de features.
 
 ---
 
 ## 13. Modelo de precificação + o que está incluso
 
-- **Modelo:** **Premium / Enterprise**.
-- **Custo:** Explicitamente posicionado como "não somos a opção barata". Solução para grandes orçamentos.
-- **Valores:** Proposta financeira pendente (esperada para antes de 20/02).
-- **Escopo Flexível:** Se o orçamento estourar, sugerem remover features para adequar.
+- **Modelo:** **Licença Anual Fixa**.
+- **Custo:** 💰 **$150.000 – $225.000 USD por ano.**
+- **O que inclui:** Design, desenvolvimento, operação, suporte 24/7 em português, hosting, dados esportivos.
+- **Escopo Flexível:** Range de $75k provavelmente reflete diferentes níveis de escopo.
+- **Vantagem:** Custo fixo = previsibilidade. Sem surpresas por picos de tráfego ou uso de API.
+- **Custo por registro:** Se atingir 15M cadastros = ~$0.01-$0.015/usuário.
 
 ---
 
@@ -137,16 +145,28 @@
 ## ⚠️ Avaliação geral da proposta
 
 A Genius Sports é a opção **"Grife" / Best-in-Class**.
+**Preço:** $150.000 – $225.000 USD (licença anual).
+**Nota média:** 4.2/5 (blocos avaliados).
 
 ### Pontos Fortes:
 - 🏆 **Pedigree:** Operam o produto oficial da FIFA. Risco técnico de escala é mínimo.
-- 🛠️ **Produto:** Conjunto de features mais completo (Quiz, Lucky Numbers e Predictor integrados).
+- 🛠️ **Produto:** Conjunto de features mais completo (Quiz, Lucky Numbers, Predictor, Bracket, Missions integrados).
 - 🤝 **Serviço:** Modelo "concierge" (fazem design, dev, operação). Menor esforço para o time interno.
 - 📊 **Dados:** São donos da fonte de dados esportivos (zero dependência de terceiros).
+- 💵 **Previsibilidade:** Licença anual fixa – sem custos surpresa por tráfego.
 
 ### Riscos:
-- 💰 **Custo:** Provavelmente o mais alto (CAPEX elevado).
-- ⏳ **Prazo:** Cronograma apertado para um build customizado.
-- 🔒 **Dados:** Modelo de co-controladoria precisa de análise.
+- 💰 **Custo:** O mais alto ($150k-$225k USD). Porém inclui TUDO.
+- ⏳ **Prazo:** Cronograma apertado para um build customizado (meados de maio).
+- 🔒 **Dados:** Modelo de co-controladoria precisa de revisão jurídica.
+- 🔐 **LGPD:** ⚠️ **NÃO CONFIRMADO** – Compliance, residência de dados e verificação de idade não foram abordados.
 
-> **Veredito:** Se houver budget, é a escolha mais segura tecnicamente e com melhor produto final. Se o budget for restrito, Fan Arena é a alternativa funcional.
+### Próximos Passos:
+1. ~~Revisar proposta~~ ✅ Feito – Preço confirmado.
+2. **Confirmar LGPD/GDPR** – Compliance, ISO, SOC, pen test, verificação de idade.
+3. **Contrato de dados** – Definir limites claros de co-controladoria.
+4. **Load test** – Evidência concreta de stress tests.
+5. **Cronograma detalhado** – Design → Build → UAT → Go-Live.
+6. **Decisão de budget** – Apresentar $150k-$225k para liderança.
+
+> **Veredito:** Se houver budget e LGPD for confirmado, é a escolha mais segura tecnicamente e com melhor produto final. Se o budget for restrito, Fan Arena permanece a alternativa funcional.

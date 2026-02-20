@@ -4,8 +4,8 @@ Comparação consolidada das propostas de **Rooster**, **Fan Arena** e **Genius 
 
 | Critério | **Rooster** 🇧🇷 | **Fan Arena** 🇧🇪 | **Genius Sports** 🇬🇧 |
 | :--- | :--- | :--- | :--- |
-| **Investimento Total** | **R$ 1.154.000**<br>*(~€ 185k)* | **Opção A:** ~€ 545k<br>**Opção B:** ~€ 359k<br>*(R$ 2.2M - 3.4M)* | **Premium / Enterprise**<br>*(A confirmar)* |
-| **Modelo de Custo** | Projeto Fechado (50/30/20) | Setup + Fee Mensal (A) ou<br>Licença Flat Fee (B) | Custom Project<br>*(Provavelmente o mais caro)* |
+| **Investimento Total** | **R$ 1.154.000**<br>*(~€ 185k)* | **Opção A:** ~€ 545k<br>**Opção B:** ~€ 359k<br>*(R$ 2.2M - 3.4M)* | **$150k – $225k USD**<br>*(Licença Anual)* 💰 |
+| **Modelo de Custo** | Projeto Fechado (50/30/20) | Setup + Fee Mensal (A) ou<br>Licença Flat Fee (B) | **Licença Anual Fixa**<br>*(Inclui design, dev, ops, suporte)* |
 | **Prazo / Go-Live** | Não informado ⚠️ | 8-12 Semanas | **Crítico (Maio)** ⚠️<br>Requer assinatura em fev. |
 | **Escala Comprovada** | Genérico ("Milhões") | Nunca operou nessa escala.<br>*(Maior case: ~300k)* | **Comprovada (FIFA)** 🏆<br>*(PlayZone: Milhões)* |
 | **Infraestrutura** | Cloud Genérica | AWS São Paulo<br>Load Test 15M users | Infra Proprietária/Custom<br>Testado p/ 10M users |
@@ -21,8 +21,8 @@ Comparação consolidada das propostas de **Rooster**, **Fan Arena** e **Genius 
 
 ## 🚦 Resumo Executivo
 
-### 1. **Genius Sports** (A escolha "Segura" tecnicamente)
-Se o orçamento permitir e o contrato for assinado rápido, é a opção com **menor risco técnico** e **maior qualidade de produto**. Eles já fazem isso para a FIFA. O risco é puramente negocial (preço/prazo).
+### 1. **Genius Sports** (A escolha "Segura" tecnicamente) – **$150k–$225k USD/ano**
+Se o orçamento permitir e o contrato for assinado rápido, é a opção com **menor risco técnico** e **maior qualidade de produto**. Eles já fazem isso para a FIFA. ⚠️ LGPD ainda não confirmado.
 
 ### 2. **Fan Arena** (O meio-termo equilibrado)
 Traz um produto de prateleira robusto adaptado para a Copa. O preço é competitivo (principalmente na Opção B). O risco é **nunca terem operado 15M de usuários**. Exige due diligence técnica rigorosa e testes de carga pesados.
