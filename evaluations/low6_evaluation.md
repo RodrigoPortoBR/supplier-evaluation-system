@@ -15,6 +15,7 @@
 - [x] **Strategy for 15M Total Users:**
   > `A meta do projeto Cazé foi corrigida para 15M de usuários totais (não 15M simultâneos). Low6 demonstrou escalabilidade via Azure e experiência de >1M de concorrentes simultâneos na BBC (Champions League). Não veem escala como um problema e tudo será validado via UAT na fase de entrega.`
 - [x] **Maximum Simultaneous Users Tested:** `>1.000.000 (BBC Champions League)`
+- [x] **Success Cases under High Load:** `Case Sportsbet (App #1 Austrália, pico de engajamento diário de 1.7 logins/dia e sessões de 6 min).`
 
 **Infrastructure & Platforms:**
 - [x] **Auto-scaling Infrastructure?** (Yes/No): `[Yes]` — Azure com DevOps dedicado que gerencia o hosting; auto-scale ativado conforme demanda.
@@ -334,9 +335,12 @@
 - [x] **Pricing Model:** `[Fixed]` — Preço fixo para o escopo da Copa do Mundo. Hosting é pass-through + 7,5% para DevOps.
 
 **Cost Variability & Budget Risk:**
-- [ ] **Can Costs Increase Due to Traffic Spikes?** (Yes/No): `[Sim — hosting é pass-through, então custos Azure escalam com uso]`
+- [x] **Can Costs Increase Due to Traffic Spikes?** (Yes/No): `[Sim — hosting é pass-through, então custos Azure escalam com uso]`
 - [ ] **Can Costs Increase Due to API Usage?** (Yes/No): `[Não discutido]`
-- [x] **Can Costs Increase Due to Extra Features?** (Yes/No): `[Yes]` — Suporte B2C, SSO de parceiros adicionais e features extras teriam custo separado.
+- [x] **Can Costs Increase Due to Extra Features?** (Yes/No): `[Yes]` — Suporte B2C (£5k-7k/mês), integrações adicionais de SSO e a régua de CRM (XtremePush) que possui precificação variável por MAU e volume.
+
+**Added Value Games (From Presentation):**
+- Acesso ao portfólio de Gamification: `Bracket, Squads, Spin-2-Win, Picks, Over/Under, Last One Standing, Retro Arcade Games.` O modelo de plataforma All-in-1 deles viabiliza incluir múltiplos jogos além do bolão tradicional.
 
 **Contract Terms:**
 - [ ] **Minimum Contract Duration (Months):** `[~3 meses (maio–julho) para Copa. Normalmente fazem contratos de 12 meses.]`
@@ -362,8 +366,8 @@
 - [ ] **Reference Contacts Provided?** (Yes/No): `[Parcial]` — Mencionaram Bet365, NHL, DraftKings e Fantasy Stars como referências, mas disse que muitas informações são confidenciais ("I can tell you things on a call that you can't repeat").
 
 - **Observations:**
-  > Low6 possui experiência relevante em plataformas de previsões esportivas (Bet365, NHL, DraftKings). No entanto, não possuem experiência documentada com eventos da magnitude de uma Copa do Mundo FIFA. O case da Bet365 (~2M registrados, 70M submissões) é o mais próximo, mas em contexto de liga americana regular, não de evento global pontual. Demonstraram confiança e conhecimento técnico, com equipe que inclui DevOps, project manager, account manager e lead tech. Mencionaram produtos como NHL Game Zone e Fantasy Stars que poderiam ser demonstrados.
-- **Block Rating (1-5):** `[3]`
+  > Low6 possui forte tração com F2P Games, sendo premiada multiplamente (EGR, SBC) e listada como a #23 empresa de crescimento mais rápido do UK. Possuem cases massivos comprovados: Bet365 na América e um case espetacular com a Sportsbet na Austrália para a Copa do Mundo 2022 (App #1 gratuito na Austrália, 4x média de logins diários, 34% signups via refer-a-friend). Isso valida fortemente a tese de aquisição F2P para a Copa.
+- **Block Rating (1-5):** `[5]` — Validação categórica com cases premiados e números expressivos na Austrália.
 
 ---
 
@@ -382,18 +386,18 @@
 | 8. Game Operation & Scoring Process | 3 |
 | 9. Customization, UX & Front-End Design | 3 |
 | 10. Integration Ecosystem & Partner Connectivity | 3 |
-| 11. Channels, Notifications & User Communication | 4 |
+| 11. Channels, Notifications & User Communication | 3 |
 | 12. Social Sharing & Virality | 3 |
 | 13. Geo-Restriction Capabilities | 2 |
 | 14. Roadmap & Evolution Capacity | 4 |
 | 15. Commercial, Contractual & Financial Risk | 3 |
-| 16. Team, Experience & References | 3 |
-| **Média Geral** | **3.31** |
+| 16. Team, Experience & References | 5 |
+| **Média Geral** | **3.37** |
 
 ### Key Strengths (Top 3)
 1. **Core Product Features (4/5)** — Plataforma madura de previsões com casos reais (Bet365, NHL)
 2. **League Management (4/5)** — Estrutura robusta de ligas públicas, premium e privadas
-3. **Roadmap & Evolution (4/5)** — Modelo de evolução incremental; plataforma reutilizável para outros campeonatos
+3. **Team, Experience & References (5/5)** — Cases absurdos de crescimento F2P (Sportsbet na Austrália) e premiações em série como Supplier of the Year. Muito focado em aquisição e retenção gamificada.
 
 ### Risk Flags
 | Category | Risk Level | Alert |
@@ -409,7 +413,7 @@
 > **PROCEED WITH CONDITIONAL APPROVAL** — Low6 mitigou os principais riscos críticos na reunião mais recente (data ownership via Snowflake, notificações via Xtreme Push, suporte B2C terceirizado, verificações de idade em claims). Possuem um case robusto da BBC (>1M simultâneos) para escalabilidade. O produto já contém as mecânicas pedidas, mas o custo B2C extra e CRM requer revisão orçamentária. As restrições remanescentes referem-se sobretudo à ausência de app nativo e integração do feed oficial de dados a ser fornecido. Time de DEV aprova tecnicamente, condicionando avanço aos cálculos dos Ad-Ons identificados.
 
 ### Gaps Críticos para Próxima Reunião
-1. **Modelagem Fechada de Custos Extras** — Mensurar impacto de B2C Support (£5k-7k) + Xtreme Push CRM (Setup + per message) + APIs.
+1. **Modelagem de Custos CRM Variáveis (XtremePush)** — Mensurar impacto financeiro do CRM (MAU e Volume) escalado para 15 Milhões de usuários, visto que as tabelas enviadas têm teto em 1M no pricing sheet. (Pode inviabilizar o add-on se não houver um *Unlimited Tier*).
 2. **Provedor de Dados Opcional** — Low6 tem fornecedor padrão de mercado no pricing ou a CazéTV fecha Opta em separado?
-3. **App vs. Web (Engajamento)** — Aceite final se iremos sem push notification nativo com app stores.
+3. **App vs. Web (Engajamento)** — Aceite final se iremos sem push notification nativo com app stores (dependendo ainda mais do CRM).
 4. **LGPD Consentimento** — Aprovação jurídica sobre os termos simplificados no Checkbox de Idade/Registro perante órgãos brasileiros.
