@@ -1,4 +1,8 @@
-# Comparativo de Fornecedores: World Cup Predictor 2026
+import os
+
+filepath = "G:\\My Drive\\Rodrigo\\Antigravity\\supplier-evaluation-system\\evaluations\\comparativo_fornecedores.md"
+
+content = """# Comparativo de Fornecedores: World Cup Predictor 2026
 
 Comparação consolidada das propostas de **Rooster**, **Fan Arena**, **Genius Sports**, **Quality Digital**, **Low6**, **LiveLike** e **Easypromos**.
 
@@ -39,3 +43,9 @@ Custos ótimos e dedicação integral no Brasil em reais (R$). O Risco deles é 
 ### 6. **Easypromos** 🇪🇸 e **Quality Digital** 🇧🇷 (❌ DISCARD)
 - **Quality** vende horas de desenvolvimento de terceiros para erguer algo do zero e entregaria algo falho (40% de features), enquanto nós precisamos de Plataformas validadas e testadas para esse volume.
 - **Easypromos** é excelente em Promoções (Raffles/Sorteios SaaS Fáceis) mas não possui estrutura de Ligas Privadas e Ligas Premium e são inflexíveis para desenvolvimento custom, o que mata o core engajador do bolão entre amigos. Inviáveis.
+"""
+
+with open(filepath, "w", encoding="utf-8") as f:
+    f.write(content)
+
+print("done")
