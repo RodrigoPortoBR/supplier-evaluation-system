@@ -1,0 +1,343 @@
+be starting. Cool. Okay. Um, so in terms of the questions you had, so I what I can do is I can we 
+sort of send back some answers, you know, written answers to this if needed after this. Um, but 
+given you know the the time um and and needing to sort of have  this conversation now, I just 
+thought let's talk through it and then um and then obviously we can we can you know have a 
+conversation about yeah any um any additional points and and I can send over additional 
+information as well if needed. So, um, is it b est if we just sort of run through top to bottom, 
+Rodrigo?  
+Yeah, I think so. Yeah, the the main ones, right?  
+But you have what do you think? You have  
+I think we can we can uh as we have like 30 minutes uh we can go through the macro teams and 
+then uh we can talk about number one and number two like not in details and then you can 
+answer by mail or another form like in the each questions that you we have  here.  
+Yep. Okay, perfect. Um yeah, so number one obviously in terms of handling peak traffic at scale 
+that's totally fine. Um you know we work with Yahoo, Yahoo Sport, uh we work with, you 
+know, Bleach Report, we work with, you know, a whole heap of different sp orts and media or 
+organizations around the world um who have millions of concurrent users especially around big 
+fixtures. Um so we don't have any issues around this. Um I need to follow up on exactly what the 
+maximum number of users tested is but it would be well above 10 million. Well above um just 
+because of the you know just because of the scale that we deal with with some of those 
+customers. Um we obviously have full SLA which I can send you um which talks to you know 
+uptime which talks to um you know w e we have autoscaling infrastructure we utilize AWS um 
+as our bedrock so you know that's obviously easy to to sort of support this type of activation uh 
+and we support all of these different platforms as well. So um again if we do end up doing a web 
+view f or you guys then we would make that uh web view uh mobile um mobile responsive uh 
+and and web as discussed uh not not app um unless you want app Rodrigo uh but you know  
+yeah only only web yeah  
+yeah web and then mobile web um so we would make it responsive on both of those platforms  
+uh and and we would test it based on that as well and we would test it against the you know the 
+10 to 15 million users so  
+that's totally fine um okay so local support so uh we do have, you know, local presence and and 
+time zone. We don't have people in Brazil, but we have people in, you know, in Europe and we 
+have people in North America. Um so we can support your time zone. We do have Portuguese 
+speaking support as you met last week. Uh oh, sorry, earlier in the week. Um the time zone 
+coverage, as I said, we have people in North America, we have people in Europe. Um so we we 
+would be able to support, you know, the full uh you  know, in uh in tournament time zone. We do 
+have local account managers. Uh depending on the scope and scale it would be you would have 
+people um based in North America I think would probably be the team that look after you. Um 
+we also have technical support in North America. Um all of our dev is done out of India and we 
+do have people who would support the project from there. Um but all of the lead would be done 
+from North America.  
+Uh that that support you're talking is about the the ones that we um are going to um that you're 
+going to support us during the the the development. And then there's another kind of support 
+which is the directly to the final user the the user of the of the  the game. So that kind of support 
+you also um manage.  
+We don't deal with No, we don't we don't deal with users. Um that would be you guys because 
+we we embed our solution into your web page. So we would deal with you guys directly. Uh and 
+obviously we would make sure that the the the you know the prediction g ame is fully responsive 
+and working and everything. Um and again because we we would have tested that uh we we 
+don't provide you know sort of player support kind of thing that would be left to you guys. Okay.  
+Okay. So for example um a player is having trouble logging in for whatever reason. So we would 
+need to have like some um FAQ but also an email support or a chat support that would be an 
+insight team that would be um helping those users right  
+yeah so in terms of login like we don't have our own login we actually uh adopt the login of the 
+customer so we would integrate with your single sign on or with your identity partner and 
+basically utilize their login then pass authentication tokens back an d forth so that we know that 
+it's you know John Smith who's logging in um to play this game. Uh we don't actually collect 
+any personal data. Um so if there's a problem with the login again that would be handled on your 
+side because we just simply we do the  same um you know uh platform or process that's already 
+in place.  
+But I mean when when the a user is trying is a user um is going to create his his account for at 
+the for the the prediction game he can create um as a free user. So he just creates an email uh 
+puts on his email a password and then he creates his account. I f he  
+I don't know he forgets his password and he can  
+for some reason I don't know his limited um digitally so he he think it's easier to ask for support 
+to recover his account. So that would be totally on on our side. Right.  
+Correct. Again, because we we don't create a new login in our system for this game.  
+Okay. I I get it. Okay. So, if he creates the the new login, it's that it's directly here with us. You 
+don't have that data.  
+We do not have that data. No, that's you guys.  
+So, we will need to have here some kind of um database.  
+Do you have one? I mean, do you do you have single sign on or do you have um some sort of 
+authentication solution  
+from our partner? I don't think so. Our client, sorry.  
+It would be a question to check. Um definitely. I I'll put it in the email uh when I follow up, but 
+it's a question to check because I would be I'd be surprised if they didn't. Um but if they don't, we 
+can also we we have solutions um and and we can provid e, you know, the login if we need to. 
+Typically, though a lot of um our customers tend to like to use their identity and solution because 
+it means that they can hold all of the data for the for the customers. They then control that. They 
+control all the no tifications. They control all of the marketing. It's you know it's at the end of the 
+day it's their audience. Um and that tends to be the preferable you know way way to deal with it. 
+But we can we can pick that up separately.  
+Okay.  
+Um we can provide 247 support. Uh but again wouldn't be customer support, it would be 
+supporting you guys and your partner. Um, that's not part of our standard terms, but we can add 
+it for the World Cup if you did want to have that. Um, that's fine. Uh, re sponse times for critical 
+incidents, that's all in our SLA, which I can share. Uh, but typically it's 2 hours. Um, so, uh, 
+again, if we've got the 24/7 support, it would be shorter, but just per our standard SLA response 
+times, it's 2 hours. Mhm.  
+Escalation structure. Um we have our own uh structure here. Uh slightly different to this. Um but 
+it's very similar. Um so in terms of who handles these uh we have staff who are always on um 
+basically to identify issues um and keep a keep tabs on you know the infrastructure itself. Um so 
+we deal with you know typically level two and level three um from a technical and infrastructure 
+standpoint. you guys would look after the users as I said um and again it's all in the SLA in terms 
+of sort of how that's mana ged but um but yeah it's it's monitored quite closely  
+uh user support and incident management um end user complaints would be you guys again 
+we've never had a problem with our solution with clients and and and sort of end users um in 
+terms of technical bugs uh we obviously handle them. Um, so you know, if the y're identified by 
+you guys or by us, we would just run a quick patch and get that sorted. Um, we do have a 
+workflow for bugs and we do have a workflow for large scale incidents. Again, that's all in our 
+SLA document which talks to the escalation structure , um, which I can send over after this.  
+And Alex, do you have a platform to so we can follow through all the uh, the incidents or 
+whatever we have in technical problems. So, uh how do we uh open a how do you call or how do  
+a ticket?  
+Yeah.  
+Yeah. Can be a ticket.  
+Yep. So, part of our  
+follow  
+So, part of our support you would get access to obviously us directly. So, emails, uh phone, 
+whatever. Uh but you would also get a dedicated Slack channel if you guys use Slack.  
+Uh and we would also get a uh an email address which which is essentially our support line. So 
+if you contact us in any of those uh forms then it would automatically create a ticket which 
+would be sent to you and to us to track the progress of that you kno w that that issue. Uh again 
+typically we don't see many to be honest. Um but that that support line is there um however you 
+guys want to use it.  
+Okay. Uh data yes we're fully GD PR compliant that is because we don't hold any PII data on our 
+side that is all situated with the client um so that's clear uh the data is is hosted um here in the US 
+on our side so but again we don't host any identified pe rsonal identified data it's all to do with 
+like you know the pics and you know the interaction that they have the badges that they've got all 
+of the user sort of specific um data related to our platform. We then have what we call a live like 
+ID which then matches up with the ID on your side so that you guys can do identity resolution. 
+But again, you know, 1 2 3 4 5 is just a number to us. That's the person's identity and we don't 
+know who that person is or any of the data associated with that account. Um th at all sits on the 
+client side, which is why we're GDPR compliant. And from the users data standpoint, the user 
+data is hosted on that side. We do have sock um sock 2. So again can provide that youth safety 
+um is an interesting one. It tends to be handled at the SSO level. So single sign on level because 
+those guys do  
+yeah they manage that. Um again if you wanted age verification in your flow we can work that 
+in. That's no problem. Um and yeah we can work through that in terms of sort of how we handle 
+that. that's, you know, less of a concern.  
+That's Let's go to the five. Yeah. Okay.  
+Yep. Um data ownership. So, yes, the data is fully owned by the client. Um we do obviously 
+retain user data as it relates to actions taken within our platform because we are the ledger for 
+you know the badges that you've earned and the picks that you've ma de and you know we need 
+to host that obviously to actually run the experience. But again, as I said, all of the user data is is 
+back with the client. Um  
+do do does my for example, us or the client can have like access to the user behavior. How is 
+how what's the what's working, what's not working. So we can  
+Okay.  
+Absolutely. So we've got  
+BI dashboards something like that.  
+We've got a bunch of dashboards which you would have access to as part of this. Uh so you 
+know you'll be able to see that as well if you want. We also have a number of agents uh so 
+analytics agents that we we have on our side which provide more detailed uh insights and 
+analytics.  
+So depending on how you know how much data you want to you want to have. We can we can 
+also give you access to the agents if you'd like. Um which is which is built within the within the 
+platform.  
+Okay.  
+Okay. For this moment it's not necessary.  
+Yeah. Dashboards are cool. Yep. Uh so yeah access to Yep. User database. You got full access to 
+user database on our side but as I said it's not um it's more event behavior not you know actual 
+user data.  
+Um Uh what else we got here? Data extraction. Yes, Plex explores. Yes. Realtime APIs. You 
+we're an API first company. So you can, you know, create APIs wherever you want basically. 
+Um whether that's around data, whether that's around, um you know, the actu al games 
+themselves. Again, um we can also do scheduled data dumps, up to you guys. Um we can figure 
+that out. Uh if the partnership ends, the user accounts on our end are deleted. Uh all of the 
+historical data is exported for you guys. If you want, you ca n it. Uh but if that doesn't happen 
+then it is deleted. Um behavioral insights again deleted. Uh and if you guys want the full data 
+export we can guarantee that. Uh but um but again we don't hold any data once a you know 
+customer has ceased working with us . Um again part of GDPR part of you know data you know 
+just health uh is is obviously getting rid of that.  
+Um core yeah core product obviously um I've got a pres that's going to be coming through to you 
+probably on Monday hopefully. Um but that'll that'll talk to this in terms of you know I guess the 
+the features that we have you know the types of predictions t hat can you can have um and 
+essentially how we can we can answer your brief uh but we do have just to run through this we 
+have yes we have that um we have exact score we have special predictions we have live 
+predictions uh if you want it we have multiple p rediction types we have logic uh scoring logic 
+configuration in the back end which is bespoke. Uh there is global rankings, we've got public and 
+private leagues, we've got period pace rankings, we have missions and challenges, we have 
+badges, we have prize  structures, and we have API for live data display. Um we would rely on if 
+you wanted live, we would rely on you guys having a stats perform um data feed or something 
+like that which we can feed the data from. Um you know, you can do it manually as well if  you 
+want manual resolution. But if you did want realtime auto resolution, then we would need a data 
+um feed from somewhere.  
+Yeah, we can arrange that maybe.  
+Perfect. Um number seven, league management. So private leagues. Again, this is all 
+configurable. So if you want users to be able to create leagues freely, we can allow that. If you 
+want them to be able to only create leagues if they're of a certain, you know, type of uh type of 
+um profile.  
+Yep. Or user. You can do that.  
+We can set uh participation limits. We don't have a maximum number. Uh it's it's open, but 
+again, we would recommend there being a limit because, you know, people tend to get silly and 
+we want to sort of try and keep them within a bit of a guard rail.  
+Yeah. Um uh yes. So there yes, there is restrictions by subscription status. Um it can be restricted 
+by partner eligibility. Uh and there are moderation tools built into our back end. Um, and then uh 
+what did you mean by anti - fraud?  
+Someone who's trying to fraud the system but by some some way or some type of behavior that 
+looks um that looks like he's trying to fraud something. I I don't think it's it has a features that 
+maybe it tends to to have some kind of fraud in this game. But just to check.  
+Yeah. Well, maybe you can have a a digital robot that that will create a lot of private leads. So, 
+it's not real a real person creating the leads. So, you can have a some kind of robots.  
+Yeah, for sure. So, in terms of, you know, I guess the anti -fraud piece from the gameplay piece 
+um and the predictions, we basically lock the predictions off at it's time the game starts. So, in 
+terms of actually there being able to make any predictions in  the game itself, that won't be 
+allowed because that will be systemized to basically shut off if the game starts at 2 p.m. then the 
+the predictions will shut off at 159 uh not allowing any additional  
+um predictions. And then uh in terms of the user piece, obviously there is authentication there. 
+We can do you know um we can do single sign on or we can do um two pay as well uh which 
+obviously protects from things like bots. So again  
+that would be more a question for your single sign on you know does it support that typically 
+they do um but yeah that's totally fine  
+okay uh gameplay and scoring um score updates can be real time as I said if we can have access 
+to a live data feed that can happen live uh end of match updates again that can be live uh batch 
+updates. Again, I mean t if you've got the data feed, you would do it live. If you wanted to do 
+batch updates, you can also do that. Um you can do that manually. Uh but again, that's totally 
+fine. And if you've got yeah, the official match data, then fantastic. That's perfect. Um we don't 
+have to worry about any manual  work.  
+You you you don't have um you don't use already an official match data provider, right?  
+So we don't have a subscription. We use our customers subscription. So we basically  
+we have something here to to to deliver. Okay. I think we do have something here batch. Yeah. 
+I'll have to check  
+something like that.  
+Yeah. Is octa um and and stats perform is the name of the company. That's the name of the the 
+one that we want or the one we need. Uh is the official football stats and um you know results 
+provider for the World Cup.  
+Okay, I'll I'll check.  
+Cool. Uh customization, UX, and front end. So, we have a professional services team that can 
+work with you to design this. Um you know, we do have a lot of out of the box solutions as well. 
+Um but in terms of the way that you're sort of thinking about this  and pulling it together, it would 
+definitely be, you know, we definitely need to have some customization involved here. Um in 
+our CMS, it's fully available to be themed. um you know changing in terms of colors, you can 
+insert brand logos, there's a whole heap of stuff you can do there. Um so that that's fully um fine 
+and yes we do provide UX UI design support. Um we do provide the front end and you do not I 
+mean you can provide a design resource but we would recommend that we do it uh just because 
+it's eas ier for us to do the back end and the front end together. Um it just creates efficiencies.  
+Yeah, we someone who who does everything.  
+Yeah,  
+totally. Uh yeah. So, integration ecosystem. Okay. So, yeah, we're we're API first. Um as I said, 
+we highly highly recommend um you know, integrating in with an SSO provider just because it 
+solves so many problems. Uh and all then all the data sits with th e with the customer. Um when 
+you say partner benefit integration, what do you mean by that? It's like a for example a sponsor 
+that's a partner that is like one of the premium leagues and then we can we need to integrate with 
+it with them to understand the data from the user and understand that that that user is active as a a 
+premium member on our sponsor and then he will automatically um join the premium league.  
+Yep. Totally. Yep. We can we can do that  
+from SSO from the the user from the our buffer basically.  
+Yeah. Yeah. We would need to work through that and exactly how you need it to work, but yeah, 
+that's fine. We we can we can work through that. Um that's fine. Uh subscription verification. Do 
+you mean payment or do you mean um is that to the one above?  
+That's just like one information actual information like oh we understand that that user that's just 
+like a detail the user does have of the subscription.  
+Got it.  
+Paid in the pre in in our our partner.  
+Yeah. Got it.  
+Together with the the the line above.  
+Yeah. Yeah. Same thing.  
+Yeah. I mean, we would we would have to work through that. Um exactly how that would that 
+information would be passed to us, but we can certainly figure it out. Um  
+it would just be essentially like a um yeah, like a It'd be a bit of authentication and yeah.  
+Yeah. I don't know if maybe through an API or  
+Yeah. No, it definitely be through an API just be about where it sits on our end. But yeah, we we 
+we can work through that. That's okay.  
+Yeah. Actually, we just need to to have a tag like uh like they have a list of the the users that are 
+part of the the special club of them. So, we just need to identify that and make a tag. in our data.  
+Yeah, cuz I was we do have tags um like attributes we call them. Uh but we also can create user 
+groups. So I was just thinking in in on the top of my head, would it be easier to do it by user 
+group? Would it be easier to do it by attribute? Probably attrib ute. But again, I'll let the technical 
+team figure that out.  
+Yeah.  
+Thing is that we have solutions.  
+Yeah. Exactly. Exactly. Um okay, so loyalty program like yes, we can We can integrate with a 
+loyalty program for sure. We also have a loyalty program. Um so depending on whether they 
+have one or not, we can we can help uh integrate with subscription databa ses. I presume that's 
+payment um in terms of or or subscription of some sort of membership. Yep. Yes, we can do 
+that. Uh and then premium access controls. So gating by status. Yes, we can do all this stuff. 
+Again, we would need to understand exactly how th at works, but it's all possible.  
+Yeah. uh notifications. Um so this would be handled by you guys. So um web and email push 
+notifications would be handled by the client.  
+We can send like notifications and triggers you guys to basically send those emails. Um but that 
+would be managed by the client.  
+Okay.  
+Social sharing. We have all of this. Um so we have native social sharing features. Um That's 
+across, you know, all the social platforms. You can also share via, you know, text or WhatsApp 
+or whatever as well. So, there's a multitude of ways you can do that . Um, we would just need to 
+set that up.  
+We can geostrict uh as well. So, um, we can restrict to, you know, specific IP ranges or specific 
+geographies. Um,  
+that's fine.  
+Uh, road map evolution. Um,  
+I don't think that that that is right now the road map evolution in my vision because we 
+understand that you already have like all the the the features so you don't need to adapt anything 
+for us.  
+Okay, great. Uh commercial side, I I haven't actually run the numbers yet. Um  
+but I need to do that.  
+That was going to be my last question.  
+A couple of questions for you on this. So in terms of sort of you know is this going to start and 
+stop just for the World Cup? Yeah. Um the world cup would be like um the validation of of the 
+whole idea of the of digital products for for Kazio for the clie nt. So basically yes, we're going to 
+do like this first validation for the World Cup.  
+So saying that we're going to start one month before the World Cup. It would be in the 11th of 
+May.  
+Yeah.  
+Until the end of July, for example. So it would be like two two months and a half.  
+Yeah.  
+But Um, Kazet also owns the rights of the domestic league, Brazilian domestic league. They 
+already also own rights for Olympic sports and for other other types of sports, next year we will 
+have the women's world cup.  
+So basically, if we get things done right here and the and the result is  
+is is what we're thinking it can be. So basically, we would be validating everything.  
+Yeah. Okay.  
+Right. So Sounds good. Yeah. So, um just in terms of our structure, so we tend to have a setup 
+fee. Uh then we have a subscription fee. So, you know, what it costs to actually license the 
+technology and then we also have usage uh as well. So, you know, jus t to factor in the, you 
+know, the support of the 10 million, I think is the number you gave me.  
+So, um that would be the three buckets. So, I mean, I can definitely come back to you early next 
+week with some numbers on that uh at least to give you an understanding of of cost uh and and 
+everything. Um, what I might even do is on the presentation uh th at my team are pulling 
+together, I might just I'll put in a slide in there for cost. Um, so you can get an understanding and 
+then it's all in one place. I know you guys are trying to make a decision quite quickly. Um, and 
+then we can obviously yeah, obviou sly talk about it then and um, yeah, go through any next 
+steps. Um, experience references. I mean, I can send you a whole case studies as well um, as part 
+of the follow up early next week with with the deck um as well. So, but yeah, I mean everything 
+we've  talked about is definitely within the wheelhouse with what we do and um yeah, certainly 
+different type of activations we've done in the past. So, um yeah, it's exciting.  
+Great. Okay, thank you.  
+Uh and Alex, uh just one one extra point as uh said uh it's it's a test for the first test in in digital 
+products for a kaza uh we expecting 10 million but maybe we can have more or less than 10 
+million users. So  
+I don't know if it changed for you in the in the proposal or just to to make sure we can go further 
+than 10 million if we have a big success. So  
+yeah to the way it works is we'll give you a like an allowance um like a user allowance and then 
+that will be lower than what your target number is. But then what we'll do is we'll create different 
+like trenches above that so that you know you know that it 's going to cost you X. But then you 
+know as the number grows then you'll pay more based on that. So we do that to protect you guys 
+um to try and you know if it's if it is lower that's okay but if it's higher then you can sort of model 
+out what that cost i s. So um you you'll see it in the in the deck. I'll make it pretty clear.  
+Okay. Okay. Thank you.  
+Perfect. I've got to jump, but um thank you for this. Uh I will come back to you early next week 
+with this information and um yeah, look forward to to talking again early next week. Um maybe 
+in the email that I send you uh guys, I'll put some times in to t o reconnect mid next week. Uh so 
+we can keep pushing forward pretty quickly.  
+Yes.  
+Um can you also in the email send maybe some links on maybe some cases of projects that look 
+similar to us to out this month?  
+Okay. I'll do that and uh and I'll send the recordings as well.  
+Yeah.  
+Okay.  
+Awesome. Thanks, guys. Have a great weekend.  
+Thank you so much.  
+Thank you. Thank you. Bye.  
+Bye.  
+ 
