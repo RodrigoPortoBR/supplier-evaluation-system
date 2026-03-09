@@ -1,0 +1,750 @@
+POWERING BRAZIL’S BIGGEST WORLD CUP FAN GAME 
+Delivering a scalable, social, and premium prediction experience for millions of Brazilian fans. March 2026 
+
+The Leader in Fan Engagement and Monetization 
+From gamiﬁcation to communities, LiveLike is already the 
+solution for sports and media organizations globally. 
+Purpose-Built for Sophisticated Enterprises  
+Scale - Supports usage by 100m+ users. 
+Secure - SOC2 and GDPR compliant. 
+Modular platform allows for easy assembly 
+These aren’t templates. Launch any interactive 
+experience with speed and quality. 
+WHERE TOP SPORTS & ENTERTAINMENT BRANDS  BUILD THEIR EXPERIENCES WHO WE ARE 
+
+LiveLike offers a suite of fan engagement tools designed to connect with global audiences, capture zero-party 
+data and unlock new revenue through digital sponsorships. Our engagement loop fosters a self-sustaining 
+cycle of user retention, interaction, and revenue generation. AI-POWERED FAN ENGAGEMENT ECOSYSTEM WHAT WE DO 
+Customize and build your own solutions  
+with our expert guidance, ideal for brands 
+with in-house development resources. Choose from our ready-to-go, plug-in 
+modules for quick implementation with 
+minimal effort. Build With Us Pre-Built Solutions 
+Beneﬁts 
+Full control over features, design and integration, 
+perfectly suited to your unique branding and 
+business goals. Beneﬁts 
+Faster deployment, tested reliability, and 
+easy integration with your existing platform. TAILORED OR TURNKEY:  TAKE YOUR PICK HOW TO WORK WITH US 
+Leadership Team 
+David Goncalves 
+VP of Accounts 
+10+ years of experience integrating 
+digital products & account 
+management (e.g NetcoSports) Samuel Westberg 
+Chief Revenue Ofﬁcer 
+10+ years of ﬁnding and building 
+the best tech companies Miheer Walavalkar  Chief 
+Executive Ofﬁcer 
+10+ years of experience building 
+successful technology companies 
+Project Team Lawrence Chan  
+CFO & CSO 
+10+ years of experience in 
+corporate ﬁnance & strategy 
+10+ years of experience leading 
+successful engineering teams Justin Poiley 
+VP of Engineering 
+10+ years of experience in 
+commercial strategy & 
+business growth. Alex Hay 
+VP of Strategy & BD 
+8+ years of experience as 
+solutions engineer in tech 
+(e.g IBM) Maulshri Pathak 
+Solution Architect 
+8+ years of experience in 
+Product Design Remy Clark 
+Creative Director 
+10+ years of experience 
+building games and 
+gamiﬁcation products Prasad Kajarekar 
+Product Lead 
+OUR TEAM HOW WE BUILT IT 
+YOUR IDEAL TECH-STACK FOR GAMIFICATION WHY LIVELIKE? 
+LiveLike offers the ideal tech stack for gamiﬁcation, predictions, and large-scale fan engagement . Already working with some of 
+the world’s leading sports and media organizations, our modular platform adapts to the unique requirements of each partner. 
+We combine interactive features, gamiﬁcation and 
+rewards & loyalty mechanics  in one modular platform — 
+enabling rapid deployment for the 2026 FIFA World Cup  
+while supporting future tournaments and large-scale 
+sporting events without structural rework. For the CazéTV World Cup Bolão , LiveLike provides a 
+scalable foundation capable of supporting millions of 
+Brazilian fans predicting matches, competing in leagues, 
+and engaging throughout the tournament. 
+Our platform integrates seamlessly with the CazéTV 
+ecosystem via web deployment and APIs, supporting SSO 
+authentication, premium access checks, match data feeds, 
+CRM triggers, and analytics exports—while ensuring CazéTV 
+retains full control over user identity and data. Beyond technology, LiveLike brings expertise in fan 
+engagement, prediction games, and large-scale digital 
+activations . We will work closely with CazéTV to design 
+experiences that maximize participation, social sharing, 
+and retention during major sporting events. Built for the CazéTV Ecosystem Modular, Scalable and Tournament-Ready 
+Seamless Integration and Control over Data A Strategic Partner, Not just a Vendor 
+
+KNOWLEDGE-DRIVEN, REPEATABLE, COMPETITIVE CAZE TV OBJECTIVES 
+Massive Audience Participation 
+Enable millions of Brazilian fans to 
+participate in predictions. 
+Daily Engagement 
+Drive repeat interaction throughout the 
+tournament. Premium Monetization 
+Offer gated leagues, missions, and 
+exclusive experiences. 
+Social Virality 
+Amplify organic reach through sharing 
+and private leagues. 
+
+THE BOLÃO EXPERIENCE 
+Set-and-Forget Automation 
+Can be fully automated via live data feeds integration where you set it up 
+once and forget about it for the rest of the tournament.  PLAY PREDICTOR MINI-GAME 
+Let your fans predict key events of all the matches (which team will 
+win, how many goals will be scored, possession percentage, etc.) 
+throughout the 2026 World Cup. 
+●Core Capabilities 
+Score prediction, conﬁgurable points logic, prediction lock before 
+kickoff, points multipliers, leaderboard aggregation. 
+●Automatic Resolution 
+Points allocation, ranking logic, and reward mechanics 
+automatically triggered based on data feed. 
+●Built for High Concurrency 
+Designed to handle peak matchday trafﬁc with auto-scaling 
+infrastructure and near real-time leaderboard updates. 
+2M+
+Unique Interactions 
+(Since January 2023) 480k+ 
+Total Interactions 
+(During the 2022 World Cup) 
+
+PREDICT & PLAY KNOWLEDGE-BASED GAMES 
+Trivia
+Guess The Word 
+A daily football-themed word 
+puzzle with streaks. Guess What 
+A sporcle-inspired quiz game, 
+testing fan knowledge on 
+players, matches, & history. Questions tied to players or 
+teams history, pop-culture etc. 
+TURN GAMEPLAY INTO A GLOBAL EVENT LEADERBOARD & SOCIAL SHARING 
+Combine leaderboards with built-in social sharing to turn individual gameplay into viral, competitive moments fans 
+want to show off. 
+Influencer & Creator Challenges:  
+Link the game to your editorial  
+narrative on social media. 
+Social Sharing Quests: 
+Incentivize users to play & share  
+their results on social media. 
+ENTER YOUR PREDICTIONS NOW! 
+●Leaderboard 
+Drive a sense of competition by letting fans compete with 
+each other. Leaderboards can be per game, per tournament or 
+weekly/monthly to give users a chance to compete. 
+●Points & Badges 
+Let players earn points/XP for participation, correct answers, 
+consecutive play, and integrate into a larger  loyalty program. 
+●Quests & Challenges 
+Structured missions that guide fans toward high-value 
+behaviours like watching, playing, and sharing. 
+●Streaks & Daily Habits 
+Incentives that reward repeat engagement, building weekly 
+and daily return behaviour through consistent play. 
+●Mini-Leagues 
+Allow fans to compete with friends in group competitions that 
+make engagement social, personal, and sticky. THE GAMIFICATION LAYER THAT TIES EVERYTHING INTEGRATE MINI-GAMES WITH 
+A fan’s ongoing journey 
+Simple to start. Built to last. 
+Discover 
+Play
+QuestLevel Up 
+Compete ReturnRegulars First-timers
+👤
+Solo
+Individual 
+engagement 🏆
+Competition 
+Challenging others 👥
+Social
+Community 
+interactions 
+Share
+Let fans compete across multiple levels and drive organic growth & retention. MINI-LEAGUES COMMUNITY & SOCIAL LAYER 
+Global Rankings 
+Tournament-wide leaderboard. 
+Public Leagues 
+Open competitions for all users. 
+Private Leagues 
+Invite-only leagues with friends or communities. 
+Premium Leagues 
+Subscriber or sponsor-only competitions. 
+Social graph = Retention Engine 
+Users who compete with friends have signiﬁcantly higher Day-30 retention 
+than solo players. Friendly rivalry creates a social obligation to return. 
+
+SOCIAL QUESTS & REWARDING USER ACTIONS COMMUNITY & SOCIAL LAYER 
+"Share and Win":  Share a post to unlock exclusive content or enter 
+a giveaway. 
+"Follow for Exclusive Access":  Follow the brand's social media 
+account to gain access to behind-the-scenes content or early 
+product releases. 
+"Comment to Participate": Comment on a post to gain access to 
+join a discussion or enter a contest. 
+"Attend Live for Rewards":  Participate in a live session, interacting 
+with the host and other users. 
+User actions that can be incentivized through 
+quests include: 
+●Likes, Follow, Shares 
+●Comments 
+●Interacting with live sessions 
+Potential rewards for completing these actions can include  exclusive content 
+access, discounts or coupons , entry into giveaways or contests, etc. 
+
+Unify all Bolão interactions into a central Reward Hub  where fans track 
+their campaign progress — points earned, tier status, unlocked badges, 
+and completed streaks. 
+●Custom Reward Actions 
+Reward fans not only for submitting predictions, but also for 
+high-value actions such as completing daily quizzes, sharing 
+results, joining leagues, or participating in matchday activations. 
+●Tiered Progression (e.g. Fan → Superfan → CAZÉ Elite) 
+Visible progress tracking unlocks enhanced beneﬁts like 
+recognition, priority access, and exclusive digital experiences. 
+●Rewards Store 
+Redeem points for merchandise, tickets, partner discounts, 
+sponsor rewards or money-can’t-buy experiences. MAKE PROGRESS VISIBLE. MAKE STATUS REWARDING. GAMES HUB 
+Gaming Hub 
+GOING FURTHER 
+A SCALABLE PORTFOLIO OF 100+ GAMES BOLÃO MINI-GAME ARCADE 
+Wide Variety of Formats 
+Knowledge-based, Skill-based, Chance-based 
+Proven Retention Mechanics 
+Streaks, Challenges, Daily refreshes 
+Competitive Layer 
+Leaderboards, Mini-leagues and Social-sharing 
+Automated Workflows to Reduce Editorial-lift  
+Generate game content/questions using GenAI 
+Why it matters 
+●Low-lift, High-return – Mobile-ﬁrst 
+gameplay, serve both Casual & Core fans. 
+●Drive Monetization with 
+Sponsorships and Brand integrations. 
+●Tournament Readiness 
+Engineered for high concurrent usage. Chance-based Knowledge-based Skill-based Mini-games drive daily usage with fun, frictionless interactions that boost session time, repeat visits, and brand afﬁnity. 
+
+LIGHT-WEIGHT, FAST-PACED CHALLENGES TAILORED FOR THE WORLD CUP SKILL-BASED GAMES 
+~9Sessions / User 
+on average 
+Pong Soccer 
+Penalty Kick 
+Classic Penalty shot game 
+rewarding accuracy and precision 
+with high-score tracking. Memory Match 
+Flip tiles to ﬁnd matching 
+football-themed pairs. Pong-style tap-and-drag 
+gameplay for snackable 
+engagement. 5x Winter Olympics Games 
+SPIN THE WHEEL, SWEEPSTAKES & LOOT BOXES CHANCE-BASED GAMES 
+LiveLike’s Luck-Based Mini-Games  bring the thrill of 
+unpredictability to fan engagement. Designed to create moments of 
+anticipation and excitement , these games give fans the chance to 
+win rewards, climb leaderboards, or unlock surprises —all while 
+keeping them actively engaged. 
+Luck-Based Games rely on randomized mechanics , making them 
+perfect for jackpot-style experiences, prize giveaways, and 
+sponsor-driven activations . Whether spinning a wheel, cracking a 
+mystery box, or drawing a lucky number, these games drive 
+repeated participation and maximize retention .
+Core Capabilities 
+●Conﬁgurable probability logic 
+●Reward inventory management 
+●Campaign-based availability 
+●Integration with loyalty points 
+Spin-the-wheel 
+
+AI-POWERED AUTOMATION & ACTIVATION LIVELIKE GENIE 
+Beyond the core mechanics, LiveLike enables CazéTV to combine automated 
+game logic, data-driven triggers, and GenAI-assisted content creation — 
+reducing editorial workload while increasing activation depth. 
+●AI-Driven Content Creation: Instantly generate ready-to-publish 
+Trivia, Predictors, Polls, and Challenges tailored to World Cup history, 
+World Cup matchups, and live tournament narratives. 
+●Live Matchday Engagement: Trigger interactive moments in real 
+time — score predictions, live polls, and bonus challenges — aligned 
+to key match events such as goals, halftime, or ﬁnal whistle. 
+●Personalization at Scale: Activate targeted messages and 
+challenges based on fan behavior, such as prediction streaks, 
+participation frequency, or loyalty tier status. 
+●Operational Efﬁciency: Automate scheduling, publishing, and 
+campaign triggers across webview and app, enabling engagement 
+throughout the tournament without heavy manual coordination. 
+The Octalysis framework 
+categorizes 8 core motivations  into 
+4 main types: White Hat, Intrinsic, 
+Extrinsic, and Black Hat. 
+Each type represents distinct 
+drivers that influence user actions 
+and perceptions, offering valuable 
+insights for crafting engaging 
+experiences. THE PSYCHOLOGY BEHIND OUR MINI-GAMES DESIGN WHY IT WORKS? 
+Our mini-games are designed around the core psychological drivers that keep fans returning, sharing, and progressing 
+from casual play into deeper fandom. 
+DATA CAPTURE & 
+MONETIZATION 
+REGISTRATION & 
+AUTHENTICATION 
+Require users to log in 
+or sign up before 
+playing to collect key 
+demographic data. PREFERENCE-BASED 
+INSIGHTS 
+Analyze fan choices in Pick 
+The Team, Play Predictor, 
+or Bracket Challenge to 
+understand their opinions 
+and interests. ENGAGEMENT 
+TRACKING 
+Monitor gameplay 
+frequency, time spent, and 
+participation trends to 
+reﬁne content and 
+marketing strategies. REWARD 
+LOYALTY & DATA 
+Link mini-game 
+participation to loyalty 
+programs, tracking user 
+activity and rewarding 
+repeat engagement. CRM & CDP 
+INTEGRATION 
+Sync collected data with 
+your CRM, customer data 
+platform (CDP), or 
+marketing stack for deeper 
+audience segmentation 
+and personalization. 
+VALUABLE FIRST AND ZERO-PARTY DATA COLLECT & INTEGRATE 
+Activating Fans, Capturing Insights, and Powering Engagement—Everywhere the Game is Played. 
+TURN ENGAGEMENT INTO REVENUE CREATE VALUE ON MULTIPLE LEVELS 
+LiveLike’s mini-games are powerful sponsorship assets  that help brands monetize fan interaction  in an organic, high-impact 
+way. With seamless brand integration options, every game becomes a sponsor-ready activation  designed to maximize ROI.
+Showcase brand logos or 
+themes through custom 
+game visuals. Branded Game Environment 
+Seamlessly place sponsor 
+logos, banners, and 
+interstitials. Use rewards to incentivize high 
+value actions (e.g. playing, 
+sharing, referring) Ad Placements & Logos Sponsored Challenges 
+Give partners naming rights 
+on leaderboards and season 
+prizesLeaderboard & Prize Sponsorships 
+MONETIZABLE ASSETS THAT DRIVE ROI SPONSOR-READY 
+TECHNICAL REQUIREMENTS 
+SCALABLE. MODULAR. INTEGRATABLE. 
+Multi-Platform Integration: Across web, iOS, Android, and CTV, delivering 
+a branded experience on any platform. 
+SDK’s and Embed Codes: Add interactive features to your platform 
+according to your needs 
+GraphQL & REST APIs:  Advanced customization on any platform, with 
+integration in 3-6 weeks. 
+Producer Suite CMS : Our modular platform allows you to effortlessly layer 
+in your brand elements to create a fully customized experience. 
+Analytics : Use our dashboard and AI features to analyze trafﬁc in real 
+time to make data led decisions on your product 
+A POWERFUL  ENTERPRISE SOLUTION 
+OUR INTEGRATION EXPERTISE 
+Integration with third-party providers is essential. 
+➔We specialize in integrating  with a diverse range of 
+external platforms, from OTT solutions to ticketing 
+systems, martech companies, wallets, gift card 
+platforms  and more.  
+➔We will ensure the integration of your existing partners  
+so the experience provided is global and centralised. 
+➔Our tech team has a deep expertise in integration , 
+ensuring smooth processes and optimal functionality. 
+➔Our LiveLike CMS seamlessly connects  with data 
+providers, clipping tools, redemption systems, CDPs, and 
+more.
+SSO
+Sports 
+Data
+Video/OTT 
+TechMartech 
+(CRM, CDP) 
+Web3
+Ticketing 
+SECURITY MEASURES 
+Personnel Rules 
+Access to personal data is limited to the LiveLike backend development team, consisting of four engineers and 
+managers. Stringent security measures are implemented for all personnel with access to personal data, including: 
+1.Multi-Factor Authentication (MFA) for all services including Google, Bitbucket, and AWS. 
+2.Identity and Access Management (IAM) for AWS access., with restricted root access for all users. 
+3.All work devices (laptops, tablets and phones) are password-protected and encrypted. 
+Cloud Security 
+We use AWS Guard Duty , AWS’s intelligent threat detection service, for continuous monitoring of our cloud 
+environment. 
+GuardDuty analyzes AWS CloudTrail events, VPC Flow Logs, and DNS logs using machine learning and threat 
+intelligence to identify unauthorized access, data exﬁltration attempts, cryptomining, or malware activity. Findings 
+are integrated with our alerting channels (Slack, Email, SMS) for immediate action. 
+We also leverage GuardDuty’s reporting and integration with AWS Security Hub to support compliance monitoring, 
+including periodic exports for GDPR and regulatory audits .
+●Azure AD B2C supported (OIDC/OAuth2) 
+●Proﬁles generated for each user to track activities 
+under a single, uniﬁed identity. 
+●Provisioning is flexible, complementing existing 
+user account records. 
+●Proﬁles can be local for anonymous use or stored in 
+databases for persistence across devices. 
+●Unique ID, Access Token, and automatic Nickname 
+assigned upon creation. 
+●Proﬁles remain active with stored credentials; 
+Nicknames used for personalization. 
+ARCHITECTURE & INTEGRATION 
+WE ARE SSO AGNOSTIC 
+LiveLike is SSO agnostic, meaning we can support your system. 
+CRM, CDP, Data Cloud & More 
+Data Infra Web & Mobile Events 
+Server Events 
+LiveLike 
+SaaS Tools (CRM) 
+Ads Data 
+Internal Database Event 
+Streaming 
+ELT/ETL
+BI toolsDBTCRM Support 
+Marketing Automation 
+Ads Platform 
+Analytics 
+SFTP, Freedom tables 
+Postgres, Mongo, MySQL 
+LiveLikeExample Loyalty and 
+Rewards Events 
+-Reward 
+Redemptions 
+(Tickets, 
+Experiences, etc) 
+-Quest Completion 
+-Rewards 
+-Badges / Tiers 
+-LiveLike 
+Interactivity 
+Example User 
+Events 
+-Video Playback 
+-Broadcast Check In 
+-Stadium Check In 
+-Venue Purchases LiveLike 
+Gamiﬁcation Engine ARCHITECTURE & INTEGRATION 
+INTEGRATING WITH YOUR DATA ECOSYSTEM 
+Enterprise-grade platform built for performance, scalability, and security. 
+Industry-Leading Security 
+●SOC 2 Type II certiﬁed infrastructure 
+●Data encryption at rest and in transit 
+●Regular penetration testing and 
+security audits 
+●Compliant with CazéTV’s security 
+standards 
+Compliance Guarantees 
+●GDPR and CCPA compliant data handling 
+●COPPA-certiﬁed child-safe experiences 
+●ADA accessibility standards (WCAG 2.1 AA) 
+●Automatic compliance reporting 
+Scalable Architecture 
+Supports millions of concurrent users with cloud-native infrastructure 
+99.99% uptime guarantee, auto-scaling capabilities 
+Cross-Platform Support 
+iOS (14.0+), Android (6.0+), and responsive web 
+Single codebase with platform-speciﬁc optimizations 
+Security & Compliance 
+SOC 2 certiﬁed with comprehensive data protection 
+COPPA, GDPR, ADA, and California Privacy Act compliant 
+Analytics Integration 
+Compatibility with existing analytics suite 
+Adobe Analytics, Nielsen, Comscore tracking support ARCHITECTURE & INTEGRATION 
+TECHNICAL INFRASTRUCTURE 
+We at LiveLike are fully capable of handling millions of 
+concurrent users . Our Viewer Engagement Platform is stress 
+tested on a regular basis to ensure it can manage high volumes 
+of concurrent users.  For clients requiring additional assurance, 
+we offer the option to conduct further stress and/or load 
+testing of the Application or Viewer Engagement Platform. In 
+such cases, we work with the client to mutually agree on 
+related costs and procedures. Additionally, our platform is 
+hosted on AWS with auto-scaling capabilities,  allowing us to 
+quickly accommodate increases in transaction volume and user 
+load.
+For special events, we work closely with clients to ensure our 
+system can handle expected loads.  Our platform is designed 
+to process high volumes of transactions and can adapt to 
+future increases in transaction volume. We support millions of concurrent users with cloud-native infrastructure 
+320M 22.3MM 
+Total Widget 
+Impressions Rewards in 
+circulation 82.8M 
+Total Proﬁles 
+Created 
+Figures from 2024 ARCHITECTURE & INTEGRATION 
+PERFORMANCE & SCALABILITY 
+BLEACHER REPORT: PROVEN SCALE & INFRASTRUCTURE 
+Our infrastructure is powering community engagement across millions of fans , with low latency , high uptime , and instant scaling  
+for live moments that matter. 
+353
+0.171S Request per Seconds (ABL) 
+Backend response Time (p99) 26.8M 
+Average Request per Day  (ABL) CASE STUDY 
+WORK ESTIMATION 
+Timeline STEP # - Title Details
+Week 1 STEP 1 - Kick-Off Meeting In-person or hybrid workshop with CazéTV stakeholders  to align on the Bolão scope including prediction 
+mechanics, league structures, gamiﬁcation features, and premium user tiers. Conﬁrm SSO integration for 
+premium users , Stats Perform data feed , scale targets, KPIs, governance model, and critical dependencies. 
+Week 2 STEP 2 - Requirements & 
+Architecture Finalization Document detailed PRDs for the prediction engine, leagues, and gamiﬁcation layer . Finalize SSO flow for 
+premium veriﬁcation, conﬁrm Stats Perform feed integration, deﬁne analytics and API architecture, and align 
+on RACI, milestones, and integration responsibilities. 
+Week 3 STEP 3 - UX Design & 
+Technical Blueprint Deliver white-label UI designs aligned with CazéTV branding and mobile-ﬁrst experience . Finalize solution 
+architecture, leaderboard logic, prediction lock rules, user tier flows, and initial load-testing assumptions. 
+Week 4-7 STEP 4 - Conﬁguration, 
+Integration & 
+Development Workstream A: Conﬁgure prediction engine for 104 matches , scoring logic, multipliers, leagues, quizzes, 
+missions, and badges. 
+Workstream B: Implement SSO integration , Stats Perform data feeds, analytics APIs, and AWS auto-scaling 
+infrastructure. Agile sprints with regular reporting and integration checkpoints. 
+Week 8 STEP 5 - QA, Load Testing 
+& UATExecute functional testing, peak-load simulations, and security validation. Conduct joint UAT with CazéTV 
+teams, and provide admin training and operational documentation. 
+End of Week 8 STEP 6 - Production 
+Release & Stabilization Deploy to production environment, validate live match integrations and leaderboard updates, monitor system 
+performance, and support initial campaign activation ahead of tournament operations. IMPLEMENTATION TIMELINE 
+OPERATIONAL MODEL ROLES & RESPONSIBILITIES 
+During WK 2026, most formats 
+run automatically via live data 
+feeds. Leaderboards and scoring 
+update in near real time without 
+manual intervention. 
+CazéTV teams can launch new 
+campaigns, adjust rewards, and 
+monitor performance 
+independently, while LiveLike 
+provides active monitoring and 
+performance oversight. CazéTV retains full control over 
+day-to-day operations. The Gaming 
+Hub and rewards economy can be 
+adjusted in real time, including 
+points, tiers, and campaign rules. 
+Play Predictor formats can be 
+conﬁgured once and automated via 
+data feeds (set-and-forget). 
+Spin the Wheel and Trivia  can be 
+launched on demand, with 
+AI-assisted content creation. 
+Skill Games require one-time setup 
+and run autonomously 
+(set-and-forget). 
+LiveLike manages core 
+infrastructure, uptime, scalability, 
+security, and SLA-backed support. 
+We maintain SSO integration, data 
+pipelines to Snowflake, and 
+platform performance under peak 
+load.
+Structural feature changes or new 
+game development require 
+collaboration; campaign execution 
+does not. 
+CazéTV Operational 
+Autonomy Post Go-Live Vendor-Dependent 
+Structural Components Tournament Operational 
+Model
+A STRONG TRACK RECORD & EXPERIENCE 
+Strong Knowledge of the 
+Sports & Media Space 
+With extensive experience in the 
+Sports & Media industry, our team has 
+collaborated with leading companies 
+like UEFA, FIFA, NBA, MLB, 
+Bundesliga and many other Tier 0 
+and Tier 1 Leagues . Our deep 
+understanding of the Sports industry 
+and experience in delivery will be a 
+key component to the success of this 
+collaboration. Experienced 
+Development Team 
+Our development team boasts over 6 
+years of experience working on 
+similar projects for high-proﬁle 
+clients such as Warner Bros. MLB, 
+Discovery, TF1, Coca-Cola and more. 
+With a dedicated team of 20 
+engineers across various platforms , 
+we specialize in delivering 
+state-of-the-art experiences. The 
+expertise and commitment of our 
+team ensure the creation of robust, 
+scalable, and innovative solutions 
+tailored to our client needs. Successful Account 
+Management Team 
+Our AM team excels in guiding clients 
+through the project lifecycle to ensure 
+successful implementation and 
+client satisfaction. They bring a 
+strong background in digital 
+consultancy and have managed 
+multiple partners and complex 
+projects. This expertise ensures 
+seamless communication, effective 
+problem-solving, and timely delivery 
+of project milestones. ROLES & RESPONSIBILITIES 
+Demos / Reviews 
+Demonstrations where the team 
+showcases the latest product 
+increment. These can be internal or 
+external, depending on the 
+increment and its impact. 
+Daily Standups 
+15-minute internal meetings where 
+the development team discusses 
+progress towards the next milestone 
+and resolves any conflicts or 
+blockers. This contributes to project 
+management and documents such 
+as RAG reports. 
+Backlog Grooming 
+Meetings, typically involving external 
+stakeholders, to reﬁne and prioritize 
+the JTBD, ensuring that the most 
+critical items are ready for 
+implementation. This process also 
+accommodates changes in priorities 
+or features as needed. 
+We will conduct the program and workstreams in a flexible, agile fashion, adjusting the process for each workstream to ensure we 
+consistently deliver the highest possible value. This approach is guided by three pillars: transparency, inspection, and 
+adaptation . Our frameworks, based on Scrum or Kanban, will include regular cadence meetings and rituals: Agile & Iterative with Flexibility PROJECT GOVERNANCE & DEVELOPMENT STRUCTURE ROLES & RESPONSIBILITIES 
+Product Documentation 
+We provide you with comprehensive guides and complete 
+documentation to help you work with LiveLike, as well as 
+getting support if you get stuck. 
+Let’s get started 
+Strong Support Services 
+We provide you with a full service technical support team  
+to advise and bring assistance regarding: 
+•Solution Integration 
+•Problem Correction 
+•Application Enhancement DOCUMENTATION & SUPPORT ROLES & RESPONSIBILITIES 
+Standard support services shall consist of, and be limited to, advice and assistance regarding:    
+Service Description Examples 
+User Support Assist customer with API and SDK integration 
+and help them understand its features. 
+●Answer queries regarding API or SDK integration 
+●Provide APi and SDK documentation 
+●Respond to queries about feature functionalities 
+Problem 
+Correction 
+Restore an application to its original 
+functionality, either with a permanent ﬁx or a 
+temporary workaround until a permanent 
+solution is found. 
+●Perform bug ﬁxes 
+●Address any abnormal functional behavior 
+●Conduct root cause analysis 
+●Implement workarounds to mitigate issues 
+Application 
+Enhancement 
+Modify the functionality of existing applications 
+as needed. 
+●Introduce new features to improve user experience 
+●Optimize runtime efﬁciency 
+●Update applications to align with new releases 
+SERVICE CATALOGUE ROLES & RESPONSIBILITIES 
+Service requests for problems received by LiveLike will be categorized with a Priority Code from 1 - 3, assigned at 
+LiveLike’s discretion, as follows: 
+Priority 
+CodeDeﬁnition Description Examples 
+1 A problem that renders a critical 
+application function unusable or 
+unavailable. These functions are vital to the 
+customer, and prolonged failure could 
+impact proﬁtability or damage the 
+customer’s reputation. ●App crashing or 
+unusable due to SDK. 
+●SDK affecting video 
+playback. 
+2 A problem that renders an important 
+application function unusable or 
+unavailable. These functions are important to 
+business productivity but not critical to 
+proﬁtability or reputation. ●No chat messages 
+being sent/received. 
+●No widgets being 
+sent/received. 
+3 A problem causing reduced functionality or 
+performance in critical or important 
+applications, though the functionality still 
+performs as speciﬁed in the 
+documentation. Alternatively, it could 
+affect supportive application functions or 
+performance. These functions enhance 
+productivity but are not 
+essential to business 
+effectiveness. ●Speciﬁc widgets (eg. 
+Predictions) aren’t 
+working. 
+●Custom emojis 
+unavailable. PRIORITIZATION APPROACH ROLES & RESPONSIBILITIES 
+Priority codes are used to determine appropriate response 
+times, measured from when the incident is opened by 
+LiveLike Support. Our support process will use commercially 
+reasonable efforts to provide remote chat, email, or 
+telephonic support, which includes the following steps: 
+Initial Response : Upon receiving customer communication, 
+our team will record the issue and promptly send a 
+conﬁrmation of receipt to the customer. 
+Assessment : We assess the problem to understand its 
+nature and scope. 
+Resolution:  We provide the customer with an action plan to 
+resolve the issue or offer a temporary solution. 
+For standard support customers, LiveLike provides access to 
+our support team via an external Slack channel. We aim to 
+respond within the following timelines: Priority 
+CodeInitial Response Update frequency 
+12 hours
+(during business hours) 2 hours
+(during business 
+hours)
+24 hours
+(during business hours) 2 hours
+(during business 
+hours)
+38 hours
+(during business hours) As needed RESPONSE TIME ROLES & RESPONSIBILITIES 
+COMMERCIALS COST STRUCTURE 
+Experience Cost
+Implementation: Gaming Hub $25,000 
+ 
+Gaming Hub licence (inc 3 standard games) $50,000 
+Credit based Professional Services allowance $50,000 
+Usage - up to 10m users $200,000 
+ 
+Total $325,000 
+Usage
+Pricing includes 10 million users 
+Every 1 million tranche after 10 million users - $20k 
+
+Credit-Based Services 
+Service Description 
+Product Strategy and Design 
+Sessions: ● Performance and Usage Review 
+● Identify your goals and align on how LiveLike products can meet those goals 
+●  Map technology stack infrastructure and key points of integration 
+●  Identify select LiveLike solutions for implementation 
+Maintenance Development, Design, 
+and Modification ●  Ongoing light-touch changes to selected LiveLike solutions 
+● Updated UI across the experiences 
+Integration Services ●  Integration of mutually agreed technology vendors, such as: 
+● ○ CDP/CRM or other user data sources 
+● ○ Mobile wallet integration 
+Solutions Acceleration and 
+Customized Development ●  On an as scoped basis 
+READY TO BUILD BRAZIL’S BIGGEST WORLD CUP GAME? 
+alex.hay@livelike.com March 2026 
+

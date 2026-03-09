@@ -53,7 +53,7 @@
 
 - **Observations:**
   > O suporte B2B (para o cliente) é muito bem estruturado com SLA, tickets e canal Slack. No entanto, o cliente (CazéTV) deve internalizar ou terceirizar 100% do suporte B2C (dúvidas de usuários finais). Presença de falantes de português no suporte B2B foi confirmada.
-- **Block Rating (1-5):** `[3]`
+- **Block Rating (1-5):** `[2]`
 
 ---
 
@@ -330,7 +330,7 @@
 *Focus on cost structure, lock-in risks, and financial predictability.*
 
 **Cost Structure:**
-- [ ] **Setup Fee Range:** `[Aguardando Proposta]`
+- [ ] **Setup Fee Range:** `US$ 325.000` (Total Base para 10M de usuários)
 - [x] **Pricing Model:** `[Hybrid (Setup + Tech License / Subscription + Volume Usage)]`
 
 **Cost Variability & Budget Risk:**
@@ -339,7 +339,7 @@
 - [ ] **Can Costs Increase Due to Extra Features?** (Yes/No): `[Yes (SLA 24/7 por exemplo)]`
 
 **Contract Terms:**
-- [x] **Minimum Contract Duration (Months):** `[≈ 2 a 3 Meses para a Copa do Mundo]`
+- [x] **Minimum Contract Duration (Months):** `≈ 2 a 3 Meses para a Copa do Mundo (Implementação, Licença Gaming Hub, Professional Services e Usage baseados nesse período)`
 - [ ] **Early Termination Penalties?** (Yes/No): `[N/A para modelo proof-of-concept]`
 
 **Platform Dependency & Exit Risks:**
@@ -348,7 +348,7 @@
 - [x] **Data Portability Guarantees?** (Yes/No): `[Yes]`
 
 - **Observations:**
-  > O modelo prevê uma base predefinida de usuários (ex: 3 a 5 Milhões) no fixed price e "Buckets / Tiers" de custo extra definidos em contrato para evitar solavancos se o acesso bater nos 15 milhões. O Proposal Sheet definitivo é crucial para avaliar quão arriscada e escalável é a camada de Volume.
+  > O modelo tem um custo base de **US$ 325.000**, o que é consideravelmente alto. Ele inclui: Implementação ($25k), Licença com 3 jogos ($50k), Créditos de Professional Services ($50k) e Usage garantido até 10 Milhões de Usuários ($200k). O tráfego extra custa **$20.000 a cada 1 milhão de usuários excedentes**. Para nossa meta de 15M, o custo final seria em torno de **US$ 425.000** (aprox R$ 2.5 Milhões), tornando-se uma das opções mais caras da mesa.
 - **Block Rating (1-5):** `[3]`
 
 ---
@@ -385,9 +385,9 @@
 | 12. Social Sharing & Virality | 4 |
 | 13. Geo-Restriction Capabilities | 4 |
 | 14. Roadmap & Evolution Capacity | 5 |
-| 15. Commercial, Contractual & Financial Risk | 3 |
+| 15. Commercial, Contractual & Financial Risk | 2 |
 | 16. Team, Experience & References | 5 |
-| **Média Geral** | **4.18** |
+| **Média Geral** | **4.12** |
 
 ### Key Strengths (Top 3)
 1. **Core Engagement Features & AI:** Responde "Out-Of-The-Box" todas as frentes de predição e features premiums extras como "AI Guess" (ex: PFL) e Quiz Diários. Ligas perfeitamente modeladas.
@@ -403,7 +403,7 @@
 | **Operations** | MEDIUM | CRM e Triggers de email/Push tem de ser operados pelo cliente, não são inclusos no vendor. |
 
 ### PMO Verdict
-> **STRONG RECOMMENDATION TO PROCEED (Pending Pricing)** — LiveLike apresenta-se tecnicamente como parceiro ideal (Tier S), batendo em todos os gaps funcionais, mitigando perigosamente os riscos de Data Ownership e alinhando perfeitamente a flexibilidade Premium Sponsors. A grande "pegadinha" arquitetônica, no entanto, é que a LiveLike pressupõe um estágio avançado de infraestrutura do lado da CazéTV: (A) Precisa de um provedor SSO pronto, (B) Precisa de um CRM pronto para disparar push via webhooks e (C) Precisa de uma compra por fora da base de dados Stats Perform. Tecnicamente perfeitos, massivamente dependentes do "Sinal Verde" da arquitetura legada da Cazé.
+> **STRONG RECOMMENDATION TO PROCEED (Preço Recebido: $325k USD)** — LiveLike apresenta-se tecnicamente como parceiro ideal (Tier S), batendo em todos os gaps funcionais, mitigando perigosamente os riscos de Data Ownership e alinhando perfeitamente a flexibilidade Premium Sponsors. A grande "pegadinha" arquitetônica, no entanto, é que a LiveLike pressupõe um estágio avançado de infraestrutura do lado da CazéTV: (A) Precisa de um provedor SSO pronto, (B) Precisa de um CRM pronto para disparar push via webhooks e (C) Precisa de uma compra por fora da base de dados Stats Perform. Tecnicamente perfeitos, massivamente dependentes do "Sinal Verde" da arquitetura legada da Cazé, e com um custo consideravelmente muito alto (podendo bater US$ 425.000 para a meta de 15 milhões de usuários).
 
 ### Gaps Críticos para Próxima Reunião
 1. **Preparo de SSO e CRM (Interno CazéTV)**: A CazéTV tem capacidade e orçamento para erguer as próprias instâncias de SSO e CRM / Disparadores a tempo?
