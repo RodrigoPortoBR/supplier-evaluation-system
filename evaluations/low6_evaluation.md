@@ -3,7 +3,7 @@
 **Supplier Name:** `Low6`
 **Website:** `https://www.low6.com`
 **Evaluator:** `Antigravity (AI-Assisted)`
-**Date:** `2026-03-05`
+**Date:** `2026-03-10` *(Atualizado com Q&A Follow-up)*
 
 ---
 
@@ -101,17 +101,17 @@
 *Focus on guaranteeing full strategic control over user data and long-term usability.*
 
 **Data Ownership:**
-- [ ] **All User Data Fully Owned by Client?** (Yes/No): `[Não discutido]`
-- [ ] **Any Restrictions on Data Usage?** (Yes/No): `[Não discutido]`
-  > `[Não discutido nas reuniões]`
+- [x] **All User Data Fully Owned by Client?** (Yes/No): `[Yes]` — ✅ **Confirmado via Q&A:** CazéTV retém 100% da propriedade legal de todos os dados de usuários registrados, históricos de predições e eventos comportamentais.
+- [x] **Any Restrictions on Data Usage?** (Yes/No): `[No]`
+  > `Low6 atuará como data processor, criando dashboards para a CazéTV. A CazéTV mantém propriedade integral dos dados.`
 
 **Data Access:**
-- [ ] **Access to Full User Database?** (Yes/No): `[Não discutido]`
-- [ ] **Access to Behavioral Event Data?** (Yes/No): `[Não discutido]`
-- [ ] **Access to Prediction History?** (Yes/No): `[Não discutido]`
+- [x] **Access to Full User Database?** (Yes/No): `[Yes]` — Via dashboards Tableau com KPIs customizados.
+- [x] **Access to Behavioral Event Data?** (Yes/No): `[Yes]` — Low6 possui acesso a dados comportamentais para construir dashboards.
+- [x] **Access to Prediction History?** (Yes/No): `[Yes]`
 
 **Data Extraction Methods:**
-- [ ] **Direct Platform Exports?** (Yes/No): `[Não discutido]`
+- [x] **Direct Platform Exports?** (Yes/No): `[Yes]` — Via Tableau dashboards.
 - [ ] **APIs for Real-Time Extraction?** (Yes/No): `[Não discutido]`
 - [ ] **Scheduled Automated Data Dumps?** (Yes/No): `[Não discutido]`
 
@@ -125,8 +125,9 @@
 - [ ] **Full Data Export Guaranteed on Exit?** (Yes/No): `[Não discutido]`
 
 - **Observations:**
-  > Nenhum aspecto de data ownership, acesso ou portabilidade foi discutido nas duas reuniões. Este é um ponto crítico que precisa ser abordado antes de qualquer acordo contratual, especialmente considerando o volume de dados de 15M+ de usuários esperados.
-- **Block Rating (1-5):** `[1]` ⚠️ Dados insuficientes para avaliação.
+  > ✅ **Progresso significativo via Q&A:** Low6 confirmou atuar como **data processor** (não controller), com CazéTV retendo 100% da propriedade legal dos dados. Dashboards via **Tableau** com informações de usuários e KPIs definidos pelo cliente. Os cenários de saída/portabilidade ainda precisam ser formalizados contratualmente.
+- **Block Rating (1-5):** `[4]` *(Atualizado: Ownership confirmado, dashboards Tableau)*
+  ⚠️ Exit scenarios ainda pendentes.
 
 ---
 
@@ -191,10 +192,10 @@
 
 **Administration Controls:**
 - [ ] **League Moderation Tools?** (Yes/No): `[Parcial — admin pode aprovar entradas, definir senha]`
-- [ ] **Anti-Fraud Mechanisms?** (Yes/No): `[Não discutido]`
+- [x] **Anti-Fraud / Anti-Bot Mechanisms?** (Yes/No): `[Parcial]` — ✅ **Q&A confirmou:** Low6 pode implementar **código de verificação para login/jogar** via XtremePush, porém com custo adicional para a CazéTV.
 
 - **Observations:**
-  > A estrutura de ligas (pública, premium, privada) foi bem discutida e Low6 demonstrou capacidade para implementar. A separação de leaderboards entre free-to-play e premium é um diferencial conceitual do produto. Suporte a múltiplos leaderboards premium (um por patrocinador) foi confirmado. Ferramentas de moderação e anti-fraude não foram abordadas.
+  > A estrutura de ligas (pública, premium, privada) foi bem discutida e Low6 demonstrou capacidade para implementar. A separação de leaderboards entre free-to-play e premium é um diferencial conceitual do produto. **Q&A confirmou que implementação de verificação anti-bot é possível via XtremePush, porém a custo extra.** Isso é menos robusto que a solução JWT da LiveLike (gratuita e nativa), mas pelo menos a capacidade existe.
 - **Block Rating (1-5):** `[4]`
 
 ---
@@ -203,16 +204,22 @@
 *Focus on reliability and transparency of scoring updates.*
 
 **Score Update Timing:**
-- [ ] **Real-Time Updates?** (Yes/No): `[Não especificado]`
-- [ ] **End-of-Match Updates?** (Yes/No): `[Não especificado]`
+- [x] **Real-Time Updates?** (Yes/No): `[Yes]` — Via feed OPTA fornecido pela CazéTV.
+- [x] **End-of-Match Updates?** (Yes/No): `[Yes]`
 - [ ] **Daily Batch Updates?** (Yes/No): `[Não especificado]`
 
 **Data Source Reliability:**
-- [ ] **Official Match Data Providers Used:** `[Não discutido — Low6 não mencionou provedor de dados esportivos]`
+- [x] **Official Match Data Providers Used:** `[OPTA/Stats Perform — ✅ CazéTV já possui acesso ao feed de dados em tempo real. Low6 espera receber o feed como third-party. Caso necessário, Low6 pode adquirir em nome da CazéTV por $10.000-15.000 USD.]`
+
+**Hosting Costs (Q&A Confirmado):**
+  > Custos mensais de hosting Azure por faixa de MAU:
+  > - 500.000 monthly actives: **$5.000/mês**
+  > - 1.000.000 monthly actives: **$7.000/mês**
+  > - 5.000.000 monthly actives: **$10.000/mês**
 
 - **Observations:**
-  > O processo de atualização de placares e a fonte de dados oficial não foram discutidos nas reuniões. Este é um ponto importante, pois a confiabilidade e velocidade de atualização dos resultados impacta diretamente a experiência do usuário, especialmente em um evento massivo como a Copa do Mundo. Precisa ser esclarecido se Low6 usa um provedor de dados como Opta, Sportradar, etc.
-- **Block Rating (1-5):** `[1]` ⚠️ Dados insuficientes para avaliação.
+  > ✅ **RISCO RESOLVIDO:** A CazéTV já possui acesso ao feed OPTA em tempo real, que será fornecido à Low6 como third-party. Caso a CazéTV não tivesse, Low6 poderia adquirir por $10-15k. **Os custos de hosting Azure foram detalhados por faixa de MAU, oferecendo previsibilidade orçamentária.** Para 5M MAU (cenário de Copa), o custo mensal de hosting seria de ~$10k.
+- **Block Rating (1-5):** `[4]` *(Atualizado: Feed OPTA resolvido + custos de hosting detalhados)*
 
 ---
 
@@ -223,17 +230,17 @@
 - [x] **Full CSS/Theme Customization:** (Yes/No): `[Sim — implícito, produto white-label]`
 - [x] **Full UI Customization or Limited Branding?**
   > `Full UI Customization. Low6 construiria a plataforma do zero baseada no protótipo Lovable enviado por Rodrigo. Não é um skin sobre plataforma existente — é desenvolvimento custom sobre o framework Low6.`
-- [ ] **Custom Domain (CNAME):** (Yes/No): `[Não discutido]`
+- [x] **Custom Domain (CNAME):** (Yes/No): `[Yes]` — ✅ **Confirmado via Q&A:** Dedicated externally-hosted subdomain.
 - [ ] **Mobile Responsive Score (1-10):** `[Não avaliável — produto ainda não construído para este projeto]`
 
 **Design Ownership:**
-- [ ] **Vendor Provides UI/UX Designers?** (Yes/No): `[Não ficou claro]` — Low6 trabalharia a partir do protótipo Lovable fornecido por Rodrigo.
+- [x] **Vendor Provides UI/UX Designers?** (Yes/No): `[Yes]` — ✅ **Confirmado via Q&A:** CazéTV terá suporte de design dedicado da Low6. Designs seguirão as brand guidelines, com **2 rodadas de revisão de design** incluídas.
 - [x] **Vendor Provides Front-End Development Support?** (Yes/No): `[Yes]` — Desenvolvimento front-end incluído no escopo.
-- [ ] **Client Must Supply Design Resources?** (Yes/No): `[Parcial]` — Protótipo/design base fornecido pelo cliente (protótipo Lovable). Design final pode precisar de recursos do cliente.
+- [x] **Client Must Supply Design Resources?** (Yes/No): `[No]` — Low6 fornece designers. Cliente fornece brand guidelines.
 
 - **Observations:**
-  > A abordagem é de desenvolvimento custom sobre a infraestrutura Low6, o que oferece alta customização. O protótipo Lovable serve como referência de UX. Porém, não ficou claro se Low6 fornece designers de UI/UX ou se o cliente precisa fornecer o design final. O produto seria web mobile responsivo, sem app nativo.
-- **Block Rating (1-5):** `[3]`
+  > ✅ **Progresso significativo via Q&A:** Low6 confirmou que a plataforma será entregue em **subdomain externo dedicado**, com **suporte de design dedicado** (2 rodadas de revisão). O cliente não precisa fornecer designers — apenas brand guidelines. Isso resolve a incerteza anterior sobre responsabilidade de design.
+- **Block Rating (1-5):** `[4]` *(Atualizado: Design dedicado + subdomain confirmados)*
 
 ---
 
@@ -241,7 +248,7 @@
 *Focus on connecting with existing client tech, third-party data sources, and membership systems.*
 
 **Documented APIs:**
-- [x] Login/SSO — Low6 SSO próprio + integração com SSO de parceiros
+- [x] Login/SSO — Low6 SSO próprio + integração com SSO de parceiros. ✅ **Q&A confirmou:** Low6 assume a implementação completa do SSO do parceiro e trabalha diretamente com o parceiro para executar a integração.
 - [ ] Partners — Não ficou claro se possuem APIs documentadas para parceiros
 
 **Partner Integration:**
@@ -251,7 +258,7 @@
 
 **External Database Integration:**
 - [ ] **Can Connect to Loyalty Programs (e.g., iFood Club)?** (Yes/No): `[Possível via SSO, mas não demonstrado]`
-- [ ] **Can Connect to Subscription Databases?** (Yes/No): `[Sim — conceito confirmado via SSO de parceiros]`
+- [x] **Can Connect to Subscription Databases?** (Yes/No): `[Sim — conceito confirmado via SSO de parceiros]`
 
 **Access Authorization:**
 - [x] **Entry to Premium Leagues Gated by Partner Status?** (Yes/No): `[Yes]`
@@ -264,8 +271,8 @@
 - [x] Track Record with Media/Sponsors? (Yes/No) — Bet365, DraftKings, NHL
 
 - **Observations:**
-  > A integração via SSO de parceiros é o mecanismo central para diferenciar usuários free-to-play e premium. Low6 demonstrou compreensão do conceito. Porém, não apresentou APIs documentadas ou experiência prévia com integração de programas de fidelidade brasileiros (iFood, Amazon Prime BR, etc.). A complexidade da integração SSO com múltiplos parceiros pode ser um fator de risco no timeline apertado.
-- **Block Rating (1-5):** `[3]`
+  > ✅ **Progresso significativo via Q&A:** Low6 confirmou que **assume a implementação completa do SSO do parceiro**, trabalhando diretamente com o parceiro comercial para executar a integração. Isso reduz significativamente a carga técnica da CazéTV. A integração via SSO de parceiros continua sendo o mecanismo central para diferenciar usuários free-to-play e premium.
+- **Block Rating (1-5):** `[4]` *(Atualizado: SSO do parceiro operado pela Low6)*
 
 ---
 
@@ -273,16 +280,16 @@
 *Focus on user re-engagement and communication ownership.*
 
 **Notification Channels:**
-- [ ] **Web Push Notifications:** (Yes/No): `[Não discutido]`
-- [ ] **Email Automation:** (Yes/No): `[Não discutido]`
+- [x] **Web Push Notifications:** (Yes/No): `[Yes — via XtremePush, custo adicional]` — ✅ **Q&A confirmou:** Re-engajamento em real-time requer ferramenta de terceiros (XtremePush), que Low6 pode fornecer a custo adicional para a CazéTV.
+- [x] **Email Automation:** (Yes/No): `[Yes — via XtremePush/CRM]`
 
 **Communication Ownership:**
-- [ ] **Who Manages Messaging Templates?** `[Não discutido]`
-- [ ] **Who Manages Campaign Scheduling?** `[Não discutido]`
+- [x] **Who Manages Messaging Templates?** `[Low6 pode oferecer suporte de marcomms]` — ✅ **Q&A confirmou:** Low6 pode gerenciar o CRM, criar templates e executar campanhas como serviço adicional pago.
+- [x] **Who Manages Campaign Scheduling?** `[Low6 (como add-on) ou CazéTV]`
 
 - **Observations:**
-  > Canais de comunicação e notificações não foram abordados nas reuniões. Sendo uma plataforma 100% web (sem app nativo), web push notifications seriam o principal canal de re-engajamento, mas não foram discutidas. Este é um ponto que precisa ser esclarecido, pois impacta diretamente a retenção de 15M de usuários.
-- **Block Rating (1-5):** `[1]` ⚠️ Dados insuficientes para avaliação.
+  > ✅ **Progresso significativo via Q&A:** Low6 confirmou que pode oferecer **suporte completo de marcomms** — gerenciando CRM, criando templates e executando campanhas — como serviço adicional pago. Isso é um grande diferenciador vs LiveLike, onde 100% do CRM fica com a CazéTV. Notificações em tempo real (browser push, FOMO triggers) requerem XtremePush a custo extra.
+- **Block Rating (1-5):** `[3]` *(Atualizado: Marcomms support confirmado como add-on)*
 
 ---
 
@@ -380,40 +387,40 @@
 | 2. Local Support & Operational Coverage | 3 |
 | 3. User Support & Incident Management | 2 |
 | 4. Security, LGPD, Governance & Compliance | 3 |
-| 5. Data Ownership, Access & Portability | 5 |
+| 5. Data Ownership, Access & Portability | 4 | *(↑ Ownership 100% confirmado + Tableau)* |
 | 6. Core Product Features & Functional Readiness | 4 |
 | 7. League Management & Premium Infrastructure | 4 |
-| 8. Game Operation & Scoring Process | 3 |
-| 9. Customization, UX & Front-End Design | 3 |
-| 10. Integration Ecosystem & Partner Connectivity | 3 |
-| 11. Channels, Notifications & User Communication | 3 |
+| 8. Game Operation & Scoring Process | 4 | *(↑ OPTA resolvido + hosting detalhado)* |
+| 9. Customization, UX & Front-End Design | 4 | *(↑ Design dedicado + subdomain)* |
+| 10. Integration Ecosystem & Partner Connectivity | 4 | *(↑ SSO parceiro operado pela Low6)* |
+| 11. Channels, Notifications & User Communication | 3 | *(↑ Marcomms add-on confirmado)* |
 | 12. Social Sharing & Virality | 3 |
 | 13. Geo-Restriction Capabilities | 2 |
 | 14. Roadmap & Evolution Capacity | 4 |
 | 15. Commercial, Contractual & Financial Risk | 3 |
 | 16. Team, Experience & References | 5 |
-| **Média Geral** | **3.37** |
+| **Média Geral** | **3.50** | *(↑ de 3.37)* |
 
 ### Key Strengths (Top 3)
-1. **Core Product Features (4/5)** — Plataforma madura de previsões com casos reais (Bet365, NHL)
-2. **League Management (4/5)** — Estrutura robusta de ligas públicas, premium e privadas
-3. **Team, Experience & References (5/5)** — Cases absurdos de crescimento F2P (Sportsbet na Austrália) e premiações em série como Supplier of the Year. Muito focado em aquisição e retenção gamificada.
+1. **Team, Experience & References (5/5)** — Cases absurdos de crescimento F2P (Sportsbet na Austrália) e premiações em série como Supplier of the Year. Muito focado em aquisição e retenção gamificada.
+2. **Produto Completo + Operação Assumida** — Low6 pode assumir **marcomms, CRM, design, SSO de parceiros e até suporte B2C** — tudo como add-on, mas tirando carga operacional da CazéTV (empresa de mídia, não de tech).
+3. **Feed OPTA Resolvido + Hosting Transparente** — CazéTV já tem OPTA. Low6 detalhou custos de hosting por faixa ($5k-$10k/mês), oferecendo previsibilidade.
 
 ### Risk Flags
 | Category | Risk Level | Alert |
 |----------|-----------|-------|
-| **Scale** | HIGH | Missing iOS Native App |
-| **Scale** | HIGH | Missing Android Native App |
-| **Scale** | MEDIUM | No local support time/language |
-| **Operations** | MEDIUM | Provedor de dados esportivos precisa ser contratado pela CazéTV |
-| **UX** | MEDIUM | Sem app nativo — apenas web responsiva |
-| **Costs** | MEDIUM | Diversas features B2C, CRM e infra extra cobradas à parte |
+| **Scale** | HIGH | Ausência de App Nativo (iOS/Android) — apenas web responsiva |
+| **Tech Deps** | ~~HIGH~~ ✅ RESOLVIDO | ~~Provedor de dados esportivos~~ → **CazéTV já possui feed OPTA. Low6 pode adquirir por $10-15k se necessário.** |
+| **Operations** | ~~MEDIUM~~ ✅ MITIGADO | ~~Sem CRM/notificações~~ → **Low6 oferece marcomms completo (CRM, templates, execução) como add-on pago.** |
+| **Costs** | MEDIUM | Diversas features B2C, CRM, anti-bot e infra cobradas à parte — somatório dos add-ons pode ser significativo |
+| **Data** | MEDIUM | Exit scenarios e portabilidade de dados ainda não formalizados |
+| **Anti-Bot** | MEDIUM | Verificação anti-bot via XtremePush tem custo extra (menos robusto que JWT nativo da LiveLike) |
 
 ### PMO Verdict
-> **PROCEED WITH CONDITIONAL APPROVAL** — Low6 mitigou os principais riscos críticos na reunião mais recente (data ownership via Snowflake, notificações via Xtreme Push, suporte B2C terceirizado, verificações de idade em claims). Possuem um case robusto da BBC (>1M simultâneos) para escalabilidade. O produto já contém as mecânicas pedidas, mas o custo B2C extra e CRM requer revisão orçamentária. As restrições remanescentes referem-se sobretudo à ausência de app nativo e integração do feed oficial de dados a ser fornecido. Time de DEV aprova tecnicamente, condicionando avanço aos cálculos dos Ad-Ons identificados.
+> **PROCEED WITH CONDITIONAL APPROVAL (Atualizado)** — Low6 evoluiu significativamente após Q&A. **Os principais gaps das reuniões anteriores foram respondidos:** (A) Feed OPTA já disponível na CazéTV (ou Low6 compra por $10-15k). (B) Low6 assume implementação SSO de parceiros. (C) Marcomms/CRM pode ser operado pela Low6 como add-on. (D) Design dedicado incluído (2 revisões). (E) Data ownership 100% CazéTV com dashboards Tableau. (F) Subdomain dedicado confirmado. O modelo "full-service" da Low6 é particularmente adequado para a CazéTV como empresa de mídia/entretenimento, pois eles podem absorver grande parte da operação técnica. **O custo total precisa ser modelado com todos os add-ons, pois cada feature adicional é cobrada separadamente**, mas a previsibilidade dos custos de hosting ($5k-$10k/mês por faixa) é positiva.
 
-### Gaps Críticos para Próxima Reunião
-1. **Modelagem de Custos CRM Variáveis (XtremePush)** — Mensurar impacto financeiro do CRM (MAU e Volume) escalado para 15 Milhões de usuários, visto que as tabelas enviadas têm teto em 1M no pricing sheet. (Pode inviabilizar o add-on se não houver um *Unlimited Tier*).
-2. **Provedor de Dados Opcional** — Low6 tem fornecedor padrão de mercado no pricing ou a CazéTV fecha Opta em separado?
-3. **App vs. Web (Engajamento)** — Aceite final se iremos sem push notification nativo com app stores (dependendo ainda mais do CRM).
-4. **LGPD Consentimento** — Aprovação jurídica sobre os termos simplificados no Checkbox de Idade/Registro perante órgãos brasileiros.
+### Gaps Críticos Remanescentes
+1. **Modelagem de Custos Consolidada** — Somatório de todas as opções extras (B2C £5-7k, marcomms, XtremePush, anti-bot, hosting $5-10k) para determinar TCO real vs. orçamento.
+2. **Exit Scenarios / Portabilidade** — Formalizar contratualmente o que acontece com dados e plataforma ao término do contrato.
+3. **LGPD Consentimento** — Aprovação jurídica sobre os termos simplificados no Checkbox de Idade/Registro.
+4. **App vs. Web** — Aceite final se iremos sem push notification nativo com app stores.

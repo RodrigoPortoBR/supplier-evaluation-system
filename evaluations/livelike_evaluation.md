@@ -3,7 +3,7 @@
 **Supplier Name:** `LiveLike`
 **Website:** `https://www.livelike.com/` (Assumed)
 **Evaluator:** `Antigravity (AI-Assisted)`
-**Date:** `2026-03-09`
+**Date:** `2026-03-10` *(Atualizado com Q&A Follow-up)*
 
 ---
 
@@ -47,13 +47,13 @@
 - [x] **Dedicated War-Room Structure During Major Events?** (Yes/No): `[Monitoramento ativo via Slack dedicado]`
 
 **Operational Escalation Flow:**
-- [x] **L1 Support (User Issues) – Handled by:** `[CazéTV]` — LiveLike NÃO oferece suporte B2C.
+- [x] **L1 Support (User Issues) – Handled by:** `[CazéTV]` — LiveLike NÃO oferece suporte B2C, mas fornece **dashboard e CMS completo** para que a equipe Tier-1 da CazéTV investigue e resolva reclamações individuais (pontos faltantes, recompensas não creditadas, contas bloqueadas) sem necessidade de escalonar tickets para a LiveLike.
 - [x] **L2 Technical Issues – Handled by:** `[LiveLike]`
 - [x] **L3 Infrastructure Failures – Handled by:** `[LiveLike + AWS]`
 
 - **Observations:**
-  > O suporte B2B (para o cliente) é muito bem estruturado com SLA, tickets e canal Slack. No entanto, o cliente (CazéTV) deve internalizar ou terceirizar 100% do suporte B2C (dúvidas de usuários finais). Presença de falantes de português no suporte B2B foi confirmada.
-- **Block Rating (1-5):** `[2]`
+  > O suporte B2B (para o cliente) é muito bem estruturado com SLA, tickets e canal Slack. A CazéTV deve internalizar ou terceirizar 100% do suporte B2C, **porém a LiveLike confirmou que fornece um dashboard administrativo e CMS completo** no qual a equipe de suporte da CazéTV será treinada. A equipe de Customer Support da LiveLike também pode auxiliar a equipe da CazéTV. Presença de falantes de português no suporte B2B foi confirmada. **Isso mitiga significativamente o risco operacional de L1.**
+- **Block Rating (1-5):** `[3]` *(Atualizado: Dashboard/CMS para L1 confirmado)*
 
 ---
 
@@ -61,7 +61,7 @@
 *Focus on operational ownership of user issues and incident resolution.*
 
 **Support Ownership:**
-- [x] **Who Handles User Complaints?** `[CazéTV / Cliente]`
+- [x] **Who Handles User Complaints?** `[CazéTV / Cliente]` — Usando o dashboard/CMS completo fornecido pela LiveLike para investigar reclamações individuais.
 - [x] **Who Handles Technical Bug Reports?** `[LiveLike (com patches rápidos)]`
 
 **Escalation Process:**
@@ -69,8 +69,8 @@
 - [x] **Defined Workflow for Mass User Incidents?** (Yes/No): `[Yes]` — Detalhado no futuro SLA.
 
 - **Observations:**
-  > A resolução de bugs técnicos (L2/L3) é rápida e via patches. A CazéTV precisa organizar sua própria operação de L1 (customer service), especialmente porque os logins dos usuários não ficarão hospedados na LiveLike, e sim no Identity Provider da CazéTV.
-- **Block Rating (1-5):** `[3]`
+  > A resolução de bugs técnicos (L2/L3) é rápida e via patches. A CazéTV operará o L1 usando o **CMS/Dashboard administrativo da LiveLike**, onde poderá investigar problemas individuais de usuários (pontos, recompensas, contas) de forma autônoma. A equipe de Customer Support da LiveLike assiste no treinamento e can auxiliar conforme necessário.
+- **Block Rating (1-5):** `[4]` *(Atualizado: ferramentas de suporte L1 confirmadas)*
 
 ---
 
@@ -191,9 +191,10 @@
 **Administration Controls:**
 - [x] **League Moderation Tools?** (Yes/No): `[Yes]` — Built into backend.
 - [x] **Anti-Fraud Mechanisms?** (Yes/No): `[Yes]` — Hard lock nas predições antes do jogo; Segurança garantida via MFA/2FA do SSO nativo.
+- [x] **Anti-Bot / Inflação de Perfis?** (Yes/No): `[Yes]` — **Confirmado via Q&A:** A LiveLike desativa a API de criação de perfis (create profile API), impedindo bots/crawlers de criarem perfis artificiais. A única forma de criar um perfil é implicitamente quando um access token JWT válido (gerado pelo backend da CazéTV e assinado com um secret exclusivo da CazéTV) é utilizado. Isso garante mapeamento 1:1 exato entre perfis LiveLike e usuários CazéTV, **eliminando o risco de overage penalties por botnets.**
 
 - **Observations:**
-  > A arquitetura de perfis (Casting, Basic User e Premium User) encaixa perfeitamente na moderação e flexibilidade da plataforma. A vinculação via atributos passados na API de autenticação automatiza a liga premium de um patrocinador.
+  > A arquitetura de perfis (Casting, Basic User e Premium User) encaixa perfeitamente na moderação e flexibilidade da plataforma. A vinculação via atributos passados na API de autenticação automatiza a liga premium de um patrocinador. **A proteção anti-bot via JWT token é robusta e resolve completamente o risco de inflação artificial de perfis.**
 - **Block Rating (1-5):** `[5]`
 
 ---
@@ -207,11 +208,11 @@
 - [x] **Daily Batch Updates?** (Yes/No): `[Yes]`
 
 **Data Source Reliability:**
-- [x] **Official Match Data Providers Used:** `[Requer Stats Perform fornecido pelo cliente]`
+- [x] **Official Match Data Providers Used:** `[OPTA/Stats Perform — ✅ CazéTV já possui acesso ao feed de dados em tempo real da OPTA]`
 
 - **Observations:**
-  > A LiveLike **não** provê ou revende dados oficiais. A automação completa em tempo real exigirá que a CazéTV assine a 'Stats Perform' ou outro provedor de feed ao vivo de futebol (Opta etc). Sem isso, as atualizações teriam que ser manuais/batch pela CazéTV.
-- **Block Rating (1-5):** `[3]`
+  > ✅ **RISCO RESOLVIDO:** A CazéTV já possui acesso ao serviço de feed de dados em tempo real da OPTA. A LiveLike confirmou via Q&A que já tinha em suas notas que a CazéTV possuía acesso ao feed OPTA/Stats Perform. Caso contrário, a LiveLike poderia procurar o feed em nome da CazéTV. **Esse feed OPTA será utilizado para entregar dados de placares em tempo real para a LiveLike, eliminando completamente a dependência externa que era um dos maiores riscos do projeto.**
+- **Block Rating (1-5):** `[5]` *(Atualizado: Feed OPTA da CazéTV resolve a dependência)*
 
 ---
 
@@ -320,8 +321,13 @@
     - Customization: `[Fase ativa agora]`
     - Go-Live: `[Atendendo o deadline 11 Maio]`
 
+**Suporte à Carga Operacional (Q&A Confirmado):**
+- [x] **Professional Services Team Dedicado?** (Yes/No): `[Yes]` — LiveLike possui equipe completa de Professional Services que trabalhará com a CazéTV durante todo o lançamento.
+- [x] **AI para Automação de Conteúdo?** (Yes/No): `[Yes]` — IA integrada para automatizar grande parte do conteúdo dos mini games, reduzindo carga operacional.
+- [x] **SSO Fornecido/Parceiro?** (Yes/No): `[Parcial]` — LiveLike recomenda fortemente que a CazéTV utilize seu próprio SSO. Caso não seja possível, possuem um **parceiro de SSO/CDP** que pode desempenhar esse papel (cotação adicional necessária).
+
 - **Observations:**
-  > Eles entenderam a Copa do Mundo (aprox 2.5 meses) como a fase de "Paid Proof of Concept" perfeita para validar a tese antes de tracionar para as demais ligas da CazéTV (Série A, Paulistão, Copas Femininas). Todas as features de Discovery Session estão garantidas com lançamento factível para 11 de Maio, dado que o escopo Mobile App caiu.
+  > Eles entenderam a Copa do Mundo (aprox 2.5 meses) como a fase de "Paid Proof of Concept" perfeita para validar a tese antes de tracionar para as demais ligas da CazéTV (Série A, Paulistão, Copas Femininas). Todas as features de Discovery Session estão garantidas com lançamento factível para 11 de Maio, dado que o escopo Mobile App caiu. **Q&A confirmou que a LiveLike tem plena ciência de que a CazéTV é uma empresa de mídia/entretenimento e não de tecnologia, e se comprometem a reduzir a carga operacional via Professional Services e IA integrada. A opção de parceiro SSO/CDP é um safety net caso a CazéTV não consiga erguer o SSO internamente a tempo.**
 - **Block Rating (1-5):** `[5]`
 
 ---
@@ -373,39 +379,40 @@
 |-------|--------|
 | 1. Robustness, Scale & Reliability | 5 |
 | 2. Local Support & Operational Coverage | 3 |
-| 3. User Support & Incident Management | 3 |
+| 3. User Support & Incident Management | 4 | *(↑ Dashboard/CMS L1 confirmado)* |
 | 4. Security, LGPD, Governance & Compliance | 5 |
 | 5. Data Ownership, Access & Portability | 5 |
 | 6. Core Product Features & Functional Readiness | 5 |
 | 7. League Management & Premium Infrastructure | 5 |
-| 8. Game Operation & Scoring Process | 3 |
+| 8. Game Operation & Scoring Process | 5 | *(↑ Feed OPTA CazéTV resolve dependência)* |
 | 9. Customization, UX & Front-End Design | 4 |
 | 10. Integration Ecosystem & Partner Connectivity | 5 |
 | 11. Channels, Notifications & User Communication | 3 |
 | 12. Social Sharing & Virality | 4 |
 | 13. Geo-Restriction Capabilities | 4 |
 | 14. Roadmap & Evolution Capacity | 5 |
-| 15. Commercial, Contractual & Financial Risk | 2 |
+| 15. Commercial, Contractual & Financial Risk | 3 |
 | 16. Team, Experience & References | 5 |
-| **Média Geral** | **4.12** |
+| **Média Geral** | **4.37** | *(↑ de 4.12)* |
 
 ### Key Strengths (Top 3)
-1. **Core Engagement Features & AI:** Responde "Out-Of-The-Box" todas as frentes de predição e features premiums extras como "AI Guess" (ex: PFL) e Quiz Diários. Ligas perfeitamente modeladas.
-2. **SSO Synergy & Data Freedom:** Risco Legal LGPD praticamente ZERO, pois eles orbitam o SSO da CazéTV. Retenção 100% dos dados para sempre.
-3. **Escalabilidade Extrema Comprovada:** Referências incontestáveis para milhões de acessos concorrentes e arquitetura flexível capaz de absorver a meta audaciosa de 15M de usuários.
+1. **Core Engagement Features & AI:** Responde "Out-Of-The-Box" todas as frentes de predição e features premiums extras como "AI Guess" (ex: PFL) e Quiz Diários. Ligas perfeitamente modeladas. **IA integrada automatiza conteúdo dos mini games.**
+2. **SSO Synergy & Data Freedom:** Risco Legal LGPD praticamente ZERO, pois eles orbitam o SSO da CazéTV. Retenção 100% dos dados para sempre. **Proteção anti-bot via JWT elimina risco de inflação artificial de perfis.**
+3. **Escalabilidade Extrema Comprovada + Dados Resolvidos:** Referências incontestáveis para milhões de acessos concorrentes e arquitetura flexível capaz de absorver a meta de 15M de usuários. **Feed OPTA já disponível na CazéTV resolve a principal dependência técnica.**
 
 ### Risk Flags
 | Category | Risk Level | Alert |
 |----------|-----------|-------|
 | **Costs** | MEDIUM | Usage Pricing Tiers precisam ser minuciosos para não implodir o orçamento nos picos estourando a "allowance" básica. |
-| **Tech Deps** | HIGH | **CRITICAL: CazéTV terá que adquirir um feed de API Live Data à parte (Ex: Stats Perform) se quiser realtime automation.** |
-| **Tech Deps** | HIGH | **CRITICAL: CazéTV precisará investir maciçamente no próprio Auth / Single Sign-On (SSO) do zero.** |
+| **Tech Deps** | ~~HIGH~~ ✅ RESOLVIDO | ~~CazéTV terá que adquirir feed de API Live Data~~ → **CazéTV já possui acesso ao feed OPTA em tempo real.** |
+| **Tech Deps** | MEDIUM | CazéTV precisará investir no próprio Auth / SSO. **Mitigação: LiveLike oferece parceiro SSO/CDP como alternativa (cotação à parte).** |
 | **Operations** | MEDIUM | CRM e Triggers de email/Push tem de ser operados pelo cliente, não são inclusos no vendor. |
+| **Operations** | LOW | **Dashboard/CMS completo fornecido para L1 — equipe da CazéTV será treinada pela LiveLike.** |
 
 ### PMO Verdict
-> **STRONG RECOMMENDATION TO PROCEED (Preço Recebido: $325k USD)** — LiveLike apresenta-se tecnicamente como parceiro ideal (Tier S), batendo em todos os gaps funcionais, mitigando perigosamente os riscos de Data Ownership e alinhando perfeitamente a flexibilidade Premium Sponsors. A grande "pegadinha" arquitetônica, no entanto, é que a LiveLike pressupõe um estágio avançado de infraestrutura do lado da CazéTV: (A) Precisa de um provedor SSO pronto, (B) Precisa de um CRM pronto para disparar push via webhooks e (C) Precisa de uma compra por fora da base de dados Stats Perform. Tecnicamente perfeitos, massivamente dependentes do "Sinal Verde" da arquitetura legada da Cazé, e com um custo consideravelmente muito alto (podendo bater US$ 425.000 para a meta de 15 milhões de usuários).
+> **STRONG RECOMMENDATION TO PROCEED (Preço Recebido: $325k USD)** — LiveLike consolida-se ainda mais como parceiro ideal (Tier S) após Q&A de follow-up. **Dois dos três principais riscos foram mitigados:** (A) O feed de dados OPTA já está disponível na CazéTV, eliminando a dependência externa mais crítica. (B) A LiveLike possui parceiro SSO/CDP como safety net caso a CazéTV não consiga erguer SSO próprio a tempo. (C) Dashboard/CMS completo equipam a equipe Tier-1 da CazéTV para operar L1 autonomamente. A proteção anti-bot via JWT garante mapeamento 1:1 exato de perfis, eliminando risco de overage por botnets. O custo permanece premium (US$ 325k–425k), mas a redução de riscos técnicos e a oferta de Professional Services + AI para conteúdo fortalecem significativamente a proposta.
 
-### Gaps Críticos para Próxima Reunião
-1. **Preparo de SSO e CRM (Interno CazéTV)**: A CazéTV tem capacidade e orçamento para erguer as próprias instâncias de SSO e CRM / Disparadores a tempo?
-2. **Provedor de Dados Opcional**: Negociar pacote (Opta/Stats Perform) ou LiveLike tem vendor pass-through?
-3. **Deck Comercial (Usage Tiering)**: Receber a proposta financeira e modelar estresse caso a base chegue rapidamente a 20 Milhões.
+### Gaps Críticos Remanescentes
+1. **Preparo de SSO (Interno CazéTV ou Parceiro LiveLike)**: Definir se a CazéTV ergue SSO próprio ou contrata o parceiro SSO/CDP da LiveLike (cotação pendente).
+2. **CRM / Push Notifications**: A CazéTV precisa definir e operar o CRM / Push Provider internamente.
+3. **Deck Comercial (Usage Tiering)**: Receber a proposta financeira final e modelar estresse caso a base chegue rapidamente a 20 Milhões.
