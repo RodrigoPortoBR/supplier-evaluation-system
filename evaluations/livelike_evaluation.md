@@ -35,25 +35,25 @@
 *Focus on the vendor's ability to provide reliable, real-time operational support during a high-stakes global event.*
 
 **Local Presence & Timezone Alignment:**
-- [x] **Local Support in Brazil?** (Yes/No): `[No]` — Mas possuem equipe na Europa e América do Norte.
-- [x] **Portuguese-Speaking Support Team?** (Yes/No): `[Yes]`
+- [ ] **Local Support in Brazil?** (Yes/No): `[No]` — Empresa dos EUA.
+- [ ] **Portuguese-Speaking Support Team?** (Yes/No): `[Yes]` — Possuem colaboradores que falam português fluente (como o Renato Drumond), facilitando o contato B2B interno.
 - [x] **Timezone Coverage Strategy for Brazil:**
-  > `Atendimento a partir da Europa e América do Norte, cobrindo o fuso brasileiro durante o torneio.`
-- [x] **Dedicated Local Account Managers?** (Yes/No): `[No]` — Gestão liderada a partir da América do Norte; Dev na Índia.
+  > `[Yes]` — Fuso horário EST (Nova York) é perfeitamente alinhado com o Brasil (1 a 2 horas de diferença). Reuniões e plantões ocorrem no mesmo fuso.
+- [ ] **Dedicated Local Account Managers?** (Yes/No): `[Parcial]` — Account Management B2B direto com a equipe dos EUA, porém no mesmo fuso.
 
 **Support Availability:**
-- [x] **24/7 Support Guaranteed During Peak Periods?** (Yes/No): `[Sim, como serviço adicional opcional]`
-- [x] **SLA Response Times for Critical Incidents:** `[2 Horas no padrão (pode ser menor com aditivo 24/7)]`
-- [x] **Dedicated War-Room Structure During Major Events?** (Yes/No): `[Monitoramento ativo via Slack dedicado]`
+- [x] **24/7 Support Guaranteed During Peak Periods?** (Yes/No): `[Parcial]` — ✅ **Proposta Oficial:** Suporte via Slack externo. Para incidentes P1, o SLA inicial de resposta é de **2 horas (em horário comercial)**. Não deixam claro se o SLA 2h se mantém em finais de semana/madrugada de Copa.
+- [x] **SLA Response Times for Critical Incidents:** `[P1: 2 horas / P2: 4 horas / P3: 8 horas]` — Conforme especificado no catálogo de serviços.
+- [ ] **Dedicated War-Room Structure During Major Events?** (Yes/No): `[Não detalhado]`
 
 **Operational Escalation Flow:**
-- [x] **L1 Support (User Issues) – Handled by:** `[CazéTV]` — LiveLike NÃO oferece suporte B2C, mas fornece **dashboard e CMS completo** para que a equipe Tier-1 da CazéTV investigue e resolva reclamações individuais (pontos faltantes, recompensas não creditadas, contas bloqueadas) sem necessidade de escalonar tickets para a LiveLike.
-- [x] **L2 Technical Issues – Handled by:** `[LiveLike]`
-- [x] **L3 Infrastructure Failures – Handled by:** `[LiveLike + AWS]`
+- [x] **L1 Support (User Issues) – Handled by:** `[CazéTV]` — ⚠️ **Confirmado em call:** "We don't deal with any end customers because obviously they're your customers... we only power the actual experiences". A CazéTV **precisa** fornecer um email (ex: info@) e equipe própria.
+- [x] **L2 Technical Issues – Handled by:** `[LiveLike]` — "Se houver problemas como o Rodrigo não ganhando pontos, vemos no nosso fim e a engenharia conserta".
+- [x] **L3 Infrastructure Failures – Handled by:** `[LiveLike]`
 
 - **Observations:**
-  > O suporte B2B (para o cliente) é muito bem estruturado com SLA, tickets e canal Slack. A CazéTV deve internalizar ou terceirizar 100% do suporte B2C, **porém a LiveLike confirmou que fornece um dashboard administrativo e CMS completo** no qual a equipe de suporte da CazéTV será treinada. A equipe de Customer Support da LiveLike também pode auxiliar a equipe da CazéTV. Presença de falantes de português no suporte B2B foi confirmada. **Isso mitiga significativamente o risco operacional de L1.**
-- **Block Rating (1-5):** `[3]` *(Atualizado: Dashboard/CMS para L1 confirmado)*
+  > A LiveLike é enfática: **eles não tocam no usuário final (B2C)**. O suporte L1 deve ser integralmente estruturado pela CazéTV, embora a LiveLike conserte rapidamente erros lógicos (L2) que causem tickets, porque seus dashboards monitoram tudo. O SLA de P1 em 2 horas "durante horário comercial" deve ser negociado para 24/7 em contrato de Copa.
+- **Block Rating (1-5):** `[3]` *(Atualizado: SLA formal requer atenção para 24/7 e L1 da CazéTV reforçado)*
 
 ---
 
@@ -61,16 +61,16 @@
 *Focus on operational ownership of user issues and incident resolution.*
 
 **Support Ownership:**
-- [x] **Who Handles User Complaints?** `[CazéTV / Cliente]` — Usando o dashboard/CMS completo fornecido pela LiveLike para investigar reclamações individuais.
-- [x] **Who Handles Technical Bug Reports?** `[LiveLike (com patches rápidos)]`
+- [x] **Who Handles User Complaints?** `[CazéTV]` — Equipe interna da marca. LiveLike não opera suporte B2C.
+- [x] **Who Handles Technical Bug Reports?** `[LiveLike]` — CazéTV repassa bugs estruturais escalados via L1.
 
 **Escalation Process:**
-- [x] **Defined Workflow for Critical Bugs?** (Yes/No): `[Yes]` — Ticket automatizado via E-mail/Telefone/Slack.
-- [x] **Defined Workflow for Mass User Incidents?** (Yes/No): `[Yes]` — Detalhado no futuro SLA.
+- [x] **Defined Workflow for Critical Bugs?** (Yes/No): `[Yes]` — Via Slack B2B channel.
+- [x] **Defined Workflow for Mass User Incidents?** (Yes/No): `[Yes]` — SLA estruturado P1, P2 e P3. P1 significa "App unusable / video playback affected".
 
 - **Observations:**
-  > A resolução de bugs técnicos (L2/L3) é rápida e via patches. A CazéTV operará o L1 usando o **CMS/Dashboard administrativo da LiveLike**, onde poderá investigar problemas individuais de usuários (pontos, recompensas, contas) de forma autônoma. A equipe de Customer Support da LiveLike assiste no treinamento e can auxiliar conforme necessário.
-- **Block Rating (1-5):** `[4]` *(Atualizado: ferramentas de suporte L1 confirmadas)*
+  > A matriz de responsabilidade é clara: o usuário que não consegue logar ou esqueceu a senha é problema 100% da CazéTV (visto que o SSO é responsabilidade do cliente). O usuário cujos pontos do bolão não computaram é responsabilidade da LiveLike (eles corrigem via API/Engenharia e avisam a CazéTV).
+- **Block Rating (1-5):** `[3]` *(Atualizado via call: a fricção cai bastante na CazéTV)*
 
 ---
 
@@ -336,25 +336,32 @@
 *Focus on cost structure, lock-in risks, and financial predictability.*
 
 **Cost Structure:**
-- [ ] **Setup Fee Range:** `US$ 325.000` (Total Base para 10M de usuários)
-- [x] **Pricing Model:** `[Hybrid (Setup + Tech License / Subscription + Volume Usage)]`
+- [x] **Setup Fee Range:** `US$ 325.000` — ✅ **Confirmado Oficialmente** (Até 10M de usuários). 
+- [x] **Pricing Model:** `[Híbrido - Componentizado]`
+  - Implementation: $25.000
+  - Gaming Hub License (3 games): $50.000
+  - Professional Services Allowance: $50.000
+  - Usage (up to 10M users): $200.000
 
 **Cost Variability & Budget Risk:**
-- [x] **Can Costs Increase Due to Traffic Spikes?** (Yes/No): `[Yes - Usage-Based Allowance]`
-- [ ] **Can Costs Increase Due to API Usage?** (Yes/No): `[Possivelmente contemplado no Usage]`
-- [ ] **Can Costs Increase Due to Extra Features?** (Yes/No): `[Yes (SLA 24/7 por exemplo)]`
+- [x] **Can Costs Increase Due to Traffic Spikes?** (Yes/No): `[Yes]` — Adicional de **$20.000 por cada milhão extra de usuários** acima de 10 milhões. A estimativa de 15M MAU elevaria o contrato para **US$ 425.000**.
+- [ ] **Can Costs Increase Due to API Usage?** (Yes/No): `[Não]`
+- [x] **Can Costs Increase Due to Extra Features?** (Yes/No): `[Sim]` — Possuem banco de horas (Professional Services credits) previstos no pacote base ($50k). Extrapolar os serviços de integração/design ali esgota o banco e gera faturamento adicional.
+
+**Added Value Games (From Presentation):**
+- Acesso total ao Gaming Hub com mecânicas secundárias: Quizzes, Cheering, Polls, Badges e Missões Diárias out-of-the-box via widgets nativos.
 
 **Contract Terms:**
-- [x] **Minimum Contract Duration (Months):** `≈ 2 a 3 Meses para a Copa do Mundo (Implementação, Licença Gaming Hub, Professional Services e Usage baseados nesse período)`
-- [ ] **Early Termination Penalties?** (Yes/No): `[N/A para modelo proof-of-concept]`
+- [x] **Minimum Contract Duration (Months):** `[Não especificado na proposta, mas licença padrão Saas é anual]`
+- [ ] **Early Termination Penalties?** (Yes/No): `[Não discutido]`
 
 **Platform Dependency & Exit Risks:**
-- [ ] **Migration Complexity:**
-  > `Não há Lock-In pelo foco em IDs anônimos e dados de posse da CazéTV. Fácil migração se parar no POC.`
-- [x] **Data Portability Guarantees?** (Yes/No): `[Yes]`
+- [x] **Migration Complexity:**
+  > `[Baixa/Média]` — Sendo "API-First" agnóstico, se a CazéTV desenvolver seu front-end bem desacoplado, a substituição do backend de regras por um interno no futuro não joga fora 100% da interface construída.
+- [x] **Data Portability Guarantees?** (Yes/No): `[Yes]` — Como não guardam PII (só operam baseados em Hash IDs) todo o CDP e propriedade já está do lado do cliente do dia 1 ao dia final do projeto.
 
 - **Observations:**
-  > O modelo tem um custo base de **US$ 325.000**, o que é consideravelmente alto. Ele inclui: Implementação ($25k), Licença com 3 jogos ($50k), Créditos de Professional Services ($50k) e Usage garantido até 10 Milhões de Usuários ($200k). O tráfego extra custa **$20.000 a cada 1 milhão de usuários excedentes**. Para nossa meta de 15M, o custo final seria em torno de **US$ 425.000** (aprox R$ 2.5 Milhões), tornando-se uma das opções mais caras da mesa.
+  > Os custos da LiveLike são de longe os mais altos (Premium B2B Tier S), batendo quase US$ 500k no escopo de tráfego estendido (R$ 2.500.000,00). Ao contrário da Low6, não incluem o software de CRM (somente a infraestrutura e Professional Services de integração com seu próprio CRM) nem L1 B2C. O cliente arca tanto com o Custo Premium quanto com grande parte do TCO Interno.
 - **Block Rating (1-5):** `[3]`
 
 ---

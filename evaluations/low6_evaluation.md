@@ -37,24 +37,24 @@
 
 **Local Presence & Timezone Alignment:**
 - [ ] **Local Support in Brazil?** (Yes/No): `[No]` — Empresa sediada no Reino Unido. Não possuem escritório ou equipe local no Brasil.
-- [ ] **Portuguese-Speaking Support Team?** (Yes/No): `[Parcial]` — Mencionaram que teriam "Portuguese-speaking live ops" mas não confirmaram equipe dedicada. Normalmente operam B2B (suporte ao cliente, não ao usuário final).
+- [x] **Portuguese-Speaking Support Team?** (Yes/No): `[Yes]` — ✅ **Confirmado na Proposta:** "Live chat service for users to interact with in Portuguese".
 - [ ] **Timezone Coverage Strategy for Brazil:**
   > `Não detalhado. Diferença de fuso horário de ~3-4 horas (UK vs Brasil). Não apresentaram estratégia específica para cobertura em horário brasileiro de pico (noite/jogos).`
 - [ ] **Dedicated Local Account Managers?** (Yes/No): `[No]` — Teriam project manager, account manager e lead tech da Low6 via Slack.
 
 **Support Availability:**
-- [x] **24/7 Support Guaranteed During Peak Periods?** (Yes/No): `[Sim, como serviço adicional]` — Live chat B2C com custo extra avaliado em £5k-7k/mês.
+- [x] **24/7 Support Guaranteed During Peak Periods?** (Yes/No): `[Yes]` — Escopo da proposta garante "24/7 Support graded P1, P2, P3".
 - [x] **SLA Response Times for Critical Incidents:** `[Sistema de tickets P1/P2/P3 com SLA esperado ≤ 10 minutos]` — Confirmado SLA rápido para escalonamento direto aos devs.
 - [ ] **Dedicated War-Room Structure During Major Events?** (Yes/No): `[Não informado]`
 
 **Operational Escalation Flow:**
-- [x] **L1 Support (User Issues) – Handled by:** `[Low6 (Serviço Extra)]` — Possuem equipe interna de Customer Service e game management. Custo adicional de £5k-7k/mês.
+- [x] **L1 Support (User Issues) – Handled by:** `[Low6]` — Serviço de Customer Service & Support orçado na proposta final por **$15.000**. Cobre atendimento direto aos usuários.
 - [x] **L2 Technical Issues – Handled by:** `[Low6 — equipe técnica interna]`
 - [x] **L3 Infrastructure Failures – Handled by:** `[Low6 DevOps + Azure]`
 
 - **Observations:**
-  > Low6 possui capacidade plena de gerenciar o L1 B2C via live chat por uma taxa extra de aprox. £5k-7k por mês. Qualquer issue escala direto para a equipe de infra/dev via Slack/tickets P1-P3 com SLA de resposta esperado abaixo de 10 minutos. O suporte tem custo, mas resolve internamente o funil.
-- **Block Rating (1-5):** `[3]`
+  > ✅ **Proposta Oficial:** Low6 assume oficialmente L1 com Chat em Português e L2/L3 com SLA 24/7 P1-P3. O custo exato desse pacote de Customer Service & Support é de **$15.000**, o que resolve o "add-on" anterior de forma previsível e tira completamente o peso operacional B2C da CazéTV.
+- **Block Rating (1-5):** `[4]` *(Atualizado: Custos reais e chat PT-BR confirmados na proposta final)*
 
 ---
 
@@ -62,16 +62,16 @@
 *Focus on operational ownership of user issues and incident resolution.*
 
 **Support Ownership:**
-- [x] **Who Handles User Complaints?** `[Low6 — via sistema de chat/tickets, como serviço adicional]`
+- [x] **Who Handles User Complaints?** `[Low6]` — Via live chat em português incluído na proposta de Customer Service ($15k).
 - [x] **Who Handles Technical Bug Reports?** `[Low6 — equipe interna com hot fixes]`
 
 **Escalation Process:**
-- [ ] **Defined Workflow for Critical Bugs?** (Yes/No): `[Parcial]` — Mencionaram sistema de prioridades P1/P2/P3, mas fluxo detalhado não apresentado.
+- [x] **Defined Workflow for Critical Bugs?** (Yes/No): `[Yes]` — Fluxograma 24/7 para graus P1, P2 e P3.
 - [ ] **Defined Workflow for Mass User Incidents?** (Yes/No): `[Não informado]`
 
 - **Observations:**
-  > Low6 demonstrou disposição para absorver o suporte B2C, mas isso é um add-on com custo separado. Mencionaram que ~87% dos chamados de suporte são problemas de login/senha. Possuem capacidade de hot fixes internos. O modelo precisa ser detalhado em contrato, pois o workflow para incidentes massivos (ex: plataforma fora durante um jogo do Brasil) não foi abordado.
-- **Block Rating (1-5):** `[2]`
+  > A assunção do suporte L1/B2C pela Low6 (com chat em português por $15.000) é excelente. Mencionaram que ~87% dos chamados de suporte são problemas de login/senha. A equipe já possui o fluxo "P1, P2, P3" estruturado para 24/7.
+- **Block Rating (1-5):** `[4]` *(Atualizado via Proposta PDF)*
 
 ---
 
@@ -280,16 +280,16 @@
 *Focus on user re-engagement and communication ownership.*
 
 **Notification Channels:**
-- [x] **Web Push Notifications:** (Yes/No): `[Yes — via XtremePush, custo adicional]` — ✅ **Q&A confirmou:** Re-engajamento em real-time requer ferramenta de terceiros (XtremePush), que Low6 pode fornecer a custo adicional para a CazéTV.
+- [x] **Web Push Notifications:** (Yes/No): `[Yes — via XtremePush]` — ✅ **Proposta Oficial:** Confirma que Push notification, Email e In-app são "Out of the box" se usar o stack deles (XtremePush).
 - [x] **Email Automation:** (Yes/No): `[Yes — via XtremePush/CRM]`
 
 **Communication Ownership:**
-- [x] **Who Manages Messaging Templates?** `[Low6 pode oferecer suporte de marcomms]` — ✅ **Q&A confirmou:** Low6 pode gerenciar o CRM, criar templates e executar campanhas como serviço adicional pago.
-- [x] **Who Manages Campaign Scheduling?** `[Low6 (como add-on) ou CazéTV]`
+- [x] **Who Manages Messaging Templates?** `[Low6]` — ✅ **Proposta Oficial:** "CRM Integration" e "CRM Management" estão explicitamente listados sob "LOW6 Responsibilities".
+- [x] **Who Manages Campaign Scheduling?** `[Low6]`
 
 - **Observations:**
-  > ✅ **Progresso significativo via Q&A:** Low6 confirmou que pode oferecer **suporte completo de marcomms** — gerenciando CRM, criando templates e executando campanhas — como serviço adicional pago. Isso é um grande diferenciador vs LiveLike, onde 100% do CRM fica com a CazéTV. Notificações em tempo real (browser push, FOMO triggers) requerem XtremePush a custo extra.
-- **Block Rating (1-5):** `[3]` *(Atualizado: Marcomms support confirmado como add-on)*
+  > ✅ **A proposta final é clara:** A Low6 assume 100% da responsabilidade de "CRM Integration" e "CRM Management". Com o tech stack deles (Xtremepush), Push notifications, Emails e In-app messages são considerados "Out of the box", retirando a carga operacional da CazéTV e permitindo notificações otimizadas baseadas em eventos (gols, fechamento de liga, etc).
+- **Block Rating (1-5):** `[5]` *(Atualizado: CRM Integration/Management é responsabilidade explícita da Low6)*
 
 ---
 
@@ -338,13 +338,13 @@
 *Focus on cost structure, lock-in risks, and financial predictability.*
 
 **Cost Structure:**
-- [x] **Setup Fee Range:** `£105.000 – £120.000 (~US$ 140.000 – US$ 160.000)`
-- [x] **Pricing Model:** `[Fixed]` — Preço fixo para o escopo da Copa do Mundo. Hosting é pass-through + 7,5% para DevOps.
+- [x] **Setup Fee Range:** `US$ 150.000` — ✅ **Proposta Oficial ("Package World Cup Price")**
+- [x] **Pricing Model:** `[Fixed + Pass-through]` — Preço fixo para o escopo da Copa do Mundo ($150k) + Customer Service ($15k). Hosting é pass-through + 7,5% para DevOps.
 
 **Cost Variability & Budget Risk:**
 - [x] **Can Costs Increase Due to Traffic Spikes?** (Yes/No): `[Sim — hosting é pass-through, então custos Azure escalam com uso]`
-- [ ] **Can Costs Increase Due to API Usage?** (Yes/No): `[Não discutido]`
-- [x] **Can Costs Increase Due to Extra Features?** (Yes/No): `[Yes]` — Suporte B2C (£5k-7k/mês), integrações adicionais de SSO e a régua de CRM (XtremePush) que possui precificação variável por MAU e volume.
+- [ ] **Can Costs Increase Due to API Usage?** (Yes/No): `[Não]`
+- [x] **Can Costs Increase Due to Extra Features?** (Yes/No): `[Não - Escopo fechado na proposta]` — O add-on de B2C foi consolidado em $15.000. O PDF de Pricing do CRM / Marcomm (XtremePush) será a única variável adicional relevante de acordo com o tráfego F2P (Pricing Marcomm avulso). O pacote principal é claro.
 
 **Added Value Games (From Presentation):**
 - Acesso ao portfólio de Gamification: `Bracket, Squads, Spin-2-Win, Picks, Over/Under, Last One Standing, Retro Arcade Games.` O modelo de plataforma All-in-1 deles viabiliza incluir múltiplos jogos além do bolão tradicional.
@@ -360,8 +360,8 @@
 - [ ] **Data Portability Guarantees?** (Yes/No): `[Não discutido]`
 
 - **Observations:**
-  > O preço de £105-120k está alinhado com outras propostas do mercado (confirmado por Rodrigo na reunião). O modelo de hosting pass-through + 7,5% é transparente, mas custos Azure podem escalar com picos de tráfego da Copa. Suporte B2C é custo adicional não incluído na proposta base. Para campeonatos futuros (pós-Copa), Low6 cobraria apenas "tempo e materiais" para adaptações, o que é vantajoso. Não houve discussão sobre penalidades de saída ou portabilidade de dados.
-- **Block Rating (1-5):** `[3]`
+  > ✅ **A proposta finaliza incertezas orçamentárias.** O custo core da plataforma é US$ 150.000, com mais US$ 15.000 adicionais englobando todo o L1 de Customer Service (Chat PT). Resta apenas calcular o custo do "Hosting Azure" (projetado a $5k-$10k mensais) + Taxas do PDF separado da XtremePush/Marcomm para se ter o Cost of Ownership Mensal 100% selado. Excelência em visibilidade.
+- **Block Rating (1-5):** `[4]` *(Atualizado: Orçamento consolidado e transparente)*
 
 ---
 
@@ -384,43 +384,42 @@
 | Block | Rating |
 |-------|--------|
 | 1. Robustness, Scale & Reliability | 4 |
-| 2. Local Support & Operational Coverage | 3 |
-| 3. User Support & Incident Management | 2 |
+| 2. Local Support & Operational Coverage | 4 | *(↑ SLA 24/7 e Chat PT Inclusos $15k)* |
+| 3. User Support & Incident Management | 4 | *(↑ Fluxo 24/7 de Bugs P1-P3 Confirmado)* |
 | 4. Security, LGPD, Governance & Compliance | 3 |
-| 5. Data Ownership, Access & Portability | 4 | *(↑ Ownership 100% confirmado + Tableau)* |
+| 5. Data Ownership, Access & Portability | 4 |
 | 6. Core Product Features & Functional Readiness | 4 |
 | 7. League Management & Premium Infrastructure | 4 |
-| 8. Game Operation & Scoring Process | 4 | *(↑ OPTA resolvido + hosting detalhado)* |
-| 9. Customization, UX & Front-End Design | 4 | *(↑ Design dedicado + subdomain)* |
-| 10. Integration Ecosystem & Partner Connectivity | 4 | *(↑ SSO parceiro operado pela Low6)* |
-| 11. Channels, Notifications & User Communication | 3 | *(↑ Marcomms add-on confirmado)* |
+| 8. Game Operation & Scoring Process | 4 |
+| 9. Customization, UX & Front-End Design | 4 |
+| 10. Integration Ecosystem & Partner Connectivity | 4 |
+| 11. Channels, Notifications & User Communication | 5 | *(↑ CRM Integrations/Management é Oficial)* |
 | 12. Social Sharing & Virality | 3 |
 | 13. Geo-Restriction Capabilities | 2 |
 | 14. Roadmap & Evolution Capacity | 4 |
-| 15. Commercial, Contractual & Financial Risk | 3 |
+| 15. Commercial, Contractual & Financial Risk | 4 | *(↑ Orçamento Fechado e Fixo em PDF)* |
 | 16. Team, Experience & References | 5 |
-| **Média Geral** | **3.50** | *(↑ de 3.37)* |
+| **Média Geral** | **3.87** | *(↑ de 3.50)* |
 
 ### Key Strengths (Top 3)
-1. **Team, Experience & References (5/5)** — Cases absurdos de crescimento F2P (Sportsbet na Austrália) e premiações em série como Supplier of the Year. Muito focado em aquisição e retenção gamificada.
-2. **Produto Completo + Operação Assumida** — Low6 pode assumir **marcomms, CRM, design, SSO de parceiros e até suporte B2C** — tudo como add-on, mas tirando carga operacional da CazéTV (empresa de mídia, não de tech).
-3. **Feed OPTA Resolvido + Hosting Transparente** — CazéTV já tem OPTA. Low6 detalhou custos de hosting por faixa ($5k-$10k/mês), oferecendo previsibilidade.
+1. **Pacote Mídia-Ready "Full-Service" (5/5)** — Low6 não apenas licencia o software, mas inclui *Platform Management, CRM Integration/Management, B2C Customer Service e Suporte/Design no formato de pacote único*. Isso livra a Operação de Conteúdo da CazeTV do gargalo tecnológico.
+2. **Preço e Infra Transparente (4/5)** — $150k de pacote base, $15k em suporte 24h/PT (barato para B2C) e hosting transparente de ~$10k/mês de Azure. Não há mistérios de desenvolvimento.
+3. **Escala e Gamificação (5/5)** — Comprovado (Sportsbet/BBC) com engajamentos adicionais de caixas misteriosas, loyalty points, etc.
 
 ### Risk Flags
 | Category | Risk Level | Alert |
 |----------|-----------|-------|
 | **Scale** | HIGH | Ausência de App Nativo (iOS/Android) — apenas web responsiva |
-| **Tech Deps** | ~~HIGH~~ ✅ RESOLVIDO | ~~Provedor de dados esportivos~~ → **CazéTV já possui feed OPTA. Low6 pode adquirir por $10-15k se necessário.** |
-| **Operations** | ~~MEDIUM~~ ✅ MITIGADO | ~~Sem CRM/notificações~~ → **Low6 oferece marcomms completo (CRM, templates, execução) como add-on pago.** |
-| **Costs** | MEDIUM | Diversas features B2C, CRM, anti-bot e infra cobradas à parte — somatório dos add-ons pode ser significativo |
+| **Tech Deps** | ~~HIGH~~ ✅ RESOLVIDO | CazéTV já possui feed OPTA. Low6 aceita como third-party. |
+| **Operations** | ~~MEDIUM~~ ✅ MITIGADO | **Low6 assume totalmente a gestão/integração do CRM** via XtremePush no PDF de proposta corporativa. |
+| **Costs** | LOW | Os "Add-ons" foram consolidados de forma muito explícita na proposta comercial. Variável principal será Licença de Envio do XtremePush baseada em tamanho de lista e base Azure. |
 | **Data** | MEDIUM | Exit scenarios e portabilidade de dados ainda não formalizados |
-| **Anti-Bot** | MEDIUM | Verificação anti-bot via XtremePush tem custo extra (menos robusto que JWT nativo da LiveLike) |
+| **Anti-Bot** | MEDIUM | Verificação anti-bot via XtremePush tem custo de SMS por uso |
 
 ### PMO Verdict
-> **PROCEED WITH CONDITIONAL APPROVAL (Atualizado)** — Low6 evoluiu significativamente após Q&A. **Os principais gaps das reuniões anteriores foram respondidos:** (A) Feed OPTA já disponível na CazéTV (ou Low6 compra por $10-15k). (B) Low6 assume implementação SSO de parceiros. (C) Marcomms/CRM pode ser operado pela Low6 como add-on. (D) Design dedicado incluído (2 revisões). (E) Data ownership 100% CazéTV com dashboards Tableau. (F) Subdomain dedicado confirmado. O modelo "full-service" da Low6 é particularmente adequado para a CazéTV como empresa de mídia/entretenimento, pois eles podem absorver grande parte da operação técnica. **O custo total precisa ser modelado com todos os add-ons, pois cada feature adicional é cobrada separadamente**, mas a previsibilidade dos custos de hosting ($5k-$10k/mês por faixa) é positiva.
+> **PROCEED WITH STRONG APPROVAL (Proposta Oficial Analisada)** — A análise final da **"LOW6 CazeTV Proposal.pdf"** consolidou a Low6 na liderança como a opção mais "Mídia Central" possível. Em vez de comprar o "problema" (necessidade de orquestrar CRM interno, Suporte B2C e Design), a CazeTV compra por **US$ 165.000** um estúdio virtual que cuidará de 100% da Engenharia, Gestão de Usuários (Chat PT incluso), Retenção via Webhooks (Xtremepush out of the box). O teto final do projeto está desenhado sem armadilhas pesadas. A LiveLike tem mais mecânicas "virais" puras (AI Guessing) e nativamente mais seguras em botting (JWT), mas terceiriza de volta a "bucha" de suporte e CRM para o cliente. A Low6 entrega tudo centralizado num pacote. Veredito é um sim claro da tecnologia.
 
 ### Gaps Críticos Remanescentes
-1. **Modelagem de Custos Consolidada** — Somatório de todas as opções extras (B2C £5-7k, marcomms, XtremePush, anti-bot, hosting $5-10k) para determinar TCO real vs. orçamento.
-2. **Exit Scenarios / Portabilidade** — Formalizar contratualmente o que acontece com dados e plataforma ao término do contrato.
-3. **LGPD Consentimento** — Aprovação jurídica sobre os termos simplificados no Checkbox de Idade/Registro.
-4. **App vs. Web** — Aceite final se iremos sem push notification nativo com app stores.
+1. **Aprovação de Marcomm Pricing** — Cruzar o "Low6_MarComm_Pricing_USD.pdf" e validar teto de XtremePush para os 15 Milhões projetados.
+2. **App vs. Web** — Aceite final de marketing: sem push notification nativo, o esforço no PWA via web será forte o bastante?
+3. **Contrato Formal** — Avaliar terms de SaaS, multas rescisórias e Portabilidade caso Cazé decida levar a liga internamente pós-Copa 26.
