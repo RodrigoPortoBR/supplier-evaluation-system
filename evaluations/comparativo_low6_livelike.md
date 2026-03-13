@@ -19,7 +19,7 @@
 | **12. Viralidade e Social** | Compartilhamento via mecânica de Lucky Numbers. Plataformas confirmadas de forma genérica ("social media"). | WhatsApp explicitamente confirmado + redes convencionais. Crucial para o mercado brasileiro. | LiveLike (leve) |
 | **13. Georrestrição** | Capacidade técnica existe (Bet365), mas não foi discutida para este projeto. | Confirmado — restrição por IP/geofencing disponível e de fácil implementação. | LiveLike |
 | **14. Cronograma** | Kick-off 23/mar → Go-Live **18/mai** (~8 semanas). UAT incluído. Risco médio de concorrência de capacidade com outros clientes. | Kick-off imediato → Go-Live **11/mai** (1 semana antes). Baixo risco de sobrecarga de capacidade interna. | LiveLike |
-| **15. Custo Total (TCO)** | **~US$ 165–200k** (plataforma $150k + L1 suporte $15k + hosting Azure $5–10k/mês). CRM e L1 já incluídos. | **~US$ 325–425k** (pacote base + overage acima de 10M usuários). Sem CRM, sem L1 — CazéTV arca com ambos externamente. | Low6 |
+| **15. Custo Total (TCO)** | Proposta oficial ~US$ 165–200k (plataforma $150k + L1 suporte $15k + hosting Azure $5–10k/mês). **Valor de hosting não validado. Considerar $200k. Valor Total $365k-400k. Suporte incluído.** | Pacote base + overage acima de 10M usuários.**~US$ 325–425k**  Sem suporte e banco de dados — CazéTV arca com ambos externamente. | Low6 |
 | **16. Experiência e Cases** | Case direto Copa 2022 (Sportsbet Austrália): App grátis #1, 4x logins diários, 34% signups via indicação. Premiado SBC/EGR. | Yahoo Sport, Bleacher Report, PFL, Chelsea FC. Background forte em publishers de mídia. Sem case direto de Copa. | Low6 (leve) |
 | **Média Avaliação (1–5)** | **3.87** | **4.37** | LiveLike (técnico) |
 
