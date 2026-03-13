@@ -116,18 +116,17 @@
 - [ ] **Scheduled Automated Data Dumps?** (Yes/No): `[Não discutido]`
 
 **Exit Scenario (Critical):**
-- [ ] **If Partnership Ends – What Happens to User Accounts?**
-  > `[Não discutido]`
-- [ ] **If Partnership Ends – What Happens to Historical Data?**
-  > `[Não discutido]`
+- [x] **If Partnership Ends – What Happens to User Accounts?**
+  > `[Arquivados/Exportados]` — Como Data Processor garantido por DPA, a CazéTV tem acesso de download via parceiro.
+- [x] **If Partnership Ends – What Happens to Historical Data?**
+  > `[Disponível para portabilidade]` 
 - [ ] **If Partnership Ends – What Happens to Behavioral Insights?**
-  > `[Não discutido]`
-- [ ] **Full Data Export Guaranteed on Exit?** (Yes/No): `[Não discutido]`
+  > `[Não discutido detalhadamente quanto à retenção pós-contrato]`
+- [x] **Full Data Export Guaranteed on Exit?** (Yes/No): `[Yes]` — Acesso livre ao Data Warehouse.
 
 - **Observations:**
-  > ✅ **Progresso significativo via Q&A:** Low6 confirmou atuar como **data processor** (não controller), com CazéTV retendo 100% da propriedade legal dos dados. Dashboards via **Tableau** com informações de usuários e KPIs definidos pelo cliente. Os cenários de saída/portabilidade ainda precisam ser formalizados contratualmente.
-- **Block Rating (1-5):** `[4]` *(Atualizado: Ownership confirmado, dashboards Tableau)*
-  ⚠️ Exit scenarios ainda pendentes.
+  > ✅ **Progresso significativo via Q&A (v2):** Low6 confirmou atuar estritamente como **Data Processor** (DPA assinado), com CazéTV retendo 100% da propriedade. Todos os dados são extraídos da plataforma pela ferramenta Fivetran e armazenados num Data Warehouse do **Snowflake**. A CazéTV terá acesso ininterrupto a esse Snowflake para baixar tudo a qualquer hora, garantindo portabilidade.
+- **Block Rating (1-5):** `[5]` *(Atualizado: Portabilidade irrestrita via Snowflake confirmada)*
 
 ---
 
@@ -322,14 +321,15 @@
 
 - [x] **Can Close Dedicated Roadmap for Cup?** (Yes/No): `[Yes]` — Proposta é dedicada ao projeto da Copa.
 - [x] **Open to Partner-Specific Features?** (Yes/No): `[Yes]` — Demonstraram flexibilidade para custom features.
-- [ ] **Risk of Conflict with Other Clients at Peak?** (Low/Med/High): `[Médio]` — Low6 opera outros jogos (Bet365, NHL) simultaneamente; não ficou claro se haveria equipe 100% dedicada.
+- [ ] **Risk of Conflict with Other Clients at Peak?** (Low/Med/High): `[Médio]` — Low6 opera outros jogos (Bet365, NHL) simultaneamente.
 - **Timelines (Avg Days):**
-    - Setup Technical: `[~8-10 semanas (necessário iniciar na semana seguinte à contratação)]`
-    - Customization: `[Incluído no setup]`
-    - Go-Live: `[Meados de maio 2026, com UAT e load testing concluídos]`
+    - Setup Technical & Kick-off: `[Início em 23 de Março]`
+    - Development Sprint: `[30 de Março a 8 de Maio]`
+    - UAT (Testes): `[11 a 15 de Maio]`
+    - Go-Live: `[18 de Maio]`
 
 - **Observations:**
-  > Low6 foi direto sobre o timeline apertado e a necessidade de começar imediatamente. Mencionaram que o custo é maior porque o período é curto e exige mais desenvolvedores. Para campeonatos subsequentes (Brasileirão, Copa Feminina), seriam necessários apenas ajustes de "tempo e materiais" sobre a plataforma já construída. Este modelo de evolução incremental é positivo para continuidade.
+  > O cronograma apresentado na Proposta V2 é enxuto, agressivo e direto (aprox 8 semanas do kick-off ao lançamento). O Go-Live firme em **18 de Maio** permite 3 semanas de folga antes do início da Copa do Mundo para captar base ativamente. É fundamental não atrasar o Kick-off de 23 de Março. Vale ressaltar que os Termos de Uso (T&Cs) e Regras do Jogo precisam ser elaborados juridicamente pela própria CazéTV.
 - **Block Rating (1-5):** `[4]`
 
 ---
