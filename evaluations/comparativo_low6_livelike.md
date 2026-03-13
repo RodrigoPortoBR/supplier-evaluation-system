@@ -31,14 +31,6 @@
 
 **LiveLike** — Plataforma tecnicamente mais completa e sofisticada. AI Guess nativo, live predictions, anti-bot JWT sem custo, LGPD quasi-zero por design e maior escala comprovada. O problema: o modelo presupõe que a CazéTV opera CRM, push, SSO e suporte B2C internamente — implicando custo oculto e carga operacional adicional numa janela de 8 semanas. O custo premium (~US$ 325–425k) não inclui essas peças.
 
----
-
-## 🏆 Veredito: **Low6**
-
-**A CazéTV não é uma empresa de tecnologia** — e a Low6 é o único fornecedor que leva esse ponto a sério. Em vez de entregar infraestrutura e devolver a "bucha" operacional para o cliente, a Low6 assume integralmente CRM, suporte B2C, notificações e design num único pacote de ~US$ 165k.
-
-A diferença técnica da LiveLike (AI Guess, anti-bot JWT, escala superior) é real, mas **não é determinante** para a Copa 2026. O case direto da Copa 2022 com a Sportsbet valida precisamente o que está sendo construído aqui; o cronograma agressivo não comporta montar CRM, SSO e time de L1 em paralelo; e o orçamento economizado (~US$ 160–260k) pode ir para marketing e aquisição de usuários — onde o impacto é muito maior.
-
 **Próximos passos imediatos:**
 1. Cruzar custo do XtremePush (`Low6_MarComm_Pricing_USD.pdf`) para 15M de usuários
 2. Negociar cláusula de portabilidade e saída pós-Copa no contrato
