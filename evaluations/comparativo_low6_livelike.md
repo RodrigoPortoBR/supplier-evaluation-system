@@ -28,7 +28,7 @@
 |---|---|---|
 | **Escritório/equipe no Brasil** | ❌ Não (UK) | ❌ Não (EUA) |
 | **Fuso Horário** | ⚠️ Diferença de 3–4h (UK vs BR) | ✅ EST alinhado com BR (diferença 1–2h) |
-| **Suporte em Português** | ✅ Chat PT-BR confirmado na proposta (B2C L1) | ✅ Renato Drumond e equipe fluente (B2B) |
+| **Suporte em Português** | ✅ Chat PT-BR confirmado na proposta (B2C L1) | ✅ Equipe fluente (B2B) |
 | **SLA para P1 (incidentes críticos)** | ✅ ≤10 min escalate direto para devs (24/7) | ⚠️ P1: 2h em horário comercial — 24/7 precisa ser negociado |
 | **Estrutura de war room em eventos** | Não detalhado | Não detalhado |
 
