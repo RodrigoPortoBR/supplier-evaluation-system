@@ -30,9 +30,3 @@
 **Low6** — Proposta turn-key onde o fornecedor opera a plataforma de ponta a ponta: CRM, push notifications, suporte B2C em PT-BR e design estão incluídos. Custo ~2x menor que a LiveLike no TCO total. O case da Copa 2022 com a Sportsbet Austrália valida diretamente a tese (App #1 grátis, aquisição massiva via bolão F2P). As limitações (sem app nativo, anti-bot com custo extra, fuso UK) são gerenciáveis. Ideal para quem quer um parceiro que execute.
 
 **LiveLike** — Plataforma tecnicamente mais completa e sofisticada. AI Guess nativo, live predictions, anti-bot JWT sem custo, LGPD quasi-zero por design e maior escala comprovada. O problema: o modelo presupõe que a CazéTV opera CRM, push, SSO e suporte B2C internamente — implicando custo oculto e carga operacional adicional numa janela de 8 semanas. O custo premium (~US$ 325–425k) não inclui essas peças.
-
-**Próximos passos imediatos:**
-1. Cruzar custo do XtremePush (`Low6_MarComm_Pricing_USD.pdf`) para 15M de usuários
-2. Negociar cláusula de portabilidade e saída pós-Copa no contrato
-3. Confirmar estratégia de web push para usuários sem app nativo (PWA)
-4. Iniciar Kick-off em **23 de Março** — sem atraso
