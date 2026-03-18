@@ -11,7 +11,7 @@
 | **4. Segurança e LGPD** | ISO 27001. Processa dados pessoais. | SOC 2 Tipo 2. Não armazena PII — opera apenas com hash IDs. Risco LGPD quase zero. | LiveLike |
 | **5. Propriedade dos Dados** | 100% CazéTV via Snowflake e Azure Data Factory. | 100% CazéTV. API First e Webhooks (detalhado no Q&A). | Empate |
 | **6. Funcionalidades Core** | Entrega completa. | Entrega completa mais out-of-the-box. Motor validado e flexível. | LiveLike |
-| **7. Gestão de Ligas** | Pública, privada, premium. Anti-bot XtremePush (custo extra). | Pública, privada, premium. Anti-bot via JWT nativo — gratuito e robusto. | Empate |
+| **7. Gestão de Ligas** | Pública, privada, premium.. | Pública, privada, premium. Anti-bot via JWT nativo — gratuito e robusto. | Empate |
 | **8. Operação do Jogo** | Tempo real via feed OPTA. | Tempo real via OPTA. | Empate |
 | **9. Customização e UX** | Produto construído do zero baseado no protótipo. | CMS 100% themeable. Produto base customizado (não do zero). | Empate |
 | **10. Integrações (SSO)** | Propôs assumir o login via Snowflake, mas **falhou em explicar os fluxos no Q&A** ("nós cuidaremos do login" repetido 10 vezes). | API First robusto. CazéTV fará o SSO IdP. LiveLike explicou detalhadamente o handshake OIDC/JWT. | LiveLike |
