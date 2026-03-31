@@ -24,7 +24,7 @@
 
 ---
 
-## Decisão Interna de TI e Resumo Analítico
+## Q&A e Decisão
 
 Durante o processo de Q&A técnico profundo, a **Low6** apresentou respostas muito rasas e evasivas para o nível de complexidade exigido pelo projeto. Para perguntas críticas sobre picos absurdos de tráfego (10 milhões de acessos), a Low6 apenas repetiu que "cuidaria do login" e chegou a questionar a viabilidade dos 10 milhões de usuários (indicando que não esperam esse tráfego no pico). Embora a proposta original fosse tentadora (Low6 assumindo o suporte ao usuário e gestão de banco de dados), a gente não se sente confortável em terceirizar a estabilidade primária do Bolão em um evento crítico como a Copa do Mundo para uma empresa que não demonstrou profundidade nas respostas de engenharia.
 
