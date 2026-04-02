@@ -1,0 +1,1308 @@
+📝 Observações 
+
+ 
+13 de mar. de 2026
+Alinhamento Bolão 
+Convidados 
+ 
+ 
+ 
+ 
+Rodrigo Porto
+Fernando Rosa
+mportela@livemode.net
+Luiza Arold
+ 
+ 
+Patricia Souza
+Renato Drumond
+Anexos 
+  
+Alinhamento Bolão
+Registros da reunião 
+  
+Transcrição
+ 
+Resumo 
+Reunião focada na análise de fornecedores de bolão Liveelike e Low Six, 
+considerando infraestrutura, suporte e custos de hospedagem com 
+diferenças cruciais na gestão de banco de dados e SSO.​
+​
+Avaliação de Fornecedores de Bolão​
+A Liveelike, empresa "API First", demonstrou um produto de maior 
+qualidade e melhor experiência, enquanto a Low Six ofereceu suporte 
+B2B em português mais adaptado às necessidades operacionais da 
+equipe. A Liveelike foi preferida por sua infraestrutura superior e escala 
+para mais de 10 milhões de usuários simultâneos, embora exija que a 
+equipe organize e estruture o banco de dados para SSO.​
+​
+Governança e Custos de Infraestrutura​
+A maior preocupação reside na governança e responsabilidade de gerir 
+o banco de dados interno para milhões de logins, pois a equipe não 
+possui infraestrutura para isso, o que é mitigado pela solução Snowflake 
+da Low Six. Houve desconfiança nas estimativas de custo de hosting da 
+Low Six, que foram consideradas muito abaixo do real para milhões de 
+usuários, em comparação com o custo de $200.000 da Liveelike para 
+suportar 10 milhões de usuários.​
+​
+Status de Parcerias e POD​
+As conversas com a Riachuelo (POD) estagnaram devido à Cláudia, que 
+questionou se o público da CASE TV era o público da Riachuelo, e 
+
+Rodrigo Porto se comprometeu a "vender" o projeto na próxima semana. 
+O fornecedor de POD Reserva Inc impôs restrições de produção, como a 
+não realização de impressão frente e verso e a baixa capacidade de 
+produção atual, que só deve aumentar em abril. 
+ 
+Detalhes 
+●​ Ajustes de Áudio e Compartilhamento de Tela: Rodrigo Porto e Renato 
+Drumond iniciaram a reunião confirmando a audibilidade e o 
+compartilhamento de tela, com Rodrigo Porto solicitando assistência para 
+resolver problemas de conexão de seu computador e a remoção de um fundo 
+de tela por Renato Drumond (00:00:00). 
+●​ Panorama de Fornecedores de Bolão (Liveelike e Low Six): Rodrigo Porto 
+apresentou um panorama sobre os dois fornecedores potenciais para o 
+bolão: Liveelike e Low Six. A Liveelike, uma empresa americana "API First" 
+similar à Genius, foi elogiada internamente por sua estrutura, clareza e 
+qualidade de entrega, oferecendo mais de 100 variações de jogos e 
+suportando mais de 10 milhões de usuários simultâneos usando AWS com 
+auto scale (00:03:20). A Low Six, que se organiza como "Free to Play games" 
+(F2P), foi considerada menos estruturada e oferece soluções menores em 
+comparação com a Liveelike (00:05:17). 
+●​ Qualidade do Produto e Foco Técnico: O sentimento geral é que a Liveelike 
+oferece um produto final "mais bem acabado" com melhor experiência 
+(00:05:17). Os tópicos mais importantes para a decisão foram identificados 
+como escala, infraestrutura e experiência do consumidor, gerando mais 
+segurança ao considerar a Liveelike (00:06:50). 
+●​ Suporte Operacional e ao Usuário Final: Em termos de suporte operacional e 
+ao usuário final, a Low Six demonstrou melhor adaptação às necessidades da 
+equipe, oferecendo suporte B2B em português e podendo atender o usuário 
+final através de chat ao vivo com IA (00:06:50). A Low Six cobra uma taxa de 
+$15.000 por este serviço de suporte ao usuário final, enquanto a Liveelike não 
+oferece contato com o usuário final, exigindo que a equipe monte e opere seu 
+próprio suporte L1 (00:08:07). 
+●​ Segurança e Propriedade de Dados: Ambas as empresas têm certificações 
+de segurança (ISO) e nenhuma tem acesso aos dados do cliente, que 
+permanecem 100% como propriedade da equipe, sendo processados apenas 
+de forma criptografada para analisar o comportamento do usuário (00:08:07). 
+
+●​ Estrutura e Gestão do Banco de Dados (Diferencial Operacional): A Low Six 
+oferece uma solução (Snowflake) que permite que a equipe acesse um banco 
+de dados compartilhado, eliminando a necessidade de criar e estruturar um 
+banco de dados internamente para o Single Sign-On (SSO) da CAS TV. A 
+Liveelike, por outro lado, exige que a equipe organize e estruture essa parte 
+do banco de dados para que eles possam se conectar (00:09:29). 
+●​ Governança e Responsabilidade da Infraestrutura de Dados: Houve uma 
+preocupação significativa sobre a governança e a fronteira de 
+responsabilidade se o banco de dados fosse gerido pela equipe, 
+especialmente em momentos de pico de acessos (00:16:27). Rodrigo Porto 
+enfatizou que a responsabilidade da infraestrutura, incluindo a gestão de 
+logins de 5 milhões de pessoas, deve ser única e não pode cair sobre a 
+equipe interna, pois eles não possuem infraestrutura para gerir milhões de 
+acessos (00:15:14) (00:21:57). 
+●​ Natureza dos Dados Armazenados e Consulta: Foi clarificado que a maior 
+parte dos dados do jogo (palpites, ligas) estaria nos bancos de dados dos 
+fornecedores, mas a informação de login (e-mail, senha) precisaria ser 
+consultada no banco de dados da equipe para login e segurança (00:13:12) 
+(00:15:14). Patricia Souza e Fernando Rosa concordaram que é crucial 
+verificar a frequência com que os fornecedores precisariam consultar o 
+banco de dados da equipe para evitar problemas de escala (00:20:55). 
+●​ Impacto da Governança de Infraestrutura e LGPD: Renato Drumond destacou 
+que a governança deve garantir que um único ponto seja responsável por 
+resolver quaisquer problemas, e que qualquer solução deve clarificar seu 
+impacto na Lei Geral de Proteção de Dados (LGPD) (00:17:33) (00:25:17). A 
+equipe não possui a operação ou infraestrutura para gerir milhões de 
+acessos, e ter que construir um banco de dados internamente seria uma 
+preocupação (00:21:57). 
+●​ Integração com SSO do iFood e Responsabilidades: Sobre o SSO do iFood, a 
+Low Six se prontificou a realizar um alinhamento direto ou receber a 
+documentação para se conectar de forma independente, enquanto a Liveelike 
+exige que a equipe tenha essa informação para o acesso ser lido a partir do 
+SSO da equipe (00:26:22). 
+●​ Análise de Custos e Estimativas de Hosting: A Low Six apresentou uma 
+estimativa de custo de hosting entre $5.000 e $10.000 por mês, valor que 
+Carol e Luiz consideraram muito abaixo do valor real para milhões de 
+usuários (00:27:45). A Liveelike cobra $200.000 para suportar até 10 milhões 
+de usuários, com um custo adicional de $20.000 por cada milhão extra 
+
+(00:29:03). A Low Six estima um custo 10 vezes menor por milhão de usuário 
+($2.000), mas a equipe suspeita que a estimativa da Low Six não considerou 
+corretamente os picos de usuários simultâneos (00:31:09). 
+●​ Custo de CRM e Banco de Dados nas Propostas: Foi confirmado que 
+nenhuma das propostas inclui o custo de CRM, que seria um extra. A Low Six, 
+no entanto, tem o valor de gestão e manutenção do banco de dados 
+(Snowflake) incluído em sua proposta, enquanto a Liveelike não inclui 
+(00:33:13). 
+●​ Status das Conversas com o iFood: Rodrigo Porto marcou uma reunião com 
+o iFood para a próxima terça-feira para apresentar o bolão, após uma série de 
+perguntas do iFood que pareciam desalinhadas com a mecânica do bolão 
+(00:35:26). A equipe decidiu que é melhor realizar uma apresentação direta 
+para alinhar expectativas e evitar mais confusão (00:36:29). 
+●​ Estratégia de Abordagem ao Mercado Livre e iFood: Rodrigo Porto 
+reconheceu que a abordagem inicial no Mercado Livre foi "agressiva", mas 
+fundamental. Eles decidiram que a abordagem no iFood seria mais gradual e 
+alinhada com Andreia (00:37:40). O objetivo com o Mercado Livre é vender o 
+projeto e negociar a isenção da taxa de take rate (00:41:12). 
+●​ Status das Conversas com a Riachuelo (POD): Fernando Rosa relatou que a 
+conversa com a Riachuelo (Print On Demand - POD) travou devido à Cláudia, 
+VP e diretora de moda, que não estava convencida de que o público da Casé 
+era o público da Riachuelo (00:42:17). A equipe concordou que Rodrigo Porto 
+assumirá a tarefa de "vender" a CASE TV para Cláudia e solicitou que 
+agendem a reunião para segunda ou terça-feira (00:44:29). 
+●​ Limitações Técnicas do POD com Reserva Inc: O fornecedor de POD, Reserva 
+Inc, impôs restrições de produção: eles não fazem impressão frente e verso. 
+Além disso, a produtividade de impressão aumenta significativamente 
+quando a arte é de uma única cor, podendo incluir um degradê (00:45:20). 
+●​ Capacidade de Produção do POD e Custos: A Reserva Inc relatou baixa 
+capacidade disponível e que novas máquinas chegam em abril (00:47:56). 
+Eles devem retornar na segunda-feira com informações sobre a capacidade 
+de produção por dia (00:46:50). O custo de venda foi estimado em $55 ou 
+$49, mas o preço final e o custo por peça para a equipe ainda não foram 
+confirmados (00:49:07). 
+●​ Status das Conversas com Malwee: O diretor da Malwee indicou um teto de 
+produção de 700.000 camisas, exigindo um pedido firme de 80% (560.000 
+camisas) para iniciar a produção. O prazo de entrega após a estampagem é 
+
+de 12 dias úteis. A equipe propôs uma colaboração com a Malwee, que está 
+avaliando a proposta internamente (00:54:04). 
+ 
+Próximas etapas sugeridas 
+​Rodrigo Porto obterá uma resposta formal da Live Like sobre o modelo de 
+governança, explicando o funcionamento do sistema em casos de lentidão ou 
+problemas no banco de dados, assegurando um responsável único. 
+​Patricia Souza fará uma verificação dupla com a Low Six para confirmar se o 
+valor do banco de dados na proposta inclui a gestão e a manutenção, ou 
+apenas o contrato com a Snowflake, para evitar custos inesperados. 
+​Rodrigo Porto pedirá à Aline para marcar uma reunião urgente com a Cláudia, 
+na segunda ou terça-feira, para vender a ideia da CASETV para a Riachuelo. 
+ 
+Revise as anotações do Gemini para checar se estão corretas. Confira dicas e saiba 
+como o Gemini faz anotações 
+Envie feedback sobre o uso do Gemini para criar notas breve pesquisa. 
+
+📖 Transcrição 
+
+ 
+13 de mar. de 2026
+Alinhamento Bolão - Transcrição 
+00:00:00 
+ ​
+Renato Drumond: Oi, Rod, boa tarde. Não tô te ouvindo. Você tá me ouvindo?​
+Rodrigo Porto: Bom, tudo bem?​
+Renato Drumond: Ora foi.​
+Rodrigo Porto: Estamos aqui já na sala aqui com todo mundo.​
+Renato Drumond: Ja.​
+Rodrigo Porto: tentar tentar compartilhar aqui. M. Tá ouvindo a gente, Druma,​
+Renato Drumond: Tô vendo.​
+Rodrigo Porto: normal?​
+Renato Drumond: Tô viendo.​
+Rodrigo Porto: Tá bem. Eu nunca consegui fazer meu computador conectar. Ele ele 
+funciona. Até acho aqui a câmera, mas não vai. Tem algum problema aqui? Pode 
+ser. Se conseguir o quê?​
+Renato Drumond: Rod, se tira só o fundo de tela​
+Rodrigo Porto: Ah, foi.​
+Renato Drumond: aí.​
+Rodrigo Porto: Você tá vendo? Mas você não consegue botar ele na televisão. É, 
+pois é. Aqui ele vê a gente no meu computador,​
+Renato Drumond: Agora​
+Rodrigo Porto: não aparece na televisão.​
+Renato Drumond: foi.​
+Rodrigo Porto: Provavelmente. Se quiser eu posso colocar aqui também. Pode ser.​
+Renato Drumond: Eu tô sala aí.​
+Rodrigo Porto: Só vamos trocar aqui. Como é que tá bola? Vamos lá. É, vou que eu 
+quero compartilhar aqui com vocês assim. Tá precisando da televisão, cara. Ah, 
+vaiar.​
+ ​
+  
+00:03:20 
+ ​
+Rodrigo Porto: É, vamos ver se vai aí. Agora vai compartilhar aqui uma Calma aí, 
+Drumo. Vou compartilhar aqui com você agora.​
+Renato Drumond: Tô vendo​
+Rodrigo Porto: Tá vendo? Beleza,​
+
+Renato Drumond: já.​
+Rodrigo Porto: vamos lá então. Eh, então a gente queria, beleza, pode participar 
+originalmente ter essa reunião já com algumas informações que a gente não não 
+conseguiu pegar hoje de manhã com a G Six, né? Nossa reunião teve que acabar um 
+pouco antes, eh, e algumas eh informações que foram conclusivas, tá? OK. 
+Obrigado, Arturo. Valeu. Tchau. Tchau. Principalmente quando a gente fala da parte 
+de custo de infra, que é o mais pesado em termos da crop lá que a gente tem, né, 
+com só dando um passo atrás, a gente tá agora, a gente tá entre duas dois possíveis 
+fornecedores, tá? Um, chama-se Liveelike,​
+Renato Drumond: Ja.​
+Rodrigo Porto: é uma empresa americana bem grande assim, estilo Genius, tá? 
+Mesmo uma estrutura parecida com a Ginas, ela tem eh ela é ela se se 
+autodenomina uma empresa API First, então ela, né, entrega essa partura 
+tecnológica em termos da melhor maneira possível. A gente trocou aqui com o Luís, 
+com a Carol sobre isso. Eles gostaram muito da estrutura, né, da com que a gente 
+teve com eles, com a clareza, né, de como eles passaram, como eles eh 
+trabalhariam esse projeto e a qualidade de entrega mesmo do produto, né, já fizeram 
+bolão,​
+ ​
+  
+00:05:17 
+ ​
+Rodrigo Porto: já tem já fizeram bolão vários tipos, tá, de game. E eles têm mais de 
+assim mais de 100 variações de jogos ali dentro da foto deles. Legal. Tem tem. Essa 
+é a live. Essa é a live. Exatamente. Aí ela tem ela passou aqui pra gente, tem vários 
+jogos ali. Yago Sport Bach Report e outros é tem outros tipos de de clientes que tem 
+assim mais de 10 milhões de usuários simultâneos jogando. Então o stage não seria 
+um problema ali no caso da da Liveelike usa WS com alto scale, mas é um detalhe. 
+A Low Six, ela não tem eh soluções do tamanho eh que a Live entrega e é uma 
+empresa que é um pouco de estruturada, um pouco diferente da LEL, assim como a 
+Live, ela, né, que eu falei que ela se autodomin first, a Low Six é uma ela ela ela se 
+organiza como F F2P, são é free to play games e que ela entrega ainda é dado na 
+solução web, também atende a gente. tá da mesma maneira, mas só uma maneira 
+diferente de de trabalhar e entregar a solução pra gente, tá? E no durante, né, o os 
+calls e as trocas, a o sentimento, né, isso é um é um sentimento assim com as 
+entregas que a gente viu, com com as demos que a gente teve acesso, que a Live 
+Live no final tem um produto mais bem acabado, né, a experiência do produto em si, 
+beleza?​
+ ​
+  
+
+00:06:50 
+ ​
+Rodrigo Porto: Tá? Então aí sãoatos hoje vocês não tiveram todas as informações 
+da Low Six, da Low Six. Exatamente. Então isso é só tipo um um só um panorama, 
+né, de como a gente chegou para essas reuniões técnicas, tá? E a gente entende que 
+o tópico mais importante aqui é escala e infra, né, pra gente ter essa essa e a 
+experiência do consumidor também. E a experiência. Exatamente. Então acho que 
+isso tudo ele ela, né, gera uma segurança maior, né, se a gente fosse por esse lado 
+aqui da Live Like. Mas enfim, tem várias coisas aí, tem ônus e bônus tudo no final, 
+tá? Eh, seguindo aqui a ordem, tá? Segundo tópico aqui, suporte operacional. Aí aqui 
+já a gente já tem uma uma vantagem na VX. O six, ela ela ela se adapta melhor às 
+nossas necessidades. A Live ela funciona de uma maneira e ela não abre mão disso, 
+tá? Basicamente. Então, o que que é o suporte operacional e o suporte ao usuário 
+final? a gente vamos tratar esses dois juntos aqui. Os dois, né, vão fazer suporte 
+operacional, né, direto para com a gente. B2B, suporte em português. A diferença é 
+que o usuário final na Low Six, ela vai atender esse usuário final pra gente, né?​
+ ​
+  
+00:08:07 
+ ​
+Rodrigo Porto: Então, a gente não precisaria ter um time de saque operacional que 
+eles fazem isso por live chat com IA e etc. Eles cobram um fi por isso, tá? De 
+$15.000. Eh, mas a gente tem essa opção, se a gente quiser. A Live, ela não tem 
+contato nenhum com o usuário final, né? Então, ela bate isso, né, no Isso isso não 
+vai mudar, tá bom? Tá. Eh, então a gente precisa montar e operar aqui nesse nosso 
+L1, tá? Parte aqui de segurança ali de EPD, muito parecido, tá? em parte as duas têm 
+solu eh eh como é que é o nome? Iso so, né? Esses essas certificações, né? De 
+segurança e nenhuma delas tem acesso a ao dado do nosso cliente, tá? Então todo 
+o o cliente é o dado do cliente é 100% nosso, a gente não divide com eles e eles só 
+processam essa informação de forma criptografada para ver o comportamento do 
+do usuário dentro do da plataforma, tá? da o cliente é nosso. E eh então toda essa 
+parte de propriedade de dados eh fica com a gente. Qual é a diferença aqui em 
+termos de operacional? é que na low six, de novo, eles podem se adaptar melhor à 
+gente.​
+ ​
+  
+00:09:29 
+ ​
+Rodrigo Porto: Então eles têm uma solução que é um snow flake, que a gente 
+chama, que é um basicamente um banco de dados eh comp que pode ser 
+
+compartilhado, que a gente vai ter acesso, então vai ser um um banco de dados 
+nosso que eles vão operar.​
+Renato Drumond: M.​
+Rodrigo Porto: Uhum. Tá? Eh, então a gente não precisa eh do nosso lado criar um 
+SSO da CAS TV, por exemplo, né? que e estruturar o nosso banco de dados. Então a 
+gente não precisa estruturar nem ter um banco de dados agora, né? Que eu sei que a 
+gente não tem a gente com a Carola, com Luiz, não tem, não queremos ter. Então, e 
+e aí a outra e a outra a gente precisa fazer isso. A outra a gente prec ela​
+Fernando Rosa: Esse é o ponto, ô Maurício.​
+Rodrigo Porto: é,​
+Fernando Rosa: Esse é o ponto que a gente tá precisando aprofundar.​
+Rodrigo Porto: então é esse ponto que não tá 100% claro ainda pra gente, né? o o o 
+custo no final disso tudo, tá? Mas a Live, ela deixou bem claro que a gente precisa 
+organizar essa parte de banco de dados, né, e estruturar esse banco para eles 
+conectarem aqui na gente e a gente poder eh eh jogar essa informação lá para eles. 
+Eles vão puxar eh do nosso do nosso usuário que entrar se cadastra num banco de 
+que a gente cria.​
+ ​
+  
+00:10:46 
+ ​
+Rodrigo Porto: É, vamos dizer, a gente tem um, a gente vai criar um SSO nosso, tá? 
+Imaginando que seja um SSO. E isso vai tá conectado a um banco de dados nossos, 
+né? Eu até falei com a Carol, eh, ela disse que isso não seria um gargalo se a gente 
+fosse por esse lado. Se o sistema lá, se o nosso B de dados aqui fica lento e o 
+sistema lá ficar lento, como assim? Não, não sei se entendeu. Entrei lá no no no 
+bolão, quero fazer login. Uhum. Aí o cara tem que checar a senha. Pelo que eu tô 
+entendendo sempre, vai tá num num banco de dados da live mode. Isso aí o nosso 
+banco de dados cai aqui, o sistema cai todo e é a gente exatamente​
+Fernando Rosa: É o o ideal que você tivesse um banco de dados isolado, né, que​
+Rodrigo Porto: isolado. É, vai ser isolado.​
+Fernando Rosa: servisse​
+Rodrigo Porto: Se realmente se cair mencionar errado. Sim. Eh, que que o que que​
+Fernando Rosa: eh o banco ô Maurício, não sei se ficou claro, a estruturação do 
+banco de dados tem dos dois lados, tem na Low Six e tem na na Live Like. A qual é a 
+diferença entre eles, né? A a low Six, ela ela gere o banco de dados para você, mas o 
+banco de dados é nosso e ele ficaria nessa Snowflake, né?​
+ ​
+  
+
+00:11:59 
+ ​
+Fernando Rosa: Snowflake o nome, ô Rid,​
+Renato Drumond: És no​
+Fernando Rosa: né?​
+Renato Drumond: fleка.​
+Fernando Rosa: Eh, a Livelike ela não faz não estrutura o banco de dados na no 
+Snow no flake e ela não gere o banco de dados. Então ela passa paraa gente aonde 
+a gente quiser estruturar o banco de dados e a gente faz a gestão.​
+Rodrigo Porto: Mas pera aí, tem uma coisa que é onde os dados ficam guardados 
+para depois, mas durante o jogo pergunta assim, entramos lá login senha, logar, 
+esse cara vai vir no banco de dados aqui chegar a senha ou o sistema dele tem um 
+banco de dados lá? Não, o sistema deles tem um banco de dados lá. Isso é só pra 
+gente guardar os dados.​
+Fernando Rosa: Isso.​
+Rodrigo Porto: É pra gente guardar não tá tudo f desculpa já tu não, mas tão forç é 
+isso. A gente o o no final a gente precisa armazenar essa informação. Ele vai ler 
+essa informação. Ele vai ler por quê? Ele vai ler por Mas ele vai ler eh criptografado. 
+Nó vamos dizer ele ele ele a senha vai tá onde? Vai, não sei. Acho que a Carol vai 
+dizer melhor, mas o que que eu acredito? Não, a senha vai est do nosso lado, mas 
+tudo vai tá do lado dele criptografado.​
+ ​
+  
+00:13:12 
+ ​
+Rodrigo Porto: Ele não vai ter informação, não sabe quem é o cliente, não sabe nada 
+sobre o cliente, nada disso. Aqui eu fiz um palpite. Meu palpite vai tá guardado 
+aonde? Palpite vai tá guardado com ele.​
+Fernando Rosa: No banco de dados.​
+Rodrigo Porto: É uma Não,​
+Fernando Rosa: Não,​
+Rodrigo Porto: mas é uma informação do jogo. É, cara. Aqui que é que eu acho que 
+tem uma confusão aqui de banco de dados de um sistema de bolão. Tem palpite, 
+tem os jogos, tem tudo que eu fiz lá. Tem, qual é a minha liga interna? Isso tudo vai 
+para um banco de dados.​
+Fernando Rosa: Угуm.​
+Rodrigo Porto: Esse banco de dados não pode ser nosso, isso é muito dentro do 
+sistema. Então, esse é o meu ponto.​
+Patricia Souza: Oh.​
+Rodrigo Porto: Isso tudo que é comportamento do jogo, isso tá com eles. O que tá 
+com a gente é o login do cliente. A gente guarda o nosso banco de dados, vai ser um 
+
+bloco de dados básico, tá? Isso aqui é o que eu tô pensando agora, tá? A gente pode 
+confirmar com a Carol, com o Luiz. Isso não pode ser responsável da Carol, não. 
+Tem que ser responsável vocês aqui, gente. Não dá para delegar isso para Carol 
+não.​
+ ​
+  
+00:14:10 
+ ​
+Rodrigo Porto: A Carol não vai, a Carol não vai estar durante a Copa do Mundo 
+preocupada se o banco de dados do Boron caiu. Não, não. Com certeza. Com 
+certeza. Eu só tô pensando aqui eh junto, acho que o que que faz e temos informaçõ 
+dados de quem jogar o bolão na live mod. Beleza? Eu entendo essa parte. Essa 
+parte é bem importante. A gente não pode ter nenhuma responsabilidade na na área 
+técnica da L, que são meia meia pessoa. Uhum. Se o sistema tem robustez para 
+aguentar 10 milhões de pessoas logando ao mesmo tempo. Sim. Não, isso tem que 
+ser isso é com Liveel. Isso é, mas se low six, mas se então para isso ser com eles 
+não pode ter nenhum chamada ao nosso banco de dados nesses momentos. Uhum.​
+Fernando Rosa: É, mas eu acho que tem uma confusão. O que que é a chamada, 
+Maurício?​
+Rodrigo Porto: Então,​
+Fernando Rosa: Eu entendo que essa chamada tá com eles.​
+Renato Drumond: M.​
+Fernando Rosa: O que eu entendo que é o o são os dados do Maurício, né? O 
+Maurício, qual é o e-mail, qual é a senha do Maurício? Eles estão eles eles estão 
+reservados no banco.​
+Rodrigo Porto: eu sei, Fernando, mas esses dados só deveriam,​
+ ​
+  
+00:15:14 
+ ​
+Fernando Rosa: É para uma questão de LGPD.​
+Rodrigo Porto: mas se se tiver chamada 5 milhões de pessoas criando cadastro ao 
+mesmo tempo, quem é que tem que garantir que o sistema Todo o sistema, o banco 
+de dados, a programação, a o front endu 5 milhões de cadastros ao mesmo tempo.​
+Fernando Rosa: É, eu eu acho que o ponto a gente precisa precisa entender o que 
+que o que que ele retém para não atrapalhar a experiência do usuário. O que que a 
+cada uma dessas plataformas retém para não atrapalhar a experiência do​
+Renato Drumond: É,​
+Fernando Rosa: usuário?​
+Renato Drumond: o que a gente entendeu é que seria uma consulta para login e 
+
+senha. Isso seria uma coisa que estaria nesse ambiente destacado, né? Mas eu 
+acho que dado que você tá colocando aí com uma certa clareza a dúvida sobre isso, 
+acho que a gente vai lá e faz o double check, que é, né, a dinâmica operacional. É 
+como se fosse assim, dentro do ambiente da Livelike tem um código, um código 
+qualquer que tá associado a um usuário. Esse código vai ter uma chave que bate 
+com e-mail e senha, né, que estaria dentro desse ambiente. Eh, casé. Aí a pergunta é 
+assim: "p***, mas essa consulta, né,​
+Rodrigo Porto: sistema​
+Renato Drumond: eh, quem que vai tá gerenciando esse ambiente de cá?​
+ ​
+  
+00:16:27 
+ ​
+Renato Drumond: Essa é a sua pergunta, né?​
+Rodrigo Porto: É,​
+Renato Drumond: Idealmente eu não quero ninguém preocupado para saber se esse 
+banco tá funcionando ou não tá, né?​
+Rodrigo Porto: é que parece e é típica situação, se você deixar acontecer isso, que a 
+gente cai onde o dá um problema e você não sabe de quem é ocupado, porque vai 
+ficar lá, ih cadastro não tá acontecendo, o cadastro o sistema caiu na hora do 
+cadastro. Só pode ter um um responsável. Na hora que tem dois responsáveis já viu, 
+né? Sim, não tem que deixar isso que aí assim, a gente vai ter que contratar uma 
+empresa para gerir o banco de dados, porque o o o banco de dados é onde onde tem 
+é um é um dos um dos possíveis gargalos, né? E um gargalo importante para 
+c******.​
+Fernando Rosa: Угуm.​
+Rodrigo Porto: É que não faz não parece fazer sentido a gestão, por exemplo, de 
+palpites que tá associado a um código, né? O Renato fez um cadastro lá, botou o 
+login dele e ganhou o código um. Ele é o usuário número um do bolão. O usuário 
+número um do bolão tem os palpites paraais. Um isso vai para dados. Isso. Isso é 
+que esse bos aqui, se isso aqui tiver do nosso lado, é, não é do nosso lado.​
+ ​
+  
+00:17:33 
+ ​
+Rodrigo Porto: Isso. Isso é experiência. Até onde eu entendi, ó. Experiência de jogo, 
+isso não tem nada a ver com o nosso banco de dados.​
+Renato Drumond: o código,​
+Rodrigo Porto: Nós vamos já de​
+Renato Drumond: sei lá, o o usuário 13 457 tá jogando, isso tá rodando no ambiente 
+
+deles,​
+Rodrigo Porto: Isso. Isso.​
+Renato Drumond: né? Agora assim, quem é o quem é o usuário 1345 47?​
+Rodrigo Porto: Exatamente.​
+Renato Drumond: Eles não sabem. a gente vai ter que fazer, a gente vai ter que 
+manter esse banco de dados para algumas tarefas disponíveis, né, para essas 
+tarefas acontecerem eh de maneira, né, real time.​
+Rodrigo Porto: É o que​
+Renato Drumond: Mas aí o ponto que o falou é o seguinte:​
+Rodrigo Porto: eu​
+Renato Drumond: eu não tenho gente para fazer esse tipo de de cuidado, né? Como 
+é que a gente endereça isso? Talvez seja a pergunta pra gente fazer, né? 
+independente disso,​
+Rodrigo Porto: acho a outra pergunta para eles é é essa da da governança, que é 
+cara, a governança tem que ser de um jeito que qualquer coisa que aconteça Uhum. 
+só só tem vocês para resolverem. Não, assim, não pode ter, são vocês, vocês e seus 
+fornecedores, não pode ter mais ninguém para resolver, né?​
+ ​
+  
+00:18:38 
+ ​
+Fernando Rosa: A pergunta para live, né? Ô Maurício,​
+Rodrigo Porto: É isso.​
+Fernando Rosa: porque a low six ela ela a governança é deles.​
+Rodrigo Porto: É,​
+Fernando Rosa: Че?​
+Rodrigo Porto: é assim, cara. Se o sistema começar a ficar lento, não pode você 
+falar: "Não, isso não é comigo, não, é com a galera do banco de dados aí. Então 
+fodeu.​
+Fernando Rosa: Угуm.​
+Rodrigo Porto: Aí a governança foi pro​
+Renato Drumond: Aí hipoteticamente, só pra gente pensar, seja,​
+Rodrigo Porto: cacete.​
+Renato Drumond: por mais que a gente vai matar dúvida, uma empresa tipo a quality 
+faz esse monitoramento do banco de dados. Ou seja, a gente poderia ter um terceiro 
+fazendo essa missão, mas aí tem o ponto que Maur falou, aonde tá a fronteira de 
+responsabilidade de quem, né?​
+Rodrigo Porto: É, é o risco, Renato.​
+Renato Drumond: Sobre o quê?​
+Rodrigo Porto: O risco fica gigante, cara. É o risco de governança. A governança vai 
+pro caceta nessa hora. Eu você tem que ter um ponto, um um responsável único 
+
+para usar um português mais limpo. Eu vou pegar uma uma resposta formal deles 
+em relação a isso.​
+Fernando Rosa: H​
+Rodrigo Porto: Funciona, né? Como funciona? Que as perguntas de de 
+funcionamento é cara, se o sistema tiver lento, como funciona?​
+ ​
+  
+00:19:46 
+ ​
+Rodrigo Porto: Se o banco de dados da live mode tiver caído, como funciona? 
+Porque se for uma coisa para guardar os dados, pra gente ter acesso aos dados 
+durante e depois, você pode rodar de madrugada e toda madrugada você roda lá um 
+negócio que copia os dados, certo? Se for uma coisa que é é operação, aí ele tem 
+que conversar, esse problema não é novo para eles, cara. Só isso assim, com 
+certeza não a provavelmente eles vão ter acesso a esse a esse banco e vão pedir 
+alguma informação dele somente quando necessário por algum motivo. A gente 
+tem que definir pra gente exatamente qual é o banco. A gente tem que situação é 
+falar: "Cara, eu preciso de um banco desse tamanho, precisa até essa escala, não sei 
+quê". Beleza, tá aqui entregue. Não faço nada com isso. Você já nessa p****, tá? A 
+gente levantou até isso e para ver até qual o time que precisa do nosso lado para 
+est, né, disponível para não ser gargalo, né, na no gol e tudo isso. Eles disseram no 
+kickoff vai ter uma alguns alinhamentos técnicos pra gente entender como que isso 
+funciona. Beleza. Tá bom. Beleza. Segue aí. Isso me deixou preocupado. Eh, liga 
+para mim é uma f*** assim, só andando ali, gestão de ligas.​
+ ​
+  
+00:20:55 
+ ​
+Rodrigo Porto: Cara, se o banco de dados não tiver todo gerido por eles, imagina nós 
+cinco montamos uma liga, isso tá guardado no banco de dados externo. Então, toda 
+vez ele tem que ficar vindo no banco de dados internos, saber o usuário 302, juntou 
+uma linha com 513 dessas pessoas em termos de jogo de experiência de jogo 
+assim 99% de certeza que tá tá tudo lá. Então vamos checar isso aqui.​
+Patricia Souza: Ó,​
+Rodrigo Porto: Uhum.​
+Patricia Souza: a gente vai se certificar. Vocês estão me ouvindo?​
+Rodrigo Porto: Sim, sim.​
+Patricia Souza: A gente vai se certificar,​
+Rodrigo Porto: Acho que​
+Patricia Souza: mas pelo meu entendimento também ficou claro que tudo jogo tá no 
+
+banco deles,​
+Rodrigo Porto: vai​
+Patricia Souza: que a única coisa que eles precisam da gente de fato é o login. Aí a 
+gente tem que checar se eles fazem consulta todos os momentos que o cliente faz 
+login,​
+Rodrigo Porto: isso.​
+Patricia Souza: que isso de fato pode virar um problema. Mas inclusive o Luís 
+perguntou sobre isso,​
+Rodrigo Porto: É.​
+Patricia Souza: eles chamam isso de eventos, né? Então o cliente faz um palpite, é 
+um evento que eles têm a informação lá, o cliente ganhou ponto, isso é um evento lá, 
+isso tudo vai est com eles. Inclusive o Luís perguntou se eles podem mandar isso, 
+os eventos que a gente escolher pro nosso banco e eles falaram que sim.​
+ ​
+  
+00:21:57 
+ ​
+Patricia Souza: Então, certamente tudo de jogo tá do lado deles.​
+Rodrigo Porto: Ah.​
+Patricia Souza: A questão é a gente entender qual é a frequência que eles vão 
+precisar ficar fazendo essa consulta no nosso banco. Se é uma vez eles criam, né, lá 
+tem o login, eles criam um depara para um código deles de cliente, a partir daí eles 
+seguem ou eles precisam ficar consultando a todo momento.​
+Fernando Rosa: É, é entender se a demanda é de é de armazenamento ou de 
+consulta,​
+Patricia Souza: Vamos checar isso.​
+Rodrigo Porto: É assim,​
+Patricia Souza: Sim.​
+Fernando Rosa: né?​
+Rodrigo Porto: o o só do ponto de vista de governança, a gente que eu o que eu vejo 
+aqui é vocês LTV vão gerir um fornecedor de bolão. Uhum. Eh, isso tem que tá não 
+dá. A gente tem que ter muito cuidado para não quebrar essa governança aqui. Se 
+precisar construir um banco de dados aqui, eu vou ficar muito preocupado se vocês 
+decidirem ter dois fornecedores, mas vai vão ser vocês gerindo, não vai ser a Carol, 
+só para não ter dúvida aqui. A gente não tem infraestrutura aqui e às vezes as 
+pessoas técnicas se​
+Fernando Rosa: Mhm.​
+Rodrigo Porto: empolgam. É, a gente não tem infraestrutura aqui pensada para gerir 
+milhões de acessos. A gente tem estrutura aqui pensada para gerir 400 pessoas, os 
+funcionários acessando coisa.​
+
+ ​
+  
+00:23:05 
+ ​
+Rodrigo Porto: Então, eh eh esse projeto todo nasceu dentro dessa salinha junto 
+com vocês, porque a gente não tem infraestrutura para gerir milhões de acesso. A 
+Carol pode ajudar assim: "Pô,​
+Fernando Rosa: Sì.​
+Rodrigo Porto: não vou desenhar o banco de dados aqui. Eu quero guardar esse 
+banco de dados". Mas na hora da operação não pode estar aqui. Não tem não temos 
+essa operação.​
+Fernando Rosa: Beleza.​
+Rodrigo Porto: É sentindo?​
+Fernando Rosa: Ja.​
+Rodrigo Porto: Obrigado. Vamos embora. Tem várias coisas que eu só assim tô 
+achando boa notícia para c******. Tô bastante animado que vocês acharam depois 
+da da ducha fria da Junas lá, né? Parece que existe um mundo. Sim, exatamente. Só 
+até uma observação que você tá falando que eu troquei com a com a Carol, com o 
+Luiz. Eh, no caso, né, da da Live Lik, da gente ter que ter o nosso banco, né, e 
+entender como eh eles ficam até comentaram, ah, vai ter que contratar uma 
+empresa ecologia para ajudar a gente a para de fato montar o o nosso excesso. 
+Carol, se fosse se for seguir por esse lado, vai ter que, né, contratar uma contratar lá 
+o Amazon, alguma coisa que esse nome. É WS. A WS, o mundo de dados da WS 
+para guardar os dados.​
+ ​
+  
+00:24:22 
+ ​
+Rodrigo Porto: Eu acho que beleza, de madrugada faz um dunk dos dados e a gente 
+fica guardando esses dados. Isso, pô, parece legal porque a gente vai ter uma 
+consolidação da base que a gente tá construindo. Isso tem informação para 
+trabalhar. É, e a informação vai ficar lá, depois a gente quer fazer outras ações, a 
+gente quer acessar para mandar coisa pro camiseta, pá, pá, pá, do c****** tem esse 
+acesso. Eu entendo essa essa vantagem, né? Sim. Eh, mas a gente não pode estar 
+na operação, gente. Sim, sim. p****, o Casimiro faz a chamada lá, c****** entrando e 
+aí o ih, a gente não pode ser gargala de maneira nenhum. Aquela velha história é 
+escalável. Ih, mas não tá escalando. Aí o banco tá na boa. É, vamos vou vamos. 
+Parece razoável, né? A experiência dos caras ainda vem pro c****** na sala da pa. 
+Ela até o cara até comentou, pô, se o iFood patrocinar aí a gente, talvez eles até faça 
+um c******, Rodrigo. Mas aí aí vai cair, vai ser culpa de quem? Do IFU ou do da Não, 
+
+não faz. é que tá fazendo o fazer o SSO que ela falou.​
+ ​
+  
+00:25:17 
+ ​
+Rodrigo Porto: Aí vai cair a culpa dela fú ou do Não, aí tem que entender, né? É, tem 
+que entender como é que como é que é a Live L que faz essa a leitura dessa 
+informação. Mas eu entendi que aí começa a misturar, né? Cara, estão aí mais 
+governança do que tecnologia. É, começa a misturar, né? Muito. Tá.​
+Renato Drumond: E aí a gente tem que só clarificar também como é que isso eh 
+impacta ou não LGPD, né, que tem uma questão que vai andar de braço dado com 
+isso​
+Rodrigo Porto: Sim, sim, sim, sim.​
+Renato Drumond: aí.​
+Rodrigo Porto: Tem que ser, tem que respeitar o que for, né? As regras que for, né? 
+Mas como a gente sempre pode contratar um fornecedor para gerir o banco pra 
+gente, né? Uhum. No limite são é a live, em vez de ser a quality, como você deu a 
+ideia, vai ser a live. Desde que a gente crie o fornecedor e explicite lá de quem é o 
+dono,​
+Renato Drumond: Mm.​
+Rodrigo Porto: quem é o dono disso. Mas segue lá. Tá? Não, em termos de 
+funcionalidade, os dois entregam, tá? Inclusive a parte de premium, inclusive a parte 
+de premium, toda parte de todo mundo, todo mundo tá acostumado a usar ópta.​
+ ​
+  
+00:26:22 
+ ​
+Rodrigo Porto: Eu até confirmei com o Diogo que a gente tem, ele disse que poderia 
+usar sim, né, no colão. Ele ficou ficou na dúvida. Umaão, a gente arrumou, tá? 
+Beleza. Então vocês estão aliados, tá tudo bem. Então vocês estão aliados. Beleza 
+no instante, tá? Essa parte de UX customização, todas fazem eh, né, um produto do 
+zero de acordo com as nossas e guidelines, tá?​
+Patricia Souza: Yeah.​
+Rodrigo Porto: É, aí o SS para falar com o tô falando pro próximo aí. O SSO do iFood 
+e a responsabilidade do iFood. Então aí a L six aqui, ela disse que até pode fazer 
+essa essa reunião direta de alinhamento com com o iFood ou receber essa 
+documentação de como ela se conecta com o assessor do iFood e faz essa essa 
+essa parte de forma independente da gente, tá? aqui eh já na live eh a gente precisa 
+ter isso do nosso lado, ter essa informação do iub do nosso lado para depois ele ler 
+do nosso do nosso SSO, tá? c******. Então isso também tem uma Eu tô olhando já tô 
+
+andando, tá? É, gera uma um problema aqui. Que que é B? Que que est com TV? 
+Aonde? Ele ele tem os ele tem eh jogos, experiências dentro do da Bet 365, a Low 
+Six.​
+ ​
+  
+00:27:45 
+ ​
+Rodrigo Porto: Hum. Eh, que não tem a ver diretamente com o Bet, mas ele criou 
+algumas experiências lá dentro, né? Eh, acho que é isso. A parte de de CRM também 
+nem não tá tá em nenhuma das das propostas, então vou pular aqui por enquanto. 
+Eh, todos fazem eh compartilhamento com rede social. Parte cronograma. Um aqui 
+preview, tá, para começar dia 18 e outro Llight no dia 11. É. E aqui a proposta eh da 
+Low Six, ela originalmente estava nesse valor aqui, de 160 até 200.000, 1000, 
+levando em consideração 150 de plataformas, 15 do suporte comente final. E eles 
+botaram aqui um hosting de entre 5 e 10.000 por mês eh dólares. Só que esse valor 
+aqui de hosting que a Carol e o Luís deram uma noção pra gente que tá muito​
+Renato Drumond: Ja.​
+Rodrigo Porto: fora do que do valor real, tá? Eles entendem que não existe esse 
+valor aqui pela qu pelos milhões de usuários que a gente vai ter. essa leitura deles. E 
+aí a gente a gente voltou isso com a low six, foi uma coisa que a gente não 
+conseguiu alinhar hoje Oi,​
+Fernando Rosa: Ô Rod, deixa só, deixa eu só colocar como a Low Six eh entregou, 
+né?​
+ ​
+  
+00:29:03 
+ ​
+Fernando Rosa: Na proposta ele entregou que ele o custo de hosting é o custo que 
+ele ele teria​
+Renato Drumond: Sì.​
+Fernando Rosa: que pagar pelo hosting, né? Qualquer que seja aí o a WS, o quer que 
+seja, acrescido de 7,5%. É, esse valor de 10 a 15, de 5 a 10.000 é uma estimativa em 
+função do número de usuários que a gente passou para eles, tá? Mas na proposta 
+ele repassa o custo pra gente. Eh,​
+Rodrigo Porto: Yes.​
+Fernando Rosa: já a Live Like ele colocou dentro do que a gente passou de de 
+estimativa de usuários, ele já trouxe o valor que ele pagaria pro host. Então, a 
+diferença é de 200.000 para 10.000. Esse esse aqui é muito estranho. E o que a​
+Rodrigo Porto: Não é que mas o a a a livel like ela​
+Fernando Rosa: gente​
+
+Rodrigo Porto: explicita que 200.000 é o é o hosting. É basicamente ela tá cobrando 
+20.000 000 a cada milhão de usuário que tá dentro​
+Patricia Souza: Espeta.​
+Fernando Rosa: esquecido?​
+Patricia Souza: Ela​
+Rodrigo Porto: do do banco. Ah, ela cobra por milhão. É, ela não cobra por milhão.​
+ ​
+  
+00:30:04 
+ ​
+Rodrigo Porto: Ela tem um um tá com um mínimo ali que é 200.000 que ela entende 
+que​
+Patricia Souza: tá​
+Rodrigo Porto: vai suportar até 10 milhões de usuários e a partir disso, a cada 
+milhão são 20.000 a mais.​
+Patricia Souza: É,​
+Rodrigo Porto: Beleza?​
+Patricia Souza: o custo por milhão é o mesmo, mas eles botam o mínimo, que isso a 
+gente pode até tentar negociar, porque no final o custo, o custo é igual. dentro do 
+mínimo ou adicional é o mesmo custo por milhão.​
+Rodrigo Porto: A gente não tá, não entrou nessa questão de negociação, né? Beleza. 
+Esse é o valor de variando​
+Fernando Rosa: É, é só só um ponto que é importante pra gente chegar no custo, tá, 
+Maurício? Como a gente ainda não recebeu,​
+Rodrigo Porto: entre​
+Fernando Rosa: a gente provocou lá low six para que ele eh se certifique desse valor. 
+Então, para para uma comparação de preço, a gente assumiu que o hosting seria o 
+mesmo valor para as duas. Então, a gente ignorou os 10.000 da low Six e considerou 
+os mesmos 200.000 000 da​
+Rodrigo Porto: isso.​
+Fernando Rosa: da​
+Rodrigo Porto: Cara, achei curioso essa tática aí,​
+Fernando Rosa: live.​
+Rodrigo Porto: porque se ela o Sim falou que ela vai cobrar 10.000, por que que a 
+gente não tá acreditando nos caras?​
+ ​
+  
+00:31:09 
+ ​
+Fernando Rosa: É porque ele colocou isso numa estimativa,​
+
+Rodrigo Porto: É.​
+Fernando Rosa: mas na proposta ele colocou que é o que ele gastar mais 7,5%. Pro 
+aparecer aqui, ah, não, veja bem, né? O que tava na proposta é aquele ali,​
+Patricia Souza: E e a gente ficou com a sensação,​
+Fernando Rosa: ó.​
+Patricia Souza: Maurício, que eles não tinham tido o entendimento completo dos 
+grandes picos que a gente teria de de usuários simultâneos.​
+Rodrigo Porto: Ó,​
+Patricia Souza: Então,​
+Rodrigo Porto: beleza?​
+Patricia Souza: hoje a gente deixou isso bem claro e pediu para eles reavaliarem 
+essa estimativa.​
+Rodrigo Porto: E isso é mais ou menos o dobro da​
+Patricia Souza: Não, o custo deles por milhão de usuário é 10 vezes menor do que o 
+da Live Like.​
+Rodrigo Porto: Mas é o​
+Patricia Souza: O deles é 2000 por milhão de usuário e o da Live é​
+Rodrigo Porto: do​
+Patricia Souza: 20.​
+Rodrigo Porto: porão. Ah, então não vai chegar 200.000 ali, né? Porque 2000 milhão 
+estão falando de usuários.​
+Fernando Rosa: Se se realmente​
+Patricia Souza: Não, não. O o custo, o custo que a estimativa que eles deram antes 
+da gente acreditar que eles tinham entendimento do que realmente a gente 
+precisava.​
+Rodrigo Porto: Tá bom.​
+ ​
+  
+00:32:09 
+ ​
+Rodrigo Porto: Beleza, galera. Tá bom. Não​
+Patricia Souza: a gente tá aguardando essa revisão, mas no nosso entendimento, a 
+Live é uma empresa muito maior,​
+Rodrigo Porto: Ah.​
+Patricia Souza: que a princípio tem mais poder de barganha para negociar com 
+qualquer que seja, né, a plataforma usada de hosting. Então, eh, por isso que a gente 
+usou a mesma estimativa para pra low Six, acreditando que ela não teria um, né, um 
+serviço com uma negociação melhor, né, a não ser que tenha uma taxa de 
+administração muito grande na Live Live, aí a gente não vai saber. Vai fazer​
+Rodrigo Porto: Eh, beleza. O problema é que na quando chega para falar de custo, a 
+live like tá cheio de custo escondido, né?​
+
+Patricia Souza: Exatamente isso que a gente tá tentando se certificar de de não ficar 
+no escuro, né? De não levar um susto depois.​
+Rodrigo Porto: É, é, não, mas tem o banco, tem o CRM, tem nos dois, né? Mas tem o 
+banco, não. CRM você falou que tá incluído vários ali, ó. Não, não tem, não tem 
+incluído em nenhum dos dois. O, só que o a​
+Fernando Rosa: Um um ele ele administra o serviço de CRM,​
+Rodrigo Porto: L não tá​
+Fernando Rosa: mas não tem preço.​
+ ​
+  
+00:33:13 
+ ​
+Fernando Rosa: Ele não deu preço.​
+Rodrigo Porto: indo proposta,​
+Fernando Rosa: É a mesma coisa.​
+Rodrigo Porto: mas a Lix se prontificou a fazer a operação do CRM, se a gente​
+Fernando Rosa: É a mesma coisa do banco,​
+Rodrigo Porto: quiser.​
+Fernando Rosa: Maurício. É você cont eu te indico qual é o CRM, você contrata e eu 
+faço a gestão.​
+Rodrigo Porto: Não,​
+Fernando Rosa: No caso da Low Six, no caso da low Six,​
+Rodrigo Porto: não, diferente do banco e a gestão é deles.​
+Fernando Rosa: tá?​
+Rodrigo Porto: Você só contrata extreme push. Você vai abrir uma conta no Extreme 
+Push, passa o custo, eles eles administram. Isso​
+Fernando Rosa: Então, mas pro banco de dados, a low Six é a mesma coisa.​
+Rodrigo Porto: aí​
+Fernando Rosa: Ele ele sugere ali o snowflake, a gente contrata e ele fazer gestão. 
+Então, em termos de postura da da low six,​
+Rodrigo Porto: fora aí não,​
+Fernando Rosa: é a mesma coisa.​
+Rodrigo Porto: já tá dentro do custo. Ah, então é diferente. Tá dentro do É assim, 
+nenhum em nenhuma das duas propostas a gente tem custo de CRM, tá? Seria um 
+extra tanto para low Six quanto para Lel. E e de bancos de dados? de banco de 
+dados. Eh, as duas, nas duas propostas a gente já tem, eh, desculpa, na low six a 
+gente já tem eh dentro da proposta dele o valor do banco de dados.​
+ ​
+  
+
+00:34:12 
+ ​
+Rodrigo Porto: Entendi. Entendeu, Fernando? No outro​
+Fernando Rosa: Ô Rod, a gente tem o valor do banco de dados contratado com a 
+Snowflake ou a gente tem o valor que a a Low Six vai​
+Rodrigo Porto: não,​
+Fernando Rosa: cobrar para fazer a gestão do banco de​
+Rodrigo Porto: temos os dois,​
+Fernando Rosa: dados?​
+Rodrigo Porto: tá? tá incluso na proposta da low six a parte de gestão e manutenção 
+do banco de​
+Fernando Rosa: Eu tinha entendido que era só a gestão,​
+Rodrigo Porto: dados.​
+Fernando Rosa: né, que o banco de dados era um contrato à​
+Rodrigo Porto: Beleza?​
+Fernando Rosa: parte.​
+Rodrigo Porto: É,​
+Patricia Souza: Mas acho até que vale a gente anotar para dar um double check.​
+Rodrigo Porto: entendi.​
+Patricia Souza: Pode a low six a gente é isso, tem que ficar eh double check o tempo 
+todo porque senão os custos vão surgindo.​
+Rodrigo Porto: É,​
+Patricia Souza: Vamos certificar disso.​
+Rodrigo Porto: masake e a gente tem acesso aqui do O 12 ali também é outro para 
+confirmar, né? Fala que é, eu entendi que esse aqui ele dá informações mais preciso. 
+Tá bom. Ótimo. Obrigado pelo status. É isso. Eh, aí temos duas opções. Vai custar 
+mais de R$ 2000 essa​
+Fernando Rosa: Esse número aí, Maurício,​
+Rodrigo Porto: brincadeira.​
+Fernando Rosa: sem esses sem esses ajustes ainda que a gente precisa checar, eh, 
+assim, o número ordem de grandeza, ele bate mais ou menos com o número que 
+você tava olhando lá no no penel.​
+ ​
+  
+00:35:26 
+ ​
+Rodrigo Porto: Asinas era bem mais barata, né?​
+Patricia Souza: É porque a gente tava com do Fenarina, né? A gente não tinha o da 
+Disney detalhado, então no no Pienel tá 2,200, que era o da Fanarina, que aí ficaria 
+mais ou menos no custo estimado aí da Lifel, por​
+Rodrigo Porto: É, é que se o pagamento for lá fora disso aí vai ser mais gente porque 
+
+tem quase 40% de imposto nessa​
+Patricia Souza: exemplo.​
+Rodrigo Porto: brincadeira.​
+Patricia Souza: Ah,​
+Rodrigo Porto: Essas tem representação.​
+Patricia Souza: tá. Aquele imposto.​
+Rodrigo Porto: É, não posso chegar, mas acho que não. É, vai o imposto f************ 
+em cima. Beleza. Eh, como é que estão as conversas comood? Então, eh, marquei 
+uma reunião com o Ifood terça-feira que vem para apresentar o bolão. Por quê? Eles 
+começaram a fazer uma série de perguntas. Andreia tá, tô fazendo, tô falando com a 
+Andreia diretamente. Lu, também tá no no grupo. Eh, eles começaram a fazer 
+algumas perguntas. acredito que para fazer uma modelagem financeira ali de 
+viabilidade, né, do negócio. Só que essas perguntas elas estão relacionadas à 
+mecânica de como eles imaginam que o bolão​
+ ​
+  
+00:36:29 
+ ​
+Fernando Rosa: Так.​
+Rodrigo Porto: funciona, mas não não tem relação, né, de necessariamente. Tava 
+até falando com o Bernardo Belém hoje, eh, que ele acha também que é isso que, ah, 
+o Food perguntou, ah, preciso saber um percentual de taxa de acerco do, né, de 
+placar dos jogos. Uhum. faz nenhuma diferença em termos financeiros para ser que 
+eles estejam imaginando, né, que eles vão ter que dar um cupom para quem é certa. 
+É, eu não sei, eu não sei. Aí no final ficou um negócio, um uma comunicação. Nós 
+fazemos o sentido, né? A gente, eu comecei a perguntar qual era o objetivo das 
+perguntas para poder direcionar melhor, né, o que que eles queriam, né, para 
+responder melhor o que que eles queriam. E não, não, no final a gente achou melhor 
+fazer esse call, né, de alinhamento para mostrar um pouco como é que o volão 
+funciona, quais são as mecânicas, né, quando que a gente com a ideia, como é que 
+a gente vai operar. Tá bom. E a estava fazendo isso junto com o André. Eu tô sendo 
+tô sendo chato porque a gente fez uma coisa que foi muito importante, eh, e que 
+talvez seja hora de mudar de assunto.​
+ ​
+  
+00:37:40 
+ ​
+Rodrigo Porto: O, o movimento que vocês fizeram no Mercado Livre foi fundamental. 
+Se não tivessem feito essa p**** tinha saído do outro lado. Mas a gente saiu, deu, foi 
+elefante na no na loja de vidros lá.​
+
+Fernando Rosa: Ne.​
+Rodrigo Porto: A gente saiu mandando, pressionando todo mundo, todo o contato 
+que tinha. É, mano. p****, eu tomei um esporro do Cristian, segurei o esporro nos 
+peitos, falei: "O Cristian, brinca comigo que a gente que ele prefere eu também". 
+Como é que tem um termo pior que é segurar cavalo rápido do que empurrar cavalo 
+lento, né? fazer pedir, desculpa. É, foi o que a gente fez, né? Ah, c******, tá lá agora, 
+né? Estamos lá, arrumamos, estamos arrumando tudo. Aham. Eh, acho que a gente 
+não precisa fazer a mesma coisa no fut. Não vai junto com Andreia. Não, tô 
+seguindo ali. Vai devagarzinho, vai junto.​
+Fernando Rosa: Deixa digerir, deixa digerir do do Mercado Livre antes de fazer com 
+Fu,​
+Rodrigo Porto: É, não é, se Andreia tiver alinhado,​
+Fernando Rosa: né?​
+Rodrigo Porto: aí acabou. Tá encerrado a entrada da Andreia certeza que era de 
+negócio tá a gente estava num telefone sem fio assim Andreia claro claro as 
+perguntas técnicos beleza a gente perdeu o Renato falar do Mercado Livre caído.​
+ ​
+  
+00:38:55 
+ ​
+Fernando Rosa: Cara, deixa eu ver se ele se ele caiu aqui. Pera aí.​
+Rodrigo Porto: Não sei se ele tem alguma compromiss​
+Fernando Rosa: Ah. Cara, nem chegou a mensagem para ele. Ah, chegou agora.​
+Rodrigo Porto: que perdeu a internet, né? É, provavelmente. E voltou.​
+Renato Drumond: É internet, pessoal.​
+Rodrigo Porto: É beleza. Você perdeu a hora que eu tava falando do elefante da 
+cristaleira que a gente foi no Mercado​
+Renato Drumond: É, eu ouvi,​
+Rodrigo Porto: Livre.​
+Renato Drumond: foi a última parte que eu ouvi. Foi isso.​
+Rodrigo Porto: E eu levei umas bronvinhas aí do Cristian, mas que são totalmente 
+parte da vida. Combinei ele e eu acreditamos na mesma crença que é melhor 
+segurar cavalo rápido do que empurrar pangaré. Eh, mas assim, a a hoje é de manhã, 
+a Diam ligou paraa Priscila, eh, deu uma aninhada, falou que o cara de logística que 
+a gente chegou lá, que se interessou e longe da decisão dele, não, decisão demora a 
+chegar nele. E aí agora a Piscila tá tentando botar Ana, que eu escrevi no WhatsApp 
+quando esqueci o nome, é uma Ana, diretora de marketplace. Eh, a parte curiosa foi 
+que a própria Pila falou que é difícil para c****** de entender no Mercado Livre quem 
+decide o quê.​
+ ​
+  
+
+00:41:12 
+ ​
+Rodrigo Porto: Uma pessoa do Mercado Livre falou isso para Jil. Jem falou: "p****, 
+na hora que eu ouvi isso, eu falei: "Beleza, tá tá tudo tudo no lugar certo". Eh, na 
+segunda, acho que o nosso objetivo ali é dar uma vendida no projeto para eles, né? 
+Vender rapidinho e falar: "Olha, a gente vai fazer esse troço". A Gemile já deu a 
+pressão que é a gente pode fazer o white label, pode fazer com vocês. Eh, pô, 
+obviamente pela parceria, a gente quer para caceta fazer com vocês, mas, pô, a 
+gente precisa aqui de ajuda nas condições e aí empurrar lá. O que a gente mais quer 
+deles é zerar o take rate, né, idealmente e​
+Renato Drumond: E a gente na contrapartida é isso.​
+Rodrigo Porto: prazo,​
+Renato Drumond: A gente vai gerar um volume de visitação que se a gente colocar 
+50 centavos por visita, cara pagou o take rate. Então assim, né, tem um um ganha 
+ganha nessa história ali que é,​
+Rodrigo Porto: milhões.​
+Renato Drumond: p***, se não fizer sentido para você, vamos ter que buscar uma 
+solução para direcionar para outro lugar, né?​
+Rodrigo Porto: Sim, sim.​
+Renato Drumond: Mas deixamos de sair na mesa aí uma coisa que pode fazer 
+sentido fora aquisição ambiente,​
+ ​
+  
+00:42:17 
+ ​
+Rodrigo Porto: Eh, fazer isso de uma forma mais leve até para tentar chegar numa 
+solução rápida,​
+Renato Drumond: né?​
+Rodrigo Porto: né? Porque o prazo vai ser importante para caceta pra gente, né? Eh,​
+Renato Drumond: Sim.​
+Rodrigo Porto: beleza. É isso.​
+Fernando Rosa: Deixa eu. Terminou o​
+Rodrigo Porto: M,​
+Fernando Rosa: Mell.​
+Rodrigo Porto: acho que eu terminei aí. Cachoiro, Fernando, eu não entendi direito o 
+que aconteceu.​
+Fernando Rosa: Então, o eu eu conversei com o Rodrigo, eu queria só falar de POD 
+depois,​
+Renato Drumond: No.​
+Fernando Rosa: tá, gente? Não sei como é que vocês estão de tempo aí, mas eu vou 
+vou rapidinho aqui com com Ren e eu falei com o Rodrigo e e quando o Rodrigo me 
+
+passou, ele falou assim: "Fernando, cara, eh existe uma questão eh que a Aline, que 
+é o contato dele, né, a Aline tá muito convencida de fazer, mas a chefe dela, que é a 
+Cláudia, não se convenceu ainda que o público da Casé é o público da da Riachuelo, 
+né?​
+Renato Drumond: Да.​
+Fernando Rosa: Então tem um tem uma questão que não tá bem redonda ali. E aí eh 
+eh a sensação do Rodrigo é que eh se fosse uma proposta do tipo assim 200.000 
+camisas eh ele acha que passaria, mas eu acho que é é a sensibilidade do Rodrigo, 
+né?​
+ ​
+  
+00:43:29 
+ ​
+Fernando Rosa: Quando eu falei com a Aline, eu falei: "Aline",​
+Rodrigo Porto: Так.​
+Fernando Rosa: eu comecei a conversar com ela, ela na hora travou, né? falou 
+assim: "Olha, Fernando, eu eu entendo essas questões que você tá colocando, né? 
+Eh, eu acho que quanto mais rápido a gente conseguir vender essa ideia paraa 
+Cláudia, ela vai viabilizar essa questão operacional. Eu eu acho que tem coisas que 
+não vão depender dela, né? Mas a Aline colocou como assim, cara, não dá pra gente 
+evoluir em nada da conversa do ponto de vista de lead time de entrega, capacidade 
+de produção e tudo mais, se a gente não vender internamente e não tá vendido 
+internamente, né? A Cláudia, eh,​
+Rodrigo Porto: Так.​
+Fernando Rosa: assim, ela ela precisa entender, alguém precisa vender a CASE TV 
+pra Cláudia para que ela compre essa ideia, ela entenda qual é o benefício que que 
+faça sentido e do ponto de vista de branding, né, para para Riachuelo. E aí sim, se ela 
+se ela tiver comprada, aí ela vai viabilizar internamente como é que as coisas 
+acontecem. Então, a conversa não andou muito,​
+Renato Drumond: Cláudia é vendo aqui.​
+Fernando Rosa: né? É AVP.​
+Renato Drumond: Cláudia é a diretora de moda que cuida da​
+ ​
+  
+00:44:29 
+ ​
+Fernando Rosa: É ela,​
+Renato Drumond: moda.​
+Fernando Rosa: a Aline apresentou a Cláudia como VP e e responsável por moda, 
+né?​
+
+Rodrigo Porto: Tá. E aí temos uma agenda com​
+Fernando Rosa: Então aí eu devolvi pro Rodrigo,​
+Rodrigo Porto: Cláudia,​
+Fernando Rosa: né? Liguei de novo para ele, eh expliquei que o que que tava 
+acontecendo. Falei: "Cara, para vender a CASETV, eu acho que não sou a melhor 
+pessoa, né? Deveria ser o comercial e tudo mais.​
+Rodrigo Porto: cara. Não volta pro Rodrigo. Não volta pro Rodrigo,​
+Fernando Rosa: É,​
+Rodrigo Porto: não. Volta para​
+Fernando Rosa: beleza.​
+Rodrigo Porto: mim.​
+Fernando Rosa: Aí, aí o que que eu combinei com ele? Eu vou voltar com o Maurício, 
+né, para ver se o Maurício tá alinhado com isso. Eh, e ele, p****, beleza,​
+Rodrigo Porto: Eu​
+Fernando Rosa: eu vou, tá, tá entendido aqui. Aí eu mandei aquela mensagem para 
+você e a mesma coisa eu mandei para ele, né, pedindo para ele te chamar para que 
+essa essa agenda se​
+Rodrigo Porto: nem eu nem falei com ele,​
+Fernando Rosa: ele.​
+Rodrigo Porto: mas eu já alinhei antes com ele e com Cristian, que sou eu vendendo. 
+Uhum. Eh, pode.​
+ ​
+  
+00:45:20 
+ ​
+Fernando Rosa: Beleza.​
+Rodrigo Porto: Pede para Line marcar com a Cláudia urgente. Segunda, terça. Eu me 
+viro aqui.​
+Fernando Rosa: Beleza.​
+Rodrigo Porto: Pega duas datas lá e a gente vai abrir​
+Fernando Rosa: Você quer que eu vá direto?​
+Rodrigo Porto: espaço.​
+Fernando Rosa: na linha ou que o quem marca essa agenda seja o​
+Rodrigo Porto: Não quero.​
+Fernando Rosa: Rodrigo.​
+Rodrigo Porto: O Rodrigo acabou a participação dele com a R. Deixa que eu vendo 
+aqui.​
+Fernando Rosa: Beleza. Eh, cara, a gente teve agora, antes, até entrei atrasado 
+porque a gente tava terminando a reunião lá com a reserva inc. Tem uma série de 
+pontos, tá? a gente marcou uma outra reunião para segunda-feira, mas eh assim a 
+que eu acho que vale a pena a gente adiantar é que ele fala, tem algumas coisas em 
+
+em restrição deles que eu acho que é importante a gente tratar na arte, né? Tendo 
+em vista que a gente quer usar como o POD para para cobrir o furo de grade. Eh, eles 
+não fazem frente verso, né? Então, se a arte es tiver frente verso, ele falou: 
+"Fernando, nem pego, não, não, não, não tem não consigo fazer frente versus". Eh, e 
+a outra, eh, ele, ele resgatou uma conversa, cara, que eu não sei como é que foi aí 
+dentro, de uma camisa do Casé, que eu acho que era da Copa de 2022, que ela tinha 
+uma única eh cor, quando ele aí ele falou, uma única cor da arte pode ter um 
+degradê e isso faz com que, cara, eu acho que a produtividade dele aumente muito 
+do que quando tem mais do que uma cor, né?​
+ ​
+  
+00:46:50 
+ ​
+Fernando Rosa: Não sei se a gente quer se limitar a esse tipo de de de briefing, né, 
+para paraas artes que a gente vai fazer, mas ele colocou essas duas limitaçõ 
+limitações, não, uma é uma limitação que ele diz que não faz, né, o frente verso.​
+Rodrigo Porto: Que que quer dizer uma cor, cara?​
+Fernando Rosa: Quando ele faz a impressão em uma cor só, ele ganha mais 
+produtividade de impressão do que quando ele faz em mais de uma cor.​
+Rodrigo Porto: vira o quê? Ele vai fazer em Silk,​
+Fernando Rosa: Oi,​
+Rodrigo Porto: não nas máquinas de P dele, ele vai usar Silk, o processo de Silk que 
+p****, né, ou ele otimiza por esse processo de produção. Significa que ele entrega 
+mais rápido, entrega mais rápido, que ele consegue mais rápido.​
+Fernando Rosa: Tá,​
+Rodrigo Porto: Ele falou que que consegue entregar mais, não ficou muito mais 
+rápido, por uma​
+Fernando Rosa: ele vai ele vai voltar com essa informação segunda-feira,​
+Rodrigo Porto: quantidade​
+Fernando Rosa: Maurício. Mas ele tem ele tem capacidade de exp.​
+Rodrigo Porto: sim e ele conseguear mais.​
+Fernando Rosa: Oi.​
+Rodrigo Porto: Isso que ele falou, mas quanto em que prazo​
+Renato Drumond: й​
+Fernando Rosa: Então, o que a gente passou de demanda para o seguinte, cara, se 
+você tiver que imprimir eh ou esse misto entre o cai imprimir 500.000 camisas, né?​
+ ​
+  
+
+00:47:56 
+ ​
+Fernando Rosa: E aí eu passei uma curva para ele, ele vai responder segunda-feira. 
+Ele disse que eh tem algum volume que ele vai trazer também na segunda-feira. Foi 
+da final da Libertadores lá do Botafogo. Eles imprimiram, eu acho que eles fizeram 
+10.000, 20.000 por dia. Eh, mas ele ficou de trazer o número certo na​
+Rodrigo Porto: Cara,​
+Fernando Rosa: segunda-feira.​
+Rodrigo Porto: a história forte, essa história da cor nunca tinha ouvido. Então, essa 
+realmente deve ter ficado num grupo bem pequeno. Eh, tem, eu acho que não sei 
+quant você fal vocês falaram para eles, né? Eles estão, a nossa galera aqui tá dando 
+porrada nele sem parar, porque as camisas estão vindo ruins, vindo com muita falha, 
+né? Uhum. Eh, Eh Eh​
+Fernando Rosa: Ah, tem um tem um outro ponto, desculpa, cara. ele falou sobre 
+capacidade disponível dele super baixa, eles estão comprando mais máquina e 
+parece que chega agora em início de abril, meio de abril, eh, mas que eles estão 
+crescendo 50% ao ano e que o que ele, o que a operação da ASAs como um todo 
+demanda do POD é relevante. Então, ele ele precisa entender, né, e ajustar com a 
+gente se ele consegue absorver e quanto ele conseguiria absorver.​
+ ​
+  
+00:49:07 
+ ​
+Fernando Rosa: Eh, não tem, ele não tem nenhuma operação com o Mercado Livre. 
+Eu falei: "Cara, por que não, hein?" Ele falou: "Cara, porque não faz sentido pro pro 
+vendedor, né? Não faz sentido". Ele aí eu falei: "Cara, mas qual o preço?", né? Enfim, 
+essas conversas todas ficaram paraa segunda-feira que a gente começou a entrar 
+aqui no no horário da nossa​
+Rodrigo Porto: Então a gente não sabe quanto custa para fazer a camisa com ele.​
+Fernando Rosa: reunião. Não, ele vai ele vai levar segunda-feira. Ele deu, ele deu um 
+bico, ele deu um bico lá de não menos do que 55,​
+Rodrigo Porto: 49, né? Tipo,​
+Fernando Rosa: é​
+Rodrigo Porto: eu online dele seria 49. A gente,​
+Fernando Rosa: 49.​
+Rodrigo Porto: quanto é que a gente paga n que a gente compra aqui no 
+funcionário? Professor,​
+Fernando Rosa: O custo não, a gente tem o preço de venda aqui,​
+Rodrigo Porto: perguntar​
+Fernando Rosa: né? Mas em é, mas em tese, se ele vende por 79 aqui, custa 50, né? 
+Que foi mais ou menos o preço que ele passou.​
+
+Renato Drumond: É porque lá o modelo você coloca o preço em cima, né, cara? 
+Como você coloca a margem zero,​
+ ​
+  
+00:50:05 
+ ​
+Rodrigo Porto: aquilo ali é mais, eu não sei.​
+Renato Drumond: é, é o modelo lá,​
+Rodrigo Porto: Você já conversaram?​
+Renato Drumond: o modelo geralmente assim, qual o preço que você quer vender? 
+Ah, eu quero vender a X, você grossar o custo dele. Então, no fundo, né, ele te 
+devolve a margem. É como se fosse, né? Deu para entender? Eu quero vender a 150, 
+cara. Eu sou bom para caramba. Minha comunidade é super especial. 150.​
+Rodrigo Porto: A minha a minha se a gente tá no na margem zero, então o menor 
+preço que a gente poderia praticar a margem zero é o 69 59 que a gente​
+Renato Drumond: deve a​
+Rodrigo Porto: pratica.​
+Renato Drumond: princípio.​
+Fernando Rosa: Então a gente não tem esse custo ainda. Ele soltou lá esse 49, 50, 
+p****, no meio de um no meio de uma chuva de pergunta,​
+Rodrigo Porto: Pergunta, pergunta diferente,​
+Fernando Rosa: né,​
+Rodrigo Porto: a gente já perguntou internamente quanto a gente ganha por camisa 
+vendida pros funcionários​
+Fernando Rosa: cara? Quando a gente fez, como é que é o nome? Ô Léo, daquela 
+menina que a gente conversou aí​
+ ​
+  
+00:50:56 
+ ​
+Rodrigo Porto: com ela. No meu entendimento a gente não ganha nada,​
+Fernando Rosa: Так.​
+Rodrigo Porto: é zero a zero. A gente passa o que é colorado da gente. Tanto que 
+quem fatura é é a gente não ganha nada. É um acordo de cavalheiro lá, tipo, né? usa 
+operação lá. Então se a gente não ganha, então provavelmente ali tira o imposto é o 
+custo da reserva também. Depende do modelo, da camisa, da escala também, né? 
+De repente já passou um preço pra gente como escala maior. Não sei. Mas só a 
+gente devia ter certeza do do do atual. A gente tem uma informação dentro de casa 
+aqui. Se é zero mesmo, qual é o imposto vai ter, né? Uhum. Tirou o imposto para ter 
+o preço da reserva.​
+
+Fernando Rosa: É, ou então a reserva tem uma margem maior,​
+Rodrigo Porto: Eu​
+Fernando Rosa: né, eh, com essa venda, né, a gente não ganha nada, não quer dizer 
+que a reserva não ganhe,​
+Rodrigo Porto: sei, mas é uma informação.​
+Fernando Rosa: né?​
+Rodrigo Porto: Pode ser que a reserva esteja ganhando dinheiro em cima dos 
+funcionários da mold. Eu diria que é provável​
+Renato Drumond: É,​
+Fernando Rosa: M.​
+Renato Drumond: depende do também o tecido da camisa, né?​
+ ​
+  
+00:51:54 
+ ​
+Rodrigo Porto: do modelo até a pina lá. Tem os dois lá.​
+Renato Drumond: Perguntas para segunda-feira, né? Infelizmente,​
+Rodrigo Porto: Beleza. Aqui é que o POD lá joga a nossa margem para p*** que 
+pariu, né? Dinheiro vai todo para reserva.​
+Fernando Rosa: Joga.​
+Rodrigo Porto: É, não tem custo. Beleza. Por isso que ele não tem nada com o 
+Mercado Livre, porque a conta não fecha, né? É, vai, o cara vai pagar margens e 
+outro margem, né? O seller dele depois do Mercado Livre.​
+Fernando Rosa: Eh, a camisa do Botafogo, Maurício, eles venderam a 129. Essa essa 
+que ele deu como exemplo, né, pô? A gente perguntou, ele falou que vendeu a​
+Rodrigo Porto: É,​
+Fernando Rosa: 129.​
+Rodrigo Porto: você teria que fazer o POD vender, mas o problema é o é o furo de ele 
+pode usar o POD para furo de grade sabendo que a margem é zero no furo de grade. 
+O pior saber isso.​
+Renato Drumond: Ja.​
+Rodrigo Porto: Mas eles aconselhou bastante isso também, porque aquilo que a 
+gente já tinha falado, a gente perde a qualidade, né, referência, porque aí uma hora 
+compra na,​
+Fernando Rosa: É porque é diferente a malha, né?​
+Rodrigo Porto: né, a pessoa muda mais a p****​
+ ​
+  
+
+00:52:59 
+ ​
+Fernando Rosa: É diferente a malha.​
+Rodrigo Porto: toda. Você vai receber uma uma hora é móvel, outra hora é reserva, 
+não sei quê, né? Tem esse ponto e teve que botar dois SK, né? Não, beleza. Só que 
+outra opção é não ter é fur grade, né? É horrível, né? É, é.​
+Fernando Rosa: Tá. Bom, era só para adiantar, tava preocupado da da da questão da 
+arte, se a gente vai criar essa limitação de não fazer o frente verso,​
+Rodrigo Porto: ter ajudado. Acho que diferente ver tá tranquilo de ferro,​
+Fernando Rosa: né?​
+Rodrigo Porto: cara. Pelo menos pro POD acho que tá tranquilo de criar. Aí de 
+repente a R não vai poder ser POD, né? A ideia é que a gente tem o furo de grade não 
+funciona tudo visto.​
+Fernando Rosa: Uhum.​
+Rodrigo Porto: Uma péssima notícia.​
+Fernando Rosa: É, deixa, deixa a gente aprofundar essa conversa aí na segunda. Eh, 
+minha preocupação só de levantar isso aqui é se isso mudava algum 
+direcionamento pro time de de design, né? Mas enfim, acho que a gente pode ver o 
+que que vem, né, de sugestão deles e na segunda-feira a gente volta a​
+Rodrigo Porto: Tá.​
+Fernando Rosa: falar.​
+Rodrigo Porto: E e Ma como é que tá?​
+ ​
+  
+00:54:04 
+ ​
+Fernando Rosa: A gente teve uma conversa ontem com o diretor lá, o Rafael. Eh, eles 
+trouxeram um plano de produção, que o teto deles é 700.000 camisas, eh, sendo que 
+para ele produzir a a forma como ele precisa se organizar, vai produzir as 700, a 
+gente precisaria dar um pedido firme para ele de 80%, dá 560.000 camisas.​
+Rodrigo Porto: Ah.​
+Fernando Rosa: Eh, aí ele ele ele ele mandou uma tabela pra gente, não sei se o Léo 
+tá aí, que que tem quando que ele starta, a gente precisa fazer o primeiro pedido e 
+quando que ele vai criando um pulmão antes da pulmão de camisa sem ser cilcada, 
+né? Eh, e aí a partir do momento que ele constrói esse pulmão, ele a cada pedido 
+que a gente faz para produzir, né, para estampar e entregar, ele consegue fazer isso 
+em 12 dias úteis, tá? 15, 17 dias, tá? Esse sai do sul, né? Ele sai do sul, mas as datas 
+que ele colocou, a gente vai cair num problema parecido com a Ering, que é ter que 
+antecipar estoque, mesmo ele fazendo essa parte aí do do dos 15 dias. Eh, aí ele a aí 
+no final a gente propôs aquela história lá da Colb e tudo mais. Aí tava só o diretor, 
+porque ele trouxe diretor industrial, botou todo mundo dentro da da sala, né, para 
+
+para tentar viabilizar a entrega pra gente. Aí depois eu pedi para conversar só com 
+ele e aí, né, sugeri se se era interessante para ele a história da Coleb. Eh, eu falou, 
+Fernando, preciso, cara, preciso dividir aqui com a CEO, assim, eu acho que interesse 
+a gente tem, tem que ver se faz sentido, né, se fecha a conta pra gente, como é que 
+a gente, como é que a gente faz. E aí ele já cutucou a gente aqui. A gente marcou é 
+cinco, Léo.​
+Rodrigo Porto: 5 horas.​
+Fernando Rosa: Fala hoje​
+Rodrigo Porto: A gente a gente deu uma exprimida de preço lá e tirou 5%. Quanto é 
+que tá o preço agarr?​
+ ​
+  
+A transcrição foi encerrada após 00:56:21 
+ 
+Esta transcrição editável foi gerada por computador e pode conter erros. As pessoas 
+também podem alterar o texto depois que ele for criado. 
