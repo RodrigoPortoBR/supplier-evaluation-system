@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vendor Selection Brief — SSO & User Database | CazéTV 2026</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      padding: 48px 24px 80px;
+      line-height: 1.75;
+    }
+
+    .container { max-width: 860px; margin: 0 auto; }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 32px;
+      margin-bottom: 40px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #3d1f1f;
+      color: #f87171;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      letter-spacing: 0.03em;
+    }
+
+    header h1 {
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: #f0f6fc;
+      margin-bottom: 12px;
+    }
+
+    .meta {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: #8b949e;
+    }
+
+    .meta span strong { color: #c9d1d9; }
+
+    /* ── Sections ── */
+    section { margin-bottom: 36px; }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #f0f6fc;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #21262d;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-num {
+      background: #1f2937;
+      color: #60a5fa;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    p { color: #8b949e; font-size: 0.93rem; margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+    p strong { color: #c9d1d9; }
+
+    /* ── Lists ── */
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    li {
+      color: #8b949e;
+      font-size: 0.93rem;
+      margin-bottom: 6px;
+    }
+
+    li strong { color: #c9d1d9; }
+
+    /* ── Tables ── */
+    .table-wrap { overflow-x: auto; margin: 12px 0; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    th {
+      text-align: left;
+      background: #161b22;
+      color: #8b949e;
+      font-weight: 600;
+      font-size: 0.78rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 10px 16px;
+      border-bottom: 1px solid #21262d;
+    }
+
+    td {
+      padding: 11px 16px;
+      border-bottom: 1px solid #161b22;
+      color: #8b949e;
+      vertical-align: top;
+    }
+
+    td strong { color: #c9d1d9; }
+
+    tr:last-child td { border-bottom: none; }
+
+    tr:hover td { background: #161b22; }
+
+    /* ── Callout ── */
+    .callout {
+      background: #0d2137;
+      border-left: 3px solid #3b82f6;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 0.88rem;
+      color: #7dd3fc;
+    }
+
+    /* ── Tech Pills ── */
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+
+    .pill {
+      background: #1a2332;
+      border: 1px solid #1e3a5f;
+      color: #60a5fa;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 6px;
+    }
+
+    /* ── Deadline box ── */
+    .deadline-box {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 10px;
+      padding: 20px 24px;
+      display: flex;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .deadline-item { flex: 1; min-width: 180px; }
+    .deadline-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #8b949e;
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+    .deadline-value {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #f0f6fc;
+    }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid #21262d;
+      text-align: center;
+      font-size: 0.78rem;
+      color: #484f58;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="badge">🔴 Urgent — Critical LiveLike Blocker</div>
+    <h1>Vendor Selection Brief<br>SSO &amp; User Database</h1>
+    <div class="meta">
+      <span><strong>Project:</strong> CazéTV World Cup 2026 Predictor (Bolão)</span>
+      <span><strong>Date:</strong> April 2026</span>
+    </div>
+  </header>
+
+  <!-- 1. Context -->
+  <section>
+    <h2><span class="section-num">01</span> Project Context</h2>
+    <p>CazéTV is building a <strong>digital prediction game (bolão) for the 2026 FIFA World Cup</strong> — a fan engagement platform where users make match predictions, earn points, compete in leagues, and receive prizes. More than <strong>15 million</strong> users are expected to create accounts during the 2026 World Cup.</p>
+    <p>The engagement platform will be built on top of <strong>LiveLike</strong>. LiveLike does not store identity data (PII). It operates on a federated identity model: it receives an authentication token from our own SSO, creates an internal mapping (LiveLike ID ↔ CazéTV ID), and only stores gameplay data.</p>
+    <p><strong>All user identity — registration, login, authentication — is exactly what we are looking to build with a vendor.</strong></p>
+  </section>
+
+  <!-- 2. Challenge -->
+  <section>
+    <h2><span class="section-num">02</span> The Challenge</h2>
+    <p>We need a vendor who takes <strong>full ownership</strong> of:</p>
+    <ol>
+      <li><strong>Designing and implementing</strong> CazéTV's digital identity system and user database</li>
+      <li><strong>Operating and maintaining</strong> this infrastructure throughout the project lifecycle (World Cup 2026 and beyond)</li>
+      <li><strong>Guaranteeing SLA</strong> for availability and scalability, especially during extreme traffic spikes</li>
+    </ol>
+    <p style="margin-top:16px;">We are talking about:</p>
+    <ul>
+      <li><strong>Mass B2C audience</strong> — Brazilian football fans with no technical background</li>
+      <li><strong>Unpredictable registration spikes</strong> — millions of account creations within minutes during commercial announcements and platform launch</li>
+      <li><strong>Aggressive delivery window</strong> — database must be live and integrated with LiveLike by end of April 2026</li>
+      <li><strong>Future extensibility</strong> — architecture must support a sponsor as a second identity provider without full refactoring</li>
+    </ul>
+  </section>
+
+  <!-- 3. Scope -->
+  <section>
+    <h2><span class="section-num">03</span> Expected Vendor Scope</h2>
+
+    <p><strong>Phase 1 — Implementation (Critical)</strong></p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Deliverable</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>User database</strong></td><td>Scalable database to store CazéTV user identity, PII, and credentials</td></tr>
+          <tr><td><strong>Registration flow</strong></td><td>Account creation via email/password or social login (Google, Apple, Facebook)</td></tr>
+          <tr><td><strong>Authentication &amp; session</strong></td><td>Issuance of JWT/OIDC token compatible with LiveLike's expected standard</td></tr>
+          <tr><td><strong>SSO endpoint</strong></td><td>Authentication endpoint called by LiveLike to validate the user and receive the token</td></tr>
+          <tr><td><strong>LiveLike handshake</strong></td><td>Integration and certification of the full flow: CazéTV Auth → LiveLike ID mapping</td></tr>
+          <tr><td><strong>Peak traffic management</strong></td><td>Auto-scaling strategy and warm-up plan for massive simultaneous account creation → What is the peak req/sec the system can handle?</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="margin-top:20px;"><strong>Phase 2 — Ongoing Operations</strong></p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Deliverable</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>24/7 monitoring</strong></td><td>System health dashboards with proactive alerting</td></tr>
+          <tr><td><strong>Uptime SLA</strong></td><td>Minimum 99.9% availability — especially during match days</td></tr>
+          <tr><td><strong>Incident response</strong></td><td>Maximum <strong>5-min</strong> response time for P1 incidents (auth down = platform down)</td></tr>
+          <tr><td><strong>Security updates</strong></td><td>Patches and preventive maintenance included in the contract</td></tr>
+          <tr><td><strong>Full documentation</strong></td><td>All architecture documented and handed over to CazéTV (no lock-in)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 4. Technical Requirements -->
+  <section>
+    <h2><span class="section-num">04</span> Minimum Technical Requirements</h2>
+    <div class="callout">We are <strong>not tied</strong> to any specific solution (Auth0, Firebase, Cognito, etc.). What matters is the outcome and contractual accountability.</div>
+    <ul>
+      <li>Native support for <strong>OIDC / OAuth 2.0 / JWT</strong> — mandatory for LiveLike integration</li>
+      <li>Architecture on <strong>public cloud</strong> with auto-scaling configured</li>
+      <li>Proven capacity to handle <strong>peaks of 100k+ req/min</strong> for authentication</li>
+      <li>Compliance with <strong>Brazil's LGPD</strong> — PII stored in Brazil or with a proper data processing agreement</li>
+      <li>Extensible architecture for <strong>future identity federation</strong> (e.g., Sponsor as a secondary IdP)</li>
+      <li>Delivery of a <strong>functional database by end of April 2026</strong></li>
+    </ul>
+    <div class="pills" style="margin-top:16px;">
+      <span class="pill">OIDC</span>
+      <span class="pill">OAuth 2.0</span>
+      <span class="pill">JWT</span>
+      <span class="pill">Auto-scaling</span>
+      <span class="pill">LGPD Compliant</span>
+      <span class="pill">100k+ req/min</span>
+    </div>
+  </section>
+
+  <!-- 5. Proposal -->
+  <section>
+    <h2><span class="section-num">05</span> What We Expect in the Proposal</h2>
+    <ol>
+      <li><strong>Proposed architecture</strong> — technical overview of the identity solution</li>
+      <li><strong>Detailed timeline</strong> — from kick-off to LiveLike integration</li>
+      <li><strong>Reference cases</strong> — B2C projects with similar traffic spikes</li>
+      <li><strong>SLA model</strong> — uptime, incident response times, maintenance scope</li>
+      <li><strong>Cost breakdown</strong> — implementation (phase 1) and monthly operations (phase 2), separately</li>
+      <li><strong>Extensibility plan</strong> — how they would support adding a secondary IdP without full refactoring</li>
+      <li><strong>Robustness evidence</strong> — proof of solution robustness. What is the peak requests/sec the system can sustain?</li>
+    </ol>
+  </section>
+
+  <!-- 6. Deadlines -->
+  <section>
+    <h2><span class="section-num">06</span> Deadlines</h2>
+    <div class="deadline-box">
+      <div class="deadline-item">
+        <div class="deadline-label">Proposal submission deadline</div>
+        <div class="deadline-value">June 8th, 2026</div>
+      </div>
+      <div class="deadline-item">
+        <div class="deadline-label">Target kick-off date</div>
+        <div class="deadline-value">From June 9th onward</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>CazéTV Bolão &bull; World Cup 2026 &bull; Confidential</footer>
+
+</div>
+</body>
+</html>
