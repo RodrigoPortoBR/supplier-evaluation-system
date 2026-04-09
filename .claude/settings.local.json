@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:bolaocazetvapp.lovable.app)",
+      "Bash(curl -s \"https://bolaocazetvapp.lovable.app/\")",
+      "Bash(curl -s \"https://bolaocazetvapp.lovable.app/assets/index-Aa-3J_sU.js\")",
+      "Read(//tmp/**)",
+      "Bash(grep -oP '\"[A-ZÀ-ÿ][^\"]{5,60}\"' /tmp/bolao_bundle.js)",
+      "Bash(python3.exe -c \" import re content = open\\('/tmp/bolao_bundle.js', encoding='utf-8', errors='ignore'\\).read\\(\\) matches = re.findall\\(r'\\\\\"\\([A-Z\\\\xc0-\\\\xff][^\\\\\"\\\\n]{4,100}\\)\\\\\"', content\\) seen = set\\(\\) results = [] for m in matches: if m not in seen and not m.startswith\\('http'\\) and not m.startswith\\('data:'\\) and '\\\\\\\\\\\\\\\\' not in m: seen.add\\(m\\) results.append\\(m\\) for r in results[:400]: print\\(r\\) \")",
+      "Bash(node -e \" const fs = require\\('fs'\\); const content = fs.readFileSync\\('/tmp/bolao_bundle.js', 'utf8'\\); const matches = content.match\\(/\\\\\"[A-Z\\\\u00C0-\\\\u00ff][^\\\\\"\\\\n]{4,100}\\\\\"/g\\) || []; const seen = new Set\\(\\); matches.forEach\\(m => { const s = m.slice\\(1,-1\\); if\\(!seen.has\\(s\\) && !s.startsWith\\('http'\\) && !s.startsWith\\('data:'\\) && !s.includes\\('\\\\\\\\\\\\\\\\'\\)\\) { seen.add\\(s\\); console.log\\(s\\); } }\\); \")",
+      "Bash(node -e \"const fs = require\\('fs'\\); const c = fs.readFileSync\\('/tmp/bolao_bundle.js','utf8'\\); const m = c.match\\(/\\\\\"[A-Z][a-zA-Z\\\\u00C0-\\\\u00ff \\\\!\\\\?\\\\.\\\\,\\\\-\\\\:0-9]{5,80}\\\\\"/g\\)||[]; const s=new Set\\(\\); m.forEach\\(x=>{const v=x.slice\\(1,-1\\);if\\(!s.has\\(v\\)\\){s.add\\(v\\);console.log\\(v\\)}}\\)\")",
+      "Bash(node -e ':*)",
+      "Bash(cmd.exe /c \"echo %TEMP%\")",
+      "Bash(node \"C:/Users/rodri/extract_strings.js\")",
+      "Bash(grep -o '\"[^\"]*[Pp]ontuac[^\"]*\"\\\\|\"[^\"]*[Pp]ont[^\"]*\"\\\\|\"[^\"]*[Pp]remiac[^\"]*\"\\\\|\"[^\"]*[Pp]rize[^\"]*\"\\\\|\"[^\"]*R\\\\$[^\"]*\"\\\\|\"[^\"]*placar[^\"]*\"\\\\|\"[^\"]*result[^\"]*\"\\\\|\"[^\"]*exact[^\"]*\"\\\\|\"[^\"]*score[^\"]*\"' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,200\\\\}Artilheiro.\\\\{0,200\\\\}\\\\|.\\\\{0,200\\\\}Maratonista.\\\\{0,200\\\\}\\\\|.\\\\{0,200\\\\}Profeta.\\\\{0,200\\\\}\\\\|.\\\\{0,200\\\\}Primeiro Palpite.\\\\{0,200\\\\}\\\\|.\\\\{0,200\\\\}Imbat.\\\\{0,100\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,100\\\\}exact:50.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}winner_goals.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}correct_draw.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}winner_only.\\\\{0,200\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,200\\\\}R\\\\$ 100.000.\\\\{0,200\\\\}\\\\|.\\\\{0,200\\\\}R\\\\$ 300.000.\\\\{0,200\\\\}\\\\|.\\\\{0,200\\\\}R\\\\$ 1.500.000.\\\\{0,200\\\\}\\\\|.\\\\{0,200\\\\}sorteio.\\\\{0,200\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,100\\\\}onboarding.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}Início.\\\\{0,100\\\\}\\\\|.\\\\{0,100\\\\}bottom.*nav.\\\\{0,100\\\\}\\\\|.\\\\{0,100\\\\}tab.*bar.\\\\{0,100\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,50\\\\}r\\\\$.*lugar.\\\\{0,100\\\\}\\\\|.\\\\{0,50\\\\}rank.*value.*R\\\\$.\\\\{0,200\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,100\\\\}quiz.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}sorteio semanal.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}Cazé desafiou.\\\\{0,100\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,100\\\\}iFood mock.\\\\{0,100\\\\}\\\\|.\\\\{0,100\\\\}Desafio do Cazé.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}Liga VIP.\\\\{0,100\\\\}\\\\|.\\\\{0,100\\\\}casa cazetv.\\\\{0,100\\\\}\\\\|.\\\\{0,100\\\\}Casa CazéTV.\\\\{0,100\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,50\\\\}group_phase\\\\|.\\\\{0,50\\\\}second_round\\\\|.\\\\{0,50\\\\}round_of_16\\\\|.\\\\{0,50\\\\}quarter_final\\\\|.\\\\{0,50\\\\}semi_final\\\\|.\\\\{0,50\\\\}third_place\\\\|.\\\\{0,50\\\\}final.\\\\{0,50\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,100\\\\}/sso.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}ifood-mock.\\\\{0,100\\\\}\\\\|.\\\\{0,100\\\\}sessionStorage.\\\\{0,200\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,200\\\\}home.*screen\\\\|.\\\\{0,200\\\\}Liga Amigos\\\\|.\\\\{0,200\\\\}burger.*house\\\\|.\\\\{0,200\\\\}Burger House\\\\|.\\\\{0,200\\\\}Pizza Napoli\\\\|.\\\\{0,200\\\\}copa-gradient\\\\|.\\\\{0,200\\\\}copa-green' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,50\\\\}onboarding\\\\.[a-z_]*.\\\\{0,200\\\\}\\\\|.\\\\{0,100\\\\}landing\\\\.[a-z_]*.\\\\{0,100\\\\}' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,100\\\\}userType.*common\\\\|.\\\\{0,200\\\\}onboarding.*slide\\\\|.\\\\{0,50\\\\}i\\\\$.*slide\\\\|.\\\\{0,200\\\\}T_.*emoji\\\\|.\\\\{0,200\\\\}title.*subtitle.*content' /tmp/bolao_bundle.js)",
+      "Bash(grep -o '.\\\\{0,50\\\\}emoji:\"[^\"]*\",title:\"[^\"]*\",subtitle:\"[^\"]*\"' /tmp/bolao_bundle.js)"
+    ]
+  }
+}

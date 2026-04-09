@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bolão CazéTV — Project Master Map</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --red:    #e53e3e;
+      --red-bg: #fff5f5;
+      --red-border: #feb2b2;
+      --orange:    #dd6b20;
+      --orange-bg: #fffaf0;
+      --orange-border: #fbd38d;
+      --yellow:    #b7791f;
+      --yellow-bg: #fffff0;
+      --yellow-border: #faf089;
+      --blue:    #2b6cb0;
+      --blue-bg: #ebf8ff;
+      --blue-border: #bee3f8;
+      --gray-50:  #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-400: #9ca3af;
+      --gray-600: #4b5563;
+      --gray-700: #374151;
+      --gray-900: #111827;
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--gray-50);
+      color: var(--gray-700);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .page { max-width: 900px; margin: 0 auto; }
+
+    /* ── Header ── */
+    .header {
+      background: var(--gray-900);
+      color: #fff;
+      border-radius: 12px;
+      padding: 2rem 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .header h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; }
+    .header .sub { margin-top: .4rem; color: var(--gray-400); font-size: .9rem; }
+    .header .countdown {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #e53e3e;
+      color: #fff;
+      font-weight: 700;
+      font-size: .85rem;
+      padding: .3rem .75rem;
+      border-radius: 20px;
+      letter-spacing: .04em;
+    }
+
+    /* ── Section titles ── */
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin: 2rem 0 1rem;
+      padding-bottom: .5rem;
+      border-bottom: 2px solid var(--gray-200);
+    }
+    h3 {
+      font-size: .95rem;
+      font-weight: 700;
+      margin: 1.25rem 0 .6rem;
+    }
+
+    /* ── Cards ── */
+    .card {
+      background: #fff;
+      border: 1px solid var(--gray-200);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: .75rem;
+    }
+    .card p, .card li { font-size: .9rem; color: var(--gray-600); }
+    .card ul { padding-left: 1.2rem; margin-top: .5rem; }
+    .card ul li { margin-bottom: .2rem; }
+    .card strong { color: var(--gray-900); }
+
+    .card.red    { border-left: 4px solid var(--red);    background: var(--red-bg); }
+    .card.orange { border-left: 4px solid var(--orange); background: var(--orange-bg); }
+    .card.yellow { border-left: 4px solid var(--yellow); background: var(--yellow-bg); }
+    .card.blue   { border-left: 4px solid var(--blue);   background: var(--blue-bg); }
+
+    .card-title {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      font-weight: 700;
+      font-size: .95rem;
+      color: var(--gray-900);
+      margin-bottom: .5rem;
+    }
+    .badge {
+      font-size: .7rem;
+      font-weight: 700;
+      padding: .15rem .55rem;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+    .badge.red    { background: var(--red);    color: #fff; }
+    .badge.orange { background: var(--orange); color: #fff; }
+    .badge.yellow { background: #d69e2e;       color: #fff; }
+    .badge.blue   { background: var(--blue);   color: #fff; }
+
+    /* ── Dependency chain ── */
+    .chain {
+      background: var(--gray-900);
+      border-radius: 10px;
+      padding: 1.5rem 2rem;
+      font-family: var(--mono);
+      font-size: .82rem;
+      color: #a0aec0;
+      line-height: 2;
+      margin-bottom: 1rem;
+    }
+    .chain .hl  { color: #68d391; font-weight: 700; }
+    .chain .arrow { color: #f6ad55; }
+    .chain .warn  { color: #fc8181; font-weight: 700; }
+
+    /* ── Your items table ── */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--gray-200);
+      font-size: .88rem;
+      margin-bottom: 1rem;
+    }
+    th {
+      background: var(--gray-100);
+      text-align: left;
+      padding: .7rem 1rem;
+      font-size: .8rem;
+      font-weight: 700;
+      color: var(--gray-600);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      border-bottom: 1px solid var(--gray-200);
+    }
+    td {
+      padding: .75rem 1rem;
+      border-bottom: 1px solid var(--gray-100);
+      color: var(--gray-700);
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: var(--gray-50); }
+
+    /* ── Timeline ── */
+    .timeline { position: relative; margin-top: 1rem; }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 100px;
+      top: 0; bottom: 0;
+      width: 2px;
+      background: var(--gray-200);
+    }
+    .week {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 1.75rem;
+      position: relative;
+    }
+    .week-label {
+      width: 92px;
+      flex-shrink: 0;
+      text-align: right;
+      font-size: .75rem;
+      font-weight: 700;
+      color: var(--gray-400);
+      padding-top: .15rem;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      line-height: 1.4;
+    }
+    .week-label.now { color: var(--red); }
+    .week-label.golive {
+      color: #fff;
+      background: var(--gray-900);
+      border-radius: 6px;
+      padding: .25rem .5rem;
+      font-size: .8rem;
+    }
+    .week-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--gray-300);
+      flex-shrink: 0;
+      margin-top: .35rem;
+      position: relative;
+      z-index: 1;
+    }
+    .week-dot.now    { background: var(--red); box-shadow: 0 0 0 3px #feb2b2; }
+    .week-dot.golive { background: var(--gray-900); box-shadow: 0 0 0 3px var(--gray-400); }
+    .week-tasks { flex: 1; }
+    .task-item {
+      display: flex;
+      align-items: flex-start;
+      gap: .5rem;
+      font-size: .86rem;
+      color: var(--gray-700);
+      margin-bottom: .35rem;
+    }
+    .dot-red    { color: var(--red); font-size: 1rem; line-height: 1.2; }
+    .dot-orange { color: var(--orange); font-size: 1rem; line-height: 1.2; }
+    .dot-yellow { color: #d69e2e; font-size: 1rem; line-height: 1.2; }
+    .dot-blue   { color: var(--blue); font-size: 1rem; line-height: 1.2; }
+    .dot-gray   { color: var(--gray-400); font-size: 1rem; line-height: 1.2; }
+
+    /* ── Open Questions ── */
+    .questions { list-style: none; }
+    .questions li {
+      background: #fff;
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      padding: .85rem 1.1rem;
+      margin-bottom: .5rem;
+      font-size: .9rem;
+      display: flex;
+      gap: .75rem;
+      align-items: flex-start;
+    }
+    .q-num {
+      background: var(--gray-900);
+      color: #fff;
+      font-weight: 700;
+      font-size: .75rem;
+      min-width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: .05rem;
+    }
+
+    /* ── Legend ── */
+    .legend {
+      display: flex;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      font-size: .8rem;
+      color: var(--gray-600);
+    }
+    .legend-dot {
+      width: 10px; height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 600px) {
+      .timeline::before { left: 80px; }
+      .week-label { width: 72px; font-size: .7rem; }
+      .header { padding: 1.5rem; }
+      .header h1 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Bolão CazéTV — Project Master Map</h1>
+    <div class="sub">LiveLike Integration Tracker &nbsp;·&nbsp; Internal PMO Document</div>
+    <div class="sub" style="margin-top:.2rem">Status: April 7, 2026 &nbsp;·&nbsp; Go-live: May 11, 2026</div>
+    <span class="countdown">⏱ 34 days to go-live</span>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div> Critical — blocks go-live</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--orange)"></div> High — start this week</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#d69e2e"></div> Medium — start by Apr 21</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--blue)"></div> Post-Sunday action</div>
+  </div>
+
+  <!-- Critical dependency chain -->
+  <h2>The Critical Dependency Chain</h2>
+  <div class="chain">
+    <span class="hl">Sponsor deal closes?</span><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow">↓</span><br>
+    <span class="arrow">→ YES:</span> Use sponsor's SSO <span class="arrow">→</span> integrate with LiveLike (Workstream B)<br>
+    <span class="arrow">→ NO by Apr 14:</span> <span class="warn">Proceed immediately with own SSO or LiveLike's SSO partner</span><br>
+    <br>
+    SSO decision unblocked<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow">↓</span><br>
+    LiveLike Workstream B starts (SSO integration)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow">↓</span><br>
+    QA + UAT (Week 8)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrow">↓</span><br>
+    <span class="hl">May 11 — Go-Live</span>
+  </div>
+  <div class="card red">
+    <div class="card-title"><span class="badge red">Hard Deadline</span> Sponsor decision must be confirmed by April 14</div>
+    <p>Every day of indecision compresses the SSO integration window. If no answer by April 14, proceed with Plan B immediately — the integration cannot wait.</p>
+  </div>
+
+  <!-- Your items -->
+  <h2>Your Items — Assessed</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Item</th>
+        <th>Status</th>
+        <th>Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Sponsor proposal</td>
+        <td>Waiting — set hard deadline <strong>April 14</strong></td>
+        <td><span class="badge red">Critical</span></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Caixa Econômica Federal registration</td>
+        <td>Active — see legal note below</td>
+        <td><span class="badge orange">High</span></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>SSO partner deal</td>
+        <td>Blocked on sponsor — unblock by April 14</td>
+        <td><span class="badge red">Critical</span></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Social media team (Brandwatch / Respond.io)</td>
+        <td>In progress — good, but incomplete (see below)</td>
+        <td><span class="badge yellow">Medium</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Missing items -->
+  <h2>What's Missing From Your List</h2>
+
+  <h3>🔴 Critical — Could kill May 11</h3>
+
+  <div class="card red">
+    <div class="card-title"><span class="badge red">A</span> Is the LiveLike contract signed?</div>
+    <p>The LOI exists, but the final contract has never been confirmed as closed. If it isn't signed, nothing else matters. Also: the current P1 SLA is <strong>"2 hours during business hours only"</strong> — this must be renegotiated to 24/7 <em>before</em> signing. World Cup matches happen on weekends and evenings.</p>
+  </div>
+
+  <div class="card red">
+    <div class="card-title"><span class="badge red">B</span> Has the LiveLike kick-off meeting happened?</div>
+    <p>LiveLike's proposal defines Week 1 as a kick-off workshop to align on prediction mechanics, SSO flow, OPTA feed integration, and RACI. If this hasn't happened, the implementation clock hasn't started. May 11 is only achievable if the project is already in <strong>Weeks 3–4</strong>. You need to know exactly where you are on their 8-week timeline right now.</p>
+  </div>
+
+  <div class="card red">
+    <div class="card-title"><span class="badge red">C</span> OPTA feed → LiveLike connection</div>
+    <p>CazéTV has access to the OPTA feed — confirmed. But has anyone planned the actual technical integration of that feed into LiveLike's system? This is a discrete task that must be scoped and executed. It powers real-time scoring, prediction locking, and automatic resolution. Without it, the game doesn't resolve automatically.</p>
+  </div>
+
+  <h3>🟠 High — Must start this week</h3>
+
+  <div class="card orange">
+    <div class="card-title"><span class="badge orange">D</span> L1 Support team (separate from social media)</div>
+    <p>Brandwatch and Respond.io handle social mentions. That is <strong>not</strong> the same as L1 support. L1 is: points didn't count, prediction didn't save, league invite not working. This team needs to:</p>
+    <ul>
+      <li>Be trained on LiveLike's Producer Suite (CMS/dashboard)</li>
+      <li>Have a direct Slack channel to LiveLike's L2 team</li>
+      <li>Have a defined escalation script</li>
+    </ul>
+    <p style="margin-top:.5rem">If you don't structure this before go-live, your social team gets flooded with technical complaints they can't resolve.</p>
+  </div>
+
+  <div class="card orange">
+    <div class="card-title"><span class="badge orange">E</span> CRM / Push Notifications provider</div>
+    <p>Not on your list at all. LiveLike provides webhooks and triggers — but it doesn't send emails or push notifications. CazéTV must pick, integrate, and operate its own provider. Needed for: pre-match reminders, "predictions are open," leaderboard updates, re-engagement mid-tournament.</p>
+    <ul>
+      <li><strong>OneSignal</strong> — push notifications, simple integration</li>
+      <li><strong>Braze</strong> — full CRM, more complex</li>
+      <li><strong>Klaviyo</strong> — email-first</li>
+    </ul>
+    <p style="margin-top:.5rem">If this isn't decided soon, users register once and you have no way to bring them back.</p>
+  </div>
+
+  <div class="card orange">
+    <div class="card-title"><span class="badge orange">F</span> Brand assets → LiveLike Professional Services</div>
+    <p>LiveLike's PS team is doing the UI customization. They need CazéTV's brand guidelines: colors, fonts, logos, tone, any UI references or Lovable prototype. If these haven't been sent, the design phase is stalled and PS credits are burning without output.</p>
+  </div>
+
+  <h3>🟡 Medium — Start by April 21</h3>
+
+  <div class="card yellow">
+    <div class="card-title"><span class="badge yellow">G</span> Legal: Competition Rules + T&Cs + LGPD addendum</div>
+    <p>The Caixa ECF registration is one piece of a larger legal workstream:</p>
+    <ul>
+      <li><strong>Competition rules document</strong> (regras do bolão) — required for Caixa and for publication</li>
+      <li><strong>Terms & Conditions</strong> for the prediction game — distinct from CazéTV's general T&Cs</li>
+      <li><strong>LGPD addendum</strong> — the Bolão collects behavioral data; the privacy policy needs to reflect this</li>
+    </ul>
+    <p style="margin-top:.5rem"><strong>Note on Caixa ECF:</strong> If the game is purely skill-based (best predictor wins, no randomness), it may not require Caixa authorization — that's for chance-based draws. If there's any lottery element, authorization is mandatory. Clarify with your legal team first — it changes the registration path entirely.</p>
+  </div>
+
+  <div class="card yellow">
+    <div class="card-title"><span class="badge yellow">H</span> Internal team training on LiveLike CMS</div>
+    <p>LiveLike trains the CazéTV ops team on their Producer Suite. Schedule this for the last two weeks before go-live (late April / early May). The people who will publish predictions, monitor scores, and adjust missions need to know the platform before it's live.</p>
+  </div>
+
+  <div class="card yellow">
+    <div class="card-title"><span class="badge yellow">I</span> User acquisition plan for go-live</div>
+    <p>How do you drive the first wave of users to register for the Bolão? The Sunday broadcast CTA is a test, but the World Cup go-live needs a coordinated launch: social campaign, influencer activation, CazéTV editorial integration, email to existing users. This is a marketing workstream that needs to start now.</p>
+  </div>
+
+  <h3>🔵 Post-Sunday — Immediate actions after the test</h3>
+
+  <div class="card blue">
+    <div class="card-title"><span class="badge blue">J</span> Sunday test debrief → stakeholder sign-off</div>
+    <p>After Sunday's match, compile: peak RPS, error rate, p99 latency, auto-scaling behavior. This becomes the stakeholder report that validates "the infrastructure is ready." Without it, internal sign-off for the full rollout is based on trust, not evidence.</p>
+  </div>
+
+  <div class="card blue">
+    <div class="card-title"><span class="badge blue">K</span> Usage tier stress model</div>
+    <p>After Sunday, you'll have a real RPS number. Use it to model: at what user volume does the $325k tier breach? At what point does it become $425k? This is a CFO conversation that needs to happen before go-live, not during the tournament.</p>
+  </div>
+
+  <!-- Timeline -->
+  <h2>Prioritized Timeline</h2>
+  <div class="timeline">
+
+    <div class="week">
+      <div class="week-label now">Apr 7<br>NOW</div>
+      <div class="week-dot now"></div>
+      <div class="week-tasks">
+        <div class="task-item"><span class="dot-red">●</span> Set hard deadline: sponsor decision by April 14</div>
+        <div class="task-item"><span class="dot-red">●</span> Confirm: Is the LiveLike contract signed?</div>
+        <div class="task-item"><span class="dot-red">●</span> Confirm: Where are we on the 8-week LiveLike implementation?</div>
+        <div class="task-item"><span class="dot-red">●</span> Negotiate 24/7 SLA into contract before signing</div>
+        <div class="task-item"><span class="dot-orange">●</span> Send brand assets / UI guidelines to LiveLike PS team</div>
+        <div class="task-item"><span class="dot-orange">●</span> Sunday test setup (already in motion with Alex)</div>
+      </div>
+    </div>
+
+    <div class="week">
+      <div class="week-label">Apr 14</div>
+      <div class="week-dot"></div>
+      <div class="week-tasks">
+        <div class="task-item"><span class="dot-red">●</span> SSO decision locked (sponsor or own or LiveLike partner)</div>
+        <div class="task-item"><span class="dot-red">●</span> LiveLike Workstream B starts (SSO integration)</div>
+        <div class="task-item"><span class="dot-orange">●</span> OPTA feed → LiveLike integration scoped and started</div>
+        <div class="task-item"><span class="dot-orange">●</span> CRM / Push provider selected</div>
+        <div class="task-item"><span class="dot-orange">●</span> Define L1 support team structure + Slack escalation channel</div>
+        <div class="task-item"><span class="dot-blue">●</span> Sunday test debrief + stakeholder report delivered</div>
+      </div>
+    </div>
+
+    <div class="week">
+      <div class="week-label">Apr 21</div>
+      <div class="week-dot"></div>
+      <div class="week-tasks">
+        <div class="task-item"><span class="dot-orange">●</span> CRM / Push provider integration started</div>
+        <div class="task-item"><span class="dot-yellow">●</span> Competition legal rules document drafted</div>
+        <div class="task-item"><span class="dot-yellow">●</span> T&Cs for the Bolão drafted</div>
+        <div class="task-item"><span class="dot-yellow">●</span> Caixa ECF / SPA registration filed (if applicable)</div>
+        <div class="task-item"><span class="dot-yellow">●</span> User acquisition plan for go-live defined</div>
+      </div>
+    </div>
+
+    <div class="week">
+      <div class="week-label">Apr 28</div>
+      <div class="week-dot"></div>
+      <div class="week-tasks">
+        <div class="task-item"><span class="dot-yellow">●</span> LiveLike CMS training for CazéTV ops team</div>
+        <div class="task-item"><span class="dot-yellow">●</span> Full UAT with CazéTV stakeholders</div>
+        <div class="task-item"><span class="dot-yellow">●</span> Brandwatch / Respond.io setup finalized</div>
+        <div class="task-item"><span class="dot-yellow">●</span> Social media team briefed on product and escalation flow</div>
+      </div>
+    </div>
+
+    <div class="week">
+      <div class="week-label">May 5</div>
+      <div class="week-dot"></div>
+      <div class="week-tasks">
+        <div class="task-item"><span class="dot-gray">●</span> QA + load testing (Week 8 of LiveLike timeline)</div>
+        <div class="task-item"><span class="dot-gray">●</span> L1 support team dry run</div>
+        <div class="task-item"><span class="dot-gray">●</span> CRM / push notification flow tested end-to-end</div>
+        <div class="task-item"><span class="dot-gray">●</span> Go / No-Go decision</div>
+      </div>
+    </div>
+
+    <div class="week">
+      <div class="week-label golive">May 11</div>
+      <div class="week-dot golive"></div>
+      <div class="week-tasks">
+        <div class="task-item" style="font-weight:700;color:var(--gray-900);font-size:.95rem">🚀 GO LIVE</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Open questions -->
+  <h2>Open Questions — Answer This Week</h2>
+  <ul class="questions">
+    <li>
+      <div class="q-num">1</div>
+      <div><strong>Is the LiveLike contract signed?</strong> If not, what's blocking it?</div>
+    </li>
+    <li>
+      <div class="q-num">2</div>
+      <div><strong>What week of the LiveLike 8-week implementation are you currently in?</strong></div>
+    </li>
+    <li>
+      <div class="q-num">3</div>
+      <div><strong>Has the kick-off meeting with LiveLike happened?</strong></div>
+    </li>
+    <li>
+      <div class="q-num">4</div>
+      <div><strong>Have brand assets been sent to LiveLike's Professional Services team?</strong></div>
+    </li>
+    <li>
+      <div class="q-num">5</div>
+      <div><strong>Is the prize structure defined?</strong> Skill-based ranking vs. random draw — this determines the Caixa / SPA registration path.</div>
+    </li>
+    <li>
+      <div class="q-num">6</div>
+      <div><strong>If the sponsor deal doesn't close by April 14, is there a budget approved for an independent SSO?</strong></div>
+    </li>
+  </ul>
+
+  <div style="margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--gray-200);font-size:.78rem;color:var(--gray-400);text-align:center;">
+    CazéTV — Bolão WC2026 · Internal PMO Document · Generated April 7, 2026
+  </div>
+
+</div>
+</body>
+</html>
