@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la *.docx)",
+      "Bash(python3 -c ':*)",
+      "Bash(python -c ':*)",
+      "Bash(python gerar_docx.py)",
+      "Bash(python gerar_docx_v2.py)",
+      "Bash(python gerar_docx_v3.py)",
+      "Bash(rm gerar_docx_v3.py)"
+    ]
+  }
+}
