@@ -7,7 +7,9 @@
       "Bash(python gerar_docx.py)",
       "Bash(python gerar_docx_v2.py)",
       "Bash(python gerar_docx_v3.py)",
-      "Bash(rm gerar_docx_v3.py)"
+      "Bash(rm gerar_docx_v3.py)",
+      "Bash(python gerar_docx_v4.py)",
+      "Bash(rm gerar_docx_v4.py)"
     ]
   }
 }

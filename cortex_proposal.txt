@@ -1,0 +1,762 @@
+Cortex Single Sign-On
+Proposal to gather fan data for the World Cup and use 
+that data to both retarget known fans for future 
+tournaments and support reach in sponsorship deals
+1
+Contents
+1.
+An SSO built for the World Cup and beyond
+2.
+Proposed Architecture
+3.
+Reference Cases
+4.
+Cortex Interface
+5.
+SLAs and Additional Technical Information
+6.
+Cost Breakdown
+SSO built for the World Cup 
+and beyond
+01
+Cortexʼs singular, secure fan identity platform SSO) will enable CazéTV to unlock 
+increased commercial value from their audience. 
+Providing a streamlined login experience for fans whilst also protecting and securing 
+their data, a Single Sign-On will be the foundation for trusted, personalised digital 
+experience for CazéTV viewers.
+Cortexʼs SSO provides CazéTV with the capability to build direct audience 
+relationships, gathering data that will drive commercial value for the business both 
+during the World Cup and beyond.
+Cortex SSO The Unified 
+Fan Identity Platform
+Seamless digital journeys, stronger security and superior 
+data capture. 
+SSO provides a unified experience across all digital touchpoints to 
+optimise user registration, capture relevant data and create deeper 
+audience profiles. Key Cortex SSO features include:
+-
+OAuth 2.0 / OpenID Connect compliant.
+-
+A configurable microsite for a quick implementation time.
+-
+Account Link functionality means that other sponsor user 
+accounts can be linked o the SSO with ease, reducing 
+individual project development cycles and mitigating full 
+refactoring.
+-
+Scalability and security at the platformʼs core to deal with 
+high volumes of traffic in sports.
+-
+Social login for Apple, Facebook, and Google out of the box
+Cortex SSO
+Key features for CazéTV
+Fully compatible with LiveLike products, 
+incorporating support for OAuth 2.0, Open ID 
+Connect, and JWT straight 'out-of-the-box', with 
+an established working relationship with LiveLike
+Livelike readiness
+Restrict fans of a certain age from signing up, 
+ensuring that you meet the standards of 
+compliance that are necessary. This is flexible so 
+can be changed should regulation change
+D.O.B registration restrictions
+Giving fans power over their own data and acting 
+as a gateway to SSO sign-ups, Preference 
+Centres are purpose built to allow registered and 
+unregistered fans to set their wider content and 
+marketing preferences.
+Preference centre
+Exclusive to Cortex SSO customers, Fan 
+Manager is a central platform to manage your 
+fans Single Sign-On account, giving you the 
+power to self-serve.
+Fan Manager
+Cortex SSO features sports-ready autoscaling 
+trusted by many of the biggest sports teams in 
+the industry, designed to auto-scale through 
+crucial high-traffic peaks in live sports settings.
+Autoscaling
+The included account linking functionality allows 
+fans to link 3rd party accounts into their CazéTV 
+SSO, supporting CazéTV's long term vision of 
+building a scalable SSO. 
+Sponsor-ready
+Driving long-term value for CazéTV
+CazéTV should own their own database of known fan records to drive long-term commercial value - and the World Cup is the 
+perfect opportunity to have a large contactable database out of the blocks.
+Cortex SSO acts as the digital front door to the CazéTV ecosystem. For the World Cup, where the audience is in the tens of 
+millions, an SSO serves several critical functions:
+•
+Identity Consolidation: It links a user accounts across different touchpoints (web, mobile app, etc.), and across 3rd party services 
+such as LiveLike predictor and Sponsor accounts.
+•
+Reduced Friction: By using social logins through the SSO, CazéTV lowers the barrier to entry, helping to ensure high conversion from 
+anonymous viewer to registered user during high-traffic matches.
+•
+Data Sovereignty: Relying solely on YouTube means you donʼt own the primary relationship. With an SSO, CazéTV owns the 
+First-Party Data, leaving ample room for retargetting at other events.
+7
+The Results
+Behavioural profiling
+Identify where fans are to better retarget 
+with content they are likely to engage 
+with
+Commercial packaging
+Instead of just selling an asset, you are 
+able to sell ‘access to 5 million fans who 
+played the predictor game.ʼ Separately, 
+open up more D2C marketing 
+opportunities.
+Churn Prevention
+Fans who interact with World Cup 
+activations can be directly re-engaged 
+to participate in future activations, 
+driving up engagement in future
+Remove friction
+Retain a consistent fan experience. Fans 
+are not likely to want to create new SSO 
+accounts with different providers every 
+time they engage with a predictor
+Adding value to sponsors in the tournament 
+Death of the probabilistic guess
+When a sponsor signs a deal, they rely on a best guess of who the gamification 
+audience is. With Cortex SSO, CazéTV provides Deterministic Data.
+The Value: Sponsors can be told exactly how many verified 1834-year-olds 
+in São Paulo engaged with a certain activation. This precision justifies a higher 
+CPM because there is zero waste.
+Zero Party Data enrichment
+During the World Cup signup, CazéTV can ask a single "Golden Question" (e.g., 
+‘What is your favorite beer?ʼ or ‘Are you looking to buy a new car this year?ʼ).
+The Value: CazéTV can then offer a sponsor like Jeep a segment of 500,000 
+users who explicitly stated they are in the market for an SUV, rather than just 
+people who happen to like football.
+Hyper-targeted post event follow up
+The World Cup is a massive top-of-funnel event. The real value for a sponsor is 
+staying in front of those fans after the final whistle.
+The Value: Using the data held in the Cortex Fan Manager, you can offer 
+sponsors access to specific segments. For example, a betting sponsor can 
+retarget only users who were highly engaged with predictor games, knowing 
+those fans are more likely to convert.
+Closed loop attribution
+Sponsors often struggle to prove that an activation via sponsorship led to a sale.
+The Value: Cortexʼs audit logs can help CazéTV meet use cases such as 
+proving to a sponsor: ‘10,000 people who logged during the World Cup 
+activation used your discount code to buy a jersey within 48 hours.ʼ
+One SSO  Ongoing Value to Sponsors
+1. A Platform, Not a Campaign
+Traditionally, digital media companies 
+build separate islands for different events 
+to satisfy different lead-generation 
+requirements from sponsors. With Cortex, 
+CazéTV maintains one persistent identity 
+across all activations run, whether it be for 
+the 2026 World Cup, the 2027 Women's 
+World Cup, the Olympics, or the NFL.
+BENEFIT
+A fan who signs up during the World Cup 
+doesn't have to re-register when CazéTV 
+runs an activation for another event.
+RESULT
+This eliminates onboarding fatigue, 
+ensuring that CazéTVʼs authenticated user 
+base only grows and never resets. In turn, 
+this helps CazéTV to grow their brand.
+9
+2. Sponsor Agility
+As CazéTV are seeing, sponsorship deals 
+can be signed last minute. Without a 
+unified SSO, a new sponsor may require 
+weeks of custom dev work to capture 
+data, leading to missed opportunities.
+WITH CORTEX
+CazéTV can rapidly spin-up a new login 
+question in the Admin Console. 
+SPEED TO MARKET
+If a new sponsor deal comes through, 
+CazéTV can reactively update the SSO 
+onboarding flow to start collecting 
+specific data for that sponsor, with 
+minimal effort.
+3. Continuous Attribution 
+Across the Calendar
+Because the SSO is persistent, CazéTV 
+can track a fan's journey across multiple 
+sponsored events, collecting various data.
+THE PITCH TO SPONSORS
+"We know this user saw your ad during 
+the World Cup due to their engagement 
+with your LiveLike game activation, played 
+a different game during the Bundesliga 
+season, and registered for preferences 
+around the Olympics.ˮ
+THE VALUE
+This creates long-term attribution that 
+most broadcasters can't offer, making 
+CazéTV's sponsorship packages 
+significantly more valuable because they 
+can prove uplifts over time, not just during 
+a 90-minute window.
+Cortex Products are explicitly designed for sports applications; therefore, Cortexʼs SSO 
+scales automatically with increases in traffic. In a recent live ("Production") situations, 
+Cortex SSO systems automatically scaled up as follows: 
+●
+In March 2026 Cortex SSO scaled with a peak of 2500 requests per second 
+(150,000 requests per minute).
+●
+In another instance, Cortex SSO scaled with a p95 latency of 5ms across nearly 
+10 million requests with a peak of 1300 requests per second. 
+●
+In a further example, Cortex SSO scaled to a peak of 930 requests per second.
+Notable other sporting high traffic occasions across other Cortex products include:
+•
+Ascot persistent high volumes during Royal Ascot week
+•
+The Hundred app throughout the entire 4 week competition
+•
+The Crystal Palace website and apps during their 2022 FA Cup semi final against Chelsea
+•
+The EPCR website during the Challenge Cup Final 2024
+•
+Birmingham City website and apps when Wayne Rooney was sacked as manager
+•
+The Euroleague website during the Final Four 2024  600m API calls per month
+•
+Arsenal SSO launch with over 650 API calls per second
+Robust & Scalable for the 
+World Cup
+Quick to Deploy
+Step 1
+Finalise contracts & 
+signature
+Step 2
+CazéTV create their 
+own SendGrid 
+account and domain 
+details.
+Step 3
+Cortex switch-on 
+CazéTVʼs SSO 
+environment and 
+provide access, plus 
+deploy microsite.
+Step 4
+LiveLike integrate 
+Cortex SSO using 
+OAuth 2.0 and OIDC.
+Step 5
+CazéTV or their 
+partners integrate 
+LiveLike 
+implementation into 
+their desired 
+website & app 
+experience.
+17th April
+11th May
+20th April
+23rd April
+23rd April-11th May
+Indicative timelines only. 
+The Cortex SSO Microsite is designed for rapid deployment and leverages common industry standards to support this through 
+familiar implementation processes. Furthermore, the microsite is often used by our customers as an entry point to expand to 
+more bespoke fan-facing SSO frontends in the future. 
+Key Compliance Features
+Bulk Suspend/Unsuspend Accounts: Manage large groups of users at once.
+Bulk Delete: Handle data cleansing and right-to-be-forgotten requests.
+Email Template Builder: Customise all fan-facing communication.
+Role Based Access Control RBAC Control who on your team can see and do what.
+Date of Birth Controls: Restrict under 13s from registering an account
+Compliance: Cortex SSO is fully compliant with EU and UK GDPR, and as a result, it 
+inherently aligns with the core principles of the Brazilian LGPD. This includes features such 
+as user deletion requests / right to be forgotten, audit trails and full visibility of all data held 
+on a fan to support Data Subject Access Requests DSARs
+Reporting Functionality
+Get a high-level overview analysis of 
+your unified SSO fanbase coviering 
+aspects of sign-ins, total users, 
+registrations and more...
+SSO Dashboard Reporting
+Maintain a complete, transparent record 
+of all activities for compliance and 
+security.
+Audit Logs
+Feed your SSO data directly into your 
+existing security SIEM) platforms.
+SIEM Integrations
+Secure & Seamless: 
+Quick login for fans 
+across all your digital 
+properties, securely 
+hosting your fan SSO 
+accounts.
+Built for Sports; Speed, stability and agile 
+for commercial impact 
+Large Spikes and 
+Volumes: 
+Experience in the 
+volatility of traffic for 
+Sports tournaments 
+and major events, 
+scaling as required.
+Simple Onboarding: 
+Microsite deployment 
+to be up and running 
+by the 11th May, given 
+ample time for fans to 
+sign up & the team to 
+be trained.
+Own your data: 
+Own SSO account 
+data and preferences 
+for long term use, and 
+ensure your team 
+donʼt start from a 
+customer base of 0 
+for future 
+tournaments. 
+Commercial impact: 
+Quantifying each of 
+your sponsors reach 
+beyond the World 
+Cup, gaining more 
+value in negotiating 
+rights.
+Proposed Architecture
+02
+Proposed Architecture
+Cortex SSO Microsite Editor Example
+Brazilian Portuguese translations shown are not finalised.
+Using Cortexʼs Microsite 
+UI Editor, you can brand 
+your login portal without 
+needing a developer. 
+This includes imagery, 
+colours, fonts, and data 
+fields collected, 
+including the ability to 
+add or remove new 
+custom fields, and to 
+make certain fields 
+compulsory and others 
+optional on sign-up.
+Reference Cases
+03
+Arsenal - High Traffic Scale
+Project Brief: Arsenal have huge ambitions for their future Digital Membership proposition, soon to launch. They needed to centralise data sources, to 
+reduce duplicate fan records and have an infrastructure that can support very high levels of traffic. Cortex SSO solution is powering this future, tying 
+together multiple sports-specific data sources and reducing fan complexity
+Delivery leadership
+Complex Governance
+Multiple internal departments with competing interests 
+had to be managed, resulting in a single execution 
+that worked for all parties
+Multiple (changing) vendors
+Across the project Cortex worked with third party 
+partners including: Cadence, Inviqa, Stream, 
+TripleJump, Ticketmaster, NTT, and more, with 
+changing scope & custom execution for Ticketmaster.
+High impact/stakes rollout
+Avoiding downtime & supporter impact, we launched 
+at 4am. Cortex a key part of the go-live team to 
+ensure seamless rollout
+Technical Operational Excellence
+SSO Merge: Complexity to Clarity
+Arsenalʼs prior SSO allowed one user to create many 
+accounts. We worked to merge into lead accounts, and 
+handled complex Member account migrationed with 
+Ticketmaster.
+Date of Birth registration restrictions
+Our Junior>Guardian feature enables Junior fans to 
+have their own account. As such, AFC now targeted 
+comms & content relevant to them 
+Fighting Bots
+Our comprehensive audit logs help Arsenal fight bots, 
+identifying suspicious behaviours to investigate.
+Business Domain Context
+Empowering Arsenalʼs Next Step
+As Arsenal gear up to supercharge their marketing & 
+memberships, they need trust their underlying data and 
+ability the ability to use it to drive growth.
+Results: 13m data records |4.2m SSO | 10% duplicates
+Single Source Of Opt-In Truth
+Historically, Arsenalʼs marketing teams and fans were 
+impacted by a lack of confidence and clarity in the Opt-In 
+status of supporters, with records stored in multiple 
+locations.
+Our preference centre with known/unknown contacts 
+removes this; preferences are now used across multiple 
+channels, driving personalised comms
+How Cortex supported across the core pillars: 
+Arsenal SSO
+Six Nations - Quick Deployment
+Project Brief: Six Nations; Implemented by Stadion - Created a dynamic sign up flow to engage fans across the globe, delivered extremely quickly 
+ahead of the competition in order to capitalise on engagement and encourage sharing of preferences. Deployed across 6N games and Fantasy.
+Delivery leadership
+4 week go live
+By remaining close to oversee Technical 
+Implementations, the project achieved a rapid time to 
+market, going live with SSO in four weeks from 
+contract signing, ahead of the tournament, 
+demonstrating an ability to meet critical deadlines.
+Changing scope
+The project involved multiple external parties, 
+specifically Two Circles and Stadion. The engagement 
+ultimately became a custom build because 
+implementation partner kept changing their mind on 
+the flow. The team provided the API to make the 
+implementation easier for them.
+Technical Operational Excellence
+Scalability designed for event driven Peaks
+The system is designed to handle the peaks and troughs in 
+the sports industry, with peak sign-up naturally around 
+tournament. The platform is built to automatically scale up 
+rapidly to meet demand.
+Key integrations
+include Stadion for the website and Monterosa as the 
+gamification integrator. Connecting fans seamlessly across 
+for Fantasy game engagement.
+Social Logins 
+Implementation included social media login integration to 
+remove friction in user journey
+Business Domain Context
+User growth
+Data blind spot before implementing Cortex SSO, resulting 
+in limited to zero understanding of the Six Nations fan base. 
+Unable to establish a unified fan identity, meant they were 
+unaware of who was using their platforms and with limited 
+context on fan behavior or the specific content they 
+interacted with.
+Standing start
+Six Nations had zero SSO before launch and reached 1 
+million users in the first year.
+Opportunity
+Iterated and built in the 2 months prior to the tournament as 
+SSO grew by 219,000 users
+How Cortex supported across the core pillars: 
+Six Nations SSO
+Crystal Palace - Commercial value
+Project Brief: Part of a digital transformation programme, InCrowd and UNRVLD (formerly Delete) implemented Cortexʼs SSO across, website, app, 
+ticketing, and retail. The project objective was to transform their ticket-led Memberships into a year round digital membership proposition, driven by 
+gated content and access to Member benefits, personalised comms, content and experiences, and highly targeted marketing. 
+Delivery leadership
+Data cleanse ownership
+With data to ingest from legacy static and numerous 
+live data sources, cleansing the data was critical. 
+Cortex owned the process to map data, key fields, and 
+the merge process on CPFCʼs behalf
+Meeting owner requirements
+As ultimate sponsor, the CPFC owner was a key 
+stakeholder in the project. As such, Cortex with CPFC 
+used SSO and the Entitlements service to show live 
+how the new architecture could drive Anonymous > 
+Free > Paid journeys
+Technical Operational Excellence
+Entitlements Store
+Built for CPFC to enable fans to buy a Ticketing Membership 
+and immediately access digital content, the Entitlements 
+Store granted immediate access to SSO users after 
+purchase on SeatGeek
+Buy Membership on SeatGeek > Immediately Update SSO  Add Live 
+Stream Entitlement > Watch Eligible Content
+Preferences Engine
+Palace wanted to collect behaviour from known and 
+unknown fans. We enabled this by storing web/app 
+behaviour for anonymous users. Once the person became 
+know, we merge both accounts to ensure all behaviours 
+were actionable
+All of the above documented in our Dev portal)
+Business Domain Context
+Recent similar process for fans
+Palace had previously launched SSO c.4 years prior. As 
+such, we worked closely with Palace to ensure comms and 
+the process to recreate SSO accounts and reset passwords 
+was seamless for supporters, as well as our Academy 
+portal.
+Huge Growth Opportunity
+Palace saw untapped revenue potential. As part of  
+Discovery & subsequent implementation, Cortex identified 
+key web & app use cases to deliver personalised content 
+and experiences: all powered by SSO & entitlements
+Results: Est. 4x SSO Growth | 220% Membership Revenue
+How Cortex supported across the core pillars: 
+Crystal Palace FC SSO
+Cortex SSO Standard Product Microsite
+Client
+Link
+Ascot
+https://login.ascot.com
+SA20
+https://login.sa20.co.za 
+Burnley
+https://login.burnleyfootballclub.com
+CWI
+https://login.windiescricket.com
+EPCR
+https://login.epcrugby.com 
+Gloucester Rugby
+https://login.gloucesterrugby.co.uk 
+Ulster
+https://login.ulster.rugby
+Premiership Rugby
+https://login.premiershiprugby.com 
+Cortexʼs SSO microsite is used widely across sport globally, with examples including:
+Cortex interface
+04
+Cortex SSO  Fan Manager & Configuration 
+As a SaaS platform, CazéTV and 
+LiveMode staff can access and 
+configure Cortex SSO whenever 
+needed through the Cortex platform 
+user interface.
+This includes the ability to view an 
+individual fanʼs record, including al 
+the detail held within it, and to 
+perform actions such as edit or 
+suspend the account. 
+Cortex SSO  Email Templates 
+Email templates can be set up and edited from within the Cortex SSO platform. CazéTV will be required to obtain 
+a SendGrid account (see step 2; slide 12) prior to the SSO launch to power the service emails for SSO.
+SLAs and Additional 
+Technical Information
+05
+Success, Training & Support
+30
+We help you drive value 
+via success planning, 
+outcome reporting, ROI 
+realisation and a 
+proactive approach to 
+sharing best practice
+'Open door' policy on 
+product feature requests 
+and feedback, with 
+customers directly 
+involved in our research 
+and design process
+Comprehensive 
+documentation, both 
+technical and 
+user-based, including 
+access to the Cortex 
+Academy
+Bespoke training 
+sessions for CazéTV 
+staff, at launch and 
+annually
+24/7 monitoring across 
+all Cortex systems, with 
+proactive issue resolution
+Direct involvement in 
+discovery and 
+implementation, 
+ensuring the solution is 
+set up for success
+With Cortex, we are not a faceless software business - instead, we provide a hands-on approach 
+to ensuring our customers maximise the value from our products.
+31
+Support and Monitoring
+Cortex employs always-on, 24/7 monitoring. Our monitoring 
+software runs round the clock checks on our entire production 
+infrastructure, alerting us to anomalous metrics and issues. Any 
+global production outages identified will be resolved proactively, 
+restoring access to critical services as soon as possible. 
+Additionally, our Support Desk handles support requests directly from 
+customers, with detials available in our Cortex Support guide, which can  
+can be found here.
+Support requests can be submitted:
+•
+Via the in-platform chatbot on the Cortex platform homepage.
+•
+Via the Cortex Academy (which also contains extensive ‘how-toʼ 
+guides, to help answer any general platform queries you may have)
+•
+Via email, to support@cortexacademy.zendesk.com
+Status Page and Automated Alerts
+Cortexʼs Status Page allows you to access real-time information on 
+the System Status, broken down by both Product and Service. This 
+also details system uptime over the past 90 days. 
+We also operate a comprehensive system of automated alerts in 
+the highly unlikely case of any system issues or downtime.
+When platform maintenance is performed, this is communicated 
+proactively to our customers, from scheduling, to commencement, 
+to completion.
+Please note, no SSO system maintenance will be scheduled during 
+any key periods for CazéTV during the World Cup activation.
+Optional: additional 
+peak time support 
+If required, we can work with CazéTV to define a temporary support 
+model during periods of expected peak traffic during the World Cup 
+activation.
+This could include:
+•
+First-line, on-call helpdesk, contactable via telephone for 
+CazéTV or LiveLike personnel in case of any issues
+•
+On-call development resource to support with issue resolution
+This is not included in our current licence fees and would require 
+separate scoping.
+NB we do not provide support services directly to fans.
+Hosting Information
+ 
+Topic
+Detail
+Infrastructure 
+architecture
+Core Architecture AWS us-west-2  Oregon): EKS 
+Kubernetes cluster spanning 3 AZs with hot-spare 
+pod redundancy. MongoDB Atlas clusters use 
+cross-region replica sets 8-hour automated 
+snapshots). PostgreSQL employs a Multi-AZ 
+deployment providing fault tolerance, Point-in-Time 
+Restore, and data security via encryption at rest & in 
+transit.
+Core Infrastructure hosted on AWS Instances 
+located in us-west-2.
+Geo-distribution
+As above, AWS instances are located in us-west-2, 
+including three availability zones
+CDN integration
+Content and media are automatically served through 
+a world-class Content Delivery Network CDN, 
+Cloudfront, with auto-scaling
+Monitoring / 
+observability tooling
+SIEM Integration with Application Performance 
+Monitoring platform provided by Datadog. Automatic 
+internal alerts and escalations to the relevant Dev 
+team based on multiple metrics including API 
+latency, error rate etc
+Security hardening
+Annual pen testing. Application Security tools scan 
+static and runtime code for secure coding 
+compliance, including OWASP principles.  A CSPM 
+platform continuously scans for vulnerabilities and 
+misconfigurations
+Backup & disaster 
+recovery strategy
+Databases are backed up every 8 hours with 
+backups hosted in AWS. Deployments are supported 
+by GitOps.
+All public facing and high 
+availability systems are hosted on 
+Amazon Web Services AWS) in 
+Dublin EU-west-1) or Oregon 
+(us-west-2. The environment is 
+further split over all 3 availability 
+zones AZs in the region providing 
+further redundancy.
+Cortex use Cloudfront, AWSʼs CDN 
+solution, for all public facing APIs to 
+provide a layer of caching where 
+possible as well as acting as the 
+termination point of SSLs with a WAF 
+monitoring inbound traffic.
+ 
+Example Service
+Cortex build all systems as “Microservicesˮ - and we 
+determine a Microservice as having a single “concernˮ. 
+Microservices allow us to continuously iterate and deploy 
+on large systems without impacts on availability as well as 
+improving maintainability due to the smaller codebases of 
+each service.
+An example service is shown - with each service using 
+either a relational PostgreSQL) or document store 
+MongoDB
+Some services use Redis as an accelerated caching layer.
+Amazon Web Services - US-west-2
+CloudFront CDN
+Elastic Load Balancer
+Kubernetes Engine
+Docker Deployment of Service
+gRPC for Service Communication
+Redis Cache
+PostgresSQL
+MongoDB
+Additional Security & Privacy Information
+ 
+Security, Compliance, Privacy
+SSO
+HTTPS enforced site wide.
+Yes
+JWT or OAuth tokens for all API requests.
+Yes - OpenID Connect compatible SSO
+Public / Private keys for SSO
+Rate limiting and throttling for APIs.
+Yes
+Content Security Policy CSP) headers.
+Yes
+GDPR compliance with consent tracking.
+Yes - included via our preferences service
+Secure data storage (encrypted at rest).
+Encryption at rest and in transit.
+Annual penetration testing and code audits.
+Cortex undertakes annual pentesting as standard
+Database replication for read scalability.
+Yes
+Cost Breakdown
+06
+Cortex Pricing Overview
+Cortexʼs pricing is an annual licencing model; with volumetric tiers. 
+Pricing for SSO is based on the total number of SSO records in the 
+system. This ensures that, unlike with some other SSO platforms, 
+higher engagement (i.e. more frequent log-ins) does not result in 
+higher costs for CazéTV. All Cortex licensing allows for unlimited 
+users from each organisation.
+We also offer incremental discounts based on the duration of the 
+contract term, as shown below:
+Multi Year Discount Framework
+Years
+2
+3
+4
+5
+6
+Discount
+2.5%
+5%
+7.5%
+10%
+12.5%
+Cortex Licence Costs
+Prices below are shown for a 1, 2 or 3 year contract length. Our current 
+estimated banding for CazéTV is highlighted in green. 
+Banding
+Total number of SSO 
+records
+Annual 1 year Cost
+Annual 2 year Cost 
+2.5% discount)
+Annual 3 year Cost
+5% discount)
+Enterprise 21
+12,500,000
+£200,120
+£195,117
+£190,114
+Enterprise 22
+15,000,000
+£212,120
+£206,817
+£201,514
+Enterprise 23
+17,500,000
+£223,130
+£218,517
+£212,914
+Enterprise 24
+20,000,000
+£236,120
+£230,217
+£224,314
+Enterprise 25
+22,500,000
+£248,120
+£241,917
+£235,714
+NB contractual limits for API calls, media storage, bandwidth and CDN requests also apply.
+Prices are valid for 90 days from the date of proposal submission. Prices exclude VAT or other applicable 
+local taxes. Invoices are payable annually in advance; payment terms 30 days.
+Where the Customer moves up a band within a contract year, the difference between the new and 
+previous band will be prorated and an invoice will be issued for the remainder of the year on this basis.
+Contact Us            →            Visit Website      →
+Thank you
