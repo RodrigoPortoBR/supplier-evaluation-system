@@ -270,7 +270,6 @@ Assinantes do Clube iFood têm acesso a ferramentas adicionais para embasar seus
 - **Dashboard pessoal:** análise do seu desempenho por seleção, fase e semana
 - **Auto-preenchimento:** preenchimento automático de palpites pendentes conforme critério escolhido pelo usuário
 - **Casting na liga:** ferramentas de comunicação dentro das ligas privadas
-- **Sorteio de ingressos e experiências:** participação em sorteios ao longo do torneio
 - **Missões exclusivas:** missões temáticas com recompensas extras (vouchers, cupons, cashback iFood)
 - **Sem anúncios**
 
