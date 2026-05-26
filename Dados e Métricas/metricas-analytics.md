@@ -70,7 +70,7 @@ O funil completo tem **sete estágios** mapeados entre iFood e LiveLike. Cada es
 - Total de sessões iniciadas
 - Usuários únicos que acessaram
 - Origem da sessão (banner iFood, link direto, notificação push)
-- Taxa de conversão: clique no banner → sessão iniciada
+- Connect Rate: clique no banner → sessão iniciada
 - Breakdown: Clube iFood vs Basic (já identificados via SSO)
 
 **Estágio 3 — Cadastro concluído** *(fonte: LiveLike)*
@@ -85,11 +85,12 @@ O funil completo tem **sete estágios** mapeados entre iFood e LiveLike. Cada es
 
 **Estágio 4 — Primeiro palpite** *(fonte: LiveLike)*
 - Usuários que fizeram ≥1 palpite
-- Usuários que preencheram todos os palpites da fase de grupos no cadastro (64 pontos iniciais)
 - Tempo mediano entre cadastro e primeiro palpite
 - Breakdown: Clube iFood vs Basic
 
 **Estágio 5 — Engajamento recorrente** *(fonte: LiveLike)*
+- Métrica-chave: % de cadastrados com ≥1 palpite que retornam para palpitar nos dias seguintes
+- Taxa de conversão do funil: usuários com palpite no dia / total de cadastrados com ≥1 palpite
 - Ver seção 5 (métricas operacionais diárias)
 
 **Estágio 6 — Intenção de upgrade** *(fonte: LiveLike)*
@@ -116,29 +117,9 @@ A CazéTV fará chamadas ao vivo durante a transmissão dos jogos convocando usu
 | Usuários ativos (sessão aberta) | Por minuto | Clube iFood / Basic |
 | Novos cadastros | Por minuto | Clube iFood / Basic |
 | Palpites submetidos | Por minuto | Clube iFood / Basic |
-| Palpites editados | Por minuto | — |
 | Cliques no CTA Clube iFood | Por minuto | — |
-| Novas assinaturas Clube iFood | Por minuto | — |
-| Taxa de erro / falhas na plataforma | Por minuto | Por tipo de erro |
 
-### 4.2 Métricas de pico e capacidade
-
-- Pico de usuários simultâneos (janela de 1 min, 5 min e 15 min)
-- Tempo de resposta do servidor (p50, p95, p99) por minuto
-- Taxa de sucesso de submissão de palpites (% de tentativas que completaram)
-
-### 4.3 Janelas críticas de monitoramento
-
-As janelas abaixo exigem atenção redobrada e o painel em tempo real deve estar ativo:
-
-| Momento | Janela de monitoramento |
-|---|---|
-| Abertura da plataforma (09/06) | Dia inteiro |
-| 15 min antes de cada jogo do Brasil | Início até 15 min após apito |
-| Chamadas ao vivo na transmissão CazéTV | Durante a chamada + 30 min após |
-| Abertura do mata-mata (32-avos) | 2h antes do primeiro jogo |
-| Final da Copa | Dia inteiro |
-| Encerramento do período de palpites (19/07, 23h59) | Últimas 3h |
+*Novas assinaturas Clube iFood são monitoradas pelo iFood em painel próprio.*
 
 ---
 
@@ -155,6 +136,7 @@ Estas métricas devem estar disponíveis no CMS da LiveLike com atualização di
 | DAU/MAU ratio | Stickiness do produto | Clube iFood / Basic |
 | Novos cadastros | Usuários que concluíram onboarding no dia | Clube iFood / Basic |
 | Cadastros acumulados | Total histórico | Clube iFood / Basic |
+| Cadastrados com ≥1 palpite (total acumulado) | Usuários únicos com cadastro concluído e ≥1 palpite registrado — métrica-chave para a meta de 15M | Clube iFood / Basic |
 | Retenção D1 | % dos cadastrados no dia anterior que voltaram | Clube iFood / Basic |
 | Retenção D7 | % dos cadastrados 7 dias atrás que voltaram | Clube iFood / Basic |
 | Retenção D14 | % dos cadastrados 14 dias atrás que voltaram | Clube iFood / Basic |
@@ -170,29 +152,19 @@ Estas métricas devem estar disponíveis no CMS da LiveLike com atualização di
 | Usuários com ≥1 palpite do dia | % do total ativo | Clube iFood / Basic |
 | Usuários sem nenhum palpite do dia | Absoluto e % | Clube iFood / Basic |
 | Taxa de preenchimento por partida | % de cadastrados que palpitaram em cada jogo | — |
-| Palpites editados | Volume de edições (último palpite que contou) | — |
 | Usuários que preencheram palpites especiais | Campeão e artilheiro | Clube iFood / Basic |
 
 ### 5.3 Métricas de engajamento
 
 | Métrica | Definição | Breakdown |
 |---|---|---|
-| Missões diárias completadas | Total de completions no dia | Clube iFood / Basic |
-| Taxa de conclusão da missão diária | % dos ativos que completaram | Clube iFood / Basic |
 | Compartilhamentos sociais | Resultados compartilhados no dia | Por rede social |
 | Ligas criadas | Novas ligas privadas criadas | Clube iFood / Basic |
 | Participações em ligas | Usuários que entraram em nova liga | Clube iFood / Basic |
 | Badges desbloqueados no dia | Por tipo de badge | — |
 | Sessões por usuário ativo | Média de sessões no dia | Clube iFood / Basic |
 | Duração média da sessão | Em minutos | Clube iFood / Basic |
-
-### 5.4 Métricas de ranking
-
-| Métrica | Definição |
-|---|---|
-| Distribuição do ranking | Contagem de usuários por faixa: top 100 / 101-1k / 1k-10k / 10k-100k / acima de 100k |
-| Pontuação média por faixa de ranking | Por posição e por tipo de usuário |
-| Variação de posição média no dia | Movimentação geral do ranking |
+| Páginas por sessão | Média de páginas visitadas por sessão ativa | Clube iFood / Basic |
 
 ---
 
@@ -206,19 +178,12 @@ Cada usuário exportado deve conter obrigatoriamente:
 
 ```
 user_id (ID LiveLike)
-cpf_hash (hash do CPF para reconciliação com iFood)
 status: BASIC | CLUBE_IFOOD
 ranking_brasil: posição atual
 ranking_clube_ifood: posição atual (null se Basic)
-palpites_preenchidos_hoje: true | false
-total_palpites_preenchidos: número
-total_palpites_possiveis: número
-taxa_preenchimento: %
-streak_dias_consecutivos: número
-badges: lista de badges conquistados
 data_cadastro: timestamp
 ultimo_acesso: timestamp
-cta_clube_ifood_clicado: true | false
+cpf_hash (opcional — hash SHA-256 do CPF para reconciliação com iFood, ver seção 8.4)
 ```
 
 ### 6.2 Segmentos pré-configurados (atualização diária)
@@ -362,15 +327,8 @@ Além das audiências diárias, precisamos de **webhooks ou triggers** que dispa
 
 | Evento | Trigger | Canal sugerido |
 |---|---|---|
-| Cadastro concluído | Imediato após aceite | Push / WhatsApp |
-| Primeiro palpite feito | Imediato | Push in-app |
-| Badge desbloqueado | Imediato | Push in-app |
 | Usuário entrou no top 1.000 | Imediato | Push |
 | Usuário entrou no top 100 | Imediato | Push |
-| CTA Clube iFood clicado (sem conversão em 30 min) | 30 min após clique | Push / WhatsApp |
-| Jogo do Brasil começando (usuário sem palpite) | 2h antes do jogo | Push / WhatsApp |
-| Encerramento de palpites do dia (usuário sem palpite) | 1h antes do último jogo | Push |
-| Missão diária disponível | 10h de cada dia | Push in-app |
 
 ---
 
@@ -430,7 +388,7 @@ Ativada sempre que a Seleção Brasileira joga:
 **Dashboard 2 — Painel Diário de Performance**
 - Acesso: CazéTV (produto, marketing, dados)
 - Atualização: diária (até 7h)
-- Conteúdo: métricas das seções 5.1 a 5.4
+- Conteúdo: métricas das seções 5.1 a 5.3
 
 **Dashboard 3 — Funil de Conversão**
 - Acesso: CazéTV + iFood
@@ -488,7 +446,6 @@ As métricas e eventos acima foram desenhados para responder as seguintes pergun
 
 **Produto**
 - Qual a taxa de preenchimento de palpites por jogo?
-- Missões diárias aumentam o DAU?
 - Ligas privadas aumentam a retenção?
 
 ---
