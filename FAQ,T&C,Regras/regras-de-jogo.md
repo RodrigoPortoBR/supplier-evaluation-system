@@ -23,9 +23,6 @@ A participação é gratuita. Não é necessário realizar nenhuma compra para j
 1. Acesse o Bolão dentro do aplicativo iFood
 2. Crie um apelido único (nome de usuário) — esse será seu nome no ranking
 3. Aceite os termos do regulamento
-4. Preencha seus palpites iniciais para os jogos da fase de grupos
-
-Ao preencher os palpites de todos os jogos da fase de grupos no momento do cadastro, você recebe **1 ponto por palpite preenchido** — até **64 pontos iniciais** de bônus.
 
 ---
 
@@ -34,7 +31,7 @@ Ao preencher os palpites de todos os jogos da fase de grupos no momento do cadas
 Para cada partida da Copa do Mundo, você escolhe um placar (por exemplo: Brasil 2 × 1 Argentina).
 
 **Regras dos palpites:**
-- O palpite deve ser registrado até **1 minuto antes do horário oficial de início da partida**
+- O palpite deve ser registrado até o **horário oficial de início da partida**
 - É permitido apenas **1 palpite por partida**
 - Você pode editar seu palpite a qualquer momento antes do prazo; o último palpite registrado é o que vale
 - Uma vez encerrado o prazo, o palpite não pode mais ser alterado
@@ -54,10 +51,10 @@ Além dos palpites por partida, você pode fazer dois **Palpites Especiais** que
 | Seleção campeã da Copa do Mundo FIFA 2026 | +150 pontos |
 | Artilheiro da Copa do Mundo FIFA 2026 | +150 pontos |
 
-- Os Palpites Especiais devem ser feitos até **1 minuto antes do início do primeiro jogo da Copa**
+- Os Palpites Especiais devem ser feitos até o **início do primeiro jogo da Copa**
 - Após esse prazo, não podem ser alterados
 - Se mais de um jogador terminar empatado na artilharia, qualquer um dos artilheiros empatados é considerado resposta correta
-- A pontuação dos Palpites Especiais é somada à pontuação acumulada nos palpites das partidas
+- A pontuação dos Palpites Especiais é somada à pontuação acumulada nas partidas ao final da Copa
 
 ---
 
@@ -223,49 +220,29 @@ Cada participante pode ganhar apenas uma vez por apuração.
 
 ## 10. Ligas privadas
 
-Além dos rankings públicos, você pode criar ou entrar em ligas privadas para competir com amigos, família ou colegas de trabalho.
+Além dos rankings públicos, você pode criar ou entrar em ligas privadas para competir com amigos, família ou colegas de trabalho. As ligas são acessadas por convite via link e utilizam a mesma pontuação acumulada nos rankings públicos.
 
-| | Usuário Básico | Usuário Clube iFood |
-|---|---|---|
-| Criar ligas privadas | Até 1 liga | Até 100 ligas |
-| Membros por liga | Até 10 membros | Sem limite |
-| Participar de ligas | Até 5 ligas | Até 100 ligas |
-| Customização | Padrão | Completa (nome, banner, tema) |
-
-As ligas privadas são acessadas por convite via link. Sua pontuação nas ligas privadas é a mesma acumulada nos rankings públicos.
+Usuários básicos podem criar ou participar de até 1 liga privada. Assinantes do Clube iFood podem criar ou participar de até 100 ligas privadas. Não há limite de participantes por liga para o Clube iFood.
 
 ---
 
-## 11. Missões diárias
+## 11. Estatística avançada
 
-A plataforma disponibiliza missões diárias (quiz) para todos os participantes:
-
-- **Resposta correta:** +2 pontos
-- **Resposta errada:** +1 ponto
-- **Compartilhamento social:** dobra os pontos da missão
+Disponível para todos os usuários. Mostra o percentual da comunidade apostando em cada resultado de uma partida (ex.: "73% dos jogadores estão apostando em vitória do Brasil"), permitindo que você compare sua análise com a tendência geral antes de registrar seu palpite.
 
 ---
 
 ## 12. Badges (conquistas)
 
-Badges são conquistas desbloqueadas conforme seu desempenho no bolão:
-
-| Badge | Critério |
-|---|---|
-| Top 100 | Entrar no top 100 do dia |
-| Gênio da Bola | 5 ou mais placares exatos |
-| Bola de Cristal | 10 ou mais placares exatos |
-| Bola de Ouro | 15 ou mais placares exatos |
-| GOAT | 20 ou mais placares exatos |
+Badges são itens colecionáveis que os usuários acumulam ao longo do Bolão. Eles são desbloqueados de acordo com a performance nas previsões — como acertar placares exatos ou atingir posições de destaque no ranking — e também através de missões especiais disponíveis na plataforma. Os badges aparecem no perfil do usuário e em cards compartilháveis nas redes sociais.
 
 ---
 
 ## 13. Recursos exclusivos do Clube iFood
 
-Assinantes do Clube iFood têm acesso a ferramentas adicionais para embasar seus palpites:
+Assinantes do Clube iFood têm acesso a ferramentas adicionais para embasar seus palpites e enriquecer a experiência:
 
-- **AI Guess:** probabilidade de vitória, empate ou derrota para cada jogo (ex.: Brasil 62% / Empate 23% / Adversário 15%)
-- **Crowd Consensus:** percentual da comunidade apostando em cada resultado
+- **Oráculo:** probabilidade de vitória, empate ou derrota para cada jogo (ex.: Brasil 62% / Empate 23% / Adversário 15%) — ferramenta de apoio à decisão; o palpite final é sempre sua escolha
 - **Stats avançadas:** histórico de confronto direto e forma das últimas 5 partidas de cada seleção
 - **Dashboard pessoal:** análise do seu desempenho por seleção, fase e semana
 - **Auto-preenchimento:** preenchimento automático de palpites pendentes conforme critério escolhido pelo usuário
