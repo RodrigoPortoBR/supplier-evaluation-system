@@ -6,7 +6,7 @@
 ## Participação e cadastro
 
 **O que é o Bolão Copa do Mundo FIFA 2026 na CazéTV?**
-É um concurso de palpites gratuito disponível dentro do aplicativo iFood. Você faz previsões para as partidas da Copa do Mundo FIFA 2026, acumula pontos e concorre a prêmios em dinheiro de acordo com sua posição no ranking ao final do torneio.
+É um concurso de palpites gratuito disponível dentro do aplicativo iFood. Você faz palpites para as partidas da Copa do Mundo FIFA 2026, acumula pontos e concorre a prêmios.
 
 ---
 
@@ -22,8 +22,6 @@ Pode participar qualquer pessoa física que:
 - Tenha CPF válido perante a Receita Federal
 - Esteja domiciliada no Brasil
 
-Funcionários e colaboradores diretamente envolvidos na operação da promoção não podem participar.
-
 ---
 
 **Como me cadastro?**
@@ -31,25 +29,20 @@ Acesse o Bolão pelo aplicativo iFood, crie um apelido único (seu nome no ranki
 
 ---
 
-**Posso ter mais de um cadastro?**
-Não. É permitido apenas um cadastro por pessoa (um CPF, uma conta iFood). Múltiplas inscrições atribuídas a uma mesma pessoa resultam em desclassificação de todas elas.
-
----
-
 **Quando começa e quando termina a promoção?**
-O período de participação vai de **01/06/2026 a 19/07/2026**. A plataforma do Bolão ficará disponível aos participantes a partir de **09/06/2026**. Os prêmios serão apurados entre 20/07/2026 e 18/08/2026.
+O período de participação vai de **01/06/2026 a 19/07/2026**. A plataforma do Bolão ficará disponível aos participantes a partir de **01/06/2026**. Os prêmios serão apurados entre 20/07/2026 e 18/08/2026.
 
 ---
 
 ## Palpites
 
-**Como funciono os palpites?**
+**Como funcionam os palpites?**
 Para cada partida da Copa, você escolhe um placar (por exemplo: Brasil 2 × 0 Alemanha). Após o término da partida, sua pontuação é calculada automaticamente com base no quão próximo seu palpite ficou do resultado real.
 
 ---
 
 **Até quando posso fazer ou alterar meu palpite?**
-Até **1 minuto antes do horário oficial de início de cada partida**. Depois disso, o palpite fica bloqueado e não pode ser alterado. Sempre vale o último palpite registrado.
+Até o **horário oficial de início de cada partida**. Depois disso, o palpite fica bloqueado e não pode ser alterado. Sempre vale o último palpite registrado.
 
 ---
 
@@ -68,7 +61,7 @@ São dois palpites adicionais que valem pontos extras:
 - **Seleção campeã:** acertar qual seleção vence a Copa vale **+150 pontos**
 - **Artilheiro:** acertar o jogador que terminar como artilheiro vale **+150 pontos**
 
-Os Palpites Especiais devem ser feitos até 1 minuto antes do início do primeiro jogo da Copa e não podem ser alterados depois. Esses pontos são somados à pontuação acumulada nas partidas.
+Os Palpites Especiais devem ser feitos até o início do primeiro jogo da Copa e não podem ser alterados depois. Esses pontos são somados à pontuação acumulada nas partidas ao final da Copa.
 
 ---
 
@@ -115,11 +108,6 @@ Os dois multiplicadores se combinam. No jogo final, se o Brasil estiver jogando 
 
 ---
 
-**Quantos pontos posso ganhar desde o início?**
-Ao preencher os palpites de todos os 64 jogos da fase de grupos no momento do cadastro, você recebe 1 ponto por palpite — até **64 pontos iniciais** de bônus.
-
----
-
 ## Rankings e prêmios
 
 **Qual é a diferença entre o Ranking Brasil e o Ranking Clube iFood?**
@@ -151,7 +139,37 @@ Se você é assinante do Clube iFood, participa dos dois rankings automaticament
 | 4º ao 10º | R$ 4.500 cada |
 | 11º ao 100º | R$ 1.000 cada |
 
-Há ainda apurações exclusivas para o **Mata-mata** (a partir dos 32-avos, período 28/06 a 19/07) e para as **Quartas de Final** (período 09/07 a 19/07), com a mesma estrutura de premiação. A premiação total do Bolão é de **R$ 3.499.450**.
+**Mata-mata — Ranking Brasil** (28/06 a 19/07):
+
+| Posição | Prêmio |
+|---|---|
+| 1º | R$ 100.000 |
+| 2º | R$ 30.000 |
+| 3º | R$ 10.000 |
+| 4º ao 10º | R$ 450 cada |
+| 11º ao 100º | R$ 100 cada |
+
+**Mata-mata — Ranking Clube iFood** (28/06 a 19/07):
+
+| Posição | Prêmio |
+|---|---|
+| 1º | R$ 1.000.000 |
+| 2º | R$ 300.000 |
+| 3º | R$ 100.000 |
+| 4º ao 10º | R$ 4.500 cada |
+| 11º ao 100º | R$ 1.000 cada |
+
+**Quartas de Final — Ranking Clube iFood** (09/07 a 19/07):
+
+| Posição | Prêmio |
+|---|---|
+| 1º | R$ 100.000 |
+| 2º | R$ 30.000 |
+| 3º | R$ 10.000 |
+| 4º ao 10º | R$ 450 cada |
+| 11º ao 100º | R$ 100 cada |
+
+A premiação total do Bolão é de **R$ 3.499.450**.
 
 ---
 
@@ -166,7 +184,7 @@ Cada participante pode ganhar apenas uma vez por apuração. Como há cinco apur
 ---
 
 **Como vou saber se ganhei?**
-Os contemplados serão notificados em até 10 dias úteis após a apuração, por pelo menos 2 canais informados no cadastro (telefone, WhatsApp, e-mail), com no mínimo 3 tentativas de contato. O resultado também será divulgado na plataforma do Bolão em até 30 dias após a apuração.
+Os contemplados serão notificados em até 10 dias úteis após a apuração, por pelo menos 2 canais informados no cadastro (telefone, WhatsApp, e-mail), com no mínimo 3 tentativas de contato.
 
 ---
 
@@ -187,7 +205,7 @@ Se dois ou mais participantes terminarem com a mesma pontuação, a classificaç
 ## Clube iFood
 
 **O que é o Clube iFood e como ele muda minha experiência no Bolão?**
-O Clube iFood é a assinatura premium do iFood. No Bolão, assinantes têm acesso ao Ranking Clube iFood (com premiação até 10 vezes maior), a recursos exclusivos de análise e a benefícios extras no app iFood.
+O Clube iFood é o Clube de assinatura do iFood. No Bolão, assinantes do Clube iFood têm acesso ao Ranking Clube iFood (com premiação até 10 vezes maior), podem criar e participar de até 100 ligas privadas, possuem recursos exclusivos de análise e missões especiais.
 
 ---
 
@@ -196,13 +214,13 @@ Sim. Você pode aderir a qualquer momento durante o período da promoção. Apó
 
 ---
 
-**O que é a AI Guess?**
+**O que é o Oráculo?**
 É um recurso exclusivo para assinantes do Clube iFood que mostra a probabilidade de cada resultado antes do palpite (ex.: Brasil 62% / Empate 23% / Adversário 15%). É uma ferramenta de apoio à decisão — o palpite final é sempre sua escolha.
 
 ---
 
-**O que é o Crowd Consensus?**
-Também exclusivo do Clube iFood, mostra o percentual da comunidade apostando em cada resultado (ex.: "73% dos jogadores estão apostando em vitória do Brasil"). Junto com a AI Guess, permite comparar sua análise com a das IAs e com a tendência geral.
+**O que é a estatística avançada?**
+Funcionalidade disponível para todos os usuários. Mostra o percentual da comunidade apostando em cada resultado (ex.: "73% dos jogadores estão apostando em vitória do Brasil").
 
 ---
 
@@ -214,32 +232,14 @@ São grupos criados para competir com pessoas específicas — amigos, família 
 ---
 
 **Qual é o limite de ligas?**
-
-| | Usuário básico | Clube iFood |
-|---|---|---|
-| Criar ligas | Até 1 liga | Até 100 ligas |
-| Membros por liga | Até 10 | Sem limite |
-| Participar de ligas | Até 5 ligas | Até 100 ligas |
+Usuários básicos podem criar ou participar de até 1 liga privada. Assinantes do Clube iFood podem criar ou participar de até 100 ligas privadas. Não há limite de participantes por liga para o Clube iFood.
 
 ---
 
-## Missões e badges
-
-**O que são as missões diárias?**
-São quizzes diários disponíveis na plataforma. Resposta correta vale 2 pontos; resposta errada vale 1 ponto. Compartilhar o resultado nas redes sociais dobra os pontos da missão.
-
----
+## Badges
 
 **O que são os badges?**
-São conquistas desbloqueadas pelo seu desempenho. Eles aparecem no seu perfil e em cards compartilháveis.
-
-| Badge | Como conquistar |
-|---|---|
-| Top 100 | Entrar no top 100 do dia |
-| Gênio da Bola | Acertar 5 ou mais placares exatos |
-| Bola de Cristal | Acertar 10 ou mais placares exatos |
-| Bola de Ouro | Acertar 15 ou mais placares exatos |
-| GOAT | Acertar 20 ou mais placares exatos |
+Badges são itens colecionáveis que os usuários acumulam ao longo do Bolão. Eles são desbloqueados de acordo com a performance nas previsões — como acertar placares exatos ou atingir posições de destaque no ranking — e também através de missões especiais disponíveis na plataforma. Os badges aparecem no perfil do usuário e em cards compartilháveis nas redes sociais.
 
 ---
 
@@ -252,7 +252,7 @@ Atendimento de segunda a sexta-feira, das 9h às 17h.
 ---
 
 **O que acontece se houver queda de conexão no momento do palpite?**
-A CazéTV não se responsabiliza por problemas de conexão, instabilidade de rede, queda de energia ou falhas técnicas do lado do participante. Por isso, faça seus palpites com antecedência, evitando o último minuto antes de cada partida.
+A CazéTV não se responsabiliza por problemas de conexão, instabilidade de rede, queda de energia ou falhas técnicas do lado do participante. Por isso, faça seus palpites com antecedência, evitando deixar para o último momento antes de cada partida.
 
 ---
 
