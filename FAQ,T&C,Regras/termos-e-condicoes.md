@@ -52,15 +52,7 @@ Participantes com menos de 18 anos devem estar representados ou assistidos por p
 
 ### 3.3 Como se cadastrar
 
-Para participar, o interessado deve, dentro do período de participação:
-
-1. Ter conta ativa no iFood
-2. Manter dados cadastrais atualizados junto ao iFood (telefone com WhatsApp e e-mail)
-3. Acessar, pelo aplicativo iFood, a plataforma do Bolão Copa do Mundo FIFA 2026 na CazéTV
-4. Cadastrar um apelido único (nome de usuário)
-5. Aceitar os termos deste regulamento
-
-A conclusão do cadastro não implica validação definitiva da participação, confirmação de elegibilidade nem direito à premiação. A elegibilidade permanece sujeita à validação pelas Promotoras a qualquer momento.
+O cadastro é realizado pelo aplicativo iFood, dentro do período de participação, mediante criação de um apelido único e aceite deste regulamento. A conclusão do cadastro não implica validação definitiva da participação, confirmação de elegibilidade nem direito à premiação. A elegibilidade permanece sujeita à validação pelas Promotoras a qualquer momento.
 
 ### 3.4 Limites gerais de participação
 
@@ -72,86 +64,25 @@ A conclusão do cadastro não implica validação definitiva da participação, 
 
 ---
 
-## 4. Como participar
+## 4. Como funciona o jogo
 
-### 4.1 Palpites das partidas
-
-Após o cadastro, o participante pode registrar palpites para as partidas da Copa do Mundo FIFA 2026, indicando o placar que espera para cada jogo.
-
-- Palpites devem ser registrados até **1 minuto antes do horário oficial de início de cada partida** (horário de Brasília)
-- Uma vez registrado, o palpite pode ser editado dentro do prazo; o palpite anterior deixa de valer, sendo considerado apenas o último registrado
-- Não há possibilidade de edição após o encerramento do prazo
-
-Para fins de pontuação, é considerado resultado válido da partida o placar ao final do tempo regulamentar ou, havendo prorrogação, ao término desta. Resultados por disputa de pênaltis não são considerados.
-
-### 4.2 Palpites Especiais
-
-O participante também pode registrar palpites para:
-
-- **Seleção campeã da Copa do Mundo FIFA 2026** — acerto vale +150 pontos
-- **Artilheiro da Copa do Mundo FIFA 2026** — acerto vale +150 pontos
-
-Os Palpites Especiais devem ser feitos até 1 minuto antes do início do primeiro jogo da Copa do Mundo FIFA 2026 e não podem ser alterados após esse prazo.
-
-Em caso de empate na artilharia, qualquer um dos jogadores empatados no topo é considerado resposta correta.
-
-A pontuação dos Palpites Especiais é cumulativa à pontuação das partidas.
+O Bolão funciona por palpites de placar: para cada partida da Copa do Mundo FIFA 2026, o participante registra o resultado que prevê até o horário oficial de início do jogo. A pontuação é calculada conforme a precisão do palpite, com multiplicadores aplicados em partidas da Seleção Brasileira e nas fases eliminatórias. Dois Palpites Especiais adicionais permitem prever a seleção campeã e o artilheiro da Copa, valendo 150 pontos cada em caso de acerto. As mecânicas completas de pontuação e multiplicadores estão descritas nas Regras de Jogo, disponíveis na plataforma.
 
 ---
 
-## 5. Pontuação
+## 5. Categorias de participação e premiação
 
-### 5.1 Tabela de pontuação por palpite
-
-| Resultado do palpite | Pontos-base |
-|---|---|
-| Placar exato | 50 pontos |
-| Seleção vencedora + gols de uma das seleções (sem placar exato) | 35 pontos |
-| Seleção vencedora correta (sem acertar gols) | 20 pontos |
-| Empate correto (sem acertar o placar exato) | 20 pontos |
-| Gols da seleção perdedora (sem outros critérios de maior valor) | 15 pontos |
-| Palpite errado ou não registrado | 0 pontos |
-
-A pontuação não é cumulativa. Para cada partida, aplica-se exclusivamente o critério de maior valor que o palpite atingir.
-
-### 5.2 Multiplicador Seleção Brasileira
-
-Em toda partida com participação da Seleção Brasileira, a pontuação-base é **multiplicada por 2**.
-
-### 5.3 Multiplicador de fase do torneio
-
-Após a pontuação-base e o eventual Multiplicador Brasil, aplica-se o multiplicador de fase:
-
-| Fase | Multiplicador |
-|---|---|
-| Fase de grupos | ×1 |
-| 32-avos de final | ×1,2 |
-| Oitavas de final | ×1,4 |
-| Quartas de final | ×1,6 |
-| Semifinal e disputa de 3º/4º lugar | ×1,8 |
-| Final | ×2 |
-
-**Fórmula:** Pontuação final = Pontuação-base × Mult. Brasil (quando aplicável) × Mult. de Fase
-
-### 5.4 Pontuação inicial
-
-Ao preencher palpites para todos os jogos da fase de grupos no momento do cadastro, o participante recebe 1 ponto por palpite preenchido, podendo acumular até 64 pontos iniciais.
-
----
-
-## 6. Categorias de participação e premiação
-
-### 6.1 Ranking Brasil
+### 5.1 Ranking Brasil
 
 Elegível a **todos os participantes** com conta ativa e adimplente no iFood.
 
-### 6.2 Ranking Clube iFood
+### 5.2 Ranking Clube iFood
 
 Elegível exclusivamente a **assinantes ativos e adimplentes do Clube iFood**.
 
 Assinantes do Clube iFood participam automaticamente dos dois rankings e podem ser contemplados nas duas categorias.
 
-### 6.3 Adesão ao Clube iFood durante a promoção
+### 5.3 Adesão ao Clube iFood durante a promoção
 
 O participante pode aderir ao Clube iFood a qualquer momento durante a promoção. Para que o status seja reconhecido para fins desta promoção, é obrigatório que, após a ativação da assinatura, o participante realize novo acesso à plataforma do Bolão, permitindo a atualização e associação do CPF ao novo status.
 
@@ -159,7 +90,7 @@ O reconhecimento como assinante Clube iFood produz efeitos apenas para as apura�
 
 ---
 
-## 7. Apurações e prêmios
+## 6. Apurações e prêmios
 
 ### Apuração 1 — Copa Completa: Ranking Brasil
 **Período de participação:** 01/06/2026 a 19/07/2026
@@ -228,13 +159,13 @@ Os cartões pré-pagos não possuem função de saque ou transferência e têm v
 
 ---
 
-## 8. Forma de apuração
+## 7. Forma de apuração
 
 Ao término do período de participação de cada apuração, a plataforma identifica os participantes com as melhores pontuações no respectivo ranking.
 
 A classificação é formada em ordem decrescente de pontuação total acumulada, após validação de participação e elegibilidade.
 
-### 8.1 Critérios de desempate
+### 7.1 Critérios de desempate
 
 Em caso de empate na pontuação total, a classificação é definida na seguinte ordem:
 
@@ -245,39 +176,39 @@ Em caso de empate na pontuação total, a classificação é definida na seguint
 
 ---
 
-## 9. Entrega dos prêmios
+## 8. Entrega dos prêmios
 
-### 9.1 Notificação
+### 8.1 Notificação
 
 Os contemplados serão notificados em até **10 dias úteis** após a apuração, por pelo menos 2 canais distintos informados no cadastro (telefone, WhatsApp ou e-mail). Serão realizadas no mínimo 3 tentativas de contato, com intervalo mínimo de 24 horas entre cada uma, ao longo de pelo menos 3 dias úteis, dentro da faixa das 8h às 20h (horário de Brasília).
 
 É responsabilidade do participante manter seus canais de contato ativos, operacionais e sem bloqueios durante toda a promoção.
 
-### 9.2 Entrega
+### 8.2 Entrega
 
 O prêmio será entregue sem ônus ao contemplado em até **30 dias** após a definição do vencedor. O contemplado poderá ser solicitado a apresentar documentos de identificação (documento oficial com foto, CPF, comprovante de endereço) e a assinar recibo de recebimento.
 
 Os prêmios não podem ser convertidos em dinheiro nem trocados por outro produto.
 
-### 9.3 Prazo para reclamação
+### 8.3 Prazo para reclamação
 
 O prêmio não reclamado em até **180 dias** da data da apuração caduca e o valor correspondente é recolhido ao Tesouro Nacional, conforme a legislação vigente.
 
-### 9.4 Divulgação dos contemplados
+### 8.4 Divulgação dos contemplados
 
 Os resultados serão divulgados em até **30 dias** após a apuração, na plataforma do Bolão Copa do Mundo FIFA 2026 na CazéTV e nos canais que as Promotoras julgarem necessários.
 
-### 9.5 Uso de imagem
+### 8.5 Uso de imagem
 
 Os contemplados concordam, ao participar desta promoção, em participar de entrevistas, vídeos e sessões de fotos promovidas pelas Promotoras, cedendo o direito de uso de sua imagem pelo prazo de 1 ano após a apuração dos resultados, sem ônus financeiro, para uso em qualquer meio de comunicação.
 
-### 9.6 Falecimento do contemplado
+### 8.6 Falecimento do contemplado
 
 Na eventualidade de falecimento do contemplado, o prêmio será entregue ao respectivo espólio, na pessoa do inventariante, ou, na ausência de processo de inventário, aos herdeiros devidamente identificados.
 
 ---
 
-## 10. Desclassificação
+## 9. Desclassificação
 
 Será imediatamente desclassificado, sem direito a prêmio, o participante que:
 
@@ -297,7 +228,7 @@ A desclassificação pode ocorrer a qualquer momento, inclusive após a apuraç�
 
 ---
 
-## 11. Proteção de dados (LGPD)
+## 10. Proteção de dados (LGPD)
 
 Ao se cadastrar nesta promoção, o participante celebra contrato com as Promotoras e consente com o tratamento de seus dados pessoais para fins de execução desta promoção, em conformidade com a Lei Federal nº 13.709/2018 (Lei Geral de Proteção de Dados — LGPD) e demais normas aplicáveis.
 
@@ -313,27 +244,27 @@ Ao se cadastrar nesta promoção, o participante celebra contrato com as Promoto
 
 ---
 
-## 12. Disposições gerais
+## 11. Disposições gerais
 
-### 12.1 Inscrição e responsabilidade
+### 11.1 Inscrição e responsabilidade
 
 As Promotoras não se responsabilizam por interrupções de conexão, falhas de servidor, problemas de acesso à internet, vírus, manutenção, queda de energia, falhas de software ou hardware, ou problemas de telecomunicação que possam afetar a participação, nem por casos fortuitos ou de força maior.
 
 O participante é integralmente responsável pela veracidade e exatidão das informações prestadas.
 
-### 12.2 Auditoria
+### 11.2 Auditoria
 
 As Promotoras poderão realizar, a qualquer momento, processos de auditoria, validação cadastral e antifraude, de forma automatizada ou manual, para verificar o cumprimento das regras desta promoção. A auditoria não requer comunicação prévia ao participante e não gera direito de indenização em caso de desclassificação por irregularidade constatada.
 
-### 12.3 Alterações na Copa do Mundo
+### 11.3 Alterações na Copa do Mundo
 
 Na hipótese de cancelamento, suspensão, adiamento ou alteração relevante no calendário oficial da Copa do Mundo FIFA 2026, por decisão da FIFA, autoridades competentes ou por motivo de força maior, a promoção poderá ser encerrada antecipadamente, suspensa ou ter suas apurações ajustadas, a exclusivo critério das Promotoras, mediante comunicação prévia aos participantes pelos canais oficiais.
 
-### 12.4 Suplentes
+### 11.4 Suplentes
 
 Caso um contemplado seja desclassificado, o primeiro suplente (próximo na ordem de classificação) será convocado imediatamente. A ordem de premiação definitiva pode não seguir a ordem de suplentes originalmente estabelecida, uma vez que novas desclassificações podem ocorrer em diferentes momentos até a efetiva entrega dos prêmios.
 
-### 12.5 Dúvidas e reclamações
+### 11.5 Dúvidas e reclamações
 
 Dúvidas e controvérsias serão primeiramente dirimidas pelas Promotoras por meio do SAC:
 
@@ -342,7 +273,7 @@ Dúvidas e controvérsias serão primeiramente dirimidas pelas Promotoras por me
 
 Persistindo controvérsias, estas serão submetidas aos órgãos do Sistema Nacional de Defesa do Consumidor.
 
-### 12.6 Base legal
+### 11.6 Base legal
 
 Esta promoção é regida pela Lei nº 5.768/1971, pelo Decreto nº 70.951/1972, pela Portaria SEAE/ME nº 7.638/2022, pela Portaria MF nº 67/2017 e pelos atos que as complementarem.
 
