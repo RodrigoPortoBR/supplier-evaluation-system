@@ -34,8 +34,7 @@ Este documento organiza essa demanda em quatro blocos:
 | Missões e badges | LiveLike | LiveLike |
 | Rankings (posição, variação) | LiveLike | LiveLike |
 | Cliques no CTA "Virar Clube iFood" | LiveLike | LiveLike |
-| Novas assinaturas Clube iFood | iFood + LiveLike | Ambos (reconciliação) |
-| Status Clube iFood por usuário | iFood → LiveLike via SSO | LiveLike |
+| Novas assinaturas Clube iFood | iFood | iFood |
 
 ---
 
@@ -188,7 +187,7 @@ cpf_hash (opcional — hash SHA-256 do CPF para reconciliação com iFood, ver s
 
 ### 6.2 Segmentos pré-configurados (atualização diária)
 
-Os segmentos abaixo devem estar disponíveis como audiências exportáveis no CMS da LiveLike todo dia até 7h (horário de Brasília):
+Os segmentos devem ser passíveis de escolha, de acordo com configuração de evento, como audiências exportáveis através do servidor S3 da AWS todo dia até 7h BRT.
 
 ---
 
@@ -321,15 +320,6 @@ total_palpites_preenchidos = 0
 
 ---
 
-### 6.3 Eventos pontuais para comunicação em tempo real
-
-Além das audiências diárias, precisamos de **webhooks ou triggers** que disparem no momento do evento para comunicação imediata:
-
-| Evento | Trigger | Canal sugerido |
-|---|---|---|
-| Usuário entrou no top 1.000 | Imediato | Push |
-| Usuário entrou no top 100 | Imediato | Push |
-
 ---
 
 ## 7. Régua de CRM sugerida
@@ -381,37 +371,23 @@ Ativada sempre que a Seleção Brasileira joga:
 ### 8.1 Dashboards requeridos da LiveLike
 
 **Dashboard 1 — Operação em Tempo Real**
-- Acesso: CazéTV (equipe de operações e transmissão)
 - Atualização: a cada 1 minuto
 - Conteúdo: métricas da seção 4.1
 
 **Dashboard 2 — Painel Diário de Performance**
-- Acesso: CazéTV (produto, marketing, dados)
 - Atualização: diária (até 7h)
 - Conteúdo: métricas das seções 5.1 a 5.3
 
 **Dashboard 3 — Funil de Conversão**
-- Acesso: CazéTV + iFood
 - Atualização: diária
 - Conteúdo: seção 3 (funil end-to-end completo)
 
 ### 8.2 Exportação de audiências para CRM
 
-- **Formato:** CSV ou JSON com os campos da seção 6.1
-- **Frequência:** diária, até 7h (horário de Brasília), ou sob demanda via API
-- **Método de entrega:** endpoint de API REST autenticado ou SFTP
-- **Identificador de reconciliação:** hash do CPF (SHA-256) para cruzamento com base iFood/CazéTV
-- **Retenção:** dados de audiência disponíveis por até 30 dias
+- **Formato:** CSV ou JSON com os campos da seção 6.1, disponibilizados para o iFood via servidor S3 da AWS
+- **Frequência:** diária, até 7h BRT, ou sob demanda
 
-### 8.3 Webhooks para eventos em tempo real
-
-- Protocolo: HTTPS POST para endpoint da CazéTV/iFood
-- Autenticação: Bearer token
-- Payload mínimo: user_id, event_type, timestamp, atributos relevantes do evento
-- SLA: entrega em até 30 segundos do evento
-- Retry: 3 tentativas com backoff exponencial
-
-### 8.4 Reconciliação de dados iFood ↔ LiveLike
+### 8.3 Reconciliação de dados iFood ↔ LiveLike
 
 Para unir o funil completo (impressão de banner até conversão Clube iFood), é necessário:
 
